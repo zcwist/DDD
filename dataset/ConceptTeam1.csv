@@ -4,7 +4,7 @@ Member,Concept Name,Description,Category,SAFETY,NAVIGATION,CAR-TO-CAR CONNECTIVI
 1,voice system,Control your car with a voice interface like siri ,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
 1,GPS self-driving ,Advacned GPS navigation system,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
 1,self-charging ,Car navigate itself to charging station( assume it is a electiric car),ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,nearby car interanction ,Detect and connenct nearby car,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
+1,nearby car interaction ,Detect and connenct nearby car,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
 1,sleeping inside car,User can sleep inside a moving car ,COMFORT,,,,,1,,,,,,,,,,,,
 1,undisturbed sensor ,Sensors can be used in any weather condition,NAVIGATION,,1,,,,,,,,,,,,,,,
 1,machine learning  on car navigation ,Applied machine learning alogorithm to train the navigation system of car ,NAVIGATION,,1,,,,,,,,,,,,,,,
