@@ -1,0 +1,82 @@
+no steering wheel control. instead of using steering wheel , user will use screen to control car 
+mobile phone application for self-driving. control you car on a mobile phone app
+voice system. control your car with a voice interface like siri 
+gps self-driving . advacned gps navigation system
+self-charging . car navigate itself to charging station( assume it is a electiric car)
+nearby car interanction . detect and connenct nearby car
+sleeping inside car. user can sleep inside a moving car 
+undisturbed sensor . sensors can be used in any weather condition
+machine learning  on car navigation . applied machine learning alogorithm to train the navigation system of car 
+self-parking. self-parking
+hand written commands. inputs can be done through hand writing with a stylus, can be used to draw the preferred path
+mouse and keyboard controls. mouse/keyboard like control system for easy uses input and possible system development usage
+wireless vehicular piggybacking. wireless signal can piggyback off of other autonomous vehicles in areas where data connectivity is limited, like in tunnels or underground carparks
+autonomous connectivity display. program that can display on the ui which vehicles near you are autonomously or manually operated, provide information on which vehicles are connected to the car you are riding in
+automatic entry/exit. vehicle uses active suspension and doors to allow for ease of entry and exit, such as lowering the car for entry and exit, deploying a ramp or seats that swivel out
+automatic luggage collection. system that can automatically pick up luggage and place it into the trunk
+exterior lighting signal. lights outside the vehicle that show its status (i.e. occupied, connected, available, manually controlled, etc.)
+reclining seats/rood display. seats that recline paired with a roof mounted display that can display entertainment or system information
+entrance/exit pathfinding. include entrances and exits to buildings in the system's pathfinding so it can pick people up at the door
+interior panoramic display. large panoramic display that runs along the interior, they can used to show instructions and warnings
+extra control system. when emergencied occur, people can use extra control system to control the car and protect themselves from bad accident. people will feel safe if they can control cars. 
+wifi system. wifi system provide people with chance to surf the internet more flexible and they can use this system to conmunicate with other cars.
+sync information system. through this system, vehicles are able to collect road information like traffic accident, parking space and stc., and sync information to computer and cloud to help to optimize route. 
+sofa chair. sofa chair is able to become a bed when people want to sleep in the car and the angle of seats can be controled well
+communication system. people can chat with their familly members while they are on the road via the vehicle's communication system. and thus they will feel safe and relaxed.
+entertainment device. allow people to kill their time in the car like play games, watching videos and etc. while people needn't pay all  of their attention to driving
+windows curtain. be able to help people sleep better in the car
+swivel seats. seats of our autonomous vehicles are able to rotate any angle and people can chat or even play cards with their friends in the car face to face.
+windows display system. windows of autonomous vehicles are able to become display screen when people need and they can use their fingers to control the "windows screens".
+voice interaction system. considering our potential customers may include disabled people, so our autonomous vehicles will not only be controled by inputing words through dashboard, but also by voice or some other kinds of information. and it can chat with you like siri.
+gesture control over navigation system. allow user to inform the vehicle to make a right or left turn by waiving his/her hand to that direction within certain space in the vehicle.
+remote control over the vehicle. user can assign someone to control the vehicle remotely on a laptop or smartphone.
+brake control over the vehicle. user can apply brake on the vehicle to slow it down when from the user's perspective there is a danger. the vehicle would optimize the best riding quality when slowing down.
+one-button parking request. when user is getting off the vehicle, he/she is able to press a single button to inform the vehicle to park itself.
+autonomous parking system. when user gets off the vehicle and there is no one on the vehicle for 15 seconds, the vehicle would park itself without any further instruction from the user.
+voice control over navigation system. user can "speak" to the vehicle to inform the destination of change of route.
+video call projection for visualizing communication. allow use to make a video call in car and project the video call image on the windshield so that user can see his/her family.
+3d projection for visualizing communication. use 3d projection technique to project such user's calling person under the windshield when such user is on a phone call.
+human-vehicle communication through smartphone apps. when user is about to get on the car, he/she can simply click on a smartphone app to notify the vehicle to come over.
+human-vehicle communication through wearable devices. when user is about to get on the car, he/she can simply click on a wearable device to notify the vehicle to come over.
+higher price service. price the services at a higher price to increase users' sense of safety toward the product.
+one person per car policy. put only one person in each car to reduct the fear of co-riding with strangers
+slow down the vehicel with one button. one single button to slow down the vehicle while still in autonomous driving mode
+vehicle to vehicle communication. allow people in different cars to communicate with each other
+comfortable light in car. user comfortable light color in car (soft)
+share riding with drivers. share the ride with someone who can drive to take over the control of the vehicle when necessary
+share riding with poeple/family. have someone sit in the autonomous driving vehicle with them in the first couple times
+photo taking with one button. one single button to take a photo in car and outside the car
+product go first. have autonomous driving vehicles deliver products first
+realtime monitoring system. have a real-time camera around the vehicle all the time
+improved monitoring system. attach a drone to the vehicle to capture more on-road situation
+convenience feature. equip the vehicle with tables for working or eating
+remote control system. users can control the car from any distance by phone. such as "call" the car to pick them up at their location
+measure sensor. measure distance between own car and other cars_traffic lights or other obstacle
+date storage system. autonomous driving data can be uploaded into the cloud, so company can detect the safety of autonomous car from these data
+fold chair . the form of chair can be changed from normal back-rest to deck chair and bed
+sport pedal . there are two pedals under the steering wheel. drivers can use these to exercise and the energy can be converted into electrical power 
+controllable window. the color and transparence of windows can be changed and the image of computer screen can be displayed on windows 
+driving map. show driving routine and real building feature around path. highlight different function in different color
+car computer . the screen of computer is installed at the steering wheel. car driver can either use it by voice command or finger
+voice control. users can control the car with their voice
+alert system . if there is some problem with the car, there will be an alert and the car cannot be started
+intellengent assistant system. the robotic embeded in the vehicle system can help driver execute related actions
+automated emergency calling system. the car will contact police department and other related department when the passenger has  any emergency
+interoir roof screen. when the driver lay on the seat, he or she can still see the screem
+vehicle flexible interior floor. the floor of interior is embeded with chairs
+disable special seat mechanism. can help disables get on the car easily
+self parking service. the car can self park
+touch screen with personal laptop conneciton. the screen on the car can connect into personal laptop
+moveable screen mechnism. the screen on the car can change the angle
+traffic light warning system. the signal on the dashboard can identify whether the care sensed the traffic light
+traffic condition warning. this warning signal can tell the driver the traffic situation ahead
+digitalization intergation system. the vehicle can connect to user's phone, laptop and other electronics device
+obstacle warning system. the car will warn the user for the unavoidable obstacles
+emergency warning. the car will warn the user to be prepared for the unavoidable accident
+low battery warning. the car will warn the user for the low battery
+sensor failure warning. the car will warn the user for the malfunction of the sensors
+maintenance warning. the car will warn the user for the necessary maintanance 
+flexible seating mechanism. the seats of the car can change the shape to better fit the users
+projector screen. the car can project the laptop screen at certain area
+smart hvac system. the car will turn on or off the hvac before the user step into the car
+recording system. the car will save all the enviornment data into centern computer
