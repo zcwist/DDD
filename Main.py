@@ -1,5 +1,7 @@
-import gensim, logging
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',level=logging.INFO)
+from Plot import Plot
+from ConceptManager import ConceptManager as CM
 
-model = gensim.models.Word2Vec.load('GensimModel/model')
-print model['car']
+if __name__ == '__main__':
+	cm = CM(40)
+	cm.dimRed('tsne')
+	Plot(cm).drawWithTag()

@@ -21,11 +21,8 @@ class ConceptManager(object):
 				self.categoryList.append(newconcept.getCategory())
 
 	def foo(self):
-<<<<<<< HEAD
 		print (self.conceptList[0].conceptBag())
-=======
-		print self.conceptList[0].conceptBag()
->>>>>>> f098b770c2f830d7b0b5ed2128b590be4d9ca5e8
+
 
 	def conceptL(self):
 		return self.conceptList
@@ -37,17 +34,14 @@ class ConceptManager(object):
 		return self.categoryList.index(category)
 
 	def itemCoordMat(self):
-		coordMat = np.zeros((len(self.conceptList),128))
+		coordMat = np.zeros((len(self.conceptList),200))
 		notfoundindex = list()
 		for i,concept in enumerate(self.conceptList):
 			coordMat[i] = concept.itemVector()
 			if (not concept.isFound()):
 				self.notfoundList.append(concept)
-<<<<<<< HEAD
 				print ("missing " + concept.conceptName())
-=======
-				print "missing " + concept.conceptName()
->>>>>>> f098b770c2f830d7b0b5ed2128b590be4d9ca5e8
+
 				self.conceptList.remove(concept)
 				notfoundindex.append(i)
 		coordMat = np.delete(coordMat,notfoundindex,0)

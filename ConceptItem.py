@@ -43,7 +43,7 @@ class ConceptItem(object):
 		return self.tagBag(self.concept)
 
 	def itemVector(self):
-		itemVec = np.zeros(128)
+		itemVec = np.zeros(200)
 		weightSum = 0.0
 		bag = self.tagBag(self.concept)
 		for tag in bag:
@@ -55,7 +55,7 @@ class ConceptItem(object):
 					print (word + ' not found')
 		if weightSum==0:
 			self.found = False
-			return np.zeros(128)
+			return np.zeros(200)
 		return (itemVec/weightSum)
 
 	def isFound(self):
@@ -69,7 +69,7 @@ class ConceptItem(object):
 
 if __name__ == '__main__':
 	file = CSVFile()
-	conceptlist = file.getContent()[0:5]
+	conceptlist = file.getContent()[0:1]
 	for item in conceptlist:
 		conceptItem = ConceptItem(item)
 		print (conceptItem.itemVector())
