@@ -71,6 +71,10 @@ class ConceptManager(object):
 if __name__ == '__main__':
 	cm = ConceptManager(10)
 	# cm.dimRed()
+<<<<<<< HEAD
 	print (cm.getCategoryList())
+=======
+	print cm.getCategoryList()
+>>>>>>> f098b770c2f830d7b0b5ed2128b590be4d9ca5e8
 
 

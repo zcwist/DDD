@@ -1,5 +1,6 @@
 import gensim, logging
 import sys
+
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',level=logging.INFO)
 
 remodel = False
@@ -12,4 +13,3 @@ else:
 
 print (model['car'])
 #print model.most_similar(positive=['woman', 'king'], negative=['man'])
-
