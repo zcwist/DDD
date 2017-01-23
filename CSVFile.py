@@ -35,4 +35,4 @@ class CSVFile(object):
 
 if __name__ == '__main__':
 	file = CSVFile("dataset/ConceptTeam1.csv")
-	print file.generateTaggedDocument("dataset/data4gensim.txt")
+	print (file.generateTaggedDocument("dataset/data4gensim.txt"))

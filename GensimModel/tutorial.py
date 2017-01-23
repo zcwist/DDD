@@ -1,14 +1,15 @@
 import gensim, logging
+import sys
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',level=logging.INFO)
 
 remodel = False
 if remodel:
-	text8 = gensim.models.word2vec.Text8Corpus('text8')
+	text8 = gensim.models.word2vec.Text8Corpus('../text8')
 	model = gensim.models.Word2Vec(text8,size=200,min_count=10)
 	model.save('model')
 else:
 	model = gensim.models.Word2Vec.load('model')
 
-# print model['car']
-print model.most_similar(positive=['woman', 'king'], negative=['man'])
+print (model['car'])
+#print model.most_similar(positive=['woman', 'king'], negative=['man'])
 
