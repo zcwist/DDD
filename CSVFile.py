@@ -10,20 +10,20 @@ class CSVFile(object):
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.fileanme,'rb') as csvfile:
+		with open(self.fileanme,'rt',encoding="utf8") as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
 				if firstline:
 					firstline = False
 					continue
-				conceptlist.append([row[1],row[2].translate(None,string.punctuation),row[3]])
+				conceptlist.append([row[1],row[2].translate(string.punctuation),row[3]])
 		return conceptlist
 
 	def generateTaggedDocument(self,filename="dataset/mytext.txt"):
 		f = open(filename, 'w')
 
-		with open(self.fileanme, 'rb') as csvfile:
+		with open(self.fileanme, 'rt',encoding="utf8") as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
@@ -35,5 +35,6 @@ class CSVFile(object):
 
 if __name__ == '__main__':
 	file = CSVFile("dataset/ConceptTeam1.csv")
+	print (file.getContent())
 	print (file.generateTaggedDocument("dataset/data4gensim.txt"))
 
