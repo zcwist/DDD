@@ -13,7 +13,7 @@ flags.DEFINE_integer("batch_size", 5,
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("num_steps",2000, "The number of training times")
+flags.DEFINE_integer("num_steps",1000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -79,8 +79,13 @@ class Para2vec(object):
 			para_examples[i][0] = self.para_index
 
 			for j in range(window_size - 1):
-				word_examples[i][j] = self.word_dictionary[paragraph[self.word_index+j].lower()]
-			labels[i] = self.word_dictionary[paragraph[self.word_index+window_size-1].lower()]
+				# print self.word_dictionary[paragraph[self.word_index+j].lower()]
+				# print Embedding.wordVec(paragraph[self.word_index+j].lower())
+
+				# word_examples[i][j] = self.word_dictionary[paragraph[self.word_index+j].lower()]
+				word_examples[i][j] = Embedding.wordIndex(paragraph[self.word_index+j].lower())
+			# labels[i] = self.word_dictionary[paragraph[self.word_index+window_size-1].lower()]
+			labels[i] = Embedding.wordIndex(paragraph[self.word_index+window_size-1].lower())
 			self.word_index = self.word_index + 1
 
 		return para_examples, word_examples, labels
@@ -175,12 +180,27 @@ class Para2vec(object):
 
 			if step%100 == 0:
 				print ("loss at step ", step,":", loss_val)
+	
+	def draw(self):
+		from sklearn.manifold import TSNE
+  		import matplotlib.pyplot as plt
+  		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+  		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
+  		normalized_embeddings = self._para_emb / norm
+  		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
+  		plt.figure(figsize=(18,18))
+  		for i in range(5):
+  			x,y = low_dim_embs[i,:]
+  			plt.scatter(x,y)
+  		plt.show()
+		 
 
 def main():
 	opts = Options()
 	with tf.Graph().as_default(), tf.Session() as session:
-		model = Para2vec(CM(),opts,session)
-		model.train()	
+		model = Para2vec(CM(5),opts,session)
+		model.train()
+		model.draw()	
 
 if __name__ == '__main__':
 	main()

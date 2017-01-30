@@ -13,10 +13,16 @@ def wordVec(word):
 	try:
 		return embeddings[dictionary[word]]
 	except Exception as e:
-		raise e
+		return embeddings[dictionary["UNK"]]
+
+def wordIndex(word):
+	try:
+		return dictionary[word]
+	except Exception as e:
+		return dictionary["UNK"]
 		
 
 if __name__ == '__main__':
-	print wordVec('word')
+	print wordVec('wordd')
 
 		
