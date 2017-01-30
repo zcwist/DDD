@@ -14,9 +14,9 @@ def wordVec(word):
 		return embeddings[dictionary[word]]
 	except Exception as e:
 		raise e
+		
 
 if __name__ == '__main__':
 	print wordVec('word')
-	print wordVec('letter')
 
 		

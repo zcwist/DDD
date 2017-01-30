@@ -67,11 +67,14 @@ class ConceptItem(object):
 	def lowEmb(self):
 		return self.lowemb
 
+	def fullConcept(self):
+		return (self.concept + " " +self.description).split()
+
 if __name__ == '__main__':
 	file = CSVFile()
 	conceptlist = file.getContent()[0:5]
 	for item in conceptlist:
 		conceptItem = ConceptItem(item)
-		print conceptItem.itemVector()
+		print conceptItem.fullConcept()
 
 		
