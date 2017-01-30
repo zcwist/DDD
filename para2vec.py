@@ -1,5 +1,6 @@
 import Embedding
 from ConceptManager import ConceptManager as CM
+from Plot import Plot
 
 import collections
 import numpy as np
@@ -13,7 +14,7 @@ flags.DEFINE_integer("batch_size", 5,
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("num_steps",1000, "The number of training times")
+flags.DEFINE_integer("num_steps",2000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -184,21 +185,35 @@ class Para2vec(object):
 	def draw(self):
 		from sklearn.manifold import TSNE
   		import matplotlib.pyplot as plt
+
   		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
   		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
   		normalized_embeddings = self._para_emb / norm
   		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
-  		plt.figure(figsize=(18,18))
-  		for i in range(5):
-  			x,y = low_dim_embs[i,:]
-  			plt.scatter(x,y)
-  		plt.show()
+  		
+  		for i, concept in enumerate(self.concept_list):
+  			concept.setLowEmb(low_dim_embs[i])
+
+  		Plot(self.cm).drawWithTag()
+
+  		
+  		# plt.figure(figsize=(18,18))
+  		# for i in range(len(self.concept_list)):
+  		# 	x,y = low_dim_embs[i,:]
+  		# 	plt.scatter(x,y)
+  		# 	plt.annotate(self.concept_list[i].conceptName(),
+    #              xy=(x, y),
+    #              xytext=(5, 2),
+    #              textcoords='offset points',
+    #              ha='right',
+    #              va='bottom')
+  		# plt.show()
 		 
 
 def main():
 	opts = Options()
 	with tf.Graph().as_default(), tf.Session() as session:
-		model = Para2vec(CM(5),opts,session)
+		model = Para2vec(CM(40),opts,session)
 		model.train()
 		model.draw()	
 

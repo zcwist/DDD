@@ -68,7 +68,7 @@ class ConceptItem(object):
 		return self.lowemb
 
 	def fullConcept(self):
-		return (self.concept + " " +self.description).split()
+		return (self.concept.replace('-',' ') + " " +self.description.replace('-',' ')).split()
 
 if __name__ == '__main__':
 	file = CSVFile()

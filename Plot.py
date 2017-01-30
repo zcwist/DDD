@@ -30,7 +30,7 @@ class Plot(object):
 		plt.figure(figsize=(9,9))
 		for i, concept in enumerate(self.conceptManager.conceptL()):
 			x, y = concept.lowEmb()
-			plt.scatter(x,y,c=self.colors[self.conceptManager.getCateIndex(concept.getCategory())],s=400,linewidths=0,alpha=0.8,edgecolors='face')
+			plt.scatter(x,y,c=self.colors[self.conceptManager.getCateIndex(concept.getCategory())],s=100,linewidths=0,alpha=0.8,edgecolors='face')
 			plt.annotate(concept.conceptName(),
 						xy=(x,y),
 						xytext=(5,2),
