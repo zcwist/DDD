@@ -1,13 +1,13 @@
 import pickle
 
 with open('LearntModel/final_embeddings','rb') as f:
-	embeddings = pickle.load(f)
+	embeddings = pickle.load(f, encoding='latin1')
 
 with open('LearntModel/dictionary','rb') as f:
-	dictionary = pickle.load(f)
+	dictionary = pickle.load(f, encoding='latin1')
 
 with open('LearntModel/reverse_dictionary','rb') as f:
-	reverse_dictionary = pickle.load(f)
+	reverse_dictionary = pickle.load(f, encoding='latin1')
 
 def wordVec(word):
 	try:
@@ -23,6 +23,6 @@ def wordIndex(word):
 		
 
 if __name__ == '__main__':
-	print wordVec('wordd')
+	print (wordVec('wordd'))
 
 		
