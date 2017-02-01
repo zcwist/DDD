@@ -1,0 +1,1122 @@
+Team,Concept Name,Description,Team
+1,No steering wheel control,"Instead of using steering wheel , user will use screen to control car ",1
+1,Mobile phone application for self-driving,Control you car on a mobile phone app,1
+1,voice system,Control your car with a voice interface like siri ,1
+1,GPS self-driving ,Advanced GPS navigation system,1
+1,self-charging ,Car navigate itself to charging station( assume it is a electiric car),1
+1,nearby car interaction ,Detect and connect nearby car,1
+1,sleeping inside car,User can sleep inside a moving car ,1
+1,undisturbed sensor ,Sensors can be used in any weather condition,1
+1,machine learning  on car navigation ,Applied machine learning algorithm to train the navigation system of car ,1
+1,self-parking,self-parking,1
+1,Hand Written Commands,"Inputs can be done through hand writing with a stylus, can be used to draw the preferred path",1
+1,Mouse and Keyboard Controls,Mouse/Keyboard like control system for easy uses input and possible system development usage,1
+1,Wireless Vehicular Piggybacking,"Wireless signal can piggyback off of other autonomous vehicles in areas where data connectivity is limited, like in tunnels or underground car parks",1
+1,Autonomous Connectivity Display,"Program that can display on the UI which vehicles near you are autonomously or manually operated, provide information on which vehicles are connected to the car you are riding in",1
+1,Automatic Entry/Exit,"Vehicle uses active suspension and doors to allow for ease of entry and exit, such as lowering the car for entry and exit, deploying a ramp or seats that swivel out",1
+1,Automatic Luggage Collection,System that can automatically pick up luggage and place it into the trunk,1
+1,Exterior Lighting Signal,"Lights outside the vehicle that show its status (i.e. occupied, connected, available, manually controlled, etc.)",1
+1,Reclining Seats/Rood Display,Seats that recline paired with a roof mounted display that can display entertainment or system information,1
+1,Entrance/Exit Path finding,Include entrances and exits to buildings in the system's path finding so it can pick people up at the door,1
+1,Interior Panoramic Display,"Large panoramic display that runs along the interior, they can used to show instructions and warnings",1
+1,Extra Control System,"When emergencies occur, people can use extra control system to control the car and protect themselves from bad accident. People will feel safe if they can control cars. ",1
+1,WIFI System,WIFI system provide people with chance to surf the Internet more flexible and they can use this system to communicate with other cars.,1
+1,Sync Information System,"Through this system, vehicles are able to collect road information like traffic accident, parking space and etc., and sync information to computer and cloud to help to optimize route. ",1
+1,Sofa Chair,Sofa chair is able to become a bed when people want to sleep in the car and the angle of seats can be controlled well,1
+1,Communication System,People can chat with their family members while they are on the road via the vehicle's communication system. And thus they will feel safe and relaxed.,1
+1,Entertainment Device,"Allow people to kill their time in the car like play games, watching videos and etc. while people needn't pay all  of their attention to driving",1
+1,Windows Curtain,Be able to help people sleep better in the car,1
+1,Swivel Seats,Seats of our autonomous vehicles are able to rotate any angle and people can chat or even play cards with their friends in the car face to face.,1
+1,Windows Display System,"Windows of autonomous vehicles are able to become display screen when people need and they can use their fingers to control the ""windows screens"".",1
+1,Voice Interaction System,"Considering our potential customers may include disabled people, so our autonomous vehicles will not only be controlled by inputing words through dashboard, but also by voice or some other kinds of information. And it can chat with you like Siri.",1
+1,Gesture Control Over Navigation System,Allow user to inform the vehicle to make a right or left turn by waiving his/her hand to that direction within certain space in the vehicle.,1
+1,Remote Control Over the Vehicle,User can assign someone to control the vehicle remotely on a laptop or smartphone.,1
+1,Brake Control Over the Vehicle,User can apply brake on the vehicle to slow it down when from the user’s perspective there is a danger. The vehicle would optimize the best riding quality when slowing down.,1
+1,One-button Parking Request,"When user is getting off the vehicle, he/she is able to press a single button to inform the vehicle to park itself.",1
+1,Autonomous Parking System,"When user gets off the vehicle and there is no one on the vehicle for 15 seconds, the vehicle would park itself without any further instruction from the user.",1
+1,Voice Control Over Navigation System,User can “speak” to the vehicle to inform the destination of change of route.,1
+1,Video Call Projection for Visualizing Communication,Allow use to make a video call in car and project the video call image on the windshield so that user can see his/her family.,1
+1,3D Projection for Visualizing Communication,Use 3D projection technique to project such user’s calling person under the windshield when such user is on a phone call.,1
+1,Human-vehicle Communication through Smartphone Apps,"When user is about to get on the car, he/she can simply click on a smartphone app to notify the vehicle to come over.",1
+1,Human-vehicle Communication through Wearable Devices,"When user is about to get on the car, he/she can simply click on a wearable device to notify the vehicle to come over.",1
+1,Higher price service,Price the services at a higher price to increase users’ sense of safety toward the product.,1
+1,One person per car policy,Put only one person in each car to reduct the fear of co-riding with strangers,1
+1,Slow down the vehicle with one button,One single button to slow down the vehicle while still in autonomous driving mode,1
+1,Vehicle to vehicle communication,Allow people in different cars to communicate with each other,1
+1,Comfortable light in car,User comfortable light color in car (soft),1
+1,Share riding with drivers,Share the ride with someone who can drive to take over the control of the vehicle when necessary,1
+1,Share riding with people/family,Have someone sit in the autonomous driving vehicle with them in the first couple times,1
+1,Photo taking with one button,One single button to take a photo in car and outside the car,1
+1,Product go first,Have autonomous driving vehicles deliver products first,1
+1,Real time monitoring system,Have a real-time camera around the vehicle all the time,1
+1,Improved monitoring system,Attach a drone to the vehicle to capture more on-road situation,1
+1,Convenience feature,Equip the vehicle with tables for working or eating,1
+1,Remote control system,"Users can control the car from any distance by phone. Such as ""call"" the car to pick them up at their location",1
+1,measure sensor,measure distance between own car and other cars_traffic lights or other obstacle,1
+1,Date storage system,"Autonomous driving data can be uploaded into the cloud, so company can detect the safety of autonomous car from these data",1
+1,Fold chair ,The form of chair can be changed from normal back-rest to deck chair and bed,1
+1,Sport pedal ,There are two pedals under the steering wheel. Drivers can use these to exercise and the energy can be converted into electrical power ,1
+1,Controllable window,The color and transparency of windows can be changed and the image of computer screen can be displayed on windows ,1
+1,Driving map,Show driving routine and real building feature around path. Highlight different function in different color,1
+1,Car computer ,The screen of computer is installed at the steering wheel. Car driver can either use it by voice command or finger,1
+1,Voice control,Users can control the car with their voice,1
+1,Alert system ,"If there is some problem with the car, there will be an alert and the car cannot be started",1
+1,Intelligent assistant system,The robotic embedded in the vehicle system can help driver execute related actions,1
+1,Automated Emergency calling system,The car will contact police department and other related department when the passenger has  any emergency,1
+1,Interior roof screen,"When the driver lay on the seat, he or she can still see the screen",1
+1,Vehicle flexible interior floor,The floor of interior is embedded with chairs,1
+1,Disable special seat mechanism,Can help disables get on the car easily,1
+1,Self Parking service,The car can self park,1
+1,Touch screen with personal laptop connection,The screen on the car can connect into personal laptop,1
+1,Movable screen mechanism,The screen on the car can change the angle,1
+1,Traffic light warning system,The signal on the dashboard can identify whether the care sensed the traffic light,1
+1,Traffic condition warning,This warning signal can tell the driver the traffic situation ahead,1
+1,Digitalization integration system,"The vehicle can connect to user's phone, laptop and other electronics device",1
+1,Obstacle warning system,The car will warn the user for the unavoidable obstacles,1
+1,Emergency Warning,The car will warn the user to be prepared for the unavoidable accident,1
+1,Low Battery Warning,The car will warn the user for the low battery,1
+1,Sensor Failure Warning,The car will warn the user for the malfunction of the sensors,1
+1,Maintenance warning,The car will warn the user for the necessary maintenance ,1
+1,Flexible seating mechanism,The seats of the car can change the shape to better fit the users,1
+1,Projector Screen,The car can project the laptop screen at certain area,1
+1,Smart HVAC system,The car will turn on or off the HVAC before the user step into the car,1
+1,Recording system,The car will save all the environment data into center computer,1
+2,Game Controller,Provides control of the vehicle using a typical video game controller,2
+2,Internal Jet Thrusters,"A spherical vehicle could have tunnels with thrusters hidden inside, so they do not stick out",2
+2,Bubble Dome FOV,The front end of the vehicle will have a light bulb like shape to allow more than 180 degree field of view,2
+2,BB8 Tail,The main payload bus will be a sphere with an attached tail that helps reduce the drag.  The tail will be attached to the sphere with a BB8 like mechanism that allows it to always be pointing in the direction of water flow,2
+2,Rescue Sub,The S2UV can have handles on it that allows a diver to grab on a be pulled to the surface. It can be used for search and rescue,2
+2,Tethered Antenna,A tethered antenna device could be placed at the bottom of an area of interest and then communicate directly to a fleet of S2UVs.  The communication will go from the surface to the tethered antenna to the fleet.,2
+2,VR Camera Control,The user could wear VR goggles that allow them to control which way the camera is facing based on the way they move their head.,2
+2,Carrying Case Chair,The portable carrying case that holds the S2UV could be transformed into a chair that the user could use to sit in as the fly the device underwater.,2
+2,Drying Rack,The S2UV kit could come with an accessory that holds up the vehicle after a mission to allow it to dry off before transit.,2
+2,Object avoidance,The vehicle can have sensors that prevent it from running into objects during autonomous mode or when a user is actively controlling it.,2
+2,Teamwork,A fleet of S2UVs could work together to transport heavy objects,2
+2,Quiddich Flight practice,"Under water hoops could be used to create a ""racetrack"" for people to perform a course for fun or races",2
+2,Flying Fish,The vehicle could have detachable wings that allow it to do above water maneuvers or glides like a flying fish. Could get cool footage entering and exiting the water.,2
+2,Drill,The vehicle could have a drill on the front that allows it to drill into the ocean floor and collect small samples.,2
+2,Underwater Laser Tag,A group of people could play a game of underwater laser tag,2
+2,"""Treasure"" Hunt","A little flag or beacon could be hidden somewhere on the bottom of the water and a group of users can race to try to find it.  While playing, they could be passively mapping the ocean floor.",2
+2,Floatable/Sinkable Batteries,A fully charged battery replacement could be thrown in the water and it would sink down and be intercepted by the S2UV.  its used up battery could be detached and it would float up to the surface to be retrieved later. ,2
+2,Fish Nets,A team of S2UVs could be used to first sense a lot of fish and then catch them by pulling a net around them. They would then bring it to the surface. ,2
+2,Diver's Oxygen Camel,The S2UV could carrying divers supplies like additional oxygen tanks or lights.,2
+2,Shark Tracker,"The S2UV could not only follow people, but also larger fish.  It could track their movement, record their behavior on video.",2
+2,Underwater BB8,"Many of our potential customers need the underwater vehicle to be agile. This vehicle has ball-shape body which can roll in any direction at the bottom of the sea, and it can easily roll over small obstacles. The head however maintains steady, and is the power source that comes with a propeller. The head can also hold other equipment",2
+2,“Easy Does It”,"A very simple but cheap underwater carrier that could fit the customers’ need for low cost and could carry whatever customers want to carry, such as iphone, camera or other equipment in the waterproof cover",2
+2,“Pseudo Fish”,"The vehicle can move as fast and agile as a fish, because his mobility systems are just like that of a fish. The fins can flip back and forth, and the body and tail can wiggle. The head can hold small devices like light or camera.Fisherman or marine biologist can use this to inspect real fist in a peaceful manner that does not disturb them",2
+2,Underwater Network Mini-drones,This drones travel relatively fast and has the ability to maintain in a position. They can talk to each in order to create a communication network. The military could use these drones to discover hostile boats or submarines. Fishermen can use them to trace done fish or farm them,2
+2,Underwater “AfterBurner”,The power system for this prototype is to use compressed gas instead of a propeller. This design would provide some users the desired speed under the water. Actually the power system could be a real afterburner if we could somehow keep the fuel burning in water,2
+2,Underwater Film Wizard,It can follow people underwater and film people as they do other activities. It can automatically adjust the camera’s focus to fit the people in the screen. It also has handle bars so that the divers can grab the robot and use it as a camera to film.,2
+2,Super Durable RoundTai,Its round tail ( which works like sail) that can capture the current and allows it to travel with water without spending its own energy. The solar panel can also produce additional power when the sun is up. The onboard satellite receiver can receive control signal from afar,2
+2,Double Eye Follower,A robot that can come in close range with people. It has no exposed propellers. Instead It is powered by gas but not a lot of It. It travels slow and has devices that interact with people. The robot uses two eyes to accurately locate and follow people just a human.Swimmers can use this to help them swim. Kids can use this for fun,2
+2,“Underwater Spidy”,"The robot has multiple holes in his body from which cables can be launched to suck onto external objects such as a rock, and the robot then winches the cable. While doing that, the robot propels himself forward.",2
+2,“The Gripper”,"A worker robot that has two grippers. Potentially, it can hold onto the torch for welding to help welders to work under the water. It can also help scientists to take samples easily.",2
+2,""" fish farmer""","A robot that attracts large fish body, and captures them with a net and drag them to a nearby fishboat",2
+2,Underwater  tourist capsule,The robot traps breathable air inside and is only suitable for a single person. It has a transparent glass that allows the tourist to view the beautiful underwater scenery. It is also controllable by the tourist.,2
+2,Underwater mermaid tail,"A robotic tail that attaches onto a diver, so he/she can move as agile as a fish",2
+2,Underwater diving machine,a diver can grab onto this machine and this machine can go quickly down the water. Thus diving can be made simple,2
+2,Underwater cleaner,"a robot that can recognize foreign object/ trash, and it will remove it out of the sea",2
+2,autonomous explorer,"a super long range robot that tries to find gold, sunken ships, oil or any valuables autonomously",2
+2,underwater rescuer,"a robt that is equipped with drills, torch, blades that cut through anything to rescue trapped fish or human",2
+2,Underwater builder,"human construction workers would have a hard time working under the water, but robots can do the job., so we can build houses under the water",2
+2,Underwater energy farmer,A robot that can farm solar energy and current energy at the same time and send this energy to human in the land,2
+2,Underwater seaweed farmer,an autonomous robot that farms seaweed automatically and harvest it for humans,2
+2,Rubber seal ring,The rubber seal ring is used to fully seal the fuselage when the cap is added on (waterproof).,2
+2,Package,"The package consists of camera lens, light, gripper, and so on for users to build the vehicle as they want (customization).",2
+2,Bladder,The bladder will open and be blown up automatically to drag the vehicle to the surface of water if it runs out of power.,2
+2,Round edge,No sharp edge of the vehicle's outshape design to keep safe underwater when divers are using it to record videos.,2
+2,Following function,"The vehicle will follow divers underwater by wirelessly connected to the watch they wear, which is used to take good videos for divers.",2
+2,Constant temperature system,The constant temperature system is used to maintain constant temperature for the electronic devices to work well in extreme environment.,2
+2,Automatic recharger,The vehicle will automatically go to recharger under boat to do recharging when running out power.,2
+2,Infrared obstacle avoidance system,The infrared obstacle avoidance system uses infrared sensor to help the vehicle avoid rocks or other obstacles underwater.,2
+2,Two thrusters mounted,"Two thrusters are mounted symmetrically on the tail of the torpedo-shape fuselage of the vehicle to perform translational movement, which will induce less turbulence that affects the forward movement.",2
+2,Vehicle control console,The hand-held vehicle control console is used to wirelessly control the vehicle underwater (bluetooth control).,2
+2,Soil sample collector,The gripper of the vehicle can collect the soil sample underwater for marine biologist to study.,2
+2,Micro camera releaser,The releaser installed on the vehicle will release micro cameras that will be swallowed by whales at the right moment for marine biologist to study the  digestion processes of whales.,2
+2,Fish food spreading machine,The fish food spreading machine can attract the fish to the boat on the surface of water by spreading fish food simultaneously,2
+2,Underwater thermal detector,"The underwater thermal detector installed on the vehicle will detect and record the temperature wherever the vehicle goes, and plot the temperature contour automatically.",2
+2,Oxygen generator,The oxygen generator will consistently generate oxygen for divers when the vehicle is following them.,2
+2,Auto-cleaner and dryer accessory,The vehicle can be cleaned and dried automatically in an additional accessory after being taken out of water.,2
+2,Five colors of outlook,"The outlook of the vehicle will be designed into five different colors, such as silver, gold, rose gold, black, and jet black to satisfy different color preferences of users.",2
+2,Fast charging,The battery of the vehicle is designed to be fast charging to save more time.,2
+2,Bionic ultrasonic emitter,The bionic ultrasonic emitter installed on the vehicle will emit ultrasonic of dolphins to help them mate.,2
+2,Floating garbage salvage device,The floating garbage salvage device will collect the floating garbage on the surface of the water for people.,2
+2,Autonomous back,The S2UV can autonomously find its way back even when communication fails.,2
+2,Elements bracket,The vehicle can have brackets for various things to be attached,2
+2,PS4 controller,The vehicle can be controlled by a PS4 controller,2
+2,S2UV Camera Bracket,The vehicle can have brackets like GoPros for cameras,2
+2,Remote Watch,A smartwatch could be paired with the vehicle that can control it when the user is underwater.,2
+2,S2UV storage,A box to carrying the S2UV and equipment,2
+2,Wireless Charger,The vehicle could have wireless charging like phones. It could have a little stand that holds the vehicle and charges it.,2
+2,S2UV Glasses,VR could be used with the camera,2
+2,Big Fish detector,The device could detect and escape big fish that seem like they are going to attach the vehicle. It will avoid danger,2
+2,Ballast space,"In order to be stable and change the depth of the vehicle, the S2UV could have ballast tanks like submarines to release air and change the buoyancy",2
+3,Impact Security Belt,"A belt for children with an impact detection to notify the parents when children have fallen badly or lightly, as well as monitoring the angle of fall and count of number of falls",3
+3,Speech Capturing Necklace,"A necklace that has a microphone attached and has the capability to differ distinct words said by children, from random letters / sounds, giving the ability to monitor language progression",3
+3,"Light Indicator ""Learn to Walk"" Shoes","An attachment for children’s feet that senses their steps, and displays LED patterns at a distance or under them to motivate them to pursue next steps, and aid in their process or learning to walk",3
+3,Child Smart Shirt,"A clear indicative shirt with embedded audio sensors and mini LEDs that adjust based on how much the child is yelling, as to give a clear indicator of the children’s behavior or if something is wrong based on their frequency of yelling / makings sounds.",3
+3,Tap Alert Watch,"A simple watch that allows toddlers to call their parents by simply tapping or banging on their wrist watch, this would have attractive lights / sounds to motivate the infant to do so",3
+3,Smart Pacifier,"A regular pacifier with flex sensors that activate LED and sound outputs, further distracting and calming the toddler when needed.",3
+3,Smart Diaper,"A reusable diaper attachment that senses strain from diaper, and changes in weight cause the strain measurement to trigger and hence detect different cases of diaper change.",3
+3,Gesture & Mood Bracelet,"A bracelet that allows infants to use their hand gestures to express moods, for example a lot of movement and audio could trigger a signal for parents to know their child is in despair",3
+3,Creative Drummer,"A pressure sensing glove featuring a wrist band that activates sound and light feedback whenever the child hits something, as if he is playing percussion.",3
+3,Walkie-Talkie Child Watch,"An interactive wrist walkie-talkie communicator, that also allows to send messages from gestures of the child. This design is aimed for children that can already communicate clear words to their parents through simply pressing a button and speaking",3
+3,Interactive Wearable Tattoo,"A wearable screen device for kids that can be drawn on, used to send messages, and can sense the child’s mood through heart rate analysis to notify the parent of extreme anxiety or fear.",3
+3,Jewelry Trackers,"Jewelry trackers that primarily track the wearer’s location. Would have some sort of button to press in emergency to notify parent, and potentially light up/sound an alarm in this instance. Necklace could have a camera as well, to take pictures or video of immediate threats.",3
+3,Hair Clip Trackers,"Hair clips that primarily track the wearer’s location. Would have some sort of button to press in emergency to notify parent, and potentially light up/sound an alarm in this instance.",3
+3,Kid's Smartwatch,A watch device to teach children to tell time as well as allow (limited) communication with their parents. Would have a visible timer feature linked to parents’ phone to allow parent to set time until activity ends/they have to go.,3
+3,Character Sticker Tracker,"A GPS tracking device that links to a parents’ smartphone, with little to no child interaction required. Could also monitor health – things like insulin levels for diabetic children.",3
+3,Smart glasses/sunglasses,"A stylish pair of glasses or sunglasses that have a “panic” button, location tracking, and front-facing camera, for events like “stranger danger,” to see what the child is afraid of.",3
+3,Smart Clothing,Clothes that monitor a child’s emotions and location and send information to parents about child’s mood.,3
+3,Active Shoes,Kid’s shoes to track their physical activity throughout the day – step counting/rate. Can also include GPS monitoring.,3
+3,Smart Backpack,"A backpack with a GPS tracking device that only is active when on the move. When stationary, the backpack stores the last location. Also tracks which books are inside to monitor child’s learning in school.",3
+3,Interactive Journal,A children’s journal that prompts kids to write about their day or doodle. Saves work to the cloud.,3
+3,HeroMi,"A superhero-style mask that allows the child to record video and take photos, which is automatically uploaded to the cloud and can be viewed by someone with granted access on their smartphone or computer. The mask is flexible and can adjust to various head sizes and shapes.",3
+3,2Loop,"A stretchable loop that can be worn as both a necklace and bracelet. Besides being an awesome fashion statement for kids, it has a GPS locater and photo-sensitive LED that turns on in the dark, allowing for easy visibility and safety",3
+3,Fore!,"A flexible LCD touchscreen that is strapped to the forearm. It allows the user to create impromptu sketches on the go and can hold a number of mobile applications. Fore! can link up with other units and be used as a portable educational tool on field trips, where the teacher can ask the students to answer questions on their device as they walk around to search for answers.",3
+3,Trackpack,"A modular backpack for children that can be customized with various compartments and safety features. LED lights, reflective patches, a location tracker, and miniature siren can be removed or installed as needed while extra pockets can be added for more storage. All of the safety features are integrated in a stylish and unassuming manner.",3
+3,Impresser,"A name-tag-style, reusable LCD sticker that can be uploaded with a child’s critical information (eg. Name, phone number, dietary restrictions, medication, etc.) or other displayable text/images. The Impresser can be worn by the child in situations such as the first day of school or in new locations to quickly allow someone to take action in case the child is lost.",3
+3,Digitoes,Children’s socks that are equipped with a location tracker and fitness sensor woven right in. The location tracker allows parents to determine where their child is while the fitness sensor can record the number of steps the child has taken during the day and how far they walked/ran. Both the tracker and the sensor are invisible to anyone who doesn’t know about the socks’ functionality and are seamlessly integrated.,3
+3,ZooHug,"A miniature stuffed animal buddy that straps on to the upper arm. The ZooHug has an integrated pouch that can be used to hold small items without the need for an entire backpack. An audio clip, such as the parent saying “I love you!”, can be uploaded and played back. In addition, a built-in microphone allows the child to have a conversation with their parents (on their phones).",3
+3,Wristalk,A watch that parents can send replayable messages to both for emotional comfort and to set audio reminders/instructions for the child. The watch can actually tell time and doubles as a cool fashion accessory for the child when not used to play messages.,3
+3,Thinking Cap,"A baseball cap with e-ink that can change to different patterns with the push of a button. Patterns can be custom-created using separate software and uploaded to the hat. The hat’s pattern can be changed by RFID using a smartphone. For example, a teacher can change the hats of all the students to a specific pattern for easy identification during a field trip.",3
+3,Lifesaver,"An easy-to-use ring that can be dipped into food and drink to check for potential allergens and health hazards. Children may not be as cautious as adults when it comes to looking out for their own fatal allergies, and this ring can save a life. It comes with a fun design that turns red if the food is not safe to eat and notifies a nearby supervisor via smartphone notifications",3
+3,Teddy Care,GPS tracker that is shaped like teddy bear that kids will want to keep with them,3
+3,Focus Band,Wearable that silences synced devices when you're close to your paired device,3
+3,Travel Buddy,"Clothes for toys that have camera, dolls become friends with friend's dolls over time as they are played with",3
+3,Play with me Doll,"Doll that gets happy or changes story as you touch it, handle it",3
+3,Friendship ring,A ring for your kids that rewards them for spending time with each other - social condition,3
+3,Interactive marbles,"Take old school marble toy into 21st century. Configure lights, sounds?",3
+3,Talking bike,"When riding the bike, kid can change dial to change what kind of sounds it makes",3
+3,Take me with you!,"Pair wearable x toy with parents, so kids stay with parents to get points",3
+3,Excitement Pulse,Vibration on parents when kid is getting so excited they might run off,3
+3,Team up!,Toys that behave differently when they are with each other (Legos -> different colors),3
+3,TrackMe,a sticker like tracking device that is automatically turned on when detected phone died,3
+3,Emotion sensor,a wearable watch that is able to track the emotion of child through heart beat or   other other physical data to check whether a child is going through emotional upheaval during school,3
+3,StartStudy,a wearable bracelet that allows parent to set their children’s time on phone and electronic devices and lock their children’s devices when time is up,3
+3,connect,a wearable watch for children that has a one button(click) voice communication between parents and children,3
+3,Smart Pajamas,Clothing that will track child's movements during sleep and breathing and alert if something is wrong.,3
+3,Child Proof-o-matic,"A child proofing sensor that will alert when the IoT device is in proximity with other potentially harmful devices like outlets, ovens, toasters, etc.",3
+4,Pushing Jacket for NBA 2K series,A jacket with sensor and mechanism which could generate resistance when you interest with game such as basketball or football,4
+4,Detachable Vibrating sensor(Sticky),A kind of vibrating sensor which could set-up onto different stuffs which suitable for different games,4
+4,Heart rate sensor for Horror Game,A heart rate sensor which could feedback your heart rate to game and optimize horrible game ,4
+4,GPS wrist band for hunting game,A band which track GPS location and feedback with game for hunting or locating,4
+4,Interactive Pet raising,A touchable toy which connect to an app game that could control and interactive with children,4
+4,3D projector which could interactive with children,A 3D projection which could generate 3D-image and interact with player,4
+4,Electric Hot/Cold Vest,A wearable vest that could adjust temperature by electric heater based on game's scenario.,4
+4,In game audio to text translator,A glass that could translate different language in your game context and help you understand it,4
+4,Vibrating Leg/Arm Bands/Chest,A vibrating feedback when you play fighting game and make it harder and more real,4
+4,Smelling hat,"A hat with tubes that go to your nose and deliver smells that match the game's scene when you play ""Cooking game""",4
+4,Water-based Temperature Vest,A wearable vest that could adjust temperature by water based on game's scenario.,4
+4,Vibrating Seat,Seat that vibrates with the game,4
+4,Noise to Tactile Feedback Box,Converts noises from game into vibrations or shocks via bands. Eliminates need to integrate bands with the game.,4
+4,Marketplace for used VR equipment,Connects gamers to cheaper VR options.,4
+4,An App for VR Gaming Meetups,Brings the VR community together,4
+4,VR Match,Service to setup tournaments for multilayer VR games,4
+4,Vendor Agnostic VR tech support,One stop tech support for all popular VR devices,4
+4,Hydraulic chair,Chair drops out slightly under you to simulate weightlessness corresponding to game.,4
+4,Crouching Flex Sensor,Control your players crouch or standing position by doing it yourself,4
+4,Arm extension sleeve - Flex Sensor,Arm extension movement could be used for a variety of commands,4
+4,Fake throwable grenade,Grenade attached to tether with accelerometer inside. Tossing it commands player in game to throw grenade,4
+4,Arm/Leg Shock Bands,When getting shot in a game small shocks would alert you.,4
+4,Location Indicating Shock Array,"Array of small shock bands or patches that alert you of location of enemy. If getting shot from behind on your left, the patch over 
+your back left shoulder would signal you.",4
+4,Glasses with LEDs,Glasses with LEDs that would shine and slightly blind you when a flash bang goes off. Or if driving into headlights.,4
+4,Full room synced Lighting System,Lighting system that syncs up to the current scene in the game,4
+4,Synced Fans ,Fans that blow wind on you if it is windy in the game,4
+4,Constricting Arm/Leg Bands,"Bands that squeeze you for feedback when crashing or getting shot, etc.",4
+4,Leg Band Accelerometers,Tracks speed of running in place which controls the speed of player in game,4
+4,Vr Boardgames,vr board games for no additional cost glasses/ heads up display,4
+4,Game renting,game renting and sharing system,4
+4,humans of new york,enhancing storyline by involving real life characters,4
+4,Gaming gloves,gaming gloves to enhance mobile phone gaming experience,4
+4,winning experience,enhance the winning experience by making it more personal,4
+4,gaming charity,gaming reward points can be converted into something you do charity with,4
+4,gaming arcade,install a gaming arcade on campus for distressing,4
+4,exciting phones,"hand device that changes temperature, vibrates, etc while playing phone games",4
+4,temp clothes,auto heating clothes after workout,4
+4,posture corrector,posture correcting device,4
+4,Beyond Jacket,A jacket which could have athletic functionality and record the user's athletic data.,4
+4,Sensing heart ring,A ring which could monitor and record the heart rate when you are exercising in case accident.,4
+4,Safety Biking Jacket,A Jacket with LED light which could show the direction which biker want to go.,4
+4,Sport mission app,An app which has mission every day encourage people to do exercise and when you meet the requirement it would give you coupon to buy stuffs.,4
+4,Temp Adjusted Jacket,A jacket with thermoelectric materials which could keep warm or cool when you running,4
+4,Running Navigation,A wireless ear pod or an app which could navigate when you running and introduce the hot spot.,4
+4,Fitting Coach,An augmented app which could help you correct the posture for lifting or fitness ,4
+4,Tracking Shoes,A shoes with GPS tracking to log their position for extreme player who likes to go hiking or ski in case some accident happening,4
+4,Solar Jacket/Backpack,A flexible solar panel which sets up on your jacket or backpack and charge the battery for adventure who like go hiking or camping.,4
+4,Travel Guiding Glass,A glass with augmented reality device (like google glass) which could show the information of torusites or direction of trip. ,4
+4,Lifting Form Sleeve,Sleeve with flex sensors that can detect form at elbow and knee joints,4
+4,Balance/Tilt Platform,An app game integrated balance platform for controlling a tilt based game on your phone. Could be used outside,4
+4,Hiking Challenge App,"An app that sets challenges for nearby hikes, such as hike to top of Grizzly Peak in X amount of time. Use wearables to track.",4
+4,Photo Mission App,Sends you on missions throughout town where you must take a photo of certain items to gain credit.,4
+4,Dog Walking Exercise App,"Similar to photo mission app but you must bring your dog, may take you by places with other dog owners.",4
+4,Proximity Wearable for Pets,A wearable for pets that detects their proximity and location relative to the owner in case they get lost during walks.,4
+4,RFID-Based Checkpoint Run,Have a system of RFIDs set up on a running course and you must complete the track. Can have challenges for different sections of the run.,4
+4,Biking Challenge App,Similar to hiking challenge app but focused on cyclists.,4
+4,"Meetup App for Parents
+with Strollers",Connects fellow parents that are going on walks with their kids in strollers.,4
+4,Running Speaker,A device for canceling panting noise while runner talking on phone ,4
+4,Ask jog,Earn money while jogging by answering survey questions,4
+4,Music tap,Using finger senses to change music,4
+4,jog too impress,Augmented celebrity on band- providing motivation,4
+4,earn while you run,Device that helps you advertise while you are running,4
+4,running adventure,making running a part of an adventure game,4
+4,vr outdoor game,virtual ball game- multi player- hand tracking,4
+4,money intensive,"if you finish your exercise, money will double or else you lose",4
+4,auto stroller,"automated stroller that tracks babies movements, sound, sleep cycle, etc.",4
+4,vr opponent,virtual opponent for outdoor games,4
+4,life is a game,make real life a game where you can get points for everything you do.,4
+4,poke save,something to reduce accidents while playing Pokemon go,4
+4,driving adventure,driving glasses with heads up display making it more adventurous,4
+5,Solution Service,"Instead of software, provide customers solutions to make work easier. In this, the customer outsources the problem.",5
+5,Add on to CAD,"Add on to CAD software so, work can be done in a click and on one platform",5
+5,Training Service,Provide training service after the customer purchases the software,5
+5,Component Recognition,Recognize model of components by scanning and automatically import data,5
+5,VR Interface,Make a VR interface so that users could operate easily by gestures and view true 3D attributes,5
+5,Hand Drawing Diagram,Design control system diagram by hand with a wireless stylus.,5
+5,Integrated Simulation Environment,"After CAD modeling, translate the constraint information into different kinds of boundary conditions in only one integrated software. It has CAD+Control+Simulation features in one single new software",5
+5,Cloud Computing,Upload local files to the cloud to do computing work. (i.e. translating information from CAD to control),5
+5,Hardware-In-the-Loop Simulation,Test hardware like PCBs in real-time simulation software before the whole product assembled.,5
+5,Real-Time Rendering,Show the simulation results by real-time rendering. (translating information from control environment to CAD),5
+5,Command Line based software,A very basic command line software (based on C/C++) which has pre defined commands for mechanical and control elements in libraries,5
+5,Tailor made software for industries,Industry-wise packages having elements and libraries loaded for the specific industries only.,5
+5,Open Source platform,To develop a framework and engine based on which developers around the world can generate packages and libraries,5
+5,Independent software,"Create an independent software that can import standard CAD file, solve and give output in form of final FMU which can be imported by any control software.",5
+5,Excel sheet ,Create an excel sheet which does all the calculation - each complex system will have independent package. Input info form CAD file will give output in terms of control information. This info can be used for further design in control software,5
+5,Adding Control and Simulation features to existing CAD,CAD is a fully developed software environment. Addition of control and simulation features will make it a complete package for design of any type of system.,5
+5,Release both open source and commercial versions,"Release different versions of the product for both individual developers and companies. Students and individual developers can get free open source version, but companies need to buy commercial version for business using as well as more functions.",5
+5,Release relevant hardware,Work with National Instruments to release some new kinds of hardware that is specially modified for the software.,5
+5,Provide mod editors to customers,Develop a tool for customers so that they can make their own mods to the software easily.,5
+5,Support Open source Communities,"Besides creating products, try to build and support open source communities of the software to develop more users and let them create contents freely.",5
+5,Develop a group of software with different focuses and features,"The original idea was only about simulating mechanical systems. We can make a group of different software featuring in other fields. (e.g. CFD simulation, EMC simulation, heat transfer simulation, etc.)",5
+5,Cooperate with universities and institutes,Work with educational organizations and try to provide courses for students to learn CAD and control systems based on our products.,5
+5,Sponsor control system design competitions,"There are many engineering competitions involving with control system design. By sponsoring these competitions with software, students and engineers will know our products and their benefits.",5
+5,Bring in more software,"After finishing the basic goals, we want to cover more software in the market. This can include MATLAB Simulink, Solidworks, etc.",5
+5,Customized products,"Work with large companies with special needs and develop customized software for them. (e.g. Boeing uses CATIA as CAD software and their own simulation tool, we can help them develop translating tool and add some special features if they need.)",5
+5,Focusing on particular industries,"Different industries like automobile, airplanes, robotics and wearable devices have different demands in control and simulation. We can develop defferent versions of software focusing on those industries to satisfy their needs. (e.g. for automobile industry, offer translating tool from tyre CAD model to the magic formula model of tyre)",5
+5,Training Workshops,For students in universities as a skill enhancer. Weekly learning modules.,5
+5,Prison Workshops,For prisoners to transform their lives. Actually reduce the recidivism,5
+5,Simpler CAD Control,For children to get involved in making design and simple controls to get them attracted to the field,5
+5,CAD to Control LEGOS,Children learn the basics for intuitive learning. Use physical prototypes of LEGOS to make interesting,5
+5,Control simulation in modelica,The cotrols simulations will be done in modelica itself and then the control system info will be transfered to LabView for implementation,5
+5,CAD feedback mechanism,The software will have algorithm to check and give feedback to user whether his CAD system is correct for the required system.,5
+5,Video based modeling,Software can convert video footage of certain working mechanism into CAD.,5
+5,Manufacturing program generation,Along with working simulation the software will also generate CAM and CNC programs for the parts to be manufactures which can be directly fed to manufacturing machines,5
+5,Bought-out integration,The simulation will give specifications of the control system based on which the software will give a list of available products from suppliers to directly order,5
+5,Auto BOM generation,"After the complete system has been designed, the software automatically generates the final BOM.",5
+5,Assembly instruction generator,Assembly function depends upon both mechanical and control functions and based on the final design the software can generate assembly instructions,5
+5,QA and validation specifications,QA and validation specs of every working system and people generally use same specs to validate a system. The software will be able to generate system specific QA and validation spec sheet. ,5
+5,Auto Component cross checker,A manufacture component's dimension from CMM can be directly fed to the software where it crosschecks the dimensions.,5
+5,Mesh system library in CAD,The software records earlier systems generated by the designer. It saves them parametrically hence whenever a designer will load this system and input required dimensions it will give him new system as required,5
+5,Data processing features,"For those models that are hard to describe with equations, like the tyre dynamic model, the data processing feature could allow users to put in some test data and generate a fitting model with numerical results.",5
+5,Automatic demo generation,"After forming the simulation model, link it back to CAD and drive the parts to move in the way you want. Generate a piece of demo video automatically to use in your presentation or website.",5
+5,Automatic fast strength analysis,"With the control simulation model, we have all the boundary conditions of the system so that we can add an automatic strength analysis feature to check if the structure could hold for the given control strategy. ",5
+5,3D printing setup generation,"Given the actual properties and behaviors of a certain part, we can generate the setup if it will be 3D printed. (e.g. Setting the fill density higher for a joint which needs to be stronger than other parts.)",5
+5,Project managing feature,"Provide a project managing structure and arrange all the contents in one interface. Help users to manage CAD, control development, simulation and implement easily. ",5
+5,Software Patch to existing applications,The software will be provided as a software patch to existing software. The existing software will be configured with buttons which would enable data transfer between these software. Rest of the process will be carried out at the back-end of these softwares in OpenModelica patch,5
+5,Standalone Application,The CAD to control translation will occur in a stand alone software that will be able to import and export data to/from both these software. This software can then be treated as  a product and can work between any CAD and Control software,5
+5,MATLAB based transfer,MATLAB is a very powerful tool. It has some features that can solve DAEs. This product will be based on Matlab and will use its solver to transfer data between CAD and control. ,5
+5,Outsourcing option,A customer can share their CAD details with us and we will convert everything to control and simulate the design for them. The costing will be based on pre-defined complexity and time structure of individual systems,5
+5,Industry focused products,Every industry uses different systems can be provided with individual suite of the product. The product will not have all the things they don't need. Hence this will be cheaper and lighter in processing capability requirements,5
+5,Free Software dev,The software will be open to developers so that they can contribute their own share. The developers can contribute content as they require and people around the globe can use it,5
+5,Auto Training module generator,Along with basic data transfer between CAD and control. Each system that was noted as standard system by the designer will be register separately by the software. The software will then map the complete process went into transferring the data and automatically generates a training module for simulating this system.,5
+5,Manufacturing data generation,"As soon as the data transfer takes place, the successfully simulated systems will automatically undergo drafting design generation for manufacturing. The designer doesn't have to invest time into generating the draft drawings",5
+5,Fully integrated CAD and Control software,"Instead of having three different software. We can generate a complete suite that has CAD, control and inner translation. This will provide a very easy design platform for everyone around the world",5
+5,Control simulation in modelica,The controls simulations will be done in modelica itself and then the control system info will be transfered to LabView for implementation,5
+5,Assembly instruction generator,Assembly function depends upon both mechanical and control functions and based on the final design the software can generate assembly instructions,5
+5,Adding Control and Simulation features to existing CAD,CAD is a fully developed software environment. Addition of control and simulation features will make it a complete package for design of any type of system.,5
+5,Video based modeling,Software can convert video footage of certain working mechanism into CAD.,5
+5,3D printing setup generation,"Given the actual properties and behaviors of a certain part, we can generate the setup if it will be 3D printed. (e.g. Setting the fill density higher for a joint which needs to be stronger than other parts.)",5
+5,Component Recognition,Recognize model of components by scanning and automatically import data,5
+6,Butterfly wind generator,The wings of a butterfly flap via the effect of the wind and generate power through oscillating around a shaft. ,6
+6,OWP Snake,The oscillating wing power snake is putting togethr many OWP devices to use the wave movement it can create.,6
+6,Aquarium ,Stand looks like a fish or shark. Top fin is the sail used for generation through oscillating motion. Back fin is used for wind orientation of device. Put a bunch in one spot and it looks like an aquarium.,6
+6,Hamster triangle,Big structure where rotating wings attached catch the wind energy.,6
+6,Shade Art Roof,Big artificial bird device produces power with oscillating wing motion. Due to its appaerance it scares birds away (bird safe),6
+6,The Peacock,Peacock sculpture with OWP functionality using the feather tail as sail,6
+6,The Turkey OWP ,"OWP that looks like a turkey. Feathers are the sail, feet are the counterweight. Can be used as decoration in November or Farmers can use them.",6
+6,Pegasus,A Pegasus sculpture uses its wings as OWP sails,6
+6,Biomimicry- Bird Wing,"Mimic the shape of a bird wing, nature has perfected it over thousands of years ",6
+6,The Swan,"The swan has two big wings that represent resistances to wind. Due to the additional use of springs at the joints between the wings and the rigid body, the wings start to oscillate in windy situations. These oscillations can be transformed into rotations. Finally the mechanical energy (rotational motion) can be transformed into electrical energy by using a generator.  ",6
+6,Bird house,Make bird habitats within the base of the OWP device to give birds a safe spot to nest,6
+6,Power Bird,Big artificial bird device produces power with oscillating wing motion. Due to it appearance it scares birds away (bird safe),6
+6,Sailboat generator,"OWP that looks like a sailboat. ""Sail"" acts as the OWP sail, the bottom of the boat is the central shaft, the boat's ""rudder"" is the OWP counterweight",6
+6,Wave Oscillator,Multiple (3 or more) Oscillating Wind Power Devices on one axis and the sails look like waves. So when it is operating and all sails are moving it looks like waves,6
+6,Surfboard,Sail and counterweight are packaged into one piece that looks like a surfboard to be used to generate power at beaches. ,6
+6,Beach ball bounce,"Set them up clustered tightly in a field, have a HUGE beach ball blown up and bouncing off of all of them",6
+6,"Give away, keep energy",give them away for free to home owners but own the actual energy produced from them,6
+6,people power,pay peope to move them back and fourth when the wind isnt strong enough,6
+6,Propoganda,"Using propaganda convince them the old problem, that wind turbines are not pretty, doesn’t exist",6
+6,Tax Breaks,Give tax breaks to those who oppose it so they accept it and stop blocking the advancement,6
+6,Hot air balloon oscillator,"OWP device, the sails looks and works like an inflated hot air balloon. Put it at a park and it looks like there are hot air balloons and energy is generated for hte park. ",6
+6,Air Dancer Generator,Wind power generator that looks like an air dancer (things at car dealers). Uses wind to inflate itself and to generate power,6
+6,Children’s spinning toy design,Small wind energy generator that looks like a child's pinwheel.,6
+6,Swing Set,Park wind generator where a child in a swing is the counterweight. Generates power through oscillation. Power is used to for park lights.,6
+6,Obstacle Course OWP,Arranging multiple OWPs to create an obstacle course. ,6
+6,Playground Sailboat,A sail boat themed playground has a OWP function built in its sail,6
+6,Children's energy playground,"Arranging many OWP devices on a playground (swing sets, tower, field, monkey bars...) (educative function about renewable energies)",6
+6,Teeter totter generator ,"Teeter totter that moves from wind hittings sails. Kids can ride, one on each side. Works without kids on it as well. Install at a park. ",6
+6,"""corn maze"" set up",Set all the bases up to create a large field maze people can engage with and traverse through,6
+6,Fancy Hat,"The fancy hat has several little propellers that are rotating and charging a battery that is included in the hat. Moreover, the hat uses the electrical energy to provide power to an MP3-Player that is also included in the hat. Due to the propellers, the hat has not be charged. People can listen to music without consuming energy from the grid.",6
+6,Propeller Cap,baseball cap with a little propeller rotating to charge a battery enabling you to charge a smaill device like your phone or mp3 device,6
+6,Oscillating Wind Sock,A wind sock is mounted on a 360 degrees mount that acts as an inductive generator,6
+6,Solar Panels on Sail,The Sail of the OWP device is covered with solar cells to produce more energy,6
+6,Piezoelectric OWP,Sail on OWP is out of piezoelectric material. Generates power both through oscillating motion and piezoelectric. ,6
+6,Flettner Wind Power,"A rotor ship, or Flettner ship, is a type of ship designed to use the Magnus effect for propulsion. The Magnus effect is a force acting on a spinning body in a moving airstream, which acts perpendicularly to the direction of the airstream. The Flettner wind power device can be placed on these ships without disturbing the surrounding environment and increasing the efficiency of these ships. ",6
+6,Clear tubing= h2o energy,"Clear tubing that the turbine is built out of also holds water which is heated by the sun, using this energy as well",6
+6,OWP on a Sailboat,"Implanting 2 or 3 OWP devices on a sailboat to generate power for lights/radio, etc. as the boat is sailing",6
+6,Stirling Engine,Heat engine that operates by cyclic compression and expansion of air or other gas at different temperatures such that there is a conversion of heat energy to mechanical energy.,6
+6,Fuel Cell,A fuel cell device converts the chemical energy from a fuel into electricity through a chemical reaction of positively charged hydrogen ions with oxygen or another oxidizing agent. Fuel Cells can produce electricity continuously as long as the inputs are supplied.,6
+6,Hydroelectric Power,"Using two reservoirs filled with water or a different fluid on different energy levels (height). Water released from the higher reservoir flows through a turbine, spinning it, which in turn activates a generator to produce electricity.",6
+6,Solar Power,Solar energy is radiant light and heat from the sun that is harnessed using for instance photovoltaics. ,6
+6,Tidal Power,Tidal energy is a form of hydropower that converts the energy of the tides into electricity.,6
+6,Wave Power,Wave power is the transport of energy by wind waves and the capture of that energy.,6
+6,Geothermal Energy,Geothermal energy is using heat from the earth. Resources from geothermal energy range from the shallow ground to hot water and hot rock found a few miles below the earth's surface.,6
+6,Generator - Combustion,A generator device that converts mechanical energy (combustion processes) to electrical energy.,6
+6,Nuclear Power,"A nuclear power plant is a thermal power station in which the heat source is a nuclear reaction. Usually, the heat is used to generate steam which drives a steam turbine connected to an electric generator which produces electricity.",6
+6,Encourage touching the sail,make the sail of a very soft material that people want to engage with and run their hands over,6
+6,Oscillating Ears,Face sculpture has huge ears that function as OWP sails,6
+6,Sculptural Wind Power,"The sculptural wind power device consists of many small surfaces that look like leaves. At windy conditions, this device starts to rotate around the vertical axis. The higher the angular velocity, the clearer the picture gets to the human's mind.  ",6
+6,lets go fly a kite,kite flies in a designated pattern to generate wind power up much higher where the wind energy is greatest ,6
+6,Power Generating Kite,A kite is connected to an oscillating generator on the ground.,6
+6,Flying rotating device,Flying rotating wind power device that stores energy. I liked the idea of having a turbine higher because that is where the wind is stronger,6
+6,OWP drone,Using the OWP technology to supply a drone in energy and to be the wings of the drone,6
+6,Nascar,"Brand every single square inch of these like a Nascar car, then they are greatly reduced in price",6
+6,Up Vote,Community voted on designs that will be printed on the sails ,6
+6,Adjustable Wind Power Device,"Due to different customer needs and different wind conditions, the surface area of this wind power device is flexible and can be adjusted to the specific needs.",6
+6,Modular Frame,Reduce cost and have higher ROI by making the parts all pre manufactured and modular. makes repairs easier and cheaper also.,6
+6,Flower Power,Small size oscillating wind power generator. Sail looks like a flower. Many would be placed in a field. ,6
+6,OWP-Wave,"Connect multiple OWP devices elastically, so that a visual wave effect occurs when operating",6
+6,Picture from afar,Set up different colored OWP devices in a field so that they create a picture from afar (art),6
+6,OWP-Shade,"Using the OWP devices in a crop field to avoid direct sunlight on the crops, making good use of the shade it provides",6
+6,Windmill Roof,A collection of small propellers harvesting wind energy on roofs as an alternative to solar panels,6
+6,Shade Structures,Create shade with in public parks by elevating the bases to above peoples heads and clustering the oscillating wind turbines,6
+6,Industrial size,"Have enough built that you can out produce the cities needs, then they will be more accepting of new methods ",6
+6,OWP for Roofs,Put multiple OWP on the roof instead of using solar,6
+6,Wind Panel,"Like solar panels, the wind panel device represents a modular device that can be placed on a roof of a house. Many fan blades rotate around the vertical axis at windy situations and this rotational motions are transformed to electricity by many small generators.",6
+6,Oscillating Music Box,A mechanical music box is integrated in oscillating wind power device. When activated the wind paces the music box. ,6
+6,Wind Chime Generator ,Shaped like a large wind chime. Pivot point (where generation happens) is at the top. Makes beautiful music. ,6
+6,Bell melody,Attach chimes or bells to have them play a calm melody like wind chimes,6
+6,Portable Wind Power Device,"The portable wind power device is not a high performance product but it can be used to, for instance, charge a mobile phone. It looks like a suitcase and is foldable. It rotates around the vertical axis.",6
+6,Tent Oscillator,"Small portable Oscillating Wind Power that packs with your tent so you can have power when camping to charge phone, camera, lights, etc. ",6
+6,Rotational Flower,The rotational flower device captures the wind only from one particular direction and performs rotations around particular axis (horizontal axis). A generator transforms this mechanical energy into electricity.,6
+6,Classic wind energy device,"This system is the most common design when it comes to wind power, three propellers and a main root",6
+6,Bird Blade Protection,Classic Wind Turbine design with bird protection shield (wire mesh). Camouflage paint to blend in with environment.,6
+6,Harmless Windmill,"A wind turbine made of recycled material (abstract, artsy truss structure) creates energy using flexible (bird safe) blades.",6
+6,Energy device with innovative vertical propellers,"This system is like a classic wind turbine, just the propellers are vertical and the rotating axis is vertical",6
+6,Fan Device,The fan device consists of many layers of a flexible material that catch the wind and start to rotate around one axis (vertical axis). A generator transforms this mechanical energy into electricity.,6
+6,Aircraft Wing,"Like an aircraft wing, the surface area of this wind power device can be adjusted to the specific wind conditions in order to maximize the efficiency and increase the power output. This device rotates around the vertical axis.",6
+6,Vertical Wind Tower,A vertical blade (wing) concept transforms wind in rotational power. Due to lower tip speed it is safe for birds.,6
+6,Rotational Walls,"The rotational device consists of two plane walls that placed opposite to each other and rotated by 90°.Due to the wind resistance, the rotational device rotates around one specific axis. This rotation (mechanical energy) can be transformed into other types of energy. ",6
+6,Power Funnel,Device uses Venturi effect to increase wind speed and uses smaller propellers. A net on the inlet prevents birds from flying in.,6
+6,Canvas Rotating Device,"The canvas rotating device uses a huge canvas that is bended in order to represent a large resistance to the wind flow. Due to a heavy counterweight, oscillations around one axis occur. A generator transforms this mechanical energy into electricity.",6
+6,Figure 8 ,Sails in shape of Figure 8 so it oscillates back and forth to create power,6
+6,Wind shielded mechanism,Use two different oriented sails to create back and forth motion. Depending on the sails position within the oscillating motion either one or the other sail is protected by a wind blocking shield.,6
+6,Lazy susan OWP,Base is a spinning lazy susan for wind orientation. Has a sail and counterweight for oscillating power,6
+6,Baseball oscillator,"OWP, sail is a baseball bat shape, counterweight is a baseball. Install at stadiums or parks. ",6
+6,Metalic sails,"make the sails look like baseball players sunglasses, highly reflective, would be awesome for sunset",6
+6,Sports Oscillator,Sails have sports logos on them. People can represent their team while generating power in their yard. ,6
+6,Baseball cap Oscillator,Sail for OWP is a Baseball cap. Install at Giants and A's stadiums,6
+6,Just Pump,"Instead of generating electricity directly the wind turbine simply pumps water up, creating potential energy, able to be released at any given  time the grid needs it",6
+6,Pneumatic Oscillator,The pneumatic oscillator combines the principle of an oscillating wind power device (using a sail and a counterweight to get oscillatory motions) with the principle of pneumatics. The pneumatic system transforms the oscillatory motion of the upper piston that is connected to the sail into a rotational motion. This mechanical energy can then be transformed into electrical energy by using a generator.,6
+6,Oscillatory Parachute,"The oscillatory parachute represents a resistance to the wind and therefore starts to move in the presence of wind. Moreover, the oscillatory parachute is connected to a counterweight that represents a pistion in a pneumatic system. The pneumatic system transforms the oscillatory motion of the upper piston that is connected to the parachute into a rotational motion. This mechanical energy (rotational motion) can then be transformed into electrical energy by using a generator.",6
+6,Oscillating Tree Branches,Artificial tree; wind pushes the branches back and a spring brings them back the other direction and creates power.,6
+6,Oscillating Wind Power Tree,The idea for this design is to build a tree where each leaf would be a small version of the existing OWP device.,6
+6,Rotating Wind power tree,Many spinning devices on tree branches (new wind devices that do not oscillate but spin),6
+6,Energy Tree,An artificial tree with natural looking leafs produces power with piezo strips on leafs. The Wind makes the leafs move.,6
+6,Wind Forest,"In lieu of spinning blades, the stems generate energy by oscillating in place as the wind blows by, transferring that kinetic energy into a collection cell in the foundation. This technology could reinvent wind power across the world.",6
+6,Tree Wind Power,"The tree wind power device looks like a natural tree with huge butterflies on its branches. While the rotational motion is equal on one branch, each branch is able to oscillate independent of the other branches. Inside the tree, the mechanical energy is transformed to electricity by using generators.",6
+6,True Tree Power,"Attach weights and pullies to big willow trees, they sway in the wind already, harness this energy ",6
+6,Sustainable Flag,The sustainable flag replaces usual flags in windy areas where flags often show bending motions due to the wind. The piezoelectric elements that are included in the sail get activated when the sail bends and generate electrical energy. These flags can be placed at private houses and other places like stadiums or companies.,6
+6,Piezoelectric Fabric,The wind blows through a fabric backed up with piezoelectric sensors that charge a battery,6
+6,Piezoelectric Flag,Piezoelectric sensors attached to a waving flag: energy is collected from the wind to a battery via the piezo technology,6
+6,Sustainable Fence,The sustainable fence replaces usual fences in windy areas where fences often show bending motions due to the wind. The piezoelectric elements that are included in the sail get activated when the sail bends and generate electrical energy.,6
+7,Upright Handle Bottle,"Ear drop dispensing contraption with a vertical, squishy handle so you don't have to tilt your head to get the drops in. ",7
+7,Eardropper Bottle,"Looks like an eyedropper, but for ears. It has ticks on the side of the pipette, so you can measure how much you are applying, and is simple to use and understand.",7
+7,Ear Conforming Drop Bottle,A ear drop bottle in a shape that conforming to ear to assist in application process.,7
+7,Level Bottle,Bottle that will only dispense fluid when perfectly level. Button or other actuation method could be used.,7
+7,Retractable Ear Drop,"Similar to a retractable knife (used in props), the stem would be able to retract if hit even a soft hurdle (ear drum).",7
+7,Stemmed Ear Drop,"The stem will go into the ear canal, where it will dispense the medication to reduce waste.",7
+7,Foam Bottle,"The stem will go into the ear canal. When close to infected area, it will dispense the medication in foam to ensure medication is applied to the infected area.",7
+7,Ball Valve Bottle Spout,"Place ball in medication, compress medication bottle and dispense medication until ball obstructs fluid flow.",7
+7,Ear Easy Gun,Ergonomic medication dispenser using a peristaltic pump.,7
+7,Pre-ringe,Ear medication with a syringe that has an on/off valve (stopcock).,7
+7,Disposable Ear Medication Containers,Ear medication filled into single use disposable plastic tubules.,7
+7,Spring-Drop,Ballpoint pen/spring system with piston when the spring is compressed and the solution is drawn out.,7
+7,Beeping Bottle,"Weight sensor on bottle that can detect fluid, syncs with phone to notify once the precise volume of medication has been dispersed.",7
+7,Air Out,Compressed air into the ear to either clear out the ear wax or spray the medication in.,7
+7,Spray-ear,Spray medication.,7
+7,Sensory Feedback Bottle,"Bottle that dispenses ear medication, but also gives sensory feedback about the amount of ear wax or audio levels, etc.",7
+7,Rotating Caps,Different caps for different sprays.,7
+7,Clip-On Bottle,Something that clips on to your ear.,7
+7,Double Compartment Bottle,"Bottle with two different fluids that have separate functions, like numbing, cleansing, treatment, etc.",7
+7,Depth Feedback,"Sensory feedback after use, lets you know that you've gone deep enough and tells you that it's working.",7
+7,Ear Funnel ,Ergonomic ear funnel to dispense medication. ,7
+7,Package Transformer,Packaging of ear bottle folds into a funnel or something else for guiding the solution in.,7
+7,Modular Bottles,Be able to take apart the bottle and caps and separate them for multiple uses and different solutions.,7
+7,Retractable Bottle Tip,"When you squeeze the bottle, a tip comes out that you can use to apply solution into your ear. It can be disposable for cleanliness and convenience.",7
+7,Ear Syringe Mixer,"Ear syringe to dispense solution, solution agitator, and solution extractor. ",7
+7,Princess Bottle,"We noticed that some people think all ear drops are the same, and can't tell them apart at the store. Thus, we should make the bottle and labeling super beautiful and unique, so it stands out and is immediately recognizable. Kind of like cosmetics - perfume bottles. ",7
+7,B-ear Helmet,A hat that dispenses solution automatically into ear when on.,7
+7,Healthy Ear Muffs,Earmuffs that sprays a mist of solution into ear.,7
+7,Ear Wax Cleaning Headphones,Headphones with vacuum to clear out ear wax when listening to music.,7
+7,Ear-gonomic Cap,Adapter that can be placed onto current OTC ear drop bottles that makes them more comfortable and aim more accurately.,7
+7,Remedy Earrings,Q-tip type of solutions that hang from your ears like earrings (in a pleasing way).,7
+7,3D Customizable Ear Canals,Take molds of people's ear canals and 3D print foam models that can be soaked with ear drop solution. These can be left in the ear canal (as a perfect fit) for a prescribed amount of time. ,7
+7,Solution Retention Ear Plugs,"Part of the problem of ear drops is that they tend to fall out, so you can't tell how much has stayed in and if you should apply more. These ear plugs keep the ear drops inside the canal and have a waterproof surface that prevents absorption. This also eliminates the need to lie on each side for around 15 minutes to get the drops in. It reduces wasted solution and time. It can be provided with a bottle.",7
+7,Solution Ear Plugs,Ear plugs soaked in solutions that can be applied into ear without laying on side.,7
+7,Fillable Ear Plugs,"Earplugs that you fill up with a separate device, pressurize, then insert into ears.",7
+7,Inflatable Ear Plugs,Earplugs that you inflate while inserted into the ear canal. Nozzle is integrated into plugs.,7
+7,On-The-Go Treatment Plugs,One time use earplugs that come presoaked with medication. Pressure and/or temperature change in ear canal dispenses medication.,7
+7,Insertion Nozzle,Inner ear shaped nozzle (similar to earphone shape) that will only allow fluid to be dispensed when it gets inserted to a certain depth.,7
+7,Sublimating Gauze,"The gauze will be soaked in medication and inserted to ear, and the gauze will sublimate after some period.",7
+7,Moldable Ear Foam Clay,"Fill ear up with some hardening solution, and then pull it out along with all the gunk in your ears.",7
+7,Expand and Extract,"Ear swelling medication (some object swells in the ear, and then you can pull it out).",7
+7,Ear Mask,Pore cleansing mask for ear wax. ,7
+7,Paste Ear Solution,An additive to make ear medication into a thick paste. ,7
+7,Painless Coating,A coating to put in the ear canal that lubricates and prevents anything going in from hurting. ,7
+7,All-in-One Earwash,"The water comes out of one tube into the ear to wash out ear wax, and the waste goes into a bigger tube and into a waste container. This way, you don't have to bend over a sink or hold a tub under your ear to catch the waste.",7
+7,Ear-Pik,Very low pressure water-pik-esque device that you use to irrigate ear canals. Can be used with water or proprietary solution.,7
+7,IV Ear Wash,"The suction cup is for the bottle to be stuck on most surface (e.g. wall, glass). The water in the bottle can then flow to the tube in constant pressure, gravity-driven for ear wax removal)",7
+7,No Sink Squirt,"The suction cup would be attached around the ear, thus the water dispensed would be collected in the cup, making the whole process able to be done without spilling and standing by the sink.",7
+7,Dry Ear-Down,"The water container would be the water supply to the tube for ear wax removal. The suction cup will ensure that water is not spilling, and would transfer the excess water to a waste bag.",7
+7,Wax Eater,"The solution in the bottle would dissolve ear wax, and would dispense along with the solution.",7
+7,Multi-Function Nozzle,"Multifunction nozzle, can spray medication, act as ear wash, etc.",7
+7,Waterslide,Water slide to guide water into and out of the ear canal.,7
+7,Ear Vac,Like a vacuum for ear wax - a gentle version that cleans the loose ear wax hanging around in your ear. ,7
+7,Ear Drop Glasses,A pair of glasses designed to see into one's own ears during the application process of the ear drop.,7
+7,Heated Bottle,Bottle with embedded heating copper coils that can be used with a docking station to warm fluid inside.,7
+7,Ear Stent,"Similar to a brain stent, activate the stent close to the area of ear wax. The stent will pierce through the ear wax, and later on drag the wax out with it.",7
+7,Laser Gun,The laser would be able to ablate ear wax.,7
+7,Exfoliater,"Putting abrasive material in your ear, like exfoliating the inside of your ear (use microbeads).",7
+7,Frequency Cleaner,Certain frequency vibration in your ear to move the ear wax out.,7
+7,UV Cleaner,Using UV light inside the ear to disinfect or harden ear wax enough to get out.,7
+7,Vac-Add,Vacuum cleaner adapter.,7
+7,Ear Wax Rotating,"Inspired by rotating toilet seat cover - medication gets dispensed in, and turns around and comes back. ",7
+7,Burn,Selective combustable powder that only burns ear wax.,7
+7,Sticky Hands Extraction,Elastic sticky hands to remove wax.,7
+7,Amphibian Solutions,Frog or chameleon tongue (or similar type of adhesive device) that extracts ear wax and retracts.,7
+7,Ridged Scooper,Ridges to mechanically pull out ear wax.,7
+7,Swiss Army Knife Ear Care,"Swiss army knife for ear tools including a scooper, q-tip and vacuum. ",7
+7,Retractable Ear Mop,"Mini-retractable mophead for ears, can clean and retract out of the ear area. ",7
+7,Ear Speculum,Ear canal speculum to widen the ear canal. ,7
+7,Twist & Load,Bottle that loads a precise amount of fluid each time you twist it.,7
+7,Ear Cups,Headphone cup shaped device with connected tube that you pump measured fluid into. Cup is tapered to ensure fluid enters ear canal.,7
+7,Manual Measure,"Similar to how doctors apply medications, manually measuring the amount of medication, and thus can dispense more accurately. Needle used when taking up solution, and removed when dispensing.",7
+7,Syringe-Ear Drop,"The plunger would dispense the amount of solution in the metered stem, and thus could dispense a relatively accurate amount of medication every time.",7
+7,Portable Graduated Cylinder,"Plastic graduated cylinder that dispenses medication, that you can tilt to dispense into ear.",7
+7,Fixed Volume Dripper,Provide fixed volume pipettes with ear medication.,7
+7,Double Container System,"Double valve drip chamber, and ear drops can be dripped into chamber for precise volume - valve is closed. Second valve opened to dispense medication. ",7
+7,Bug-Eared,Natural solution - put some sort of insect or something in the ear that eats everything.,7
+7,Ear Drop Tablet,"To combat liquid falling out of the ear, use a solid instead of a liquid. Maybe it can be in the form of a tablet that dissolves slowly in the ear when exposed to the air or something. This way, you can also know how much you are applying. ",7
+7,Ear Drop Pills,Pills that are put into ears and solution dissolves.,7
+7,BB Medication,"The tube would be filled with identical medication pellets. The button would release a pellet, and the pellet would burst in the ear upon contact.",7
+7,Dry-ear,Desiccant powder.,7
+7,Soluble Q-tiip,Soluble Q-tip with medication. ,7
+7,2-in-1 Ear Care,"Can be used for prevention and treatment. This product doubles as a ear wax removal scooper and a drop dispenser in one little device. Has a scooper at one end, and can fill with solution in a hollow interior to dispense in the other end. ",7
+7,Ear Excavation,"Typical ear wax scooping tool, but with a tiny camera at the end so it can show on the user's smartphone or computer so they can actually see what they're doing. ",7
+7,Mechanical Q-tips,A mechanical Q-tip that moves in patterns that clean ear wax effectively.,7
+7,Q-tip Lint Roller,A mini lint roller for ears where the adhesive can be peel off.,7
+7,Pre-packaged Q-tips with Solution,Q-tips packaged in plastic wrapping that are dipped in solutions.,7
+7,Medication Brush,"The brush can be dipped or covered in ointment, then applied to the infected region. Rubber stopper to avoid the brush going in too deep.",7
+7,Periscope Q-tip,A periscope with a Q-tip end that allows the user to see their ear during usage.,7
+7,Medicate Q-tip,Medicated Q-tips with slow release antibiotics.,7
+7,Vibrat-ear,Vibrating device that eases all of the ear wax out.,7
+7,Shake It Off,Thin sheath with pebbles inside that vibrate and clear out the ear wax.,7
+7,Ear Plunger,Mini ear plunger.,7
+7,Sized Scooper,Telescope multidiameter ear scooper. ,7
+7,Q-tip Guard,A little guard on the end of the Q-tip to prevent from going all the way into the ear.,7
+7,Q-tip Dispenser,Q-tip that dispenses medication and allows cleaning.,7
+7,Pen Ear Scooper,"An ear scooper at the end of a pen, so you can use it casually whenever you see your pen (reminds you to take care of your ears).",7
+7,Finger Ear Tips,"A ring ear wax scooper or something you can put on the tip of your finger, like an attachment. ",7
+7,Bristly Q-tips,Q-tip with bristles.,7
+7,Wax Picker ,Mini ear wax picker. ,7
+8,Two out-of-plane micro needle arrays,Applying two out-of-plane micro needles to control the depth of penetration.,8
+8,Adjustable penetration depth,Offer adjustable penetration depth according to the specific part of the body on which micro needles are applied.,8
+8,Slanted Injection,Inject at a certain angle (<90) instead of perpendicularly to reduce skin resistance.,8
+8,Truncated head,Truncated head of micro needles instead of sharp head to reduce skin resistance.,8
+8,Biodegradable Micro needles,Use biodegradable materials to manufacture micro needles so that it won't be harmful to human even the micro needles break.,8
+8,Dissolvable Micro needles,Use sugar as the material to make micro needles so that it will dissolve into the skin together with drug.,8
+8,Separate drug and micro needles,Store drug in a reservoir separately so that the micro needles don't have to be replaced every time after use.,8
+8,Combine drug and micro needles,Store drug directly in the micro needles so that the materials of making micro needles can be adjustable to the drug.,8
+8,Valve+Reservoir flow rate control,Using a valve to control the flow rate of drug from reservoir (refer to infusion).,8
+8,Rechargeable electric flow rate control,Using an electric device whose battery can be recharged to set the flow rate.,8
+8,Scalable syringe to control the dose,Add scale on the body of a syringe to control the dose of drug being delivered (refer to insulin pen).,8
+8,Cuttable transdermal patch to control the dose,The transdermal patch that incorporates microneedle arrays can be cut into different sizes in order to control the dose.,8
+8,Elastic bandage transdermal patch,Using elastic bandage to wear the transdermal patch that incorporates micro needle arrays on the arm/waist/leg.,8
+8,Wearable Electronics transdermal patch,Using wearable electronics to carry the transdermal patch that incorporates micro needle arrays.,8
+8,Elastic / Flexible Material of carrier,The carrier of micro needle arrays is made of elastic or flexible material so that it can be rolled to save storage space.,8
+8,Multiple stacks,"Multiple stacks of micro needle arrays on the same carrier, either transdermal patch or wearable electronics, to realize sustained injection. ",8
+8,Couple with monitoring device,Micro needle arrays with whichever carrier being coupled with monitoring device (such as blood glucose level measurement device for diabetic patients),8
+8,Sterillization from the package,The package of the micro needles could be used to sterilize the skin being injected (refer to the stickers to be peeled off when using band-aid),8
+8,Rounded head micro needles to reduce pain.,"Instead of all having the traditional sharp heads, micro needles could be made to have rounded heads to increase the contact area, thus reducing the pain. ",8
+8,Natural-looking transdermal patch,Transdermal patch that incorporates micro needle arrays can be made to have a natural-looking (e.g. a smile face on the back of it).,8
+8,Highlighted peel off point,The area that the micro needles can be peeled off from transdermal patch is highlighted in order to make it easier for users to find the area.,8
+8,Metal micro needles coated with drug,The micro needles would be made out of metal. They will then be covered by a thin layer of medicine that would dissolve itself in the epidermis.,8
+8,Drugs micro needles,The micro needles would be made directly out of drug so that the needles themselves would be dissolved in the epydermis.,8
+8,Perforating micro needles,In this case micro needles would be used to perforate the skin. The drug would be provided via a patch stuck on the perforated skin.,8
+8,Micro needles roller,The micro needles array has a cylinder shape so that the patient can just make the needles roll on his skin. Good surface.,8
+8,The micro needles syringe,It is just a syringe with the needle replace by a micro needles array.,8
+8,Piezo electric micro needles,Micro needles coupled with piezo electric material that acts as a pump that pushes the medicine through the micro needles,8
+8,Micro needles coupled with healing product,It is not clear whether micro needles will leave marks or scars. But we could put some healing substance on the needles so that it doesn't leave any scars. ,8
+8,Changing the name of micro needles,"I think that micro needles is not an attractive name. Indeed the public still hear the word needle which is associated with painful. Why for example don't we rename it ""new transdermal patch"".",8
+8,Sterelizing box,"A box filled with a sterelizing product and absorbent cotton and micro needles allowing to easily carry the micro needles, sterilize both the skin and the needles.",8
+8,Precut micro needles patch,"The micro needles are made out of drugs that will dissolve themselves in the epidermis thus delivering the drug. The patch of micro needles will be precut so that depending on the amount of drug you need , you cut the right amount of micro needles you need.",8
+8,Air compressed application of micro needles,Some compressed air is applied via a kind of syringe. It sticks the micro needles to the skin and so solving the problem,8
+8,Multiple micro needles array,"An object with at the end of each ""arms""  micro needles. The advantage is that the contact surface would be smaller allowing a better perforation of of the micro needles.",8
+8,Inflatable cuff applicator,An inflatable cuff coupled with a pump would apply a pressure on the micro needles to be sure all of them preforate the skin,8
+8,Autonomous wireless micro needles,"A micro needles coupled with a pump and a processor and a battery in the sae box, so that the patient can receive his medicine throughout the day.",8
+8,Bracelet for continuous drug delivery,Bracelet that allows micro needles to stay in a place on the arm for example,8
+8,Long micro needles covered by local anesthetic,In that case micro needles would be longer their normal length to be sure that every needles perforate the skin. Too avoid pain the needles could be covered by anesthetic.,8
+8,Micro needles controlled by an Mobile App,"The micro needles coupled with the piezo material would be controlled, so that the patient can control the amount of drug released.",8
+8,Micro needles for skin sensor,Use micro needle to penetrate skin and extract samples from epidermis/dermis to detect skin condition or health condition.,8
+8,Target parents with young kids and chronic diseases patients,These two groups of people are identified as our biggest potential customers based on their strong desire for painless injections,8
+9,Tensegrity virtual reality immersion,VR goggles and interface to control tensegrity robot,9
+9,Tensegrity Assistant,Use robot as personal assistant (i.e. reminds you about meetings),9
+9,Tensegrity Watchdog,Tensegrity can patrol your house to make sure everything is in order - will send alarm if it detects an intruder,9
+9,Tensegrity Cars,Drive around in your tensegrity,9
+9,Tensegri-Gestures,Robot controlled by hand gestures,9
+9,Game Controller,"Robot controlled by everyday game controller (i.e. Xbox, Play Station, etc.)",9
+9,Voice Controller,Robot controlled by voice commands,9
+9,BattleBots,Tensegrity battle-bots,9
+9,Light-segrity,Lights in tensegrity bars light up in the dark and when robot moves,9
+9,Data acquisition from robot,"Bluetooth/wifi allows you to gather information from sensors on robot directly to computer (i.e. camera, speed, voltage, etc.)",9
+9,Modular Tensegrity,Robot has supports and adapters for different sensors and features - you can put whatever you want in your robot and make any shape,9
+9,Tensegrity Robot Bowling,Control robot as it goes down the lane,9
+9,Tensegrity Robot Shaker,Shakes thai tea or alcohol drinks,9
+9,Tensegrity Robot Clothes Drying Rack,Robot can move to make other clothes get in sun,9
+9,Tensegrity Robot Wheels,Replace wheels of bikes/cars,9
+9,Pathfinder,Multiple robots explore terrain to guide your path while exploring,9
+9,Twister Sensor Ball,Throw robot in tornado - will collect data,9
+9,Tensegrity Robot Pet Companion,Play with your dog while you are away,9
+9,Tensegrity Robot Luggage Case,Robot (luggage) walks with you,9
+9,Tensegrity Robot Ships,Motion in the water is faster using tensegrity robots,9
+9,Aesthetics Are Key,Robot encapsulated in deformable material with customizable color,9
+9,Teacher's Guide to Tensegrity,Pre-made lesson plans for teachers,9
+9,Tensegrity Drone,Propellers attached to main bars convert robot into drone,9
+9,Tensegrity Helping Hand,Robot can carry things to you around the house (i.e. coke),9
+9,Tensegrity Submarine,"Waterproof robot, can play with underwater - at the pool",9
+9,DesignYourRobot.com,"Design your robot on line (shape, size, color) before buying",9
+9,Self Charging Robot,Robot knows it is running out of battery and rolls onto charging mat,9
+9,Tensegrity Dodge Balls,Play dodgeball with tensegrity robots,9
+9,Tensegrity Bowflex,Use tensegrity as a workout tool,9
+9,Tensegrity Chess Kit,Pieces move based on user's commands,9
+9,Tensegrity Crash Airbags,Replace car airbags with tensegrity robots,9
+9,Tensegrity Bouncy Balls,Playground ball made out of tensegrity robots,9
+9,Tensegrity Shopping Bag/Cart,Bag/Cart expands and contracts as necessary and move with you,9
+9,Tensegrity X Prize,Design challenge to get tensegrity robots on another planet,9
+9,Tensegrity Robot Science Olympiad,Create science olympiad competition with robots,9
+9,Houses for the Homeless,Tensegrity robot houses created for homeless people as well as the victims of disasters,9
+9,Radiation Shielded Robots,Used for exploring dangerous areas (i.e. nuclear accidents),9
+9,Tensegrity Vacuum,Roomba for Tensegrity,9
+9,Tensegrity Organizer,"Cleans up large objects - legos, clothes, etc.",9
+9,Tensegrity Gardening Bot,"Rolls around garden - lays seeds, waters plants",9
+9,Tensegrity Halloween Costume,Animatronic robot costume,9
+9,Tensegrity Furniture,"Transformable tensegrity robot furniture - bed, couch, etc.",9
+9,Tensegrity Rat Trap,Robot traps rodents - like a mousetrap,9
+9,Tensegrity Impossible Wheel,Tensegrity version of impossible wheel unicycle,9
+9,Tensegrity Tree-House,,9
+9,Tensegrity Playground,Kids can climb all over tensegrity structure,9
+9,Tensegrity Tent,Tent automatically sets itself up for you,9
+9,Secure Tensioners,Use fasteners to prevent robot tensioners from disassembling,9
+9,3-point Payload Fixture,Fix payload using 3-points on tensegrity bars,9
+9,Tensegrity Satellites,Launch robots into space as satellites,9
+9,Tesegrity-O's,Tensegrity shaped cereal,9
+9,Tensegriy train,Train with cars come in tensegrity sturcture,9
+9,Tensegrity artist,Put markers on the end caps and program it to make artwork,9
+9,Tensegirty helicopter,Tensegrity shaped helicopter.,9
+9,Tensegrity Chair,The shape of the chair can be customized,9
+9,Tensegrity wheels,Enable cars to overcome more terrain,9
+9,Tensegrity ferris wheel,More people can be carried,9
+9,Collapsable tensegrity chair,automatically set up in configurations for classroom or auditorium,9
+9,Mini-Tensegrity robot,Can morph a car into a motorcycle into a  bus,9
+9,mini-Tensegrity robot theme park kit,allow kids to build tensegrity based rollercoaster,9
+9,Tensegrity machine,Able to lift a car up for mechanics,9
+9,Tensegrity aquarium,use glass panels for a unique aquarium shape,9
+9,Tensegrity birdfeeder,put bird feed in it,9
+9,Tensegrity gears,design the structure s to mesh like gears,9
+9,Tensegirity bike,"low cost, light weight, can be folded",9
+9,Tensegrity prosthesis, prosthesis for human being,9
+9,Tensegrity morphing structures,,9
+9,Tensegrity exoskeleton disabled,,9
+9,Tensegrity garden,saves space; ensuring all plant get enough sunshine,9
+9,Tensegrity trashcans,Tensegrity trashcans,9
+9,Folding chair made of tensegrity structure,A chair that can be carried everywhere,9
+9,Tensegrity BBQ grill,Tensegrity shock absorbers,9
+9,Tensegrity bed,"Bed in tensegrity shape, people sleep within it and can feel more secure",9
+9,Tensegrity crutch,"Stronger, and more functions and shapes available",9
+9,Edible tensegrity robots,Build robots out structural candy (gummies and hard candy) kids eat afterwards,9
+9,Tensegrity exoskeleton for athletes,,9
+9,Tensegrity bookshelf,Tensegrity bookshelf,9
+9,Tensegrity Furniture,Tensegrity Furniture,9
+9,Tensegrity blender,Tensegrity blender,9
+9,Tensegrity bulletproof vests,Use tons of small/strong tensegrities and fill a vest with them like a sandbay,9
+9,Tensegrity grenades,Tensegrity grenades,9
+9,Tensegrity Animatronics,Big animals or shapes that can be controlled ,9
+9,Tensegrity Morphing buildings,,9
+9,Natural Tensegrity,"Use natural materials for construction; e.g., bamboo, twine, etc.",9
+9,Trashsegrity,Design competition to construct tensegrity from landfill materials,9
+9,Alternative fuelsegrity,Use natural gas or plutonium to propel tensegrities,9
+9,3rd world tensegrities,Use waste materials to create tensegrity for 3rd world countries,9
+9,Tensegrity habitats,Use tensegrity structures to simulate habitats for animals who have lost their homes,9
+9,Tensegrity laptop stand,Make a portable laptop stand using tensegrity,9
+9,Tensegrity rollercoaster,Create roller coaster structure with tensegrity,9
+9,Recyclesegrity,Create tensegrity out of puely recycled plastic and metal,9
+9,Solar powered tensegrity,Tensegrity that is powered by solar ,9
+9,Tensegrity-themed yoga,Yoga moves inspired by tensegrity structures,9
+9,Tensegrity trampolines,Stretch fabric on large tensegrity and use as a trampoline,9
+9,Tensegrity shake-weight,Gives the user vigorous exercise without the embarassing motion of a typical shake-weight,9
+9,Tensegrity shoes,The shoes with a tensegrity structure in the bottom as a buffer,9
+9,Tensegrity wind chimes,jingle in the wind,9
+9,Tensegrity windmills,Cheaper,9
+9,Dog house made of tensegrity,,9
+9,Tensegrity drums,Pull tight drum-fabric around tensegrity and make music,9
+9,Tensegrity hats,Cute,9
+9,Tensegrity van,Tensegrity van,9
+9,Tensegrity supports / cases for instruments,Folding properties,9
+9,Tensegrity garage,available for more cars,9
+9,Tensegrity roof,collect water and remove snow for options,9
+9,Tensegrity bridge,allow cars to go different roads and exits while rotating,9
+9,Tensegrity elevator,Can move vertically and ??,9
+9,Tensegrity aero-dynamic monopolators on cars and planes,Improve fuel efficiency,9
+9,DIY Robot Kit,Kit built out of everyday items,9
+9,Tensegrity Weather Balloon,Use robot's impact handling capabilities to allow it to enter dangerous weather situations,9
+9,Tensegrinstrument,Tensegrity robot uses varied cable tension to change notes,9
+9,Tensegrity Teaching Buddy,12-year curriculum where robot grows up with child,9
+9,Tensegrity Shield,Robot's impact resistance used as shield,9
+9,Tensegrity Crane,Large tensegrity structure with some kind of gantry ,9
+9,Tensegrity Supports for Computers,Use to help as a cooling system for computers,9
+9,Tensegrity Robot Directing Traffic,Robot directs traffic,9
+9,Tensegrity Roads,Roads dynamically change depending on traffic,9
+9,Tensegrity Sponges,Fill tensegrity with sponge material and make bars out of abrasive material for dish cleaning,9
+9,Tensegrity Sushi Bar,Robot carries sushi to customers,9
+9,Tensegrity Shoe Sole,Mini-robot inserted within shoe soles,9
+10,Community Score,"Based on community involvement, produce a score that community members can contribute to by upvoting/downvoting certain aspects of the neighborhood.",10
+10,Wildlife Finder,"An app that points out special wildlife, plants, and animals unique to the area/current location. You can ""check-in"" to improve your score.",10
+10,Today in History,Database of images of the wildlife/environment collected through users and other means. Your current location will trigger a notification showing you what the area looked like at some point in history. ,10
+10,Photo Spot,Show nice places nearby to take photos of nature,10
+10,Friend Score,Compare nature scores with other friends,10
+10,Park Development,Show development of new parks or walkways in the area you researching,10
+10,"Nature ""Official"" ","by gaining official nature score status, your score will contribute to your property value",10
+10,Swagged Out,a feature that judges the quality of the nature per unit area. (density of quality nature),10
+10,hazard detection,"feature of nature that alerts any hazards that are nature related in the area (poison ivy, poison oak  . . .)",10
+10,"The ""Nature Score"" form ","Considering that analyzing nature on Google Maps or even Google Street is difficult, give people/realtor a specific form so they can rate by themselves their properties.",10
+10,"The ""Nature Score"" valuation",Propose a tool to visualize the effects of utilities on the nature score property,10
+10,The Nature reader,Can recognize nature items and tell you stories about it (characteristics etc.),10
+10,Nature Event Planner,"A event planner focused on natural environments as the backdrop. For example, recommends parks with amenities ideal for a picnic party. Provides tips on how to create the least interference with natural wildlife.",10
+10,A Tree A Day,"Based on your location, provides tips on how to ""make the planet cleaner."" For example, it may recommend you reuse water you used to wash veggies to water your plants. You can check-in to increase your green score.",10
+10,Noise Pollution Database,A small hearing device that will record snippets of your environment and calculate the amount of noise pollution at your current location. Users will contribute to a database that can be used to calculate a general noise pollution number for an area.,10
+10,Tax Deduction,Use nature score to get a home taxes discount since the nature at your home will help contribute to a cleaner environment overall.,10
+10,Elevation Detection,Add nature score to area based on its relative elevation and how good of a view it would have,10
+10,Allergen Map,Show areas that have specific allergens based on the plants that are in that area,10
+10,community based nature score,"because some communities values different nature features differently, the community's input should be considered in the score. For instance, certain plants, or even features such as noise pollution or air quality might contribute of detract from the nature score based on the community of relative location  ",10
+10,real estate metrics,Use metrics used for appraisals to help construct the computation of the nature score in an effort to become a reputable -- and possibly official -- source for estimating the value of a location,10
+10,Most Improved Player,Emphasizes the district that has improved their nature score the most in recent history,10
+10,Use wildlife as a metric,How many different types of animal is there? Are there visible? Are they dangerous?,10
+10,Wild animal spot,Give spot where you can see wild animals in there natural habitat,10
+10,User's view,Use the community to spot places where they saw animals to create a database,10
+10,Wildlife Scanner,"An image-recognition application will identify certain plants or animals that users can take pictures of. It will then provide more information about the wildlife, pros and cons.",10
+10,Seasons of Nature,Shows users how the nature in their neighborhood changes as the seasons change. Will provide information about weather/temperatures as well and how to prepare for the different seasons. ,10
+10,Seed Exchange,"People in close proximity can post the plants they grow and offer to trade seeds/leaves for other plants to grow in their garden. Additionally, users can ask about/comment on the pros and cons of the plants in that area/climate/environment based on their own experiences.",10
+10,Skype,Skype with current home owner that you're interested in,10
+10,Nature Curator,Hire people who know vegetation and plants well to rank nature in and around the home,10
+10,Home Price,Overlay average home price on top of nature heat map,10
+10,Nature Store or something like that,A catalog that appraises different types of nature based on a diversified input from the makeup of the community. This catalog would have to be constantly updated for pieces of nature that gain or lose value. Almost like a stock market for plants.,10
+10,wildlife ,Use the frequency of certain types of wildlife in an area to contribute or detract from the nature score,10
+10,Good vibrations,score based on the noise pollution in the environment; in which some can have positive nature scores and some can have negative nature scores,10
+10,The Sound Creator,"Too much noise? We have a device that cut the noise and pays a delightful natural music (water, birds, etc.)",10
+10,The View Creator,Too much visible powerlines? We designed a device capable of making them disappear without putting them underground (cameleons biomimecry),10
+10,The Ambient Creator,Living in the city? Display images of nature on your window and stop seeing buildings and streets anymore (escape the noisy city),10
+10,“Plant Hunter” Free phone app (game),"The app will function as a game for urban residents to hunt down native plants in a “pokemon-go” like fashion. Different locations would have particular plants listed to find. The app would require some way to identify the plants, possibly “plant-recognition” technology that is similar to facial recognition tech used in the xbox 1 camera.",10
+10,“Plantopolis” Facebook app,"This game would prompt users to run a greenhouse and collect plants from different cities that they are in. Similar to the “Plant Hunter” idea, the plants available would depend on the location of the user.",10
+10,"“Greenify” Competition, website, app","a website that challenges school clubs, community organizations, and other groups that advocate sustainability to increase the “green” or “Street Nature Score” within their region of the community. Ideally, this would be portrayed as a competition, with rewards for groups that improve their region the most.",10
+10,"“Street Spy“ paid service, complimentary feature on SNS website","When considering a neighborhood to live in this service will provide a series of street view images – similar to the google street view images. In addition to frequently updated images, the user would receive data concerning the neighborhoods Street Nature Score, average noise pollution and population density.",10
+10,“Air Monitor” Website/ Phone app feature,Uses data of carbon dioxide emissions in an area with the current Street Nature Score of a region to provide a metric for air quality relative to other nearby regions.,10
+10,"“Ghost” Customer Reviews, Phone app or website feature","Allows users to leave comments about an environment or community and pin it to a geographical location. Users can review the comments of those who have been there previously. Comments could be split into categories – such as entertainment, social atmosphere, and physical atmosphere – based on the topic.",10
+10,"“Nature Rank” phone app, web feature",Allows people who visit a community to rank its appeal based on the aesthetics of the nature.,10
+10,"“Noise Control” web feature, phone app",Provides geographic map that illustrates the distribution of noise pollution.,10
+10,“Branch” website/phone app feature,"Street Nature Score feature that allows users to pin specific plants or natural sites on a map. This information would be cataloged for all users to access. Moreover, this could allow users to filter the nature score according specific plants or natural environments of his/her choice.",10
+10,"“Virtual Forest” simulator (software, website, or phone app)",Allows the user to simulate adding different components of nature to an environment. The change in Street Nature Score would be used as a metric for how the addition would improve the environment.,10
+10,“Street View” Nature Score,"With Street View Nature Score, the user will be able to see the street nature score but with Google Street View. So he will be able to see urban nature with his own eyes without being physically here.",10
+10,Advice to grow urban nature,"The website will basically tell the user what actions he can undertake to increase the nature score of a neighborhood. Preferably, the advice will be specific to each neighborhood.",10
+10,Street Nature Score smartphone application,This is a new way for the user to access the Street Nature Score. Instead of checking a website in a closed room and on a computer he can access information everywhere.,10
+10,Add virtual reality nature on real nature,"On a real image displaying a street, the user have the possibility to add any nature items he wants to see what the place displayed would look like with more nature.",10
+10,Street Noise Score,Noise pollution and urban nature are related. Furthermore people usually consider noise pollution as an important parameter for the pleasantness of a neighborhood. However it is usually unconscious or hard to determine without living in the neighborhood.,10
+10,Contribution of the “Street Nature Score” community,Google Street View is a good tool but only offers a “street view”. What if the website displayed the “user view”? This is also a way to show places that are not reached by Google Street View.,10
+10,Classify types of nature and propose filter to it,"In addition to giving a score, the website would precise what kind of nature is it: parks, just trees in the street, bushes, grass etc.",10
+10,Generate trajectories close to nature,People usually like to be close to nature for any kind of activities. The website would propose places/trajectories for these kind of activities.,10
+10,Offer interactive visit of a neighborhood,"Sometimes the user does not want to spend time understanding how a website works. So by clicking on a button he will just have to sit back, relax and enjoy a tour in the neighborhood.",10
+10,Give information about the policy of the neighborhood/city on urban nature,Local authorities manage usually urban nature. They are very likely to have a specific plan and timeline to enhance the green value of their cities but people are often not aware of this.,10
+10,Change over time,A timeline scroll allows users to see changes to greenery over time in an area.,10
+10,3D Street Nature Score,"Users can use street view with the ""nature"" mapped into the view in 3D. So similar to the current 2D map but in three dimensions.",10
+10,Types of Nature,Pins on a map differentiate between different types of nature in the surrounding area.,10
+10,Live Feed,"Live and real-time satellite fed of area. The ""green"" mapping also changes in real-time.",10
+10,Report Issues,"Users can report ""issues"" they stumble upon outside. For example, a broken tree branch that is potentially dangerous.",10
+10,Vegetation Recommendation,"Recommend the best types of plants/vegetation to grow in the area searched, based on weather and amount of rainfall.",10
+10,Area Selection,Users can click and drag to create a rectangle for which the nature score will be calculated.,10
+10,Activity Recommendation,The website will recommend outdoor community events to the user within the area they searched.,10
+10,Robot Camera,Self-moving robots can be controlled by users to explore the environment live.,10
+10,Nature Scanner,Hand-held device that scans the surroundings and calculates the amount of nature it sees.,10
+10,Nature Score Weight,"User's can see the components that make up their score, such as trees, water, parks, etc.",10
+10,Map Filter View,"Filter view of parks, gardens, running trails, etc in the 2D map view",10
+10,Neighborhood Forum,Users can submit there own comments or concerns about a neighborhood and start a discussion with other users,10
+10,Use Photo Submission,When you look up as specific neighborhood or community it will show other users' submitted photos,10
+10,Tile,Other real estate websites will have a tile embedded in the web page that shows the nature score and a link to street nature score's website,10
+10,Recommended Attractions,When user search a neighborhood or address it will show nearby nature attractions such as parks or walking trails,10
+10,Geotagging User Location,Cookies on other websites will allow street nature score to see which areas or attractions the user is interested in and will post ads or places similar to them,10
+10,Nearby Friends,When you login with Facebook it will show friends who live in nearby neighborhoods,10
+10,SNS for Realtors,Offer at a premium more in depth and detailed qualitative and quantitative data for real estate industry,10
+10,Environmental Pollution,"SNS also offers scores of neighborhoods based on components that would reduce the environmental value such as freeways, sewage treatment plants, garbage dumps, etc.",10
+10,Kevin Bacon,"This system will provide common nearby plants and features of nature for any given plant (in the system or catalog or source of compiled data). The idea is similar to Degrees of Bacon. Instead of movie cast, the plants are related by relative location to other envied plants",10
+10,Healthy Land,Show areas on map that are known to have good soil for people interested in growing their own garden,10
+10,Climate Map,Weather is displayed for each region that you are looking at and how it compliments the nature in the area,10
+10,The Botanist Partner,The map shows the closest botanic stores to a location and give details about the items they have,10
+11,Spine Pal,A metal brace put in the spine to relieve pressure from adjacent vertebra following surgery,11
+11,Vertebral Body Replacement,Replace entire compressed vertebra with an implant of similar geometry and structural stiffness,11
+11,Vertebral Plate,Plate attached to the outside of the vertebral body to stabilize compression fracture,11
+11,Pressurized Implant,A balloon like implant to decompress nerves and restore vertebral height that will not be  significantly stiffer than the vertebrae to preserve ajacent vertebra,11
+11,Donor Vertebra Replacement,Use a healthy vertebra from another patient,11
+11,Bone Graft Replacement,Use bone from another place in the body to replace and stabilize fractures bone,11
+11,Fluid filled implantable balloon,A balloon or bag filled with fluid to hydrostatically distribute stresses in the spine,11
+11,Pedicle stability system,A pedicle screw system (similar to that used in fusion) designed for long-term load re-distribution around compromised fracture site,11
+11,Nerve neutralization,Destroy the compromised sensory nerves so no pain is felt,11
+11,Spinal jack,A threaded rod which expands within the vertebral body (like a car jack) to decompress the vertebra,11
+11,Bio-degradable cement,"The cement serves as a short-term stability mechanism until fracture site heals, after which cement resorbs",11
+11,Entire spine replacement,Use new implant vertebra throughout the entire spine to prevent compression fractures on surrounding vertebra,11
+11,Pneumatic piston,"A piston device inside of the vertebral body to restore physiologic height, driven by air pressure (resistance)",11
+11,Partial spine replacement,Use new implant vertebra for a section of the spine to prevent compression fractures on surrounding vertebra,11
+11,Interbody spring system,A spring (or spring system) implanted within the vertebral body to restore native vertebra height,11
+11,Self xray machine,A xray machine which could be used at home so that the patient could measure their own progress,11
+11,Spongy Cement,New type of cement for kypho/vertebra plasty that better mimics the properties of trabercular bone,11
+11,Systematic Cement,Add small amounts of cement at a time to prevent over filling or leakage,11
+11,Bio-degradable cement,"The cement serves as a short-term stability mechanism until fracture site heals, after which cement resorbs",11
+11,Pressure Free,A new version of cement that has a stiffness more similar to bone so that less pressure will be placed on surrounding vertebra,11
+11,Patient Specific Cement Volume,Control the amount of cement on a patient-specific basis (pre-determined based on radiography,11
+11,Spongy+Biodegradable balloon,Sponge like cement encased in the degradable balloon,11
+11,Sheer thinning polymer cement,The material change its state from being spongy to liquid depending on the forces it experiences and needs to counterbalance,11
+11,Methol Cement,Cement that aids in dulling the residual pain from the procedure.,11
+11,Cement Cam,A camera attached to the end of the cement injection tool to help determine accuracy of injection,11
+11,Patient Specific Needle Guide,Jigs which reference bony anatomy as determined pre-operatively,11
+11,Location specific needle guide,Jigs which specific for different locations along the spine where the surgery needs to be perfomed,11
+11,Volume Regulated Needle,Injection needle which regulates cement volume to prevent extrusion outside of vertebral body,11
+11,Path Planner,Using xrays can help guide needle placement during kypho/vertebroplasty so the doctor does not need to drill through the pedicles to insert the balloon/cement,11
+11,Single surgery tool,The same needle is used to first,11
+11,Patient Specific Sensored Placement Guide,Instrumented device to electronically guide surgeon placement,11
+11,Frontal Needle Insertion,The needle could be inserted through the ventral side of the patient,11
+11,Heated needle to maintain cement viscosity,A needle which is temperature controlled in order to better control the viscosity of injected cement,11
+11,Structured Needle (Inverse Discectomy Tool),The balloon and the cement could be inserted using a single tool. The tubes could fit into each other,11
+11,Flexible Needle,The needle could have multiple segments such that is it flexible and thus the needle could have a curved path,11
+11,Camera at needle tip,A camera at the end of the needle so that the path could be planned better,11
+11,Camera needle + Segmented needle,A segmented needle which would have a camera the the tip. The camera would assist the path planning,11
+11,Instrumented Balloon,Senses pressure in vertebral body & communicated info with surgeon so as not to overcompact trabecular bone,11
+11,In Balloon,Leave balloon inside during kyphoplasty and inject cement into that,11
+11,Spongy+ in balloon,Spongy cement inside a balloon which it will be injected it,11
+11,The Bubble,Provides a film for the cement to be injected into to prevent leakage to adjacent areas,11
+11,In balloon generated from tissue graft,Insert a tissue graft such that the tissue grown to provide a tissue lining which would act as the balloon,11
+11,Tissue graft + bone graft,"A two step surgery, first let the tissue graft and insert the bone graft",11
+11,The Plug,A stopper to be slipped into the needle channel to prevent cement leakage through pedicles.,11
+11,Biodegradable balloon,Balloon biodegrades naturally after cement hardens to prevent cement leakage,11
+11,Pressure sensitive balloon,A balloon which cannot be over-inflated (to avoid over-compaction of trabeculae),11
+11,The Scoop,"Instead of using a balloon for kyphoplasty, this tool has a curve on the end that can be used to scoop/push the fractured trabecular bone out of the way to make room for the cement.",11
+11,Vacuum,"Instead of using a balloon to compress the trabecular bone to make way for cement, utilize a vacuum to remove the fractured trabecular bone to make way for cement",11
+11,Options Please,A phone app/ website that helps clarify all of the options(surgical and nonsurgery) for a specific injury,11
+11,Patient Education ,An app to help determine what physio therapy is appropriate at what time during the recovery,11
+11,Stand Tall,"Because Kyphoplasty also corrects the posture, market this as a surgery that will help older people get rid of their hunch ",11
+11,Doctor Who?,A phone app/ website that provides information about different surgeons anf the procedures they do,11
+11,"Doctor ""Smile"" Training",A doctor is trained to make his patients comfortable and he is competent with surgery,11
+11,The Demo Machine,A mock-up for surgeons to practice their surgery until they feel confident about using the technique to make it more widely ,11
+11,The Video Saviour,A video that doctors could show to their patients which will help them educate the patients about the surgery the right way,11
+11,Expansion Exercise,A stretching plan to ease/relieve the pain caused by the fracture.,11
+11,Walkie Tickie,A alarm clock which helps remind the user to take short breaks and go for walks,11
+11,Physi-urself,Personal physiotherapy equipment which patients use and store at home,11
+11,Flower Power!,A lot of back pain problems that people experience are stress induced. Flower scents are known to be great stress relievers. Having spas where people could get a flower aroma therapy would be a great stress reliever and in turn back pain relieved ,11
+11,Spine Water Aerobics,Designing group therapy sessions for patients who have undergone a kyphoplasty surgery. Aqua exercises would be the beneficial because water helps reduce the weight load experienced by the back during the exercises,11
+11,Bubble Therapy,A therapy that allows patients with compression fractures to heal in a way that could expand their vertebrae by lying on a bubble bed that forms to how their spine should be aligned (like a mold),11
+11,Pain Away,A set of exercises that will help reduce pain by strengthening the core and surrounding muscles to help compensate,11
+11,Back -exercise,A chair that patients can use immediately after surgery to help their back rehabilitate more quickly by using constant bending motion,11
+11,Increased pain medication,"Surgeons prescribe higher amounts of pain medication for patients to cope with pain associated with compression fractures.  This could include opioid, marijuana, etc",11
+11,Posture-Ometer,"Sensors attached to the back that will ping if the user is hunching over. Preventative measure to use after procedure to ensure secondary fractures aren't happening and if they are, they can be caught earlier.",11
+11,Travel Back,Back support while traveling,11
+11,Back Again,Back brace that mimics support and movement of spine so that surgery is not necessary,11
+11,De-Compression Back Brace,Non-surgical treatment to decompress vertebrae using a brace,11
+11,The Brace Backpack,An inconspicuous brace that functions as a small backpack to alleviate the pressure on a compression fracture.,11
+11,Electronic exoskeleton,An exoskeleton designed to facilitate body movements while re-distributing load away from the fracture site,11
+11,The Bubble Buddy,A vest you wear to support your upper body. Bubbles out for added support (using an app) at the troubled spot of the spine.,11
+11,Straighten Up!,"Similar to the Bubble Buddy, a vest that helps support the user's upper body, keeping them from hunching over (which usually furthers the issues/pain). Could also be worn week sprior to surgery so balloon kyphoplasty not needed and can just do vertebroplasty)",11
+11,Standy-By,A support while you are standing. A lot of people suffering from back pain are suggested to stand while working which is tiring to do. Hence a support along which they can stand straight will be helpful,11
+11,Keep Straight Brace,A supportive brace to help the user maintain a proper posture (prior to spinal fractures).,11
+11,Diet & exercise,A diet and exercise routine to promote bone remodeling & muscle strength (important for spine stability),11
+11,Got Milk/ Osteoperosis Campaign,Osteoperosis is actually a pediatric disease so encouraging more calcium while young will help reduce the severity of osteoperosis.,11
+11,Compression Shirt,A spandex shirt that will create additional back support for everyday activities to prevent repetitive stress on the vertebra.,11
+11,Core focused activities for Seniors,"An exercise class, most likely conducted at senior centers, to strengthen senior's cores. This preventative measure would negate the degenerative effects of aging and weight on the spinal column to resist spinal compression fractures.",11
+11,Education for those not seeking treatment,A marketing campaign designed to inform the 2/3 of compression fracture patients who do not seek medical attention about treatment opportunities,11
+11,Table-saw' type needle,"A needle which senses the tissue type it encounters, disabled from piercing certain tissues (e.g. spinal cord)",11
+11,Drilling out a uniform space to fill in cement,"If the fracture is such that it is spread out and might be difficult for the cement to get into all the small air spaces, we could drill out some more bone material to create a uniform space in which the cement could be filled",11
+12,Many Bed Bot,A device that is made of several mini spines underneath a mattress in order to hold a particular position of a patient ,12
+12,Thruster behind the robot,A Device that will push a robot in a trajectory motion,12
+12,Platform Extensions,"There can be extensions on each plate to accommodate various body types or situations, such as spine-immobilization. This always allows the device to remain compact when necessary in tight spaces. ",12
+12,Bed Bot,A spine with a comforter over it in order to comfortably support a human in a hospital,12
+12,Holding Stretcher,Tensegrity robot with stretcher on its back to hold and carry a person.,12
+12,Flexible pet robot,Small tensegrity robot that can interact with people and carry small items to help with simple tasks in a house.,12
+12,Tensegrity Snake,"Tensegrity backbone in a snake configuration, to go into tight and narrow spaces",12
+12,Tensegrity ball,Device that uses tensegrity to form a ball structure (e.g. SUPERball) that absorbs all external stresses and distributes them evenly over the entire structure. Stretcher is fixed in the middle of the ball to keep the person safe.,12
+12,Collapsible Wheels,A Spine-Vehicle with 4 wheels joint to the spine and adjust its movement with tensegrity structure,12
+12,Interactive Position Locater,"a device which scans surrounding and tell you where you where you are, what kind of terrain you will face which direction would be the safest route to take.",12
+12,Voice Instructor,A device which converts voice instruction to executable codes of instruction,12
+12,Gorilla Detector,"Device that have infrared, body temperature and motion detection sensors, capable of scanning surroundings and informing tactical strategy during combat",12
+12,Remote Control,"A remote control, similar to that of a video-game console can be used to direct and manipulate the device from a distance.",12
+12,Heli-propellers,There are heli-propellers under the backbone to lift the device and subject. ,12
+12,Bio Knees,"Knees that can bend, extend and rotate but do so at different lengths/angles to allow for lifting and walking",12
+12,Human bend down,"2-legged robot with tensegrity backbone, bend down to lift the person from the ground and bend up to carry the person in its arms.",12
+12,Tensegrity Legs,Robot with legs consisting of tensegrity structures so that the legs can bend and lift and carry the person from the ground.,12
+12,Tensegrity Swim,"Tensegrity robot that can swim and rescue in water (waterproof components, air bag to help robot float).",12
+12,Sturdy Bot,A robot made of steel beams in order to provide maximum strength,12
+12,Half Bot/Attachable Modular Spine/Modularity,The robot is 1/2 the length of a human body and it will allow either the support of certain sections of the body or two can work together to support the entire body,12
+12,The Crumble,"Collapses to a small, compact unit.",12
+12,Flatten Down,The backbone can flatten down to a stretcher type unit.,12
+12,FoldBoat,The legs and handle attachments can be folded under when not in use ,12
+12,Spine Support Attachment to Exoskeleton,Tensegrity flexible spine attached to an exoskeleton structure for spine support.,12
+12,Detachable and Reconstruction,The tensegrity spine can take itself to parts at every segments and move separately on rocky roads and get inside narrow space  ,12
+12,Inflatable Spongy Bed,A device which is made of inflatable attachable to the robot to act as a bed,12
+12,Face Identifier,A Device which can identify the face of a person by face scanning,12
+12,Prosthetic Shoe,A device that help a robot not to slip while walking,12
+12,Splint suit,A suit which is X-ray transparent and inflatable that can hold a person rigged,12
+12,Hip Jointer,"A device will allow the robot to change its width at the hip, and joints the leg ",12
+12,Hydraulic rod,A rod made of damper and spring which can retract and detract hydraulically and absorb impact,12
+12,Leg Mechanism,A device / mechanism that can help a robot to move its legs ,12
+12,Lifter scoop,A device that can raise and lower an object under the robot,12
+12,Carpet Bed,A flexible bed made of carpet that is capable of stretching and compacting ,12
+12,Spine rotator,A Device that makes the robot rotate. the gear will be rotated through the pulley by the motor,12
+12,Rotating tetrahedron,A device which will enable robot to fit to different place by increasing and decreasing the diameter of the spine,12
+12,Matter Detector,a device that can send and receive lather beams and echo to detect metals and display visually the location of matter,12
+12,Rolling Ball joint,A device which will allow on rod not to move while the other can rotate in 3d,12
+12,Retractable Support,a device which can hold a person at a standing position. the device retracts from the robot ,12
+12,Snake Model ,"Uses slippery, flexible material around body to move and also slide and fit into tight places.",12
+12,Jump Model,Uses hind legs to jump and run like a cheetah. ,12
+12,Horizontal Legs,Can extend legs outwards to push off of walls and other surfaces.,12
+12,Peg System,Backbone is made up of pegs that are removable and exchangeable to change the shape/orientation of device. ,12
+12,Pneumatic suspension,Legs have pneumatic suspensions for uneven surface. ,12
+12,Extendable Backbone,The length of the backbone is expendable and compressible.,12
+12,Cat-like joints,Leg joints are movable like cats.,12
+12,Mounted Headlight,Device has a mounted flashlight for dark areas.,12
+12,Tactile Sensors,Pressure sensors communicate to remote control/device to provide real time feel and pressure.,12
+12,Pulley/Belt system,"Use pulleys, belts, and sprockets to redirect tension.",12
+12,Magnetic Clamps,Fasteners are magnetized for easy and strong clamping mechanism. They can be controlled by an electric current that generates a magnetic field.,12
+12,Concave Bed,Backbone and bed are concaved to secure subject and reduce height.,12
+12,Quicker picker upper,"Device positions directly above the subject, lowers down, and scoops up the subject. It opens its core and ""swallows"" the subject.",12
+12,Magnet Activation,Place magnets under subject and then activate magnetic field on device to life subject,12
+12,Sheet roll up,"The device throws a sheet over the person, then rolls it up and pulls them up",12
+12,Suction cup fastening,Use suction cups to hold subject onto device,12
+12,Electrically-activated adhesive,Adhesive on device can be electrically activated when in contact with subject and create strong bond.,12
+12,High-pressure vacuums,air vacuums to pull on subject and secure them in place,12
+12,Linked Spine,"Two ULTRA Spine linked together, one large spine with legs for carrying survivor out of scenes and one small snake like spine to move in narrow space",12
+12,Multiple layers Spine,"Concrete spine underneath to provide move and support, soft materials on top to give comfortable feeling for users  ",12
+12,Bended Spine stretcher,"""Long and thin"" spine move snake-likely to get inside collapsed buildings, then separate to 3-4 parts and joint parallel to form a platform to hold body",12
+12,Tensegrity Rolling Cylinder,"The edge of vertebrae is able to bend to a cylinder form, which rolls on roads to move",12
+12,Installed mobile platform,"The spine is vertically installed between a  horizontal fixed platform underneath and a mobile platform on the top, able to bend, roll, move side by side or support weight  ",12
+12,Wall-climbing spine,Have mini magnetic chucks under its legs and use Van der Waal’s forces to climb on the wall,12
+12,Semi-Autonomous Control,Able to apply and switch from  human-handled system to autonomous control for non-engineering professional people  to complete complex missions,12
+12,Cloud Data Machine Communication,"Interaction between one spine to another via Cloud Data Pipeline, and remote control through existing electronic instruments",12
+12,Flying Spine,Add small suspension flying instrument to make it fly over difficult areas,12
+12,Infrared Detector,Use infrared detectors to find survivors under collapsed buildings,12
+12,Machine Learning,"Interactive and remote controllable, grasp new movements by itself with machine learning",12
+12,Soft Material Spine,Have soft material in the surface which in touch with the users' bodies,12
+12,Spine Sensor,A large spine with legs with multiple radar sensors to identify and locate targets,12
+12,Stereo Vision,use 3-dimensional Stereo Vision to sense and avoid obstacles by itself,12
+12,Digital Path Planning,Intelligent Obstacle Avoidance System based on Behavior for Mobile Robot,12
+12,Heat Durability,"Tolerant to dust, heat and low temperature in extreme working environments",12
+12,Overseas Maintenance,Have overseas customer service and supply line for replaceable parts and components,12
+12,Magnetic Levitation,Robot is able to move quickly using magnetic levitation,12
+12,Adhesive Legs,"Adhesive material on legs to stick on walls/rubble and scale them, and to maintain stability in rough conditions",12
+12,Manual Override Button,Have a manual button to override robotic movements in case of malfunction,12
+12,Compartments,Robot carries some compartments for basic first aid immediately after locating injured person,12
+12,Video Camera,Video camera for real-time human interaction,12
+12,Small tensegrity bots,"Small tensegrity bots that can be arranged in any shape/size (to form long stretcher for loading people, or even to form a harness to provide support for firemen to load and drag people out)",12
+12,Handcuffs Locking,Locking mechanism for hands and legs (like handcuffs),12
+12,Airbag,Person loaded on a stretcher enclosed by air bag to provide oxygen,12
+12,Velcro Tape Fasteners,Velcro tape to tape down clothing to the stretcher on the robot,12
+12,Memory foam bed,The memory foam insert that the person sinks into and secures them while in transport,12
+12,Spider legs,8 rigid but jointed legs that work together to smooth out the transport for the user,12
+12,tread legs,legs using tank treads to move around,12
+12,actuator rods,the rods are actuators attached through cables instead of rigid rods,12
+12,flexirods,the rods are made of balsa wood or other flexible materials to increase the DoF,12
+12,socket spine,The spine cores are made of ball and socket joints that make torsion in the system a lot easier ,12
+12,flashbot,The robot flashes lights corresponding to different instructions so that the user knows what is about to happen,12
+12,leanbot,The user leans in whatever direction he wants to robot to go,12
+12,VRBot,User wears a VR Helmet in order to see from the robot's perspective,12
+12,ABot,Use an A Frame with a spring in the middle in order to bring legs back together,12
+12,Catibot,the robot acts like a caterpillar and slides under the person slowly,12
+12,Rotobot,The robot can scoop up a person and then rotate the spine such that the person is then lying on top of the spine instead of dangling beneath,12
+12,OverBot,Each cable is actuated with an individual spool (like what the 6 bar does),12
+12,First Aid Robot,The robot is able to scan the person for injuries so basic first aid can be administered before carrying,12
+12,Self Destruct Robot,"The robot can be programmed to self destruct if it malfunctions/goes missing, and falls into the hands of unauthorized operators",12
+12,Accelerometer sensors,The robot has sensors which detect forces and dynamics in the legs and accelerate when required,12
+12,Vital Sensors,The robot has heart rate and oxygen sensor to measure the patients vitals while en route to treatment,12
+13,Trunk,"Underwater box used to deposit materials, supplies and tools for divers use for maintenance",13
+13,Scale,Underwater scale connected with onshore facility used to calculate the corrosion of materials,13
+13,Radio speaker,"Use of an adjustable frequency emitter to push a desired sort of marine animals away from the BWC, like whales or sharks (big animals)",13
+13,Broken Line Carpet,Plaques are joint on their edges,13
+13,Fixed anchor,Big screws are drilled deep enough in the seabed that they are in rocks,13
+13,Inflatable carpet,With a system of valves you can inflate parts to adapt the geometry,13
+13,Chains,Metal chains link each plaque to the other,13
+13,Reef habitat,Food attached to pistons,13
+13,Glass box,Alternative to fishnet,13
+13,Airplane wing,Profiled wing,13
+13,Wire fence,A fishnet protecting both animals and BWC from collision,13
+13,Pumping system,"Valves and motion of pistons displace water into the shore, there it is stocked then passed through a turbine",13
+13,Wings,Pivoting system to deploy plaques to modify geometry according to the waves spectrum,13
+13,Alternator system,Pistons move a crankshaft that makes the alternator turn,13
+13,Corrosion sensor,Use a camera to monitor corrosion,13
+13,Plastic bag membrane,"Membrane to prevent lubricating liquid leakage, elastomer (not really a plastic bag)",13
+13,Plateau structure,It's used to set the carpet at the desired height / depth,13
+13,Noise absorber,A string links the carpet to the piston to reduce impacts and consequently noise,13
+13,Hook,A snap hook used to set and remove whole BWC for maintenance,13
+13,"""True"" carpet","Instead of hard plaques linked together (see Broken Line carpet), use of one single elastomer surface",13
+13,Oscillating Water Column,Water column rises and falls with waves compressing the air above the column which is then passed through a turbine,13
+13,Helical Wave Carpet,An underwater device similar to vertical axis wind turbines with a helical shape and rotational movement,13
+13,Underwater Free Floating,The device sways back and forth under the motion of waves,13
+13,Pressure Differential,Near shore device that moves vertically due to pressure differential created by waves,13
+13,Wave Surge Converter,Hinged Deflectors are placed perpendicular to wave direction that moves back and forth along with the waves,13
+13,Rotating Mass Differential,Rotation is used to capture energy by the movement of device heaving and swaying in the waves,13
+13,Bulge Wave,"A tube is placed in the water. The water enters the stem, creating pressure variation along the tube (bulge). As it travels it grows and gains more energy and then passes through a low head turbine to generate electricity",13
+13,Parallel Carpet,The carpet is placed in direction of the wave. The pieces are connected together.,13
+13,Perpendicular Carpet,Same concept as above but the carpet is placed perpendicular to wave direction. This gives larger output but requires more maintenance.,13
+13,Segregated Carpet,The carpet is segregated into pieces connected together allowing for larger area coverage,13
+13,Magnetic Generation,The prototype will have a magnet in the middle. The waves will compress and stretch the magnet which will create a magnetic flux,13
+13,Floating Pressure Differential,The concept uses the pressure differential above the device between the wave crests and troughs to generate electricity,13
+13,Fish Repellant,"As fish and other marine animals use sonar to communicate, a broadcaster could be used to repel these marine animals",13
+13,Wave Fan,Similar working as a wind turbine,13
+13,Overtopping Device,The Overtopping device captures waves in a reservoir and uses them to run a turbine,13
+13,Floating Oscillating Generator,The waves will enter a small hole and run through a turbine generating electricity,13
+13,Wave Compressor,The prototype will have an air turbine. The waves will compress the air passing it through a turbine.,13
+13,Wave Actuator,Attach actuators to change the shape of the wave carpet as the wave frequency changes,13
+13,Wave Flaps,Attach flaps to change the shape of the wave carpet as the wave frequency changes,13
+13,Stainless Steel Reinforcements,Steel beams to provide reinforcement to the wave carpet in case of a natural disaster,13
+13,Emergency Lever,A lever that collapses wave carpet into a compact box during a disaster,13
+13,Bedazzled Rubber,Rubber material with designs to repel fish,13
+13,Motion Sensor,Detachable sensors that monitor motion of the carpet,13
+13,Suction Cups,Attachment for carpet to the sea floor,13
+13,Circular Shape,Circular shape instead of a rectangular shape of the carpet,13
+13,Biodegradable Netting,Netting made out of biodegradable material to cover the wave carpet to prevent FOD near the carpet,13
+13,GPS,Build in GPS system so it can be located easily,13
+13,Alarm,Motion detector alarm is attached to the wave carpet which sounds up when marine animals come close to scare them off,13
+13,Removable Rubber,The wave carpet should have a removable surface rubber to make maintainance quick,13
+13,Camera,A camera can be installed to monitor the condition of the wave carpet,13
+13,Netting with Algae,Netting is doped with algae culture to promote re-oxygenation of the water,13
+13,Wave Carpet with Propellers,Propellers are attached to the wave carpet to generate waves when the water is stagnant,13
+13,Hydrophobic Metal Coating,Hydrophobic anti coating to be brushed on all metal surfaces of the wave carpet that come into contact with water,13
+13,Synthetic Rubber Mat,"Synthetic rubber mat, as opposed to natural rubber",13
+13,Shock Absorbers,Absorbers to be placed under wave carpet platforms to ensure they remain stationary,13
+13,Light,Built in light that turns on to make maintenance easier,13
+13,Attachable oxygen tanks,Facilitate creation of an artificial reef,13
+13,Retractable wheels,Allows wave carpet to move across ocean floor,13
+13,Emergency Tether,Cable that extends out of the Wave Carpet in the event that it needs to be pulled out of the water,13
+14,Flexible Eye Mechanism,Eyes that are capable of blinking and turning eyeballs.,14
+14,Flexible Eyebrow Mechanism,"Allows for natural simulation of eyebrow movements (i.e. change shape, go up and down, side to side)",14
+14,Natural Jaw Mover,"The jaw not only moves up and down, but all is able to curve to allow for natural jaw movement",14
+14,Laughing Mechanism,Laughing control that the user can use to allow the costume character to laugh; removes the need for the user to actually laugh; enables more authentic laughing,14
+14,Earphone-Microphone Connector,User wears an earphone because noise in the congested head makes it difficult to hear; an inconspicuous mic is attached on the costume body to capture sounds from the outside and send to the earphone,14
+14,Camera Facial Recognition,Smart phone camera is used to recognize users' facial movements and use the data to control the face's expressions mechanisms.  Similar to Snapchat's facial recognition.,14
+14,Body Pillow Padding,Pillow tucked inside the fur allows costume to be soft and comfortable to hug.,14
+14,Body Heat Emission,"When a character is giving a hug, the body will emit heat with the use of heat patches tucked under the fur.  Great for places with cold weather.",14
+14,Smart Glasses for Facial Recognition,"Like the Google Glass, these smart glasses will be able to recognize eye and eyebrow movement.",14
+14,Performance Facial Stickers,"The user will wear stickers around the eyebrow, eyes and mouth and a facial recognition interface can pick up the movements",14
+14,Multi-language Voice Box,This box will enable international visitors at theme park to converse with talking characters.  The performer can speak using English but the voice will come out a different language.,14
+14,Hat Fan,Head piece worn on the costume head will contain a cooling fan inside.,14
+14,Body Heat Transfer,"Heat from inside the costume will travel out to the person interacting with the character, creates a warm happy sensation.",14
+14,Pupil Reducing Mechanism,"When a character is surprised or scared, the pupils will go small using LCD.",14
+14,Voice Activated Controller for Face,The wearer will use the voice to control the characters' facial expressions,14
+14,Voice Activated Controller for Arms,"For costumes that require fake arms, the user can move them using a voice activated controller",14
+14,Flexible Face,"Use a soft, plush like material or rubber to make the face stretchy and flexible.",14
+14,Emergency Button or String,"When the performer gets too hot, he or she can push a button that will alert an attendant that he wishes to go backstage.",14
+14,Cool Tech,"Kind of like UNIQLO Heat Tech, this kind of clothing keeps the body cool.",14
+14,Cooling Water Helmet,"Using a water heat exchanger, a helmet that can be worn is filled with cool water to keep the head cool.",14
+14,screen eyes,"the eyes of the character are actually LED screens displaying an eye, moving around and blinking",14
+14,water for performer,a water reserve placed in an iso-thermic container on the back of the performer. A small pipe near his mouth allows him to sip water easily wile in the suit,14
+14,moving neck,Allowing the neck of the suit to move independently from the rest of the suit by detaching it from the body (rolling ball bearing),14
+14,speaking characters,"small loudspeakers located at the beginning of the character's mouth/throat, so as to make it speak in a lively manner",14
+14,icy ventilation,"small fans in the hear gear, with a small ""ice pack"" to locally cool the air and blow the cooler air",14
+14,iron man backpack,all the head actuators can actually be detached from the suit and fold themselves in a backpack the performer is wearing,14
+14,blush,"small red LED behind cheeks, so that the character can actually blush. There are some sensors of the cheeks to actually detect a kiss from a guest",14
+14,live performer monitor,the suit has thermal probes that can be applied on the performer's body to check his body temperature. a small red light goes on if it's becoming dangerous,14
+14,exo performer,"An exo-squeletton like dispositive to help the performer move the suit around, compensating for its weight. It mainly helps arms and leg movement",14
+14,cloth offset,"a light structure around the performer's limbs, so that the suit is not directly in contact with the performer's skin, to thus make the suit less hot ",14
+14,Geared Eyebrows,The two eyebrows are connected by a pair number of gears. One of them is actuated by a servomotor. thus both eyebrows will move at the same time,14
+14,Lifted eyebrows,"Both eyebrows are connected together, and a string links the ensemble to a servomotor at the back of the head, allowing the ensemble the move up and down all at once",14
+14,Fattening device,"The frame of the suit is made with a rigid plastic that  keeps the form of the character's belly, a fat one, allowing the character to look fat from the outside without having to fill the suit with foam.",14
+14,Battery indicator,"A little light is placed by the performer's eyes, turning red when the battery of the actuators is low and the suit needs to be recharged",14
+14,SOS Button,"a button on the waist of the performer, that can be pulleb from the outside of the suit. the button is connected to the character attendant, and when pressed it alerts him that the performer is not feeling right and needs to go backstage to take off the suit",14
+14,External plug,"An electrical plug dissimulated in the fur, allowing the suit to be recharged without having to remove the fur. ",14
+14,Fake shoes,"flat shoes with a snickers-like structure, to improve the comfort of the performer. The surrounding/exterior aspect of the shoe is, however, shaped according to the character. Thus, for example, a performer a female character's suit won't actually have to wear high heels",14
+14,External microphone,a series of microphones placed into the nose of the character and in its ears to catch the surrounding conversations. The conversations are transmitted to earphones so that the performer can actually hear the guests talking to him,14
+14,Light sensor,"a sensor placed on the nose or the forehead of the character, detecting the luminosity of the surroundings to adjust the image the performer is seeing, providing him the best image possible in any circumstance/venue",14
+14,Lip reader,"A small camera placed inside the suit, and directed towards the performer's lips. The camera analyses the lip motion of the performer and literally reads it, before providing the information to an exterior loudspeaker reproducing the voice of the character.",14
+14,Peltier Cooling Collar,"A device that we can wear on neck using Peltier effect
+: let electricity through and transfer the heat from one 
+material to another",14
+14,Borescope Eyes,Use thin-clothes covered borescopeon the eyes of character as camera,14
+14,In costume ice bag,Have ice bags in the costume frame to absorb heat from person inside,14
+14,Snapchat facial sensor,Use the data from snapchat as input to control facial expression of costume,14
+14,Hexagon frame,Use hexagon structure as frameof costume to decrease weightand increase air fluency ,14
+14,Vision system,Connect camera to VR media headset to provide better vision,14
+14,Surrounding cooling system,Have pipes with cooling fluid surround user’s wrist and ankle to absorb heat ,14
+14,Remote controlling expression,Have pre-defined facial expression sets and switch by controller,14
+14,Phone speaker,Use phone and magnifier to transfer user’s voice to guest,14
+14,Camera eye sensor,Use light reflection signal to compute gazing point of eyes and output movement of eyes,14
+14,Wheel Shoes,Have wheels with spring-switch on the foot of costume,14
+14,Cooling medicine,Medicine dropper to cool user down,14
+14,bubble film protector,Have bubble film under costume's skin to avoid injury,14
+14,air bully,use air(Hydrogen) filled bag as character's bully,14
+14,mouth fan,have fan and mist hidden in mouth of character in order to fresh the air,14
+14,belt frame,"belt shaped circular plastic frame that surrounds the bully of character, distributing load on the wrist of performer",14
+14,inner seat,"extending from the belt frame. form a inner plat form, allow performer to sit on it or put backpack on",14
+14,hidden speaker,have hidden speaker on the field where the character acts and play pre-recorded voice of character,14
+14,balloon cheek,have cheeks as shaped balloons. control amount of air to raise and lower cheek,14
+14,Light sensor,to be companied with LED eyes. sensoring light strength and tune the lightness of LED screen,14
+14,Sun glasses,"Make the character's eyes in a kind of sun glass, allowing the performer to see through them",14
+14,Botox is top,"make the cheeks of the character in silicone or rubber, to make their movement easier and more credible",14
+14,Rubber eyebrows,"Make the eyebrows out of rubber, and at their core place a multi-piece mechanical arm that can make it move in several directions",14
+14,Rubber lips,"The lips of the character are made out of rubber, and a linear succession of actuators is places in the ""gums"" of the character, to make them move.",14
+14,Corner of the mouth smiling,"The corner of the character's mouth is actually sewed on as a continuation of the character's mouth. Behind, actuators are linked to these ""corner of the mouth"", pulling them up and down to convey the impression that the character is smiling or sad.",14
+14,Robot hand,"The hands of the character are semi-robotic ones, linked to the performer's hands. This is made so as to convert the 5-fingers movements of the performer in the 4-fingers movement of the character. For this, some strings are attached to four of the performer's fingers to move the character's ones",14
+14,Detection watch,This detection watch is to track the heart rate of the performer and some other physical characters to judge whether the performer is in a good condition or whether he/she should be replaced by other performers,14
+14,The log chair,"Theme parks can put many big logs along the route the characters take, so the performers wearing big costumes can sit on them to take a rest. And in the log chair, there is a cooling system which can take away heat from the performer.",14
+14,Movable jaw,"Make a jaw using plastic plates. It can be connected to the head frame by some springs. The performer put his/her jaw on the plate.When he/she moves his/her own jaw, the character's jaw moves.",14
+14,Stronger receiver,"Since the costume is very thick, and may hinder the performer hearing the guest clearly. The strong receiver mounted on the ear of the character can make the performer hear outside world clearly. ",14
+14,Facial Expression Detectable Costume,"There exists a detection scheme mounted in the head of the animatronic character, which can detect the facial expressions of the performer and these data can be used for making the character’s face take on the same animated facial features. For example, the performer in this costume smiles, the character smiles; the performer moves his/her eyes from left to right, the character does the same thing.",14
+14,Invisible Camera Costume,"The re-designed costume using the mini camera mounted on the forehead of costume head, which is hidden well, just like it is invisible. Compared with traditional costumes, the hidden camera with other devices,  can provide the performer inside the suit with a wider range of vision. Therefore, the operator or the performer is less likely to fall down due to the bad vision.",14
+14,Plastic frame,"To make a big belly for the character like a bear, and meanwhile make sure that the costume is not so heavy, we can use the plastic strips to construct a frame and then attach it to the fuzzy clothes.",14
+14,Mini backpack,"In the spare room of the costume, the performer can take a mini backpack which contains a cooling bag. The materials can be ices or chemical stuffs. Just to take away the heat of performers.",14
+14,Voice Box,"An amplifier hidden behind the tie of the character, which can make the sound of the character louder. And another sound modifier to make the voice like the original one in the cartoon.",14
+14,Cooling e-scarf,Performers wear the scarf to cool the part near the neck. The e-scarf functions as a mini air conditioner.,14
+14,Sun-glass Eye,Use the sun glass (dark but transparent) to make eyes of the character. The performer will see outside through it.,14
+14,Air tube,"Air tube hidden in the big ear of the character helps the ventilation, providing the fresh air.",14
+14,High five ventilation,"There is a sensor in the hand. When the character claps hands or high five with guests, the sensor receives the signal to actuate the ventilation system. Then the performer can breathe well.",14
+14,Happy eyeglasses,"When it is overcast, people may feel upset. The performer may lose the passion to take on so many animated features or frequently interact with guests. While the happy eyeglasses can just make the views the performer sees brighter, like under the sunshine, to make him/her happier and more positive. (The mechanism is like the filter in the camera)",14
+14,Wide belt trough,"Above the hip, performer wears a wide belt. The belt is made like a trough. Ice bags and some remote controller can be placed here.",14
+14,Belly door,The switch on the arm can open the belly of the character. Other workers can replenish some ice bags on the trough belt or just help the performer ventilate temporarily.,14
+14,Wheel shoes,"There exists a wheel in the shoe, but it cannot be perceived in normal situation. When the performer is tired, he/she can press the shoes hard against the ground to take the wheels out by utilizing the spring. Then the performer feels like wearing a pair of roller skates.",14
+14,Hip belt,"The belt connects the upper body and the lower part. And it is fixed around the hip, so the weight of the costume can be shared by the hip, rather than shoulders alone.",14
+14,Pants tube,"Some air tubes with holes, attached to the ""pants"" of the character helps ventilation in the lower part of the costume. There should be a gap between pants and shoes .",14
+14,Shoe switch,"When the character pose some gestures, he/she press the switch of the pump hard, which is mounted on the heel of shoes. The pump suctions some cool air from outside by the pants tube.",14
+14,informative glass ,"The glass can be transparent or not. The performance can see through the glass when they want to, or choose to look at the screen on the glass that shows the surrounding outside of the costume",14
+14,finger touch pad,Sticky pad on the fingers allows the costume to pick up things ,14
+14,movable truss,A supporting truss system that allows people to sit down ,14
+14,earphone ,Allows user to communicate with outside ,14
+14,cooling/heating pads,This pads not only cool/warm the performance also cool/warm the guests,14
+14,Rapid cooling pad ,Maintain moderate temperature environment inside the costume,14
+14,Dissipating fan,Remove heat from the body,14
+14,camera,"An add-on for the costume which can record the number of tourists&interaction made by the guests, so to provide valuable information for future improvement",14
+14,eye sensor ,"Capture the facial expression, analyze customers' reaction",14
+14,GPS tracking mechanism ,Tracks the position of the costume,14
+14,Sound animation,An speaker and sound converter that convert the human voice to animated voice,14
+14,Tail mechanism,"Allows the tail to move as the mood/music in the theme park, and provides extra balancing torque to the body frame",14
+14,Ear mechanism ,Allows the ear to move as the mood of the performers/music in the theme park,14
+14,Information system,"Gather the guest information in the park and calculate the most crowded spots, so to allocate the positions of the performers",14
+14,Wrinkle,Utilize rubber/fabric to create wrinkle on the character's face so to make the facial expression more vivid,14
+14,Inflatable belly ,The belly of the character can be inflated and deflated,14
+14,Automatic arm movement ,The arm can move automatically while the operator is in emergency,14
+14,Emergency call button,"When the operator is in emergency, he can press the button and call centralized service",14
+14,Removable clothes,The clothes is removable and washable ,14
+14,Rear view camera,"Provide real time view at the back of the costume, because sometimes the costume is pretty big which makes the performer hard to see what's in the back ",14

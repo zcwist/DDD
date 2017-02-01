@@ -3,14 +3,14 @@ import string
 
 class CSVFile(object):
 	"""docstring for CSVFile"""
-	def __init__(self, fileanme="dataset/ConceptTeam1.csv"):
+	def __init__(self, filename="dataset/ConceptTeam1.csv"):
 		super(CSVFile, self).__init__()
-		self.fileanme = fileanme
+		self.filename = filename
 
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.fileanme,'rb') as csvfile:
+		with open(self.filename,'rb') as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
@@ -21,5 +21,6 @@ class CSVFile(object):
 		return conceptlist
 
 if __name__ == '__main__':
-	file = CSVFile("dataset/ConceptTeam1.csv")
+	# file = CSVFile("dataset/ConceptTeam1.csv")
+	file = CSVFile("dataset/AllConcepts.csv")
 	print file.getContent()

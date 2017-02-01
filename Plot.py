@@ -5,7 +5,7 @@ import numpy as np
 
 class Plot(object):
 	"""docstring for Plot"""
-	colors = cm.rainbow(np.linspace(0,1,20))
+	colors = cm.rainbow(np.linspace(0,1,14))
 	def __init__(self, conceptManager):
 		super(Plot, self).__init__()
 		self.conceptManager = conceptManager
@@ -15,13 +15,13 @@ class Plot(object):
 		for i, concept in enumerate(self.conceptManager.conceptL()):
 			# print concept.lowEmb()
 			x, y = concept.lowEmb()
-			plt.scatter(x,y,s=400,edgecolors='face')
-			plt.annotate(concept.conceptName(),
-						xy=(x,y),
-						xytext=(5,2),
-						textcoords='offset points',
-						ha='right',
-						va='bottom')
+			plt.scatter(x,y,c=self.colors[self.conceptManager.getCateIndex(concept.getCategory())],s=100,linewidths=0,alpha=0.8,edgecolors='face')
+			# plt.annotate(concept.conceptName(),
+			# 			xy=(x,y),
+			# 			xytext=(5,2),
+			# 			textcoords='offset points',
+			# 			ha='right',
+			# 			va='bottom')
 		if save:
 			plt.savefig(filename)
 		plt.show()
@@ -40,6 +40,7 @@ class Plot(object):
 		if save:
 			plt.savefig(filename)
 		plt.show()
+
 
 if __name__ == '__main__':
 	cm = CM(20)

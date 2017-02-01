@@ -10,11 +10,17 @@ class ConceptManager(object):
 	notfoundList = list()
 	categoryList = list()
 	# vecList = 
-	def __init__(self, size):
+	def __init__(self, size, filename="dataset/ConceptTeam1.csv"):
 		super(ConceptManager, self).__init__()
+
 		self.concept_size = size
-		file = CSVFile()
-		content = file.getContent()[0:size]
+		file = CSVFile(filename)
+		try:
+			content = file.getContent()[0:size]
+		except Exception as e:
+			print ("We don't have so many concepts")
+			content = file.getContent()
+		
 		for item in content:
 			newconcept = ConceptItem(item)
 			self.conceptList.append(newconcept)
@@ -62,7 +68,7 @@ class ConceptManager(object):
 
 
 if __name__ == '__main__':
-	cm = ConceptManager(10)
+	cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
 	# cm.dimRed()
 	print cm.conceptList[1].fullConcept()
 

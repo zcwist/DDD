@@ -4,6 +4,7 @@ from Plot import Plot
 
 import collections
 import numpy as np
+from sklearn.cluster import KMeans
 import tensorflow as tf
 
 flags = tf.app.flags
@@ -14,7 +15,7 @@ flags.DEFINE_integer("batch_size", 5,
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("num_steps",2000, "The number of training times")
+flags.DEFINE_integer("num_steps",20000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -30,8 +31,6 @@ class Options(object):
 		self.num_steps = FLAGS.num_steps
 		self.learning_rate = FLAGS.learning_rate
 		self.num_neg_samples = FLAGS.num_neg_samples
-
-
 
 class Para2vec(object):
 	"""docstring for Para2vec"""
@@ -86,7 +85,13 @@ class Para2vec(object):
 				# word_examples[i][j] = self.word_dictionary[paragraph[self.word_index+j].lower()]
 				word_examples[i][j] = Embedding.wordIndex(paragraph[self.word_index+j].lower())
 			# labels[i] = self.word_dictionary[paragraph[self.word_index+window_size-1].lower()]
-			labels[i] = Embedding.wordIndex(paragraph[self.word_index+window_size-1].lower())
+			try:
+				labels[i] = Embedding.wordIndex(paragraph[self.word_index+window_size-1].lower())
+			except Exception as e:
+				print ("i",i)
+				print ("paragraph",paragraph)
+				print ("word index", self.word_index+window_size-1)
+				raise e
 			self.word_index = self.word_index + 1
 
 		return para_examples, word_examples, labels
@@ -142,6 +147,7 @@ class Para2vec(object):
 		
 		# Embeddings for examples: [batch_size, emb_dim]
 		embed = tf.add(para_embed, words_embed) # sum of embedding of words and para [[emb_dim]*batch_size]
+		# embed = tf.divide(embed, opts.window_size)
 
 		opts.vocab_size = len(self.word_dictionary)
 
@@ -182,7 +188,7 @@ class Para2vec(object):
 			if step%100 == 0:
 				print ("loss at step ", step,":", loss_val)
 	
-	def draw(self):
+	def drawWithTag(self):
 		from sklearn.manifold import TSNE
   		import matplotlib.pyplot as plt
 
@@ -196,29 +202,48 @@ class Para2vec(object):
 
   		Plot(self.cm).drawWithTag()
 
-  		
-  		# plt.figure(figsize=(18,18))
-  		# for i in range(len(self.concept_list)):
-  		# 	x,y = low_dim_embs[i,:]
-  		# 	plt.scatter(x,y)
-  		# 	plt.annotate(self.concept_list[i].conceptName(),
-    #              xy=(x, y),
-    #              xytext=(5, 2),
-    #              textcoords='offset points',
-    #              ha='right',
-    #              va='bottom')
-  		# plt.show()
-		 
+  	def draw(self):
+		from sklearn.manifold import TSNE
+  		import matplotlib.pyplot as plt
 
-def main():
+  		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+  		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
+  		normalized_embeddings = self._para_emb / norm
+  		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
+  		
+  		for i, concept in enumerate(self.concept_list):
+  			concept.setLowEmb(low_dim_embs[i])
+
+  		Plot(self.cm).draw()
+
+  	def k_means(self):
+		from sklearn.cluster import KMeans
+		kmeans = KMeans(n_clusters=5, random_state=0).fit(self._para_emb.eval())
+
+		for i in range(len(self.concept_list)):
+			print (self.concept_list[i].conceptName(),self.concept_list[i].getCategory(),kmeans.labels_[i])
+		# print kmeans.labels_
+
+def test1():
+	"""For ConceptTeam1.csv"""
 	opts = Options()
 	with tf.Graph().as_default(), tf.Session() as session:
-		model = Para2vec(CM(40),opts,session)
+		model = Para2vec(CM(20),opts,session)
+		model.train()
+		model.drawWithTag()	
+		model.k_means()
+
+def test2():
+	"""For AllConcepts.csv"""
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2vec(CM(1000,filename="dataset/AllConcepts.csv"),opts,session)
 		model.train()
 		model.draw()	
+		model.k_means()
 
 if __name__ == '__main__':
-	main()
+	test2()
 
 
 		
