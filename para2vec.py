@@ -17,9 +17,9 @@ flags.DEFINE_integer("batch_size", 5,
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("cluster_size", 8,
+flags.DEFINE_integer("cluster_size", 13,
 					 "Size of cluster for k means")
-flags.DEFINE_integer("num_steps",2000, "The number of training times")
+flags.DEFINE_integer("num_steps",10000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -215,18 +215,60 @@ class Para2vec(object):
 		from sklearn.cluster import KMeans
 		kmeans = KMeans(n_clusters=opts.cluster_size, random_state=0).fit(self._para_emb.eval())
 
-		cate_index_list = list()
+		#sort the index with size decreasing
+		cluster_dic = dict() #{cluster_index:num_of_concepts}
+		cate_dict = dict() #{cate_index:num_of_concepts}
+
+		for i in range(len(self.concept_list)):
+			if kmeans.labels_[i] not in cluster_dic.keys():
+				cluster_dic[kmeans.labels_[i]] = 0
+			if self.concept_list[i].getCategory() not in cate_dict.keys():
+				cate_dict[self.concept_list[i].getCategory()] = 0
+			cluster_dic[kmeans.labels_[i]] = cluster_dic[kmeans.labels_[i]] + 1
+			cate_dict[self.concept_list[i].getCategory()] = cate_dict[self.concept_list[i].getCategory()] + 1
+
+		import operator
+
+		cluster_dict_sorted = sorted(cluster_dic.items(),key=operator.itemgetter(1),reverse=True)
+		cate_dict_sorted = sorted(cate_dict.items(), key=operator.itemgetter(1),reverse=True)
+
+		cluster_map = dict() #{old_cluster_index:new_cluster_index}
+		cate_map = dict() #{old_cate_index:new_cate_index}
+
+		for i,cluster_index in enumerate(cluster_dict_sorted):
+			cluster_map[cluster_index[0]] = i 
+		for i,cate_index in enumerate(cate_dict_sorted):
+			cate_map[cate_index[0]] = i
+
+		print (cluster_dict_sorted)
+		print (cate_dict_sorted)
+		print (cluster_map)
+		print (cate_map)
+
 		bubble_data = dict() #{(x,y):freq}
 		points = list()
 		for i in range(len(self.concept_list)):
-			x = self.cm.getCateIndex(self.concept_list[i].getCategory())
-			y = kmeans.labels_[i]
+			x = cate_map[self.concept_list[i].getCategory()]
+			y = cluster_map[kmeans.labels_[i]]
 			if (x,y) not in points:
 				points.append((x,y))
 				bubble_data[(x,y)] = 0
 			bubble_data[(x,y)] = bubble_data[(x,y)] + 1
 
 		self.draw_bubble(bubble_data)
+
+		# cate_index_list = list()
+		# bubble_data = dict() #{(x,y):freq}
+		# points = list()
+		# for i in range(len(self.concept_list)):
+		# 	x = self.cm.getCateIndex(self.concept_list[i].getCategory())
+		# 	y = kmeans.labels_[i]
+		# 	if (x,y) not in points:
+		# 		points.append((x,y))
+		# 		bubble_data[(x,y)] = 0
+		# 	bubble_data[(x,y)] = bubble_data[(x,y)] + 1
+
+		# self.draw_bubble(bubble_data)
 
 
 
@@ -332,7 +374,7 @@ def testTeam1WithConc(size):
 		model = Para2VecConc(CM(size),opts,session)
 		model.train()
 		model.k_means()
-		model.drawWithTag()	
+		# model.drawWithTag()	
 
 def testAllWithConc(size):
 	"""For AllConcepts.csv"""
@@ -346,10 +388,10 @@ def testAllWithConc(size):
 
 if __name__ == '__main__':
 	# testTeam1WithSum(40)
-	testTeam1WithConc(80)
+	# testTeam1WithConc(80)
 	
 	# testAllWithSum(1121)
-	# testAllWithConc(160)
+	testAllWithConc(1121)
 
 
 		

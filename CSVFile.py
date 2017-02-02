@@ -18,7 +18,7 @@ class CSVFile(object):
 					firstline = False
 					continue
 				conceptlist.append([row[1],row[2].translate(None,string.punctuation),row[3]])
-		if False:
+		if True:
 			from random import shuffle
 			shuffle(conceptlist)
 
