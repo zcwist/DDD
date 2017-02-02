@@ -9,8 +9,7 @@ if remodel:
 else:
 	model = gensim.models.Word2Vec.load('model')
 
-# print model['car']
-print model.index2word.index('word')
-
+# print len(model['word'])
+print (model.wv.index2word[47133])
 
 

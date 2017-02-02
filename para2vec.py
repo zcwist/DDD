@@ -1,4 +1,4 @@
-import Embedding
+import GensimEmbedding as emb
 from ConceptManager import ConceptManager as CM
 import matplotlib.pyplot as plt
 from Plot import Plot
@@ -10,16 +10,16 @@ import tensorflow as tf
 
 flags = tf.app.flags
 
-flags.DEFINE_integer("embedding_size", 128, "The embedding dimension size.")
+flags.DEFINE_integer("embedding_size", 200, "The embedding dimension size.")
 flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
 flags.DEFINE_integer("batch_size", 5,
                      "Number of training paragraph examples processed per step "
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("cluster_size",5,
+flags.DEFINE_integer("cluster_size", 8,
 					 "Size of cluster for k means")
-flags.DEFINE_integer("num_steps",10000, "The number of training times")
+flags.DEFINE_integer("num_steps",2000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -56,8 +56,8 @@ class Para2vec(object):
 		self.build_graph()
 
 	def _load_word_embeddings(self):
-		self.word_embeddings = Embedding.embeddings
-		self.word_dictionary = Embedding.dictionary
+		self.word_embeddings = emb.embeddings
+		self.word_dictionary = emb.dictionary
 
 	 
 	def generate_batch(self,batch_size, window_size):
@@ -91,10 +91,10 @@ class Para2vec(object):
 				# print Embedding.wordVec(paragraph[self.word_index+j].lower())
 
 				# word_examples[i][j] = self.word_dictionary[paragraph[self.word_index+j].lower()]
-				word_examples[i][j] = Embedding.wordIndex(paragraph[self.word_index+j].lower())
+				word_examples[i][j] = emb.wordIndex(paragraph[self.word_index+j].lower())
 			# labels[i] = self.word_dictionary[paragraph[self.word_index+window_size-1].lower()]
 			try:
-				labels[i] = Embedding.wordIndex(paragraph[self.word_index+window_size-1].lower())
+				labels[i] = emb.wordIndex(paragraph[self.word_index+window_size-1].lower())
 			except Exception as e:
 				print ("i",i)
 				print ("paragraph",paragraph)
@@ -346,10 +346,10 @@ def testAllWithConc(size):
 
 if __name__ == '__main__':
 	# testTeam1WithSum(40)
-	# testTeam1WithConc(80)
+	testTeam1WithConc(80)
 	
 	# testAllWithSum(1121)
-	testAllWithConc(160)
+	# testAllWithConc(160)
 
 
 		
