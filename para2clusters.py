@@ -3,7 +3,7 @@ import numpy as np
 import os
 from ConceptManager import ConceptManager as CM
 
-import matplotlib.plt as plt
+import matplotlib.pyplot as plt
 
 nclusters = 13
 emb = np.load(os.path.join("save", "em_005_020000.npy"))
@@ -17,11 +17,10 @@ y = [cm.getCateIndex(cpt.getCategory()) for cpt in cm.conceptList]
 intensity = np.zeros([ncluster, 13])
 
 for yp, yl in zip(y_pred, y):
-    intensity(yp, yl) += 1
+    intensity[yp, yl] += 1
 
-
-import pdb; pdb.set_trace()
-
+plt.imshow(intensity)
+plt.show()
     # print(noisy_moons)
     # print(y_pred)
 
