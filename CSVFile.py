@@ -18,9 +18,15 @@ class CSVFile(object):
 					firstline = False
 					continue
 				conceptlist.append([row[1],row[2].translate(None,string.punctuation),row[3]])
+		if False:
+			from random import shuffle
+			shuffle(conceptlist)
+
+
 		return conceptlist
 
 if __name__ == '__main__':
 	# file = CSVFile("dataset/ConceptTeam1.csv")
-	file = CSVFile("dataset/AllConcepts.csv")
+	# file = CSVFile("dataset/AllConcepts.csv")
+	file = CSVFile()
 	print file.getContent()

@@ -23,6 +23,7 @@ def wordIndex(word):
 		
 
 if __name__ == '__main__':
-	print (wordVec('wordd'))
+	# print (wordVec('wordd'))
+	print (dictionary)
 
 		

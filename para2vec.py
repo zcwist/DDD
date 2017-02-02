@@ -1,5 +1,6 @@
 import Embedding
 from ConceptManager import ConceptManager as CM
+import matplotlib.pyplot as plt
 from Plot import Plot
 
 import collections
@@ -10,15 +11,19 @@ import tensorflow as tf
 flags = tf.app.flags
 
 flags.DEFINE_integer("embedding_size", 128, "The embedding dimension size.")
+flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
 flags.DEFINE_integer("batch_size", 5,
                      "Number of training paragraph examples processed per step "
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("num_steps",20000, "The number of training times")
+flags.DEFINE_integer("cluster_size",5,
+					 "Size of cluster for k means")
+flags.DEFINE_integer("num_steps",10000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
+flags.DEFINE_bool("random_order", True,"random order of data set")
 
 FLAGS = flags.FLAGS
 
@@ -26,11 +31,14 @@ class Options(object):
 	"""docstring for Option"""
 	def __init__(self):
 		self.emb_dim = FLAGS.embedding_size
+		self.para_emb_dim = FLAGS.para_embedding_size
 		self.batch_size = FLAGS.batch_size
 		self.window_size = FLAGS.window_size
 		self.num_steps = FLAGS.num_steps
 		self.learning_rate = FLAGS.learning_rate
 		self.num_neg_samples = FLAGS.num_neg_samples
+		self.cluster_size = FLAGS.cluster_size
+		self.random = FLAGS.random_order
 
 class Para2vec(object):
 	"""docstring for Para2vec"""
@@ -95,21 +103,6 @@ class Para2vec(object):
 			self.word_index = self.word_index + 1
 
 		return para_examples, word_examples, labels
-
-	# def para_with_word_emb(self, para_id, word_ids):
-	# 	"""sum of para emb and words emb"""
-
-	# 	#Paragraph embedding: [1,emb_size]
-	# 	para_emb = tf.nn.embedding_lookup(self._para_emb,[para_id])
-	# 	#Word embedding: [window_size, emb_size]
-	# 	word_emb = tf.nn.embedding_lookup(self._word_emb,words_ids)
-
-	# 	#Sum of word_emb: [1, emb_size]
-	# 	words_emb = tf.reduce_sum(word_emb,0)
-
-	# 	#Para + words embedding: [1, emb_size]
-	# 	return tf.add(para_emb, words_emb)
-
 
 	def build_graph(self):
 		opts = self._options
@@ -217,33 +210,146 @@ class Para2vec(object):
   		Plot(self.cm).draw()
 
   	def k_means(self):
-		from sklearn.cluster import KMeans
-		kmeans = KMeans(n_clusters=5, random_state=0).fit(self._para_emb.eval())
+  		opts = self._options
 
+		from sklearn.cluster import KMeans
+		kmeans = KMeans(n_clusters=opts.cluster_size, random_state=0).fit(self._para_emb.eval())
+
+		cate_index_list = list()
+		bubble_data = dict() #{(x,y):freq}
+		points = list()
 		for i in range(len(self.concept_list)):
-			print (self.concept_list[i].conceptName(),self.concept_list[i].getCategory(),kmeans.labels_[i])
+			x = self.cm.getCateIndex(self.concept_list[i].getCategory())
+			y = kmeans.labels_[i]
+			if (x,y) not in points:
+				points.append((x,y))
+				bubble_data[(x,y)] = 0
+			bubble_data[(x,y)] = bubble_data[(x,y)] + 1
+
+		self.draw_bubble(bubble_data)
+
+
+
+		# for i in range(len(self.concept_list)):
+		# 	print (self.concept_list[i].conceptName(),self.concept_list[i].getCategory(),kmeans.labels_[i])
 		# print kmeans.labels_
 
-def test1():
+	def draw_bubble(self,dataset):
+		plt.figure(figsize=(5,5))
+		for point in dataset:
+			x = point[0]
+			y = point[1]
+			plt.scatter(x,y,s=50*dataset[point],linewidths=0,alpha=0.5,edgecolors='face')
+
+		# plt.show()
+
+class Para2VecConc(Para2vec):
+	"""docstring for Para2VecConc"""
+	def __init__(self, conceptManager, options, session):
+		super(Para2VecConc, self).__init__(conceptManager, options, session)
+
+	def build_graph(self):
+		opts = self._options
+
+		# Input data
+		self.para_examples = tf.placeholder(tf.int32, shape=[opts.batch_size,1], name="para_examples")
+		self.word_examples = tf.placeholder(tf.int32, shape=[opts.batch_size, opts.window_size-1], name="word_examples")
+		self.labels = tf.placeholder(tf.int32, shape=[opts.batch_size,1], name="labels")
+	
+
+		#Para Embedding: [para_size, emb_dim]
+		para_emb = tf.Variable(
+			tf.random_uniform(
+				[self._para_size,
+				opts.para_emb_dim], -0.5 / opts.para_emb_dim, 0.5 / opts.para_emb_dim),
+			trainable = True,
+			name="w_para")
+		self._para_emb = para_emb
+
+		#Word Embedding: [vocab_size, emb_dim]
+		word_emb = tf.Variable(self.word_embeddings, trainable = False, name="w_word")
+		self._word_emb = word_emb
+
+
+		#Embedding for examples calculation
+		para_embed = tf.nn.embedding_lookup(para_emb,self.para_examples) #[[[emb_dim]]*batch_size]
+		para_embed = tf.reduce_sum(para_embed,1) #[[emb_dim]*batch_size]
+
+		words_embed = tf.nn.embedding_lookup(word_emb,self.word_examples) # sum of embeddings of word in examples [[[emb_dim]*(window_size-1)]*batch_size]
+		words_embed = tf.reshape(words_embed,[opts.batch_size,opts.emb_dim*(opts.window_size-1)])
+
+		# Embeddings for examples: [batch_size, emb_dim]
+		embed = tf.concat(1,[para_embed,words_embed])
+
+		opts.vocab_size = len(self.word_dictionary)
+
+		#Softmax weight: [vocab_size, emb_dim]. Transposed
+		w_out = tf.Variable(tf.zeros([opts.vocab_size, opts.emb_dim*(opts.window_size-1)+opts.para_emb_dim]), name="w_out")
+		self._w_out = w_out
+
+		#Softmax bias: [vocab_size]
+		b_out = tf.Variable(tf.zeros([opts.vocab_size]), name="b_out")
+		self._b_out = b_out
+
+		tf.global_variables_initializer().run()
+
+		loss = tf.reduce_mean(
+			tf.nn.nce_loss(weights=w_out, 
+				biases=b_out, 
+				inputs=embed, 
+				labels=self.labels, 
+				num_sampled=opts.num_neg_samples, 
+				num_classes=opts.vocab_size, 
+				name="loss"))
+		self.loss = loss
+
+		optimizer = tf.train.GradientDescentOptimizer(opts.learning_rate).minimize(loss)
+		self.trainer = optimizer
+
+
+def testTeam1WithSum(size):
 	"""For ConceptTeam1.csv"""
 	opts = Options()
 	with tf.Graph().as_default(), tf.Session() as session:
-		model = Para2vec(CM(20),opts,session)
+		model = Para2vec(CM(size),opts,session)
 		model.train()
-		model.drawWithTag()	
 		model.k_means()
+		model.drawWithTag()	
 
-def test2():
+def testAllWithSum():
 	"""For AllConcepts.csv"""
 	opts = Options()
 	with tf.Graph().as_default(), tf.Session() as session:
-		model = Para2vec(CM(1000,filename="dataset/AllConcepts.csv"),opts,session)
+		model = Para2vec(CM(1121,filename="dataset/AllConcepts.csv"),opts,session)
 		model.train()
-		model.draw()	
 		model.k_means()
+		model.draw()	
+
+def testTeam1WithConc(size):
+	"""For ConceptTeam1.csv with Para2vecConc""" 
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2VecConc(CM(size),opts,session)
+		model.train()
+		model.k_means()
+		model.drawWithTag()	
+
+def testAllWithConc(size):
+	"""For AllConcepts.csv"""
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2vec(CM(size,filename="dataset/AllConcepts.csv"),opts,session)
+		model.train()
+		model.k_means()
+		model.draw()	
+
 
 if __name__ == '__main__':
-	test2()
+	# testTeam1WithSum(40)
+	# testTeam1WithConc(80)
+	
+	# testAllWithSum(1121)
+	testAllWithConc(160)
 
 
 		
