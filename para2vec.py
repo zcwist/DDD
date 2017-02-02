@@ -10,13 +10,13 @@ import math
 flags = tf.app.flags
 
 flags.DEFINE_integer("embedding_size", 128, "The embedding dimension size.")
-flags.DEFINE_integer("paragraph_embedding_size", 20, "The embedding dimension size.")
+flags.DEFINE_integer("paragraph_embedding_size", 5, "The embedding dimension size.")
 flags.DEFINE_integer("batch_size", 5,
                      "Number of training paragraph examples processed per step "
                      "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
                      "Size of sampling window")
-flags.DEFINE_integer("num_steps",20000, "The number of training times")
+flags.DEFINE_integer("num_steps", 20000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
                      "Negative samples per training example.")
@@ -225,9 +225,15 @@ class Para2vec(object):
 def main():
     opts = Options()
     with tf.Graph().as_default(), tf.Session() as session:
-        model = Para2vec(CM(40),opts,session)
+        model = Para2vec(CM(80),opts,session)
         model.train()
-        model.draw()    
+        model.draw()
+
+        p_emb = session.run(model._para_emb)
+        np.save(
+            os.path.join("save", "em_%03d_%06d" % (model._options.phr_dim, model._options.num_steps)),
+            p_emb)
+
 
 if __name__ == '__main__':
     main()
