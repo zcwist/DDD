@@ -209,22 +209,26 @@ class Para2vec(object):
 
   		Plot(self.cm).draw()
 
-  	def k_means(self):
+  	def clustering(self):
   		opts = self._options
 
-		from sklearn.cluster import KMeans
-		kmeans = KMeans(n_clusters=opts.cluster_size, random_state=0).fit(self._para_emb.eval())
+		from sklearn.cluster import KMeans, AgglomerativeClustering
+		# clustering = KMeans(n_clusters=opts.cluster_size, random_state=0).fit(self._para_emb.eval())
+		clustering = AgglomerativeClustering(n_clusters=14, affinity='cosine',linkage='complete').fit(self._para_emb.eval())
+
+		self.write2csv(clustering.labels_)
+		
 
 		#sort the index with size decreasing
 		cluster_dic = dict() #{cluster_index:num_of_concepts}
 		cate_dict = dict() #{cate_index:num_of_concepts}
 
 		for i in range(len(self.concept_list)):
-			if kmeans.labels_[i] not in cluster_dic.keys():
-				cluster_dic[kmeans.labels_[i]] = 0
+			if clustering.labels_[i] not in cluster_dic.keys():
+				cluster_dic[clustering.labels_[i]] = 0
 			if self.concept_list[i].getCategory() not in cate_dict.keys():
 				cate_dict[self.concept_list[i].getCategory()] = 0
-			cluster_dic[kmeans.labels_[i]] = cluster_dic[kmeans.labels_[i]] + 1
+			cluster_dic[clustering.labels_[i]] = cluster_dic[clustering.labels_[i]] + 1
 			cate_dict[self.concept_list[i].getCategory()] = cate_dict[self.concept_list[i].getCategory()] + 1
 
 		import operator
@@ -240,16 +244,11 @@ class Para2vec(object):
 		for i,cate_index in enumerate(cate_dict_sorted):
 			cate_map[cate_index[0]] = i
 
-		print (cluster_dict_sorted)
-		print (cate_dict_sorted)
-		print (cluster_map)
-		print (cate_map)
-
 		bubble_data = dict() #{(x,y):freq}
 		points = list()
 		for i in range(len(self.concept_list)):
 			x = cate_map[self.concept_list[i].getCategory()]
-			y = cluster_map[kmeans.labels_[i]]
+			y = cluster_map[clustering.labels_[i]]
 			if (x,y) not in points:
 				points.append((x,y))
 				bubble_data[(x,y)] = 0
@@ -284,6 +283,14 @@ class Para2vec(object):
 			plt.scatter(x,y,s=50*dataset[point],linewidths=0,alpha=0.5,edgecolors='face')
 
 		# plt.show()
+
+	def write2csv(self,labels_):
+		import csv
+		with open('para2vec.csv','wb') as csvfile:
+			spamwriter = csv.writer(csvfile, delimiter=',',
+	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+			for i in range(len(self.concept_list)):
+				spamwriter.writerow([self.concept_list[i].conceptName(),self.concept_list[i].getCategory(),labels_[i]])
 
 class Para2VecConc(Para2vec):
 	"""docstring for Para2VecConc"""
@@ -348,6 +355,112 @@ class Para2VecConc(Para2vec):
 		optimizer = tf.train.GradientDescentOptimizer(opts.learning_rate).minimize(loss)
 		self.trainer = optimizer
 
+class Para2VecPVDBOW(Para2vec):
+	"""docstring for Para2Vec using PV-DBOW model"""
+	def __init__(self, conceptManager, options, session):
+		super(Para2VecPVDBOW, self).__init__(conceptManager, options, session)
+
+	def generate_batch(self, batch_size, window_size):
+		"""Generate batch for PV-DBOW
+		sample a text window
+		sample a random word from the text window and 
+		form a classification task given the Paragraph Vector.
+
+		Returns:
+		para_examples, word_examples, labels
+		para_examples:[para_id]
+		labels: [word_id]
+		"""
+		import random
+
+		#para_examples: [para_id]
+		para_examples = np.ndarray(shape=(batch_size,1), dtype=np.int32)
+
+		#labels: [word_id]
+		labels = np.ndarray(shape=(batch_size,1), dtype=np.int32)
+
+		paragraph = self.concept_list[self.para_index].fullConcept()
+		for i in range(batch_size):
+			# if there is enough words for this sample
+			if ((self.word_index + window_size) > len(paragraph)):
+				self.para_index = (self.para_index + 1) % len(self.concept_list)
+				self.word_index = 0
+				paragraph = self.concept_list[self.para_index].fullConcept()
+
+			para_examples[i][0] = self.para_index
+
+			label_pos = random.randint(0, window_size-1) # get a word randomly from the window
+			try:
+				labels[i] = emb.wordIndex(paragraph[self.word_index+label_pos].lower())
+			except Exception as e:
+				print ("i",i)
+				print ("paragraph",paragraph)
+				print ("word index", self.word_index+window_size-1)
+				raise e
+			self.word_index = self.word_index + 1
+		return para_examples, labels
+
+	def build_graph(self):
+		opts = self._options
+
+		#Input data
+		self.para_examples = tf.placeholder(tf.int32, shape=[opts.batch_size,1], name="para_examples")
+		self.labels = tf.placeholder(tf.int32, shape=[opts.batch_size,1], name="labels")
+
+		#Para Embedding: [para_size, para_embedding_size]
+		para_emb = tf.Variable(
+			tf.random_uniform(
+				[self._para_size,
+				opts.para_emb_dim], -0.5 / opts.emb_dim, 0.5 / opts.emb_dim),
+			trainable = True,
+			name="w_para")
+		self._para_emb = para_emb
+
+		#Embedding for examples calculation
+		para_embed = tf.nn.embedding_lookup(para_emb,self.para_examples) #[[[para_embedding_size]]*batch_size]
+		para_embed = tf.reduce_sum(para_embed,1) #[[para_embedding_size]*batch_size]
+		# Embeddings for examples: [batch_size, para_embedding_size]
+		embed = para_embed
+
+		opts.vocab_size = len(self.word_dictionary)
+
+		#Softmax weight: [vocab_size, emb_dim]. Transposed
+		w_out = tf.Variable(tf.zeros([opts.vocab_size, opts.para_emb_dim]), name="w_out")
+		self._w_out = w_out
+
+		#Softmax bias: [vocab_size]
+		b_out = tf.Variable(tf.zeros([opts.vocab_size]), name="b_out")
+		self._b_out = b_out
+
+		tf.global_variables_initializer().run()
+
+		loss = tf.reduce_mean(
+			tf.nn.nce_loss(weights=w_out, 
+				biases=b_out, 
+				inputs=embed, 
+				labels=self.labels, 
+				num_sampled=opts.num_neg_samples, 
+				num_classes=opts.vocab_size, 
+				name="loss"))
+		self.loss = loss
+
+		optimizer = tf.train.GradientDescentOptimizer(opts.learning_rate).minimize(loss)
+		self.trainer = optimizer
+
+	def train(self):
+		"""Train the model"""
+
+		opts = self._options
+
+		for step in range(opts.num_steps):
+			para_examples, labels = self.generate_batch(opts.batch_size, opts.window_size)
+
+			feed_dict = {self.para_examples:para_examples,self.labels:labels}
+			_, loss_val = self._session.run([self.trainer, self.loss], feed_dict=feed_dict)
+
+			if step%100 == 0:
+				print ("loss at step ", step,":", loss_val)
+	
 
 def testTeam1WithSum(size):
 	"""For ConceptTeam1.csv"""
@@ -355,7 +468,7 @@ def testTeam1WithSum(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2vec(CM(size),opts,session)
 		model.train()
-		model.k_means()
+		model.clustering()
 		model.drawWithTag()	
 
 def testAllWithSum():
@@ -364,7 +477,7 @@ def testAllWithSum():
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2vec(CM(1121,filename="dataset/AllConcepts.csv"),opts,session)
 		model.train()
-		model.k_means()
+		model.clustering()
 		model.draw()	
 
 def testTeam1WithConc(size):
@@ -373,7 +486,7 @@ def testTeam1WithConc(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2VecConc(CM(size),opts,session)
 		model.train()
-		model.k_means()
+		model.clustering()
 		# model.drawWithTag()	
 
 def testAllWithConc(size):
@@ -382,16 +495,26 @@ def testAllWithConc(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2vec(CM(size,filename="dataset/AllConcepts.csv"),opts,session)
 		model.train()
-		model.k_means()
+		model.clustering()
 		model.draw()	
+
+def testTeam1WithPVDBWO(size):
+	"""For team 1, using pv-dbow model"""
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2VecPVDBOW(CM(size),opts,session)
+		model.train()
+		model.clustering()
 
 
 if __name__ == '__main__':
-	testTeam1WithSum(40)
-	# testTeam1WithConc(40)
+	# testTeam1WithSum(40)
+	# testTeam1WithConc(80)
 	
 	# testAllWithSum(1121)
 	# testAllWithConc(1121)
+
+	testTeam1WithPVDBWO(80)
 
 
 		

@@ -11,7 +11,7 @@ embeddings = np.ndarray(shape=(vocab_size+1,200),dtype="f")
 dictionary = dict()
 
 for i,word in enumerate(model.wv.index2word):
-	dictionary[word] = i
+	dictionary[word] = i #{word:index}
 	embeddings[i] = model[word]
 
 dictionary["UNK"] = vocab_size
@@ -33,21 +33,38 @@ def wordIndex(word):
 def emb_tester():
 	from sklearn.manifold import TSNE
 	import matplotlib.pyplot as plt
+	cluster_size = 12
+	wordlist = [
+	'steering','wheel','control',
+	'self','driving',
+	'voice',
+	'charging',
+	'car','interaction',
+	'sleeping',
+	'sensor',
+	'parking',
+	'hand','commands',
+	'keyboard','mouse',
+	'wireless',
+	'autonomous','connectivity','display',
+	'automatic','entry','exit',
+	'luggage','collection']
+
 	# wordlist = [
-	# 'steering','wheel','control',
-	# 'self','driving',
+	# 'steering',
+	# 'phone',
 	# 'voice',
-	# 'charging',
-	# 'car','interaction',
+	# 'gps',
+	# 'charing',
+	# 'interaction',
 	# 'sleeping',
 	# 'sensor',
+	# 'navigation',
 	# 'parking',
-	# 'hand','commands',
-	# 'keyboard','mouse',
+	# 'command',
+	# 'keyboard',
 	# 'wireless',
-	# 'autonomous','connectivity','display',
-	# 'automatic','entry','exit',
-	# 'luggage','collection']
+	# 'connectivity']
 
 	
 
@@ -61,24 +78,38 @@ def emb_tester():
 	#plot
 	plt.figure(figsize=(9,9))
 
-	from sklearn.cluster import KMeans,SpectralClustering
-	clustering = KMeans(n_clusters=5, random_state=0).fit(embeddings)
-	# clustering = SpectralClustering(n_clusters=5, random_state=0).fit(embeddings)
-	# print clustering.labels_
-	import matplotlib.cm as cm
-	colors = cm.rainbow(np.linspace(0,1,5))
+	from sklearn.cluster import KMeans,SpectralClustering, AgglomerativeClustering
+	# clustering = KMeans(n_clusters=cluster_size, random_state=0).fit(embeddings)
+	# clustering = SpectralClustering(n_clusters=cluster_size, random_state=0).fit(embeddings)
+	clustering = AgglomerativeClustering(n_clusters=cluster_size, affinity='cosine',linkage='complete').fit(embeddings)
 
-	for i, word in enumerate(wordlist):
-		x,y = low_dim_embs[i]
-		plt.scatter(x,y,c=colors[clustering.labels_[i]],s=100,alpha=0.8,edgecolors='face')
-		plt.annotate(word,
-					xy=(x,y),
-					xytext=(5,2),
-					textcoords='offset points',
-					ha='right',
-					va='bottom')
+	# Write to CSV
+	def write2csv():
+		import csv
+		with open('output_csv/emb_tester.csv','wb') as csvfile:
+			spamwriter = csv.writer(csvfile, delimiter=',',
+	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+			for i in range(len(wordlist)):
+				spamwriter.writerow([i,wordlist[i],clustering.labels_[i]])
+		# print clustering.labels_
 
-	plt.show()
+	def plot():
+		import matplotlib.cm as cm
+		colors = cm.rainbow(np.linspace(0,1,16))
+
+		for i, word in enumerate(wordlist):
+			x,y = low_dim_embs[i]
+			plt.scatter(x,y,c=colors[clustering.labels_[i]],s=100,alpha=0.8,edgecolors='face')
+			plt.annotate(word,
+						xy=(x,y),
+						xytext=(5,2),
+						textcoords='offset points',
+						ha='right',
+						va='bottom')
+
+		plt.show()
+
+	write2csv()
 
 def similarity_tester():
 	# wordlist = [
@@ -131,10 +162,10 @@ def similarity_tester():
 
 
 if __name__ == '__main__':
-	# emb_tester()
+	emb_tester()
 	# print (model.most_similar(positive=['woman', 'king'], negative=['man']))
-	# print (model.most_similar(positive=['car'],negative=[]))
+	# print (model.most_similar(positive=['steering'],negative=[]))
 
 	# print (model.similarity('car','driver'))
-	similarity_tester()
+	# similarity_tester()
 
