@@ -387,11 +387,11 @@ def testAllWithConc(size):
 
 
 if __name__ == '__main__':
-	# testTeam1WithSum(40)
-	# testTeam1WithConc(80)
+	testTeam1WithSum(40)
+	# testTeam1WithConc(40)
 	
 	# testAllWithSum(1121)
-	testAllWithConc(1121)
+	# testAllWithConc(1121)
 
 
 		

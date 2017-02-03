@@ -71,7 +71,5 @@ def emb_tester():
 
 if __name__ == '__main__':
 	# print (wordVec('wordd'))
-	# print (dictionary)
-	emb_tester()
-
-		
+	# emb_tester()
+	pass
