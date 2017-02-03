@@ -133,7 +133,7 @@ def similarity_tester():
 	'phone',
 	'voice',
 	'gps',
-	'charing',
+	'charging',
 	'interaction',
 	'sleeping',
 	'sensor',
@@ -144,16 +144,32 @@ def similarity_tester():
 	'wireless',
 	'connectivity']
 
-	for i in range(len(wordlist)):
-		print (i,wordlist[i])
+	# for i in range(len(wordlist)):
+	# 	print (i,wordlist[i])
 	import matplotlib.pyplot as plt
 
-	embeddings = np.ndarray(shape=(len(wordlist),len(wordlist)))
+	dist_matrix = np.ndarray(shape=(len(wordlist),len(wordlist)))
 	for i in range(len(wordlist)):
 		for j in range(len(wordlist)):
-			embeddings[i][j] = model.similarity(wordlist[i],wordlist[j])
+			dist_matrix[i][j] = model.similarity(wordlist[i],wordlist[j])
 
-	print embeddings
+
+	def dendrogram():
+		from scipy.cluster.hierarchy import dendrogram, linkage
+		Z = linkage(dist_matrix,'average',metric='cosine')
+
+		plt.figure(figsize=(9,9))
+		dendrogram(Z,labels=wordlist)
+		plt.show()
+	dendrogram()
+
+
+	# from sklearn.cluster import AgglomerativeClustering
+	# clustering = AgglomerativeClustering(n_clusters=5, affinity='cosine',linkage='complete').fit(embeddings)
+	# print (clustering.children_)
+	# print (clustering.labels_)
+
+	# print embeddings
 	# plt.matshow(embeddings,cmap=plt.cm.gray)
 	# plt.show()
 
@@ -162,10 +178,10 @@ def similarity_tester():
 
 
 if __name__ == '__main__':
-	emb_tester()
+	# emb_tester()
 	# print (model.most_similar(positive=['woman', 'king'], negative=['man']))
 	# print (model.most_similar(positive=['steering'],negative=[]))
 
 	# print (model.similarity('car','driver'))
-	# similarity_tester()
+	similarity_tester()
 

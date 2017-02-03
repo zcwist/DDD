@@ -282,11 +282,30 @@ class Para2vec(object):
 			y = point[1]
 			plt.scatter(x,y,s=50*dataset[point],linewidths=0,alpha=0.5,edgecolors='face')
 
-		# plt.show()
+		plt.show()
+
+	def draw_dendrogram(self):
+		from scipy.cluster.hierarchy import dendrogram, linkage
+		Z = linkage(self._para_emb.eval(),'single',metric='cosine')
+
+		concept_name = list()
+		for concept in self.concept_list:
+			concept_name.append(concept.conceptName())
+
+
+
+		plt.figure(figsize=(9,9))
+		dendrogram(Z,
+			labels=concept_name,
+			orientation='right',
+			count_sort='descendent')
+		fig = plt.gcf()
+		fig.subplots_adjust(left=0.25)
+		plt.show()
 
 	def write2csv(self,labels_):
 		import csv
-		with open('para2vec.csv','wb') as csvfile:
+		with open('output_csv/para2vec.csv','wb') as csvfile:
 			spamwriter = csv.writer(csvfile, delimiter=',',
 	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
 			for i in range(len(self.concept_list)):
@@ -468,8 +487,9 @@ def testTeam1WithSum(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2vec(CM(size),opts,session)
 		model.train()
-		model.clustering()
-		model.drawWithTag()	
+		# model.clustering()
+		# model.drawWithTag()
+		model.draw_dendrogram()	
 
 def testAllWithSum():
 	"""For AllConcepts.csv"""
@@ -486,8 +506,9 @@ def testTeam1WithConc(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2VecConc(CM(size),opts,session)
 		model.train()
-		model.clustering()
-		# model.drawWithTag()	
+		# model.clustering()
+		# model.drawWithTag()
+		model.draw_dendrogram()	
 
 def testAllWithConc(size):
 	"""For AllConcepts.csv"""
@@ -504,17 +525,18 @@ def testTeam1WithPVDBWO(size):
 	with tf.Graph().as_default(), tf.Session() as session:
 		model = Para2VecPVDBOW(CM(size),opts,session)
 		model.train()
-		model.clustering()
+		# model.clustering()
+		model.draw_dendrogram()
 
 
 if __name__ == '__main__':
-	# testTeam1WithSum(40)
-	# testTeam1WithConc(80)
+	# testTeam1WithSum(20)
+	testTeam1WithConc(20)
 	
 	# testAllWithSum(1121)
 	# testAllWithConc(1121)
 
-	testTeam1WithPVDBWO(80)
+	# testTeam1WithPVDBWO(20)
 
 
 		
