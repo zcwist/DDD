@@ -10,7 +10,7 @@ class CSVFile(object):
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.filename,'rt',encoding='utf8') as csvfile:
+		with open(self.filename,newline='',encoding='utf8') as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
