@@ -28,7 +28,7 @@ class ConceptManager(object):
 				self.categoryList.append(newconcept.getCategory())
 
 	def foo(self):
-		print self.conceptList[0].conceptBag()
+		print (self.conceptList[0].conceptBag())
 
 	def conceptL(self):
 		return self.conceptList
@@ -46,7 +46,7 @@ class ConceptManager(object):
 			coordMat[i] = concept.itemVector()
 			if (not concept.isFound()):
 				self.notfoundList.append(concept)
-				print "missing " + concept.conceptName()
+				print ("missing " + concept.conceptName())
 				self.conceptList.remove(concept)
 				notfoundindex.append(i)
 		coordMat = np.delete(coordMat,notfoundindex,0)
@@ -70,6 +70,6 @@ class ConceptManager(object):
 if __name__ == '__main__':
 	cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
 	# cm.dimRed()
-	print cm.conceptList[1].fullConcept()
+	print (cm.conceptList[1].fullConcept())
 
 

@@ -13,16 +13,16 @@ flags = tf.app.flags
 flags.DEFINE_integer("embedding_size", 200, "The embedding dimension size.")
 flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
 flags.DEFINE_integer("batch_size", 5,
-                     "Number of training paragraph examples processed per step "
-                     "(size of a minibatch).")
+					 "Number of training paragraph examples processed per step "
+					 "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 3,
-                     "Size of sampling window")
+					 "Size of sampling window")
 flags.DEFINE_integer("cluster_size", 13,
 					 "Size of cluster for k means")
 flags.DEFINE_integer("num_steps",10000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
-                     "Negative samples per training example.")
+					 "Negative samples per training example.")
 flags.DEFINE_bool("random_order", True,"random order of data set")
 
 FLAGS = flags.FLAGS
@@ -183,34 +183,34 @@ class Para2vec(object):
 	
 	def drawWithTag(self):
 		from sklearn.manifold import TSNE
-  		import matplotlib.pyplot as plt
+		import matplotlib.pyplot as plt
 
-  		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
-  		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
-  		normalized_embeddings = self._para_emb / norm
-  		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
-  		
-  		for i, concept in enumerate(self.concept_list):
-  			concept.setLowEmb(low_dim_embs[i])
+		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
+		normalized_embeddings = self._para_emb / norm
+		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
+		
+		for i, concept in enumerate(self.concept_list):
+			concept.setLowEmb(low_dim_embs[i])
 
-  		Plot(self.cm).drawWithTag()
+		Plot(self.cm).drawWithTag()
 
-  	def draw(self):
+	def draw(self):
 		from sklearn.manifold import TSNE
-  		import matplotlib.pyplot as plt
+		import matplotlib.pyplot as plt
 
-  		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
-  		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
-  		normalized_embeddings = self._para_emb / norm
-  		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
-  		
-  		for i, concept in enumerate(self.concept_list):
-  			concept.setLowEmb(low_dim_embs[i])
+		tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+		norm = tf.sqrt(tf.reduce_sum(tf.square(self._para_emb), 1, keep_dims=True))
+		normalized_embeddings = self._para_emb / norm
+		low_dim_embs = tsne.fit_transform(normalized_embeddings.eval())
+		
+		for i, concept in enumerate(self.concept_list):
+			concept.setLowEmb(low_dim_embs[i])
 
-  		Plot(self.cm).draw()
+		Plot(self.cm).draw()
 
-  	def clustering(self):
-  		opts = self._options
+	def clustering(self):
+		opts = self._options
 
 		from sklearn.cluster import KMeans, AgglomerativeClustering
 		# clustering = KMeans(n_clusters=opts.cluster_size, random_state=0).fit(self._para_emb.eval())
@@ -307,7 +307,7 @@ class Para2vec(object):
 		import csv
 		with open('output_csv/para2vec.csv','wb') as csvfile:
 			spamwriter = csv.writer(csvfile, delimiter=',',
-	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+								quotechar='|', quoting=csv.QUOTE_MINIMAL)
 			for i in range(len(self.concept_list)):
 				spamwriter.writerow([self.concept_list[i].conceptName(),self.concept_list[i].getCategory(),labels_[i]])
 
