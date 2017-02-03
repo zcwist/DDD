@@ -1,13 +1,13 @@
 from CSVFile import CSVFile
 import nltk
-import Embedding as emb
+import GensimEmbedding as emb
 import numpy as np
 
 #Part-of-speech tagger
 def tagPOS(sentence):
 	text = nltk.word_tokenize(sentence)
 	# print text
-	print nltk.pos_tag(text)
+	print (nltk.pos_tag(text))
 
 tagWeight = {'NN':2, 'NNP':2, 'VBG':1}
 
@@ -52,7 +52,7 @@ class ConceptItem(object):
 					itemVec = np.add(itemVec,emb.wordVec(word.lower())) * tagWeight[tag]
 					weightSum = weightSum + tagWeight[tag]
 				except Exception as e:
-					print word + ' not found'
+					print (word + ' not found')
 		if weightSum==0:
 			self.found = False
 			return np.zeros(128)
@@ -75,6 +75,6 @@ if __name__ == '__main__':
 	conceptlist = file.getContent()[0:5]
 	for item in conceptlist:
 		conceptItem = ConceptItem(item)
-		print conceptItem.fullConcept()
+		print (conceptItem.fullConcept())
 
 		

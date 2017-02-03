@@ -63,7 +63,7 @@ def emb_tester():
 
 	from sklearn.cluster import KMeans
 	kmeans = KMeans(n_clusters=6, random_state=0).fit(embeddings)
-	print kmeans.labels_
+	print (kmeans.labels_)
 
 
 	plt.show()
