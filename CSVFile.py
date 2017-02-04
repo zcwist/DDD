@@ -1,5 +1,6 @@
 import csv
 import string
+import sys
 
 class CSVFile(object):
 	"""docstring for CSVFile"""
@@ -11,16 +12,29 @@ class CSVFile(object):
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.filename, errors="ignore") as csvfile:
-			firstline = True
-			reader = csv.reader(csvfile)
-			for row in reader:
-				if firstline:
-					firstline = False
-					continue
-				def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
-				ex = string.punctuation
-				conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
+		if (sys.version_info > (3,0)):
+
+			with open(self.filename, errors="ignore") as csvfile:
+				firstline = True
+				reader = csv.reader(csvfile)
+				for row in reader:
+					if firstline:
+						firstline = False
+						continue
+					def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
+					ex = string.punctuation
+					conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
+		else:
+			with open(self.filename) as csvfile:
+				firstline = True
+				reader = csv.reader(csvfile)
+				for row in reader:
+					if firstline:
+						firstline = False
+						continue
+					def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
+					ex = string.punctuation
+					conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
 
 		if True:
 			from random import shuffle
