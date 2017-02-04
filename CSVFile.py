@@ -7,23 +7,28 @@ class CSVFile(object):
 		super(CSVFile, self).__init__()
 		self.filename = filename
 
+
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.filename,newline='',encoding='utf8') as csvfile:
+		with open(self.filename) as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
 				if firstline:
 					firstline = False
 					continue
-				conceptlist.append([row[1],row[2].translate(None,string.punctuation),row[3]])
+				def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
+				ex = string.punctuation
+				conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
+
 		if True:
 			from random import shuffle
 			shuffle(conceptlist)
 
 
 		return conceptlist
+
 
 if __name__ == '__main__':
 	# file = CSVFile("dataset/ConceptTeam1.csv")
