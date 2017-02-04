@@ -11,7 +11,7 @@ class CSVFile(object):
 	def getContent(self):
 		conceptlist = list()
 
-		with open(self.filename) as csvfile:
+		with open(self.filename, encoding="utf-8", errors="ignore") as csvfile:
 			firstline = True
 			reader = csv.reader(csvfile)
 			for row in reader:
