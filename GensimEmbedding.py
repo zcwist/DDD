@@ -159,7 +159,10 @@ def similarity_tester():
 		Z = linkage(dist_matrix,'average',metric='cosine')
 
 		plt.figure(figsize=(9,9))
-		dendrogram(Z,labels=wordlist)
+		dendrogram(Z,
+			labels=wordlist,
+			orientation='right',
+			count_sort='descendent')
 		plt.show()
 	dendrogram()
 
@@ -173,6 +176,30 @@ def similarity_tester():
 	# plt.matshow(embeddings,cmap=plt.cm.gray)
 	# plt.show()
 
+def simplified_data_set():
+	wordlist = [
+	'steering',
+	'phone',
+	'voice',
+	'gps',
+	'charging',
+	'interaction',
+	'sleeping',
+	'sensor',
+	'navigation',
+	'parking',
+	'command',
+	'keyboard',
+	'wireless',
+	'connectivity'] #size = 14
+
+	import csv
+	with open('simplified_data_set.csv','w',newline='') as csvfile:
+		spamwriter = csv.writer(csvfile, delimiter=',',
+	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+		spamwriter.writerow(['concept','description','category'])
+		for i in range(len(wordlist)):
+			spamwriter.writerow(['',wordlist[i],wordlist[i],''])
 
 
 
@@ -183,5 +210,8 @@ if __name__ == '__main__':
 	# print (model.most_similar(positive=['steering'],negative=[]))
 
 	# print (model.similarity('car','driver'))
-	similarity_tester()
+	# similarity_tester()
+	# simplified_data_set()
+	print (model['word'])
+
 

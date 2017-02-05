@@ -64,12 +64,12 @@ class ConceptManager(object):
 			# print emb
 			self.conceptList[i].setLowEmb(emb)
 
-
-
-
 if __name__ == '__main__':
-	cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
+	# cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
 	# cm.dimRed()
+	# print (cm.conceptList[1].fullConcept())
+
+	cm = ConceptManager(10,filename="simplified_data_set.csv")
 	print (cm.conceptList[1].fullConcept())
 
 

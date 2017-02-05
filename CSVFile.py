@@ -12,19 +12,8 @@ class CSVFile(object):
 	def getContent(self):
 		conceptlist = list()
 
-		if (sys.version_info > (3,0)):
+		if (sys.version_info < (3,0)):
 
-			with open(self.filename, errors="ignore") as csvfile:
-				firstline = True
-				reader = csv.reader(csvfile)
-				for row in reader:
-					if firstline:
-						firstline = False
-						continue
-					def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
-					ex = string.punctuation
-					conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
-		else:
 			with open(self.filename) as csvfile:
 				firstline = True
 				reader = csv.reader(csvfile)
@@ -32,11 +21,20 @@ class CSVFile(object):
 					if firstline:
 						firstline = False
 						continue
+					conceptlist.append([row[1],row[2].translate(None,string.punctuation),row[3]])
+		else:
+			with open(self.filename,errors="ignore") as csvfile:
+				firstline = True
+				reader = csv.reader(csvfile)
+				for row in reader:
+					if firstline:
+						firstline = False
+						continue
 					def trim_str(str, exclude): return ''.join(ch for ch in str if ch not in exclude)
 					ex = string.punctuation
 					conceptlist.append([trim_str(row[1],ex),trim_str(row[2],ex),trim_str(row[3],ex)])
 
-		if True:
+		if False:
 			from random import shuffle
 			shuffle(conceptlist)
 
@@ -47,5 +45,5 @@ class CSVFile(object):
 if __name__ == '__main__':
 	# file = CSVFile("dataset/ConceptTeam1.csv")
 	# file = CSVFile("dataset/AllConcepts.csv")
-	file = CSVFile()
+	file = CSVFile(filename="simplified_data_set.csv")
 	print (file.getContent())

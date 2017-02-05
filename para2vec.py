@@ -2,6 +2,7 @@ import GensimEmbedding as emb
 from ConceptManager import ConceptManager as CM
 import matplotlib.pyplot as plt
 from Plot import Plot
+import random
 
 import collections
 import numpy as np
@@ -10,26 +11,26 @@ import tensorflow as tf
 
 flags = tf.app.flags
 
-flags.DEFINE_integer("embedding_size", 200, "The embedding dimension size.")
-flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
-flags.DEFINE_integer("batch_size", 5,
-					 "Number of training paragraph examples processed per step "
-					 "(size of a minibatch).")
-flags.DEFINE_integer("window_size", 3,
-					 "Size of sampling window")
-flags.DEFINE_integer("cluster_size", 13,
-					 "Size of cluster for k means")
-flags.DEFINE_integer("num_steps",10000, "The number of training times")
-flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
-flags.DEFINE_integer("num_neg_samples", 25,
-					 "Negative samples per training example.")
-flags.DEFINE_bool("random_order", True,"random order of data set")
+# flags.DEFINE_integer("embedding_size", 200, "The embedding dimension size.")
+# flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
+# flags.DEFINE_integer("batch_size", 5,
+# 					 "Number of training paragraph examples processed per step "
+# 					 "(size of a minibatch).")
+# flags.DEFINE_integer("window_size", 2,
+# 					 "Size of sampling window")
+# flags.DEFINE_integer("cluster_size", 13,
+# 					 "Size of cluster for k means")
+# flags.DEFINE_integer("num_steps",1, "The number of training times")
+# flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
+# flags.DEFINE_integer("num_neg_samples", 25,
+# 					 "Negative samples per training example.")
+# flags.DEFINE_bool("random_order", True,"random order of data set")
 
-FLAGS = flags.FLAGS
+# FLAGS = flags.FLAGS
 
 class Options(object):
 	"""docstring for Option"""
-	def __init__(self):
+	def __init__(self, FLAGS):
 		self.emb_dim = FLAGS.embedding_size
 		self.para_emb_dim = FLAGS.para_embedding_size
 		self.batch_size = FLAGS.batch_size
@@ -118,7 +119,7 @@ class Para2vec(object):
 		para_emb = tf.Variable(
 			tf.random_uniform(
 				[self._para_size,
-				opts.emb_dim], -0.5 / opts.emb_dim, 0.5 / opts.emb_dim),
+				opts.emb_dim], -1, 1),
 			trainable = True,
 			name="w_para")
 		self._para_emb = para_emb
@@ -145,7 +146,10 @@ class Para2vec(object):
 		opts.vocab_size = len(self.word_dictionary)
 
 		#Softmax weight: [vocab_size, emb_dim]. Transposed
-		w_out = tf.Variable(tf.zeros([opts.vocab_size, opts.emb_dim]), name="w_out")
+		w_out = tf.Variable(
+			tf.random_uniform(
+				[opts.vocab_size, 
+				opts.emb_dim],-0.5/opts.emb_dim,0.5/opts.emb_dim), name="w_out")
 		self._w_out = w_out
 
 		#Softmax bias: [vocab_size]
@@ -174,7 +178,6 @@ class Para2vec(object):
 
 		for step in range(opts.num_steps):
 			para_examples, word_examples, labels = self.generate_batch(opts.batch_size, opts.window_size)
-
 			feed_dict = {self.para_examples:para_examples, self.word_examples:word_examples, self.labels:labels}
 			_, loss_val = self._session.run([self.trainer, self.loss], feed_dict=feed_dict)
 
@@ -479,7 +482,109 @@ class Para2VecPVDBOW(Para2vec):
 
 			if step%100 == 0:
 				print ("loss at step ", step,":", loss_val)
-	
+
+class Para2VecSumNVBatch(Para2vec):
+	"""docstring for Para2VecNVBatch"""
+	def __init__(self, conceptManager, options, session):
+		super(Para2VecSumNVBatch, self).__init__(conceptManager, options, session)
+
+	def generate_batch(self,batch_size,window_size):
+		"""Generate batch for PV-DM
+
+		Returns:
+		para_examples, word_examples, labels
+		para_examples:[para_id]
+		word_examples:[word_id*(window_size-1)]
+		labels: word_id
+		"""
+		#para_examples: [para_id]
+		para_examples = np.ndarray(shape=(batch_size,1), dtype=np.int32)
+
+		#word_example: [word_id*(windows_size-1)]
+		word_examples = np.ndarray(shape=(batch_size,window_size - 1), dtype=np.int32)
+		labels = np.ndarray(shape=(batch_size,1),dtype=np.int32)
+		paragraph = self.concept_list[self.para_index].NVConcept()
+
+		for i in range(batch_size):
+			if self.word_index>len(paragraph)-1:
+				self.para_index = (self.para_index + 1) % len(self.concept_list)
+				self.word_index = 0
+				paragraph = self.concept_list[self.para_index].NVConcept()
+
+			para_examples[i][0] = self.para_index
+
+			target = self.word_index
+			targets_to_avoid = [self.word_index]
+			for j in range(window_size-1):
+				while target in targets_to_avoid:
+					target = random.randint(0,len(paragraph)-1)
+				targets_to_avoid.append(target)
+				word_examples[i][j] = emb.wordIndex(paragraph[target])
+
+			try:
+				labels[i] = emb.wordIndex(paragraph[self.word_index])
+
+			except Exception as e:
+				print ("i",i)
+				print ("paragraph",paragraph)
+				print ("word index", self.word_index+window_size-1)
+				raise e
+			self.word_index = self.word_index + 1
+
+		return para_examples, word_examples, labels
+
+class Para2VecConcNVBatch(Para2VecConc):
+	"""docstring for Para2VecConcNVBatch"""
+	def __init__(self, conceptManager, options, session):
+		super(Para2VecConcNVBatch, self).__init__(conceptManager, options, session)
+
+	def generate_batch(self,batch_size,window_size):
+		"""Generate batch for PV-DM
+
+		Returns:
+		para_examples, word_examples, labels
+		para_examples:[para_id]
+		word_examples:[word_id*(window_size-1)]
+		labels: word_id
+		"""
+		#para_examples: [para_id]
+		para_examples = np.ndarray(shape=(batch_size,1), dtype=np.int32)
+
+		#word_example: [word_id*(windows_size-1)]
+		word_examples = np.ndarray(shape=(batch_size,window_size - 1), dtype=np.int32)
+		labels = np.ndarray(shape=(batch_size,1),dtype=np.int32)
+		paragraph = self.concept_list[self.para_index].NVConcept()
+
+		for i in range(batch_size):
+			if self.word_index>len(paragraph)-1:
+				self.para_index = (self.para_index + 1) % len(self.concept_list)
+				self.word_index = 0
+				paragraph = self.concept_list[self.para_index].NVConcept()
+
+			para_examples[i][0] = self.para_index
+
+			target = self.word_index
+			targets_to_avoid = [self.word_index]
+			for j in range(window_size-1):
+				while target in targets_to_avoid:
+					target = random.randint(0,len(paragraph)-1)
+				targets_to_avoid.append(target)
+				word_examples[i][j] = emb.wordIndex(paragraph[target])
+
+			try:
+				labels[i] = emb.wordIndex(paragraph[self.word_index])
+
+			except Exception as e:
+				print ("i",i)
+				print ("paragraph",paragraph)
+				print ("word index", self.word_index+window_size-1)
+				raise e
+			self.word_index = self.word_index + 1
+
+		return para_examples, word_examples, labels
+
+
+		
 
 def testTeam1WithSum(size):
 	"""For ConceptTeam1.csv"""
@@ -528,15 +633,48 @@ def testTeam1WithPVDBWO(size):
 		# model.clustering()
 		model.draw_dendrogram()
 
+def testTeam1WithPara2VecConcNVBatch(size):
+	"""For team 1, using pv-dm concatenation model, only sample noun and verb"""
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2VecConcNVBatch(CM(size),opts,session)
+		model.train()
+		# model.clustering()
+		model.draw_dendrogram()
+
+def testTeam1WithPara2VecSumNVBatch(size):
+	"""For team 1, using pv-dm sum model, only sample noun and verb"""
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2VecSumNVBatch(CM(size),opts,session)
+		model.train()
+		# model.clustering()
+		model.draw_dendrogram()
+
+def testSimplifiedSet():
+	opts = Options()
+	with tf.Graph().as_default(), tf.Session() as session:
+		model = Para2VecConc(CM(14,filename="simplified_data_set.csv"),opts,session)
+		model.train()
+		# model.clustering()
+		model.draw_dendrogram()
+
 
 if __name__ == '__main__':
 	# testTeam1WithSum(20)
-	testTeam1WithConc(20)
+	# testTeam1WithConc(20)
 	
 	# testAllWithSum(1121)
 	# testAllWithConc(1121)
 
 	# testTeam1WithPVDBWO(20)
+
+	# testTeam1WithPara2VecSumNVBatch(20)
+	# testTeam1WithPara2VecConcNVBatch(20)
+	testSimplifiedSet()
+
+
+
 
 
 		
