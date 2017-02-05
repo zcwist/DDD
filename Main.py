@@ -13,7 +13,7 @@ flags.DEFINE_integer("window_size", 2,
 					 "Size of sampling window")
 flags.DEFINE_integer("cluster_size", 13,
 					 "Size of cluster for k means")
-flags.DEFINE_integer("num_steps",1000, "The number of training times")
+flags.DEFINE_integer("num_steps",10000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
 					 "Negative samples per training example.")
