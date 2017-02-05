@@ -2,6 +2,7 @@ import gensim
 import numpy as np
 import GensimEmbedding as emb
 import matplotlib.pyplot as plt
+import PlotHM as hm
 # import tensorflow as tf
 
 def plot_with_labels(low_dim_embs, labels, connectivity=None, filename=None):
@@ -57,7 +58,7 @@ def show_graph(xy, labels, connectivity):
     plt.show()
 
 def dist_from_humancate():
-    wordlist1 = [
+    wordlist = [
     'steering',
     'phone',
     'voice',
@@ -91,30 +92,12 @@ def dist_from_humancate():
 
     humanlist = list(set(human_assign))
 
-    d = get_dist_matrix2(humanlist, wordlist1)
+    d = get_dist_matrix2(humanlist, wordlist)
     machine_idx = np.argmin(d, axis=0)
 
     cate_to_idx = {w:i for i, w in enumerate(humanlist)}
     human_idx = [cate_to_idx[w] for w in human_assign]
-
-    plt.figure(figsize=(18, 18))  # in inches
-    for i in range(len(human_idx)):
-        a = np.random.rand(1)*np.pi*2
-        x = human_idx[i] + np.cos(a)*0.15
-        y = machine_idx[i] + np.sin(a)*0.15
-        plt.scatter(x, y)
-        plt.annotate(wordlist1[i],
-                     xy=(x, y),
-                     xytext=(5, 2),
-                     textcoords='offset points',
-                     ha='right',
-                     va='bottom')
-    
-    plt.xticks(range(len(humanlist)), humanlist)
-    plt.grid()
-    plt.axes().set_aspect('equal')
-    plt.show()
-    import  pdb; pdb.set_trace()
+    hm.plotHM(human_idx, machine_idx, wordlist, humanlist, sort=True)
 
 
 
@@ -139,8 +122,8 @@ def draw_with_neighbors():
     'connectivity']
 
     nneigh = 4
-
     X = emb.embeddings
+
     from sklearn.neighbors import NearestNeighbors
     nbrs = NearestNeighbors(n_neighbors=nneigh).fit(X)
     neighbors = []
@@ -216,15 +199,7 @@ def emb_tester():
     'connectivity', 
     'connectivity']
 
-    
-
-
-
-
-
-    
-
-
+    X = emb.embeddings
 
     from sklearn.manifold import TSNE
 
@@ -244,47 +219,7 @@ def emb_tester():
     plt.figure(figsize=(18, 18))  # in inches
     plot_with_labels(low_dim_embs, word2vis)
 
-    import pdb; pdb.set_trace()
-    C = np.ones((len(word2vis), len(word2vis)), dtype=bool)
-    plot_with_labels(low_dim_embs, word2vis, C)
-
-
-
-
-    # dist_matrix = get_dist_matrix(wordlist)
-    # tsne2 = TSNE(metric="precomputed")
-    # low2 = tsne2.fit_transform(dist_matrix+1)
-    # plot_with_labels(low2, wordlist)
     
-
-
-
-
-
-    
-    # for i, concept in enumerate(self.concept_list):
-        # concept.setLowEmb(low_dim_embs[i])
-    # Plot(self.cm).drawWithTag()
-
-    # human_category = ['control', 'connectivity', 'comfort', 'navigation', 'parking', 'entry', 'signal', 'leisure', 'display', 'cloud', 'communication', 'voice', 'safety', 'warning']
-
-    # import matplotlib.pyplot as plt
-
-    # dist_matrix = np.ndarray(shape=(len(wordlist),len(wordlist)))
-    # for i in range(len(wordlist)):
-    #     for j in range(len(wordlist)):
-    #         dist_matrix[i][j] = model.similarity(wordlist[i],wordlist[j])
-
-
-# def dendrogram():
-#     from scipy.cluster.hierarchy import dendrogram, linkage
-#     Z = linkage(dist_matrix,'average',metric='cosine')
-
-#     plt.figure(figsize=(9,9))
-#     dendrogram(Z,labels=wordlist)
-#     plt.show()
-# dendrogram()
-
 if __name__== "__main__":
 
     dist_from_humancate()
