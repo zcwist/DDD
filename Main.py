@@ -6,14 +6,14 @@ flags = tf.app.flags
 
 flags.DEFINE_integer("embedding_size", 200, "The embedding dimension size.")
 flags.DEFINE_integer("para_embedding_size", 20, "The embedding dimension size of paragraph vector")
-flags.DEFINE_integer("batch_size", 5,
+flags.DEFINE_integer("batch_size", 128,
 					 "Number of training paragraph examples processed per step "
 					 "(size of a minibatch).")
 flags.DEFINE_integer("window_size", 2,
 					 "Size of sampling window")
 flags.DEFINE_integer("cluster_size", 13,
 					 "Size of cluster for k means")
-flags.DEFINE_integer("num_steps",10000, "The number of training times")
+flags.DEFINE_integer("num_steps",1000, "The number of training times")
 flags.DEFINE_float("learning_rate", 0.025, "Initial learning rate.")
 flags.DEFINE_integer("num_neg_samples", 25,
 					 "Negative samples per training example.")
@@ -33,12 +33,11 @@ class MainTester(object):
 		So now, we want to test if para2vec works good enough 
 		to predict one word A with the word A"""
 		with tf.Graph().as_default(), tf.Session() as session:
-			model = Para2vec(CM(14,filename="simplified_data_set.csv"),self.opts,session)
+			# model = Para2vec(CM(14,filename="simplified_data_set.csv"),self.opts,session)
+			model = Para2VecConc(CM(14,filename="simplified_data_set.csv"),self.opts,session)
 			model.train()
 			# model.clustering()
-			model.draw_dendrogram()
-		
-		
+			model.draw_dendrogram()		
 
 if __name__ == '__main__':
 	MainTester().testSimplifiedSet()
