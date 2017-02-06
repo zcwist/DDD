@@ -30,6 +30,12 @@ def wordIndex(word):
 	except Exception as e:
 		return vocab_size
 
+def similarity(word1,word2):
+	try:
+		return model.similarity(word1,word2)
+	except Exception as e:
+		return 0
+
 def emb_tester():
 	from sklearn.manifold import TSNE
 	import matplotlib.pyplot as plt
