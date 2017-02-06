@@ -3,7 +3,7 @@ import GensimEmbedding as ge
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from ConceptManager import ConceptManager as CM
-conceptM = CM(40)
+conceptM = CM(80)
 
 def averageof3lowest():
 	import heapq
@@ -30,10 +30,17 @@ def averageof3lowest():
 	from scipy.cluster.hierarchy import linkage
 	from scipy.cluster.hierarchy import fcluster
 	Z = linkage(dist_mat,'average',metric='cosine')
-	m_labels = fcluster(Z, 5, criterion='maxclust')
+	m_labels = fcluster(Z, len(conceptM.categoryList), criterion='maxclust')
+	h_labels = list()
+	concept_list = list()
 
-	for i,concept in enumerate(conceptM.conceptList):
-		print (concept.conceptName(),concept.getCategory(),m_labels[i])
+	# for i,concept in enumerate(conceptM.conceptList):
+	# 	concept_list.append(concept.conceptName())
+	# 	h_labels.append(conceptM.getCateIndex(concept.getCategory()))
+	# 	# print (concept.conceptName(),concept.getCategory(),m_labels[i])
+
+	# from PlotHM import plotHM
+	# plotHM(h_labels,m_labels,concept_list,conceptM.categoryList,sort=True)
 
 	def write2csv():
 		import csv
@@ -43,7 +50,7 @@ def averageof3lowest():
 			for i,concept in enumerate(conceptM.conceptList):
 				spamwriter.writerow([concept.conceptName(),concept.getCategory(),m_labels[i]])
 
-	write2csv()
+	# write2csv()
 
 
 
@@ -56,8 +63,8 @@ def averageof3lowest():
 	# nx.draw_circular(G)
 	# plt.show()
 
-	# from NewPlot import Plot
-	# Plot().dendrogram(dist_mat,conceptName,show=True)
+	from NewPlot import Plot
+	Plot().dendrogram(dist_mat,conceptName,show=True)
 
 
 	# plt.imshow(dist_mat)
