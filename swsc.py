@@ -58,9 +58,11 @@ class SWSC(object):
 
 
 if __name__ == '__main__':
-	cm = CM(80)
+	cm = CM(80,filename="dataset/ConceptTeam2.csv")
+	# cm = CM(80)
 	# print (SWSC(cm,3).simi_mat)
 	# print (cm.concept_name_list)
+	# SWSC(cm, 5).dendrogram()
 	SWSC(cm,5).dendro_heat()
 
 

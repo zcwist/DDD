@@ -1,0 +1,71 @@
+Member,Concept Name,Description,Category
+1,Game Controller,Provides control of the vehicle using a typical video game controller,Controller
+1,Internal Jet Thrusters,"A spherical vehicle could have tunnels with thrusters hidden inside, so they do not stick out",Movement
+1,Bubble Dome FOV,The front end of the vehicle will have a light bulb like shape to allow more than 180 degree field of view,Camera
+1,BB8 Tail,The main payload bus will be a sphere with an attached tail that helps reduce the drag.  The tail will be attached to the sphere with a BB8 like mechanism that allows it to always be pointing in the direction of water flow,Movement
+1,Rescue Sub,The S2UV can have handles on it that allows a diver to grab on a be pulled to the surface. It can be used for search and rescue,Attachments
+1,Tethered Antenna,A tethered antenna device could be placed at the bottom of an area of interest and then communicate directly to a fleet of S2UVs.  The communication will go from the surface to the tethered antenna to the fleet.,Network
+1,VR Camera Control,The user could wear VR goggles that allow them to control which way the camera is facing based on the way they move their head.,Controller
+1,Carrying Case Chair,The portable carrying case that holds the S2UV could be transformed into a chair that the user could use to sit in as the fly the device underwater.,Package
+1,Drying Rack,The S2UV kit could come with an accessory that holds up the vehicle after a mission to allow it to dry off before transit.,Package
+1,Object avoidance,The vehicle can have sensors that prevent it from running into objects during autonomous mode or when a user is actively controlling it.,Object avoidance
+1,Teamwork,A fleet of S2UVs could work together to transport heavy objects,Swarm
+1,Quiddich Flight practice,"Under water hoops could be used to create a ""racetrack"" for people to perform a course for fun or races",Game
+1,Flying Fish,The vehicle could have detachable wings that allow it to do above water maneuvers or glides like a flying fish. Could get cool footage entering and exiting the water.,Attachments
+1,Drill,The vehicle could have a drill on the front that allows it to drill into the ocean floor and collect small samples.,Attachments
+1,Underwater Laser Tag,A group of people could play a game of underwater laser tag,Game
+1,"""Treasure"" Hunt","A little flag or beacon could be hidden somewhere on the bottom of the water and a group of users can race to try to find it.  Whiile playing, they could be passively mapping the ocean floor.",Game
+1,Floatable/Sinkable Batteries,A fully charged battery replacement could be thrown in the water and it would sink down and be intercepted by the S2UV.  its used up battery could be detached and it would float up to the surface to be retrieved later. ,Recharger
+1,Fish Nets,A team of S2UVs could be used to first sense a lot of fish and then catch them by pulling a net around them. They would then bring it to the surface. ,Swarm
+1,Diver's Oxygen Camel,The S2UV could carrying divers supplies like additional oxygen tanks or lights.,Attachments
+1,Shark Tracker,"The S2UV could not only follow people, but also larger fish.  It could track their movement, record their behavior on video.",Movement
+2,Underwater BB8,"Many of our potential customers need the underwater vehicle to be agile. This vehicle has ball-shape body which can roll in any direction at the bottom of the sea, and it can easily roll over small obstacles. The head however maintains steady, and is the power source that comes with a propeller. The head can also hold other equipment",Movement
+2,Easy Does It,"A very simple but cheap underwater carrier that could fit the customers need for low cost and could carry whatever customers want to carry, such as iphone, camera or other equipment in the waterproof cover",Movement
+2,Pseudo Fish,"The vehicle can move as fast and agile as a fish, because his mobility systems are just like that of a fish. The fins can flip back and forth, and the body and tail can wiggle. The head can hold small devices like light or camera.Fisherman or marine biologist can use this to inspect real fist in a peaceful manner that does not disturb them",Movement
+2,Underwater Network Mini-drones,This drones travel relatively fast and has the ability to maintain in a position. They can talk to each in order to create a communication network. The military could use these drones to discover hostile boats or submarines. Fishermen can use them to trace done fish or farm them,Swarm
+2,Underwater AfterBurner,The power system for this prototype is to use compressed gas instead of a propeller. This design would provide some users the desired speed under the water. Actually the power system could be a real afterburner if we could somehow keep the fuel burning in water,Movement
+2,Underwater Film Wizard,It can follow people underwater and film people as they do other activities. It can automatically adjust the cameras focus to fit the people in the screen. It also has handle bars so that the divers can grab the robot and use it as a camera to film.,Special Usage
+2,Super Durable RoundTai,Its round tail ( which works like sail) that can capture the current and allows it to travel with water without spending its own energy. The solar panel can also produce additional power when the sun is up. The onboard satellite receiver can receive control signal from afar,Movement
+2,Double Eye Follower,A robot that can come in close range with people. It has no exposed propellers. Instead It is powered by gas but not a lot of It. It travels slow and has devices that interact with people. The robot uses two eyes to accurately locate and follow people just a human.Swimmers can use this to help them swim. Kids can use this for fun,Movement
+2,Underwater Spidy,"The robot has multiple holes in his body from which cables can be launched to suck onto external objects such as a rock, and the robot then winches the cable. While doing that, the robot propels himself forward.",Movement
+2,The Gripper,"A worker robot that has two grippers. Potentially, it can hold onto the torch for welding to help welders to work under the water. It can also help scientists to take samples easily.",Special Usage
+2,""" fish farmer""","A robot that attracts large fish body, and captures them with a net and drag them to a nearby fishboat",farming
+2,Underwater  tourist capsule,The robot traps breathable air inside and is only suitable for a single person. It has a transparent glass that allows the tourist to view the beautiful underwater scenery. It is also controllable by the tourist.,Tourism
+2,Underwater mermaid tail,"A robotic tail that attaches onto a diver, so he/she can move as agile as a fish",Movement
+2,Underwater diving machine,a diver can grab onto this machine and this machine can go quickly down the water. Thus diving can be made simple,Tourism
+2,Underwater cleaner,"a robot that can recognize foreign object/ trash, and it will remove it out of the sea",Special Usage
+2,autonomous explorer,"a super long range robot that tries to find gold, sunken ships, oil or any valuables autonomously",Game
+2,underwater rescuer,"a robot that is equipped with drills, torch, blades that cut through anything to rescue trapped fish or human",Special Usage
+2,Underwater builder,"human construction workers would have a hard time working under the water, but robots can do the job., so we can build houses under the water",Special Usage
+2,Underwater energy farmer,A robot that can farm solar energy and current energy at the same time and send this energy to human in the land,Energy farming
+2,Underwater seaweed farmer,an autonomous robot that farms seaweed automatically and harvest it for humans,Farming
+3,Rubber seal ring,The rubber seal ring is used to fully seal the fuselage when the cap is added on (waterproof).,Outlook design
+3,Package,"The package consists of camera lens, light, gripper, and so on for users to build the vehicle as they want (customization).",Package
+3,Bladder,The bladder will open and be blown up automatically to drag the vehicle to the surface of water if it runs out of power.,Attachments
+3,Round edge,No sharp edge of the vehicle's outshape design to keep safe underwater when divers are using it to record videos.,Outlook design
+3,Following function,"The vehicle will follow divers underwater by wirelessly connected to the watch they wear, which is used to take good videos for divers.",Controller
+3,Constant temperature system,The constant temperature system is used to maintain constant temperature for the electronic devices to work well in extreme environment.,Attachments
+3,Automatic recharger,The vehicle will automatically go to recharger under boat to do recharging when running out power.,Recharger
+3,Infrared obstacle avoidance system,The infrared obstacle avoidance system uses infrared sensor to help the vehicle avoid rocks or other obstacles underwater.,Object avoidance
+3,Two thrusters mounted,"Two thrusters are mounted symmetrically on the tail of the torpedo-shape fuselage of the vehicle to perform translational movement, which will induce less turbulence that affects the forward movement.",Outlook design
+3,Vehicle control console,The hand-held vehicle control console is used to wirelessly control the vehicle underwater (bluetooth control).,Controller
+3,Soil sample collector,The gripper of the vehicle can collect the soil sample underwater for marine biologist to study.,Attachments
+3,Micro camera releaser,The releaser installed on the vehicle will release micro cameras that will be swallowed by whales at the right moment for marine biologist to study the  digestion processes of whales.,Attachments
+3,Fish food spreading machine,The fish food spreading machine can attract the fish to the boat on the surface of water by spreading fish food simultaneously,Attachments
+3,Underwater thermal detector,"The underwater thermal detector installed on the vehicle will detect and record the temperature wherever the vehicle goes, and plot the temperature contour automatically.",Attachments
+3,Oxygen generator,The oxygen generator will consistently generate oxygen for divers when the vehicle is following them.,Attachments
+3,Auto-cleaner and dryer accessory,The vehicle can be cleaned and dried automatically in an additional accessory after being taken out of water.,Attachments
+3,Five colors of outlook,"The outlook of the vehicle will be designed into five different colors, such as silver, gold, rose gold, black, and jet black to satisfy different color preferences of users.",Outlook design
+3,Fast charging,The battery of the vehicle is designed to be fast charging to save more time.,Battery
+3,Bionic ultrasonic emitter,The bionic ultrasonic emitter installed on the vehicle will emit ultrasonic of dolphins to help them mate.,Attachments
+3,Floating garbage salvage device,The floating garbage salvage device will collect the floating garbage on the surface of the water for people.,Attachments
+4,Autonomous back,The S2UV can autonomously find its way back even when communication fails.,Movement
+4,Elements bracket,The vehicle can have brackets for various things to be attached,Attachments
+4,PS4 controller,The vehicle can be controlled by a PS4 controller,Controller
+4,S2UV Camera Bracket,The vehicle can have brackets like GoPros for cameras,Attachments
+4,Remote Watch,A smartwatch could be paired with the vehicle that can control it when the user is underwater.,Controller
+4,S2UV storage,A box to carrying the S2UV and equipment,Package
+4,Wireless Charger,The vehicle could have wireless charging like phones. It could have a little stand that holds the vehicle and charges it.,Recharger
+4,S2UV Glasses,VR could be used with the camera,Controller
+4,Big Fish detector,The device could detect and escape big fish that seem like they are going to attach the vehicle. It will avoid danger,Object avoidance
+4,Ballast space,"In order to be stable and change the depth of the vehicle, the S2UV could have ballast tanks like submarines to release air and change the buoyancy",Movement

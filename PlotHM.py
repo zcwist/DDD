@@ -63,7 +63,7 @@ def plotHM(xindices, yindices, labels, xticklabels=None, yticklabels=None, offse
 
     # plt.grid()
     plt.axes().set_aspect('equal')
-    plt.show()
+    # plt.show()
 
 def get_sorted_idx(xindices, yindices):
     nx = max(xindices)+1

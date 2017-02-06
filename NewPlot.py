@@ -31,8 +31,6 @@ class Plot(object):
 		fig = plt.gcf()
 		fig.subplots_adjust(left=0.1,right=0.75,bottom=0.25)
 
-
-		
 		plt.show()
 
 if __name__ == '__main__':

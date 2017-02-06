@@ -39,6 +39,31 @@ class MainTester(object):
 			# model.clustering()
 			model.draw_dendrogram()		
 
-if __name__ == '__main__':
-	MainTester().testSimplifiedSet()
+
+class SWSCTester(object):
+	"""docstring for SWSCTester"""
+	def __init__(self):
+		super(SWSCTester, self).__init__()
+		self.data_sample()
+
+	def data_sample(self):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+		from PlotHM import plotHM
+		from HMcsv import exportHM
+		cm = CM(80)
+		swsc = SWSC(cm)
+
+		m_labels = swsc.hierachical_clustering()
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		exportHM(h_labels, m_labels, concept_list, self.__class__.__name__)
+
+
+
+		plotHM(h_labels,m_labels,concept_list,xticklabels=cm.categoryList,sort=True)
+		swsc.dendro_heat()
 	
+if __name__ == '__main__':
+	SWSCTester()
