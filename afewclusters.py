@@ -241,7 +241,7 @@ def emb_tester():
     
 if __name__== "__main__":
 
-    # dist_from_humancate()
+    dist_from_humancate()
     # emb_tester()
     draw_with_neighbors()
 

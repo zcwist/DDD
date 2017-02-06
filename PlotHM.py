@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import seaborn as sns
 # xindices: N-list of x indices
 # yindices: N-list of y indices
 # labels: N-list of point labels
@@ -21,26 +21,47 @@ def plotHM(xindices, yindices, labels, xticklabels=None, yticklabels=None, offse
             yticklabels_ = yticklabels[:]
             for i,tl in enumerate(yticklabels): yticklabels_[convy[i]] = tl
             yticklabels = yticklabels_
-    
+
+    sns.set()
+    sns.set_style("darkgrid")
     plt.figure(figsize=(18, 18))  # in inches
-    for i in range(len(labels)):
-        a = np.random.rand(1)*np.pi*2
-        x = xindices[i] + np.cos(a)*offset
-        y = yindices[i] + np.sin(a)*offset
-        plt.scatter(x, y)
-        plt.annotate(labels[i],
-                     xy=(x, y),
+
+    # count first for better visualization
+    nx = max(xindices)+1
+    ny = max(yindices)+1
+    # cnt = np.zeros([ny, nx])
+    # for x, y in zip(xindices, yindices): cnt[y,x] += 1
+
+    for x in range(nx):
+        for y in range(ny):
+            idx = [i for i,pos in enumerate(zip(xindices, yindices)) if pos[0]==x and pos[1]==y]
+            labels2draw = [labels[i] for i in idx]
+            angles = np.linspace(0, np.pi*2, num=len(labels2draw)+1)
+
+            if len(labels2draw)<2: r = 0
+            else:                  r = offset
+
+            for l, a in zip(labels2draw, angles):
+                # import pdb; pdb.set_trace()
+                x_ = x + np.cos(a)*r
+                y_ = y + np.sin(a)*r
+                plt.scatter(x_, y_)
+                plt.annotate(l,
+                     xy=(x_, y_),
                      xytext=(5, 2),
                      textcoords='offset points',
                      ha='right',
                      va='bottom')
 
+    ax = plt.gca()
+    ax.set_xticks(range(nx))
+    ax.set_yticks(range(ny))
     if xticklabels is not None:
-        plt.xticks(range(len(xticklabels)), xticklabels)
+        ax.set_xticklabels(xticklabels, rotation=40, ha='right')
     if yticklabels is not None:
-        plt.yticks(range(len(yticklabels)), yticklabels)
+        ax.set_yticklabels(yticklabels)
 
-    plt.grid()
+    # plt.grid()
     plt.axes().set_aspect('equal')
     plt.show()
 
