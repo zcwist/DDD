@@ -3,3 +3,4 @@ text8.zip
 GensimModel/model
 tutorial/smalltext
 output_csv
+__pycache__/
