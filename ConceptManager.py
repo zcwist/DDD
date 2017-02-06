@@ -9,6 +9,8 @@ class ConceptManager(object):
 	conceptList = list()
 	notfoundList = list()
 	categoryList = list()
+	category_index_list = list()
+	concept_name_list= list()
 	# vecList = 
 	def __init__(self, size, filename="dataset/ConceptTeam1.csv"):
 		super(ConceptManager, self).__init__()
@@ -24,8 +26,11 @@ class ConceptManager(object):
 		for item in content:
 			newconcept = ConceptItem(item)
 			self.conceptList.append(newconcept)
+			self.concept_name_list.append(newconcept.conceptName())
 			if (newconcept.getCategory() not in self.categoryList):
 				self.categoryList.append(newconcept.getCategory())
+			self.category_index_list.append(self.categoryList.index(newconcept.getCategory()))
+		self.size = len(self.conceptList)
 
 	def foo(self):
 		print (self.conceptList[0].conceptBag())

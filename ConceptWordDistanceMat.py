@@ -3,7 +3,7 @@ import GensimEmbedding as ge
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from ConceptManager import ConceptManager as CM
-conceptM = CM(80)
+conceptM = CM(20)
 
 def averageof3lowest():
 	import heapq
@@ -34,13 +34,13 @@ def averageof3lowest():
 	h_labels = list()
 	concept_list = list()
 
-	# for i,concept in enumerate(conceptM.conceptList):
-	# 	concept_list.append(concept.conceptName())
-	# 	h_labels.append(conceptM.getCateIndex(concept.getCategory()))
-	# 	# print (concept.conceptName(),concept.getCategory(),m_labels[i])
+	for i,concept in enumerate(conceptM.conceptList):
+		concept_list.append(concept.conceptName())
+		h_labels.append(conceptM.getCateIndex(concept.getCategory()))
+		# print (concept.conceptName(),concept.getCategory(),m_labels[i])
 
-	# from PlotHM import plotHM
-	# plotHM(h_labels,m_labels,concept_list,conceptM.categoryList,sort=True)
+	from PlotHM import plotHM
+	plotHM(h_labels,m_labels,concept_list,conceptM.categoryList,sort=True)
 
 	def write2csv():
 		import csv
