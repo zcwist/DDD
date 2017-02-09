@@ -44,7 +44,6 @@ class SWSCTester(object):
 	"""docstring for SWSCTester"""
 	def __init__(self):
 		super(SWSCTester, self).__init__()
-		self.data_sample()
 
 	def data_sample(self):
 		from swsc import SWSC
@@ -58,12 +57,42 @@ class SWSCTester(object):
 		h_labels = cm.category_index_list
 		concept_list = cm.concept_name_list
 
-		exportHM(h_labels, m_labels, concept_list, self.__class__.__name__)
+		exportHM(cm.categoryList, m_labels, concept_list, self.__class__.__name__)
 
 
 
 		plotHM(h_labels,m_labels,concept_list,xticklabels=cm.categoryList,sort=True)
 		swsc.dendro_heat()
-	
+
+	def export(self, number):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+		# from PlotHM import plotHM
+		from PlotBubble import plotBubble
+		from HMcsv import exportHM,exportHM2
+
+		filename = "dataset/ConceptTeam" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+		m_labels = [x-1 for x in m_labels]
+		# print (m_labels)
+		h_labels = cm.category_index_list
+		# print (h_lab6ls)
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
+		exportHM2(cm.conceptList,concept_labels,"Human_manchine_details_des_Team"+str(number))
+
+		plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
+		plt.savefig("Graph/HMPlot/HMPlotTeam"+str(number))
+		swsc.dendro_heat()
+		plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
+		plt.show()
+		
+
 if __name__ == '__main__':
-	SWSCTester()
+	SWSCTester().export(11)

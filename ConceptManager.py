@@ -9,24 +9,29 @@ class ConceptManager(object):
 	conceptList = list()
 	notfoundList = list()
 	categoryList = list()
+	concept_category_list = list()
 	category_index_list = list()
 	concept_name_list= list()
 	# vecList = 
-	def __init__(self, size, filename="dataset/ConceptTeam1.csv"):
+	def __init__(self, size=None, filename="dataset/ConceptTeam1.csv"):
 		super(ConceptManager, self).__init__()
-
-		self.concept_size = size
+		
 		file = CSVFile(filename)
+		if size==None:
+			content = file.getContent()
 		try:
 			content = file.getContent()[0:size]
 		except Exception as e:
 			print ("We don't have so many concepts")
 			content = file.getContent()
+
+		self.concept_size = len(file.getContent())
 		
 		for item in content:
 			newconcept = ConceptItem(item)
 			self.conceptList.append(newconcept)
 			self.concept_name_list.append(newconcept.conceptName())
+			self.concept_category_list.append(newconcept.getCategory())
 			if (newconcept.getCategory() not in self.categoryList):
 				self.categoryList.append(newconcept.getCategory())
 			self.category_index_list.append(self.categoryList.index(newconcept.getCategory()))
