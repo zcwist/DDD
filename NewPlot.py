@@ -21,7 +21,7 @@ class Plot(object):
 
 	def heatmap(self,dist_matrix,labels):
 		import seaborn as sns
-		sns.set(font_scale=1.5)
+		sns.set(font_scale=2)
 		
 		sns.clustermap(dist_matrix,
 							method='average',

@@ -6,7 +6,7 @@ Member,Concept Name,Description,Category
 ,Tensegri-Gestures,Robot controlled by hand gestures,BEST Interaction
 ,Game Controller,"Robot controlled by everyday game controller (i.e. Xbox, Play Station, etc.)",BEST Interaction
 ,Voice Controller,Robot controlled by voice commands,BEST Interaction
-,BattleBots,Tensegrity battle-bots,BEST Competitions
+,Battle Bots,Tensegrity battle-bots,BEST Competitions
 ,Light-segrity,Lights in tensegrity bars light up in the dark and when robot moves,Tensilights
 ,Data acquisition from robot,"Bluetooth/wifi allows you to gather information from sensors on robot directly to computer (i.e. camera, speed, voltage, etc.)",Intellisegrity
 ,Modular Tensegrity,Robot has supports and adaptors for different sensors and features - you can put whatever you want in your robot and make any shape,Tensishapes
@@ -43,7 +43,6 @@ Member,Concept Name,Description,Category
 ,Tensegrity Furniture,"Transformable tensegrity robot furniture - bed, couch, etc.",Tensegri-Home
 ,Tensegrity Rat Trap,Robot traps rodents - like a mousetrap,Tensegri-Home
 ,Tensegrity Impossible Wheel,Tensegrity version of impossible wheel unicycle,Tensportation
-,Tensegrity Tree-House,,Tensegri-Home
 ,Tensegrity Playground,Kids can climb all over tensegrity structure,Tensegri-Home
 ,Tensegrity Tent,Tent automatically sets itself up for you,Tensegri-Home
 ,Secure Tensioners,Use fasteners to prevent robot tensioners from disassembling,BEST Interaction
@@ -64,24 +63,14 @@ Member,Concept Name,Description,Category
 ,Tensegrity birdfeeder,put bird feed in it,Tensegri-Home
 ,Tensegrity gears,design the structure s to mesh like gears,Tensishapes
 ,Tensegirity bike,"low cost, light weight, can be folded",Tensportation
-,Tensegrity prothesis,,Tensegrity Clinic
-,Tensegrity morphing structures,,Tensishapes
-,Tensegrity exoskeleton disabled,,Tensegrity Clinic
 ,Tensegrity garden,saves space; ensuring all plant get enough sunshine,Tensegri-Home
-,Tensegrity trashcans,,Tensegri-Home
 ,Folding chair made of tensegrity structure,A chair that can be carried everywhere,Tensegri-Home
 ,Tensegrity BBQ grill,Tensegrity shock absorbers,Tensegri-Home
 ,Tensegrity bed,"Bed in tensegrity shape, people sleep within it and can feel more secure",Tensegri-Home
 ,Tensegrity crutch,"Stronger, and more functions and shapes available",Tensegri-Home
 ,Edible tensegrity robots,Build robots out structural candy (gummies and hard candy) kids eat afterwards,Tensifood
-,Tensegrity exoskeleton for athletes,,Tensegrity Clinic
-,Tensegrity bookshelf,,Tensegri-Home
-,Tensegrity Furniture,,Tensegri-Home
-,Tensegrity blender,,Tensegri-Home
 ,Tensegrity bulletproof vests,Use tons of small/strong tensegrities and fill a vest with them like a sandbay,Tensiwear
-,Tensegrity grenades,,Weapon
 ,Tensegrity Animatronics,Big animals or shapes that can be controlled ,Tensishapes
-,Tensegrity Morphing buildings,,Tensishapes
 ,Natural Tensegrity,"Use natural materials for construction; e.g., bamboo, twine, etc.",Tensegrity Materials
 ,Trashsegrity,Design competition to construct tensegrity from landfill materials,BEST Competitions
 ,Alternative fuelsegrity,Use natural gas or plutonium to propel tensegrities,Power Source
@@ -97,10 +86,8 @@ Member,Concept Name,Description,Category
 ,Tensegrity shoes,The shoes with a ttensegrity structure in the bottom as a buffer,Tensiwear
 ,Tensegrity wind chimes,jingle in the wind,Tensegri-Home
 ,Tensegrity windmills,Cheaper,Power Source
-,Dog house made of tensegrity,,Tensegrity housing
 ,Tensegrity drums,Pull tight drum-fabric around tensegruty and make music,Fun-segrity
-,Tensegrity hats,Cute,Tensiwear
-,Tensegrity van,,Tensportation
+,Tensegrity hats,Cute hats in the shape of tensegrity,Tensiwear
 ,Tensegrity supports / cases for instruments,Foldng properties,Tensegri-Home
 ,Tensegrity garage,available for more cars,Tensegri-Home
 ,Tensegrity roof,collect water and remove snow for options,Tensegrity housing

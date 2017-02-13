@@ -218,6 +218,6 @@ if __name__ == '__main__':
 	# print (model.similarity('car','driver'))
 	# similarity_tester()
 	# simplified_data_set()
-	print (model['word'])
+	print (model['tensegrity'])
 
 

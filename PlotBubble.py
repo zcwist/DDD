@@ -70,6 +70,112 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 	plt.axes().set_aspect('equal')
 	# plt.show()
 
+def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False, xFilteredStr = None, yFilteredStr = None, showLabel = True, team_number = None):
+	assert len(xindices) == len(yindices)
+	if sort:
+		convx, convy = get_sorted_idx(xindices, yindices)
+		xindices = [convx[x] for x in xindices]
+		yindices = [convy[y] for y in yindices]
+
+		if xticklabels is not None:
+			xticklabels_ = xticklabels[:]
+			for i,tl in enumerate(xticklabels): xticklabels_[convx[i]] = tl
+			xticklabels = xticklabels_
+		if yticklabels is not None:
+			yticklabels_ = yticklabels[:]
+			for i,tl in enumerate(yticklabels): yticklabels_[convy[i]] = tl
+			yticklabels = yticklabels_
+
+	sns.set()
+	sns.set_style("darkgrid")
+	plt.figure(figsize=(9, 9))  # in inches
+
+	nx = max(xindices)+1
+	ny = max(yindices)+1
+	cnt = np.zeros([nx, ny])
+
+	xticklabels_ = [""]*len(xticklabels)
+	yticklabels_ = [""]*len(yticklabels)
+
+	if xFilteredStr != None:
+		try:
+			xFilteredIndex = xticklabels.index(xFilteredStr)
+		except Exception as e:
+			raise e
+
+		for x, y in zip(xindices, yindices): 
+			if x == xFilteredIndex:
+				cnt[x,y] += 1
+				xticklabels_[x] = xticklabels[x]
+				yticklabels_[y] = yticklabels[y]
+				
+				
+		xticklabels = xticklabels_
+		yticklabels = yticklabels_
+		
+
+	if yFilteredStr != None:
+		try:
+			yFilteredIndex = yticklabels.index(yFilteredStr)
+		except Exception as e:
+			raise e
+
+		for x, y in zip(xindices, yindices): 
+			if y == yFilteredIndex:
+				cnt[x,y] += 1
+				xticklabels_[x] = xticklabels[x]
+				yticklabels_[y] = yticklabels[y]
+		xticklabels = xticklabels_
+		yticklabels = yticklabels_
+
+	for x in range(nx):
+		for y in range(ny):
+			if cnt[x,y] != 0:
+				idx = [i for i,pos in enumerate(zip(xindices, yindices)) if pos[0]==x and pos[1]==y]
+				labels2draw = [labels[i] for i in idx]
+				angles = np.linspace(-np.pi/2, np.pi/2, num=len(labels2draw)+1)
+
+				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["denim blue"],alpha=0.5)
+
+				if showLabel:
+
+					if len(labels2draw)<2: r = 0
+					else:                  r = offset
+
+					for l, a in zip(labels2draw, angles):
+						# import pdb; pdb.set_trace()
+						x_ = x + np.cos(a)*r
+						y_ = y + np.sin(a)*r
+						plt.scatter(x_, y_,c=sns.xkcd_rgb["pale red"])
+						plt.annotate(l,
+							 xy=(x_, y_),
+							 xytext=(5, 2),
+							 textcoords='offset points',
+							 ha='right',
+							 va='bottom')
+	ax = plt.gca()
+	ax.set_xticks(range(nx))
+	ax.set_yticks(range(ny))
+
+	fig = plt.gcf()
+	fig.subplots_adjust(left=0.2)
+	if team_number != None:
+		fig.suptitle('Team ' + str(team_number),fontsize=20)
+
+	if showLabel:
+		if xticklabels is not None:
+			# ax.set_xticklabels(xticklabels, rotation=20, ha='right')
+			ax.set_xticklabels(xticklabels)
+		if yticklabels is not None:
+			ax.set_yticklabels(yticklabels)
+	else:
+		ax.set_xticklabels([""]*len(xticklabels))
+		ax.set_yticklabels([""]*len(yticklabels))
+
+	# plt.grid()
+	plt.xlabel("Hand-operated Clustering")
+	plt.ylabel("Machine Clustering")
+	plt.axes().set_aspect('equal')
 
 def get_sorted_idx(xindices, yindices):
 	nx = max(xindices)+1
@@ -106,7 +212,9 @@ def main():
 	h_labels_index = [0, 0, 0, 0, 0, 1, 2, 3, 3, 4, 0, 0, 1, 1, 5, 5, 6, 7, 3, 8, 0, 1, 9, 2, 10, 7, 7, 7, 8, 11, 0, 0, 0, 4, 4, 11, 10, 10, 12, 12, 13, 13, 13, 1, 2, 13, 13, 7, 13, 13, 13, 7, 0, 1, 9, 2, 7, 3, 8, 8, 11, 14, 0, 9, 2, 2, 5, 4, 8, 8, 14, 14, 10, 13, 13, 13, 13, 13, 7, 7, 7, 13]
 	h_labels = ['ALTERNATIVE CONTROL', 'CAR-TO-CAR CONNECTIVITY', 'COMFORT', 'NAVIGATION', 'PARKING', 'ENTRY & EXIT', 'EXTERNAL SIGNAL', 'LEISURE & ENTERTAINMENT', 'SCREEN & DISPLAYS', 'CLOUD TECHNOLOGY', 'IN-CAR COMMUNICATION', 'VOICE PROGRAM', 'PORTABLE DEVICE CONNECTIVITY', 'SAFETY', 'WARNING SYSTEM']
 	concept = range(len(m_labels_index))
-	plotBubble(h_labels_index,m_labels_index,concept,h_labels,m_labels,sort=True)
+	# plotBubble(h_labels_index,m_labels_index,concept,h_labels,m_labels,sort=True)
+	plotSimpifiedBubble(h_labels_index,m_labels_index,concept,h_labels,m_labels,xFilteredStr='COMFORT',showLabel=True,team_number=1)
+	# plotSimpifiedBubble(h_labels_index,m_labels_index,concept,h_labels,m_labels,yFilteredStr='use;projection',showLabel=True)
 	plt.show()
 
 def test():
@@ -118,4 +226,4 @@ def test():
 
 
 if __name__ == '__main__':
-	test()
+	main()

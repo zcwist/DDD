@@ -84,7 +84,7 @@ class SWSCTester(object):
 
 		concept_index = range(1,len (concept_list)+1)
 
-		exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
+		# exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
 		exportHM2(cm.conceptList,concept_labels,"Human_manchine_details_des_Team"+str(number))
 
 		plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
@@ -92,7 +92,80 @@ class SWSCTester(object):
 		swsc.dendro_heat()
 		plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
 		plt.show()
+
+	def simplified_plot(self,number,xFilteredStr=None, yFilteredStr=None,showLabel=True):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+		# from PlotHM import plotHM
+		from PlotBubble import plotBubble, plotSimpifiedBubble
+		from HMcsv import exportHM,exportHM2
+
+		filename = "dataset/ConceptTeam" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+		m_labels = [x-1 for x in m_labels]
+
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		# plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
+		plotSimpifiedBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True,xFilteredStr=xFilteredStr,yFilteredStr=yFilteredStr,showLabel = showLabel,team_number=number)
+		con = ""
+		div = ""
+		labeled = ""
+		if xFilteredStr != None:
+			div = "Div"
+		if yFilteredStr != None:
+			con = "Con"
+		if showLabel:
+			labeled = "Labeled"
+		plt.savefig("Graph/HMPlot/SimplifiedHMPlotTeam"+con+div+labeled+str(number))
+		# plt.show()
+
 		
 
 if __name__ == '__main__':
-	SWSCTester().export(11)
+	SWSCTester().export(1)
+	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
+	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
+	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
+	# SWSCTester().simplified_plot(4,yFilteredStr="app;challenge",showLabel=True)
+	
+
+	#Team1
+	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=False)
+	# SWSCTester().simplified_plot(1,xFilteredStr="SAFETY",showLabel=False)
+
+	#Team2
+	# SWSCTester().simplified_plot(2,yFilteredStr="vehicle",showLabel=False)
+	# SWSCTester().simplified_plot(2,xFilteredStr="Controller",showLabel=False)
+
+	#Team4
+	# SWSCTester().simplified_plot(4,yFilteredStr="glasses;display",showLabel=False)
+	# SWSCTester().simplified_plot(4,xFilteredStr="service",showLabel=False)
+
+	#Team6
+	# SWSCTester().simplified_plot(6,yFilteredStr="sculpture;tail",showLabel=False)
+	# SWSCTester().simplified_plot(6,xFilteredStr="Modern Wind Farms",showLabel=False)
+
+	#Team7
+	# SWSCTester().simplified_plot(7,yFilteredStr="caps;water",showLabel=False)
+	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=False)
+
+	#Team8
+	# SWSCTester().simplified_plot(8,yFilteredStr="arrays;patch",showLabel=False)
+	# SWSCTester().simplified_plot(8,xFilteredStr="Improve the effectiveness of drug delivery",showLabel=False)
+
+	#Team9
+	# SWSCTester().simplified_plot(9,yFilteredStr="structure;structures",showLabel=False)
+	# SWSCTester().simplified_plot(9,xFilteredStr="Tensportation",showLabel=False)
+
+	#Team11 Balloon Modifications
+	# SWSCTester().simplified_plot(11,yFilteredStr="vertebra;compression",showLabel=False)
+	# SWSCTester().simplified_plot(11,xFilteredStr="Balloon Modifications",showLabel=False)
+
+
