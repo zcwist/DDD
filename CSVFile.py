@@ -43,7 +43,8 @@ class CSVFile(object):
 
 
 if __name__ == '__main__':
-	# file = CSVFile("dataset/ConceptTeam1.csv")
+	file = CSVFile("dataset/ConceptTeamOC12.csv")
 	# file = CSVFile("dataset/AllConcepts.csv")
-	file = CSVFile(filename="simplified_data_set.csv")
+	# file = CSVFile(filename="simplified_data_set.csv")
+
 	print (file.getContent())

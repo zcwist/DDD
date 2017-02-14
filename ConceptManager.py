@@ -1,4 +1,4 @@
-from ConceptItem import ConceptItem
+from ConceptItem import ConceptItem, OCConceptItem
 from CSVFile import CSVFile
 from sklearn.manifold import TSNE,MDS,SpectralEmbedding,LocallyLinearEmbedding
 import numpy as np
@@ -8,9 +8,9 @@ class ConceptManager(object):
 
 	conceptList = list()
 	notfoundList = list()
-	categoryList = list()
-	concept_category_list = list()
-	category_index_list = list()
+	categoryList = list() #concept categories in all concepts
+	concept_category_list = list() # concept category name of a concept
+	category_index_list = list() # concept category index of a concept
 	concept_name_list= list()
 	# vecList = 
 	def __init__(self, size=None, filename="dataset/ConceptTeam1.csv"):
@@ -74,12 +74,49 @@ class ConceptManager(object):
 			# print emb
 			self.conceptList[i].setLowEmb(emb)
 
+class OCConceptManager(ConceptManager):
+	"""Concept Manager for overlapping clustered concepts"""
+	def __init__(self, size=None, filename="dataset/ConceptTeamOC12.csv"):
+		# super(OCConceptManager, self).__init__()
+
+		file = CSVFile(filename)
+		if size==None:
+			content = file.getContent()
+		try:
+			content = file.getContent()[0:size]
+		except Exception as e:
+			print ("We don't have so many concepts")
+			content = file.getContent()
+
+		self.concept_size = len(file.getContent())
+		
+		for item in content:
+			newconcept = OCConceptItem(item)
+			self.conceptList.append(newconcept)
+			self.concept_name_list.append(newconcept.conceptName())
+			self.concept_category_list.append(newconcept.getCategory())
+
+			concept_category_index = list()
+
+			for categoryName in newconcept.category:
+
+				if categoryName not in self.categoryList:
+					self.categoryList.append(categoryName)
+				concept_category_index.append(self.categoryList.index(categoryName))
+
+			self.category_index_list.append(concept_category_index)
+
+		self.size = len(self.conceptList)
+		
+
 if __name__ == '__main__':
 	# cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
 	# cm.dimRed()
 	# print (cm.conceptList[1].fullConcept())
 
-	cm = ConceptManager(10,filename="simplified_data_set.csv")
-	print (cm.conceptList[1].fullConcept())
+	# cm = ConceptManager(10,filename="simplified_data_set.csv")
+	cm = OCConceptManager()
+	# print (cm.concept_category_list)
+	print (cm.category_index_list)
 
 

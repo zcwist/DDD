@@ -70,6 +70,11 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 	plt.axes().set_aspect('equal')
 	# plt.show()
 
+def plotBubbleOC(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False):
+	new_xindices, new_yindices, new_labels = unfoldOC(xindices,yindices,labels)
+	plotBubble(new_xindices, new_yindices, new_labels, xticklabels, yticklabels, offset, sort)
+
+
 def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False, xFilteredStr = None, yFilteredStr = None, showLabel = True, team_number = None):
 	assert len(xindices) == len(yindices)
 	if sort:
@@ -173,9 +178,36 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 		ax.set_yticklabels([""]*len(yticklabels))
 
 	# plt.grid()
-	plt.xlabel("Hand-operated Clustering")
+	plt.xlabel("Human Clustering")
 	plt.ylabel("Machine Clustering")
 	plt.axes().set_aspect('equal')
+
+def plotSimpifiedBubbleOC(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False, xFilteredStr = None, yFilteredStr = None, showLabel = True, team_number = None):
+	new_xindices, new_yindices, new_labels = unfoldOC(xindices,yindices,labels)
+	plotSimpifiedBubble(new_xindices,new_yindices,new_labels,xticklabels, yticklabels, offset, sort, xFilteredStr, yFilteredStr, showLabel, team_number)
+
+def unfoldOC(xindices, yindices, labels):
+	assert len(xindices)==len(yindices)==len(labels)
+
+	length = len(xindices)
+
+	x_list = list()
+	y_list = list()
+	label_list = list()
+
+	for i in range(length):
+		for x_index in xindices[i]:
+			x_list.append(x_index)
+			y_list.append(yindices[i])
+			label_list.append(labels[i])
+
+	return x_list, y_list, label_list
+
+
+
+
+
+
 
 def get_sorted_idx(xindices, yindices):
 	nx = max(xindices)+1

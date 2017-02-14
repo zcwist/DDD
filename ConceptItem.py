@@ -104,12 +104,24 @@ class ConceptItem(object):
 		return (self.concept.replace('-',' ') + " " +self.description.replace('-',' ')).split()
 
 
+class OCConceptItem(ConceptItem):
+	"""Overlapping clustered Concept item"""
+	def __init__(self, arg):
+		# super(ConceptItem, self).__init__()
+		self.concept = arg[0].lower().replace('/',' ').replace('-',' ')
+		self.description = arg[1].lower().replace('/',' ').replace('-',' ')
+		self.category = arg[2][0:-1].split(";")
+		self.found = True
+		self.lowemb = []
+		
+
 
 if __name__ == '__main__':
-	file = CSVFile()
+	# file = CSVFile()
+	file = CSVFile("dataset/ConceptTeamOC12.csv")
 	conceptlist = file.getContent()[0:5]
 	for item in conceptlist:
-		conceptItem = ConceptItem(item)
-		print (len(conceptItem.NVConcept()))
+		conceptItem = OCConceptItem(item)
+		print (conceptItem.category)
 
 		

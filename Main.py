@@ -79,7 +79,6 @@ class SWSCTester(object):
 		m_labels = [x-1 for x in m_labels]
 		# print (m_labels)
 		h_labels = cm.category_index_list
-		# print (h_lab6ls)
 		concept_list = cm.concept_name_list
 
 		concept_index = range(1,len (concept_list)+1)
@@ -92,6 +91,36 @@ class SWSCTester(object):
 		swsc.dendro_heat()
 		plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
 		plt.show()
+
+	def exportOC(self, number):
+		from swsc import SWSC
+		from ConceptManager import OCConceptManager as CM
+		# from PlotHM import plotHM
+		from PlotBubble import plotBubble, plotBubbleOC
+		from HMcsv import exportHM,exportHMOC
+
+		filename = "dataset/ConceptTeamOC" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+		m_labels = [x-1 for x in m_labels]
+		# print (m_labels)
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		# exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
+		exportHMOC(cm.conceptList,concept_labels,"Human_manchine_details_des_Team"+str(number))
+
+		plotBubbleOC(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
+		plt.savefig("Graph/HMPlot/HMPlotTeam"+str(number))
+		
+		# swsc.dendro_heat()
+		# plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
+		# plt.show()
+
 
 	def simplified_plot(self,number,xFilteredStr=None, yFilteredStr=None,showLabel=True):
 		from swsc import SWSC
@@ -126,10 +155,48 @@ class SWSCTester(object):
 		plt.savefig("Graph/HMPlot/SimplifiedHMPlotTeam"+con+div+labeled+str(number))
 		# plt.show()
 
+	def simplified_plot_oc(self,number,xFilteredStr=None, yFilteredStr=None, showLabel=True):
+		from swsc import SWSC
+		from ConceptManager import OCConceptManager as CM
+		from PlotBubble import plotBubble, plotSimpifiedBubbleOC
+		from HMcsv import exportHM,exportHM2
+
+		filename = "dataset/ConceptTeamOC" + str(number) + ".csv"
+		cm = CM(filename = filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+		m_labels = [x-1 for x in m_labels]
+
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		#export HM file
+
+
+		#HMPlot
+		plotSimpifiedBubbleOC(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True,xFilteredStr=xFilteredStr,yFilteredStr=yFilteredStr,showLabel = showLabel,team_number=number)
 		
 
+		con = ""
+		div = ""
+		labeled = ""
+		if xFilteredStr != None:
+			div = "Div"
+		if yFilteredStr != None:
+			con = "Con"
+		if showLabel:
+			labeled = "Labeled"
+		plt.savefig("Graph/HMPlot/SimplifiedHMPlotTeam"+con+div+labeled+str(number))
+		# plt.show()
+
+
+
+
 if __name__ == '__main__':
-	SWSCTester().export(1)
+	# SWSCTester().export(1)
 	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
 	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
@@ -167,5 +234,21 @@ if __name__ == '__main__':
 	#Team11 Balloon Modifications
 	# SWSCTester().simplified_plot(11,yFilteredStr="vertebra;compression",showLabel=False)
 	# SWSCTester().simplified_plot(11,xFilteredStr="Balloon Modifications",showLabel=False)
+
+	#Team12
+	# SWSCTester().exportOC(12) 
+	# SWSCTester().simplified_plot_oc(12,yFilteredStr="legs;spine",showLabel=False)
+	# SWSCTester().simplified_plot_oc(12,xFilteredStr="Communication",showLabel=False)
+
+	#Team13
+	# SWSCTester().exportOC(13)
+	# SWSCTester().simplified_plot_oc(13,yFilteredStr="rubber;glass",showLabel=False)
+	# SWSCTester().simplified_plot_oc(13,xFilteredStr="Scalable",showLabel=False)
+
+	#Team14
+	# SWSCTester().exportOC(14)
+	# SWSCTester().simplified_plot_oc(14,yFilteredStr="voice;speaker",showLabel=False)
+	SWSCTester().simplified_plot_oc(14,xFilteredStr="Facial expressions",showLabel=False)
+
 
 
