@@ -1,4 +1,4 @@
-from ConceptItem import ConceptItem
+from ConceptItem import ConceptItem, OCConceptItem
 from CSVFile import CSVFile
 from sklearn.manifold import TSNE,MDS,SpectralEmbedding,LocallyLinearEmbedding
 import numpy as np
@@ -8,20 +8,37 @@ class ConceptManager(object):
 
 	conceptList = list()
 	notfoundList = list()
-	categoryList = list()
+	categoryList = list() #concept categories in all concepts
+	concept_category_list = list() # concept category name of a concept
+	category_index_list = list() # concept category index of a concept
+	concept_name_list= list()
 	# vecList = 
-	def __init__(self, n):
+	def __init__(self, size=None, filename="dataset/ConceptTeam1.csv"):
 		super(ConceptManager, self).__init__()
-		file = CSVFile()
-		content = file.getContent()[0:n]
+		
+		file = CSVFile(filename)
+		if size==None:
+			content = file.getContent()
+		try:
+			content = file.getContent()[0:size]
+		except Exception as e:
+			print ("We don't have so many concepts")
+			content = file.getContent()
+
+		self.concept_size = len(file.getContent())
+		
 		for item in content:
 			newconcept = ConceptItem(item)
 			self.conceptList.append(newconcept)
+			self.concept_name_list.append(newconcept.conceptName())
+			self.concept_category_list.append(newconcept.getCategory())
 			if (newconcept.getCategory() not in self.categoryList):
 				self.categoryList.append(newconcept.getCategory())
+			self.category_index_list.append(self.categoryList.index(newconcept.getCategory()))
+		self.size = len(self.conceptList)
 
 	def foo(self):
-		print self.conceptList[0].conceptBag()
+		print (self.conceptList[0].conceptBag())
 
 	def conceptL(self):
 		return self.conceptList
@@ -39,7 +56,7 @@ class ConceptManager(object):
 			coordMat[i] = concept.itemVector()
 			if (not concept.isFound()):
 				self.notfoundList.append(concept)
-				print "missing " + concept.conceptName()
+				print ("missing " + concept.conceptName())
 				self.conceptList.remove(concept)
 				notfoundindex.append(i)
 		coordMat = np.delete(coordMat,notfoundindex,0)
@@ -57,12 +74,49 @@ class ConceptManager(object):
 			# print emb
 			self.conceptList[i].setLowEmb(emb)
 
+class OCConceptManager(ConceptManager):
+	"""Concept Manager for overlapping clustered concepts"""
+	def __init__(self, size=None, filename="dataset/ConceptTeamOC12.csv"):
+		# super(OCConceptManager, self).__init__()
 
+		file = CSVFile(filename)
+		if size==None:
+			content = file.getContent()
+		try:
+			content = file.getContent()[0:size]
+		except Exception as e:
+			print ("We don't have so many concepts")
+			content = file.getContent()
 
+		self.concept_size = len(file.getContent())
+		
+		for item in content:
+			newconcept = OCConceptItem(item)
+			self.conceptList.append(newconcept)
+			self.concept_name_list.append(newconcept.conceptName())
+			self.concept_category_list.append(newconcept.getCategory())
+
+			concept_category_index = list()
+
+			for categoryName in newconcept.category:
+
+				if categoryName not in self.categoryList:
+					self.categoryList.append(categoryName)
+				concept_category_index.append(self.categoryList.index(categoryName))
+
+			self.category_index_list.append(concept_category_index)
+
+		self.size = len(self.conceptList)
+		
 
 if __name__ == '__main__':
-	cm = ConceptManager(10)
+	# cm = ConceptManager(10,filename="dataset/AllConcepts.csv")
 	# cm.dimRed()
-	print cm.getCategoryList()
+	# print (cm.conceptList[1].fullConcept())
+
+	# cm = ConceptManager(10,filename="simplified_data_set.csv")
+	cm = OCConceptManager()
+	# print (cm.concept_category_list)
+	print (cm.category_index_list)
 
 

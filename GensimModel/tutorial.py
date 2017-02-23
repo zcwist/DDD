@@ -9,6 +9,8 @@ if remodel:
 else:
 	model = gensim.models.Word2Vec.load('model')
 
-print model['car']
+# print len(model['word'])
+# print (model.wv.index2word[47133])
+print (model.most_similar("steer"))
 
 

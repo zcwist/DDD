@@ -103,6 +103,7 @@ class Word2Vec(object):
         self.save_vocab()
 
     def build_graph(self):
+<<<<<<< HEAD
         """Build the model graph."""
         opts = self._options
         
@@ -124,6 +125,9 @@ class Word2Vec(object):
         
 
 
+=======
+        pass
+>>>>>>> merged
 
     def save_vocab(self):
         pass

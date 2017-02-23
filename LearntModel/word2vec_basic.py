@@ -222,17 +222,17 @@ with tf.Session(graph=graph) as session:
         print(log_str)
   final_embeddings = normalized_embeddings.eval()
 
-# Step 5.5: Serialize the key objects
-# def save_object(obj, filename):
-#     with open(filename, 'wb') as output:
-#         pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
-# try:
-#   save_object(final_embeddings, 'final_embeddings')
-#   save_object(dictionary, 'dictionary')
-#   save_object(reverse_dictionary, 'reverse_dictionary')
-#   print ("output the key objects")
-# except Exception as e:
-#   print ("Fail to output the key objects")
+Step 5.5: Serialize the key objects
+def save_object(obj, filename):
+    with open(filename, 'wb') as output:
+        pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
+try:
+  save_object(final_embeddings, 'final_embeddings')
+  save_object(dictionary, 'dictionary')
+  save_object(reverse_dictionary, 'reverse_dictionary')
+  print ("output the key objects")
+except Exception as e:
+  print ("Fail to output the key objects")
 
 
 

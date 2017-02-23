@@ -1,0 +1,9 @@
+Member,Concept Name,Description,Category
+,Tensegrity virtual reality immersion,VR goggles and interface to control tensegrity robot,BEST Reality
+,Tensegrity Assistant,Use robot as personal assistant (i.e. reminds you about meetings),Personal Assistant
+,Tensegrity Watchdog,Tensegrity can patrol your house to make sure everything is in order - will send alarm if it detects an intruder,Personal Assistant
+,Tensegrity Cars,Drive around in your tensegrity,Tensportation
+,Tensegri-Gestures,Robot controlled by hand gestures,BEST Interaction
+,Game Controller,"Robot controlled by everyday game controller (i.e. Xbox, Play Station, etc.)",BEST Interaction
+,Voice Controller,Robot controlled by voice commands,BEST Interaction
+,Battle Bots,Tensegrity battle-bots,BEST Competitions
