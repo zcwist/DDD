@@ -192,11 +192,36 @@ class SWSCTester(object):
 		plt.savefig("Graph/HMPlot/SimplifiedHMPlotTeam"+con+div+labeled+str(number))
 		# plt.show()
 
+	def export_me110(self, number):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+
+		from HMcsv import exportHM2
+
+		filename = "dataset/ME110/Team" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		# m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+
+		# exportHM2(cm.conceptList, concept_labels, "ME110_HM_Team" + str(number) )
+
 
 
 
 if __name__ == '__main__':
-	# SWSCTester().export(1)
+
+	#ME110
+	# SWSCTester().export_me110(2)
+
+
+
+
+
+
+	#ME310
+
+	SWSCTester().export(1)
 	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
 	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
@@ -248,7 +273,7 @@ if __name__ == '__main__':
 	#Team14
 	# SWSCTester().exportOC(14)
 	# SWSCTester().simplified_plot_oc(14,yFilteredStr="voice;speaker",showLabel=False)
-	SWSCTester().simplified_plot_oc(14,xFilteredStr="Facial expressions",showLabel=False)
+	# SWSCTester().simplified_plot_oc(14,xFilteredStr="Facial expressions",showLabel=False)
 
 
 

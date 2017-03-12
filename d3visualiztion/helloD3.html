@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<svg class="chart"></svg>
+			</div>
+			<div class="col-md-6">
+				<p>Hello world</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+<script>
+var margin = {top: 20, right:20, bottom: 30, left: 40},
+	width = 500 - margin.left - margin.right,
+	height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select(".chart")
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom)
+	.append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top +")");
+
+// setup x 
+var xScale = d3.scale.linear().range([0, width]),
+	xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+ 
+// setup y
+var yScale = d3.scale.linear().range([height, 0]),
+	yAxis = d3.svg.axis().scale(yScale).orient("left");
+ 
+// x-axis
+svg.append("g")
+	.attr("class", "x axis")
+	.attr("transform", "translate(0," + height + ")")
+	.call(xAxis)
+  .append("text")
+	.attr("class", "label")
+	.attr("x", width)
+	.attr("y", -6)
+	.style("text-anchor", "end")
+	.text("Maturity");
+ 
+// y-axis
+svg.append("g")
+	.attr("class", "y axis")
+	.call(yAxis)
+  .append("text")
+	.attr("class", "label")
+	.attr("transform", "rotate(-90)")
+	.attr("y", 6)
+	.attr("dy", ".71em")
+	.style("text-anchor", "end")
+	.text("Volatility");
+
+// plot
+
+
+</script>
+
