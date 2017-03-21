@@ -1,0 +1,81 @@
+Member Name,Concept Name,Description,Cluster
+Alex Chong,Braile and Assistants in Store,Political Regulation to enforce accessibility in grocery stores,Outdoor
+Alex Chong,Discrete Watch,Watch for the blind that is not audio based,Wearables
+Alex Chong,Phone Reader Service,Takes video stream of phone to assistant to decode and read,Phone Tech
+Alex Chong,Stain Finder,Application for device with camera,Home-Eyes
+Alex Chong,Smart Grocert Store Assistant,Device that goes on shopping cart,Outdoor
+Alex Chong,Clothing Identification,amazon alexa and small camera to identify clothing,Home-Eyes
+Alex Chong,Spice Identification,uses a small camera and amazon Alexa to ID,Home-Eyes
+Alex Chong,Blind Association Certification,product certification that shows that product was made with blind in mind,Outdoor
+Alex Chong,Robotic Guide Dog,guide dog for the blind that takes batteries,Robotic Aids
+Alex Chong,Robotic Guide Drone,"similar to the guide dog, but flies",Robotic Aids
+Yudi Sun,Palm Braille Reader,"instead of a big tablet, a handheld braille reader",Display
+Yudi Sun,Braille Bracelet,Discrete way of reading in public through braille displayed on a bracelet,Wearables
+Yudi Sun,Phone Stand,Mobile phone stand scanner w flashlight for optimum scans,Phone Tech
+Yudi Sun,Ring navigation,rings on left and right hand to tell you to turn either way,Wearables
+Yudi Sun,navigation wearable,wearable that discretely tells you when to turn by GPS,Wearables
+Yudi Sun,glasses detection,attachment to glasses that can sense obstacles,Outdoor
+Yudi Sun,Braille tablet,a larger braille note that is only an attachment but can read many lines,Display
+Yudi Sun,phone case navigator,buttons on the back of a phone case to tell you which way to turn,Phone Tech
+Yudi Sun,"object, landmark ID","button to press each time you pass a landmark, noting it for future navigation",Outdoor
+Yudi Sun,Sign tag,small sticker that transmits signals to tell the blind the location of signs,Outdoor
+Arshad Ali ,Food Ordering App,Alexa-based app that simplifies the food ordering process,Home-Eyes
+Arshad Ali ,Dial reading Computer Vision App,"Alexa-based app that uses computer vision to identify the status of dials around the household (laundery machine, oven etc.)",Home-Eyes
+Arshad Ali ,Indoor Map provider,Alexa-based app that scrapes internet for indoor layout maps of shopping malls etc and communicates that information to user,Introspection
+Arshad Ali ,Wifi based Indoor Navigator,Alexa-based app that uses the wifi signals emitted by nearby phones to gauge a map of indoor spaces,Introspection
+Arshad Ali ,3D Display of Computer Displays,Computer screens are hard for the blind to navigate. This display creates a 3D extruded version of computer screen displays that the blind user can feel,Display
+Arshad Ali ,Crosswalk helper cane attachment,An attachment that connects to white canes and communicates to the user if the traffic signal is white or red,Crosswalk
+Arshad Ali ,Braille input for phone,Braille input/output panel that attaches to back of smartphone and displays in braille whatever text the user has his finger over,Phone Tech
+Arshad Ali ,Earphone Camera,A camera mounted on earphones is at shoulder level and can read sign boards using computer vision. The camera then communicates to the user by means of voice what the sign board says,Outdoor
+Arshad Ali ,Close distance object identifier,A phone app that identifies and reads the label of items that the user is holding in his/her hand,Home-Eyes
+Arshad Ali ,Guide Robot,A robot that helps the blind navigate indoor spaces like airports and shopping malls,Robotic Aids
+Stephen Chu,RF Tags on Street Posts,RF tags installed on street posts and landmarks for easy identification. Camera on user can easily pick up on RF tags to help navigation,Outdoor
+Stephen Chu,Gloves with Sonar and Object ID,Gloves w/ sonar that can identify obstacles. Possibly extended to object identification tech.,Wearables
+Stephen Chu,Indoor GPS,"App that provides indoor navigation inside buildings, malls, theaters, etc",Introspection
+Stephen Chu,Shopping buddy,"App that lets you scan barcodes, syncs with store to provide info on product, description, sales and promotions",Outdoor
+Stephen Chu,Fast Food,Food and spice dispenser that outputs exact amount specified by user,Home-Eyes
+Stephen Chu,Crosswalk Alert,"Verbal ""walk sign"" that can be retro-fitted to regular cross walks",Crosswalk
+Stephen Chu,GPS bracelet,Bracelet that uses haptic feedback to indicate directions,Wearables
+Stephen Chu,Easy Access News,News app that collects articles from popular sites and transcribes them verbally,Display
+Stephen Chu,Smart Measuring Cup,"Measuring cup that tells user how much of something in the cup, or can be used to set an amount of substance to pour",Home-Eyes
+Stephen Chu,Smart Appliances,Appliances that can be set verbally or have mechanical buttons to make it easier for visually impaired to use,Home-Eyes
+Arshad Ali ,Torchlight visualizer,A torchlight that identifies the object that it is shining light on,Home-Eyes
+Arshad Ali ,Security App,An app that provides visual feedback of the blind user's surroundings (e.g. if the doors and windows are closed),Home-Eyes
+Arshad Ali ,Ultrasound Identifier,A device that uses ultrasound to map the blind user's surroundings,Introspection
+Arshad Ali ,Smart Shoes,Sensors within the shoe help the blind detect perturbations in the ground,Outdoor
+Arshad Ali ,Indoor Personal Guide,Users tap their phone on NFC reader upon entering a space and get information anounced through alexa of the surroundings,Introspection
+Arshad Ali ,Compact White Cane,A retractable white cane that can operate effectively using sensors even when collapsed,Outdoor
+Arshad Ali ,Phone cover with tactile output,Blind can use braille output to understand what is on screen. Seeing can use braille output to check if there are notification while phone is in pocket,Phone Tech
+Arshad Ali ,Stain Detector,Device uses blacklight to reveal stains invisible to even the seeing. On a basic level can also be used to identify normal stains,Home-Eyes
+Arshad Ali ,Traffic signal detector,Device that helps blind people identify when it is safe to cross a junction. Seeing users on their phone can also use this device when at crosswalks,Outdoor
+Arshad Ali ,Compact Spice box,"Box stores away spices when there is limited display space. On voice input, the desired bottle is outputted from the box. Useful for seeing users who struggle with storing their spices and blind users who cannot identify spices",Home-Eyes
+Stephen Chu,Front Door Detector,Front door camera that recognizes faces or particular RF codes to confirm who is at the door,Home-Eyes
+Stephen Chu,Individual Navigation,Device that lets you navigate to a particular person/individual. Can be useful in crowded spaces,Outdoor
+Stephen Chu,Modular Braille Attachment,Accessory that can act as an easy to read braille screen,Display
+Stephen Chu,Medicine Storage,Device that stores and dispenses pills.,Home-Eyes
+Stephen Chu,Smart shades.,"A pair of sunglasses that can recognize people, staircases, sidewalks",Outdoor
+Stephen Chu,Braille credit card,Credit card that has braille #'s to make it easy to read for visually impaired,Outdoor
+Stephen Chu,Smart Scanner,Scanner on doors that can detect when someone or something enters the room. It can be used to help orient and navigate for the blind within buildings or keep track of your devices,Introspection
+Stephen Chu,Home Alert,"IoT device that checks if doors and windows, appliances and lights off",Home-Eyes
+Stephen Chu,Bills Made Easy,"App or device that can easily read/process bills (such as utilities and credit cards) if in paper form, or can consolidate them easily for the visually impaired to access",Phone Tech
+Stephen Chu,Don't Forget!,"Small device that you can clip on an item. If you accidentally leave the item and walk away, it buzzes you. Also, if you can't find an  object, it will buzz to help you find it.",Home-Eyes
+Alex Chong,Cane Detects Slippery Surfaces,cane that detects changes in coefficient of friction,Outdoor
+Alex Chong,Audio Distortion for facial expressions,modify audio of speaker to reflect facial expressions,Phone Tech
+Alex Chong,tactile markers for steps,helps indicate first and last step so we dont trip and fall,Outdoor
+Alex Chong,door indicator,communal living is tough when everyone isn't on the same page,Home-Eyes
+Alex Chong,necklace that detects facial emotions,blind people rely on auditory cues for emotion,Wearables
+Alex Chong,Heat braclet that reflects time of day,the blind can't sense ambient light (day/night cycles),Wearables
+Alex Chong,depth map glasses,"two cameras for stereo vision, converts stereo vision to tactile surface on forehead or under eyes ",DisplayWearables
+Alex Chong,ugly guide dog ,special breed of dog that does not look cute/petable,Bioengineering
+Alex Chong,bionic eye,uses crispr to create a human/electrode interface that produces good results and low risk of complications/scarring,Bioengineering
+Alex Chong,discrete vertical cane,"thin, transparent, rigid, discrete cane for detecting objects above",
+Yudi Sun,Map Tracking,"Discreet safety tracking that detects if you're going the wrong way for uber, etc, and buzzes w trouble",Phone Tech
+Yudi Sun,Ultrathin Cane,"Super thin and lightweight cane, similar to a fencing sword. Stylish and modern",Outdoor
+Yudi Sun,Reflective cane,"A cane with a reflective surface, like that of bikers, to keep people safe in the dark",Outdoor
+Yudi Sun,Necklace wearable,wearable around one's neck that looks like a bluetooth device/headphones that provides both sound and directional navigation,Wearables
+Yudi Sun,Smart Table,Table that has a tactile surface that pops up according to digital displays,Display
+Yudi Sun,Ring Notification,"Ring that commands your phone to read you notifications, single hand usage",Wearables
+Yudi Sun,Phone Photo Zoom,"App that automatically adjusts a photo for max reading clarity, meant for the visually impaired to be able to zoom in on text",Phone Tech
+Yudi Sun,Mood Sense,"Tangible, palm sized item that detects color inputs and outputs a tangible reaction for the entirely blind to experience mood from an environment",Display
+Yudi Sun,Tangible Home Control System,Trackpack that changeshome settings like temperature and light via gestures,Introspection
+Yudi Sun,Immersive Environment,A responsive floor/environment that guides the user via collapsing grass or trembling tiles. Can also be used for retail experiences,Introspection

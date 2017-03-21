@@ -12,7 +12,7 @@ def exportHM2(concept_list,m_labels,filename):
 	filename = "output_csv/" + filename + ".csv"
 	with open(filename, 'wb') as csvfile:
 		spamwriter = csv.writer(csvfile, delimiter=',',
-	                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+	                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		spamwriter.writerow(['Concept Index','Concept Name', 'Description', 'Human Label', 'Machine Label'])
 		for i in range(len(concept_list)):
 			concept = concept_list[i]

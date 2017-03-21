@@ -1,0 +1,121 @@
+Member Name,Concept Name,Description,Cluster
+Arbaaz Shakir,Sweat sleeve,Material that wicks away sweat and uses it to measure vitamin/hydration levels of the mother,Clothes
+Arbaaz Shakir,Movable electrodes,Movable electrodes within spandex sleeve,Compact electrodes
+Arbaaz Shakir,Abdomen support,Support for lower abdomen,External device
+Arbaaz Shakir,X-belt,X-form factor to keep sensors in place,Belts
+Arbaaz Shakir,instructable ,Instructable on how/where to place electrode patches,Others
+Arbaaz Shakir,Haptic feedback,Haptic feedback for more immersive overall experience (both parents?),External device
+Arbaaz Shakir,GUI (mother),"GUI: visual representation of heartbeat and counters, UX design",External device
+Arbaaz Shakir,Kick counter,Automated kick counter to keep track of number of kicks when device is worn (current method is rudimentary and manual),Others
+Arbaaz Shakir,Movement counter,"Automated movement counter as a secondary sensing strategy for diagnostics (FHR is not the primary mode of diagnosing ""failure"")",Others
+Arbaaz Shakir,Compatible display,"Compatible display with other pre-existing wearables, eg. google glasses, fitbit, etc.",External device
+Arbaaz Shakir,Pairing,Can pair with other wearables to subtract out MECG from CECG,Others
+Arbaaz Shakir,Back support,Design using anthropomorphic data to account for ergonomics in the back region,Belts
+Arbaaz Shakir,Memory foam padding,Memory foam padding for added comfort and prevention of wear burns/marks,Clothes
+Arbaaz Shakir,GUI (mother),"Simplistic, low barrier to entry, activity tracker, water intake, etc.",External device
+Arbaaz Shakir,Stretchable belt,Belt form factor with stretchable fabric,Belts
+Arbaaz Shakir,Lip-shaped belt,Belt is lip-shaped to allow for 8 electrode placement covering larger surface area,Belts
+Arbaaz Shakir,Deterministic algorithm,"""Diagnoses"" if there is a problem and whether a doctor should be informed",Others
+Arbaaz Shakir,IoT connection,"Connects wearable, mother's phone doctor's phone/device",Others
+Arbaaz Shakir,Compression sleeve,Form factor is a compression sleeve that wraps around abdomen,Clothes
+Arbaaz Shakir,stretch marks reducer,Something to reduce stretch marks in form factor,Others
+Tushar Mittal,Smart Belt,"A form fitting belt that montors an assortment of vitals like ECG, Heart Rate, etc.",Belts
+Tushar Mittal,Smart patches,Adhesive pathes for ECG monitoring that link to one another and bluetooth to a cellular device,Compact electrodes
+Tushar Mittal,Smart blanket,The blacket would be able to analyze the position of the baby as well as get ECG,Blanket/pillow
+Tushar Mittal,Electrode embedded DriFit,A skin tight shirt that has electrodes embedded in the abdomen region,Clothes
+Tushar Mittal,Detachable sensor strips ,Strips that stick to the inside of your shirt to take sensor readings,Compact electrodes
+Tushar Mittal,Biotattoo,Tattoos made with from conductive ink and microsensors that can take fetus vitals,Wearable accessories
+Tushar Mittal,Portable phone sensor,A attachable sensor to your phone that can track positioning,External device
+Tushar Mittal,Suspender electrodes,Electrodes that attach to the bra and belt to stay intact,Compact electrodes
+Tushar Mittal,waist padding,Sensors embedded under the waist region of your pants,Wearable accessories
+Tushar Mittal,Body Pillow,Sensors embedded inside the pillow to get basic vitals when hugged,Blanket/pillow
+Tushar Mittal,GUI,"A simple setup with heartbeat analysis, kick counter, and position",External device
+Tushar Mittal,Form Fitting Electrodes,Electrodes that compliment th body form and allow them to be placed based on the curvature of the body  ,Compact electrodes
+Tushar Mittal,Morning Sickness Suppressor ,A wristband that suppresses mornign sickness by targetting particular nerves ,External device
+Tushar Mittal,ECG strap vest,A vest which is more comfortable that a compression belt but measures ECG,Wearable accessories
+Tushar Mittal,Adaptive Insoles,Insoles with sensors embedded that measure discomfort and heart rate ,Wearable accessories
+Tushar Mittal,Analysis Mirror,Laser based analysis via mirror with results projected on the mirror,External device
+Tushar Mittal,Stress Sensor,a stress pod that can be used to monitor contractions ,Compact electrodes
+Tushar Mittal,Ear Muff shaped half belt,A belt that wraps around 300 degrees with an opening in the front. It has ECG sensors embedded in the larger region and gives back support.,Belts
+Tushar Mittal,Tempreature adaptive belt,A compression belt that can modulate tempreture via cellular response,Belts
+Tushar Mittal,Safe Ultrasound,A portable untrasound monitor that isnt harmful over extended use ,External device
+Benjamin Smith,Compressive Band,Acts as a compression band with sensor in front,Belts
+Benjamin Smith,Electrode moniter,electrodes that attatch to stomagh and relay information to the box that holds and stores data,Compact electrodes
+Benjamin Smith,Clip on Sensor,Sensor that clips to waistband of pants and sits against stomagh,External device
+Benjamin Smith,Embeded shirt sensor,Sensor that sits inside tight fitting shirt around stomagh,Clothes
+Benjamin Smith,Embeded pants sensor,Sensor sits on inside of waist line on pants. Pay be able to stretch around stomagh as woman gets larger,Clothes
+Benjamin Smith,Insertable sensor,Sensor that sticks straight to the stomagh and hold on with some form of adhesive or high static coefficient friction material,External device
+Benjamin Smith,Basic sensor,Pad that sits inside a compression belt and is held in place by that belt's tenson,External device
+Benjamin Smith,Comparative electrode sensor,Similar to earlier electrode idea but compares the EKG signals found to the mother's to ensure that they are monitering the babys ekg,Compact electrodes
+Benjamin Smith,Fitbit with warning system,Acts like regular fitbit however warns about activities that are strenuous to fetusat point in pregnancy,Wearable accessories
+Benjamin Smith,Ultrasound with vitals,ultrasound machine that is also able to track vitals of fetus and project them,External device
+Benjamin Smith,Compression Clothing,Compression socks are known to improve the bloodflow in the legs so this tech may be appliable to improve bloodflow to fetus,Clothes
+Benjamin Smith,Temperate Belt,This is a play on detatchable sensors to larger belts that cover the stomagh and can provide different insulation with different materials aloowing for different stomagh temperatures,Belts
+Benjamin Smith,Stress Patch,Simple indicator that changes color from shear stress or swaet levels that could be found to cause high stress levels to the fetus,Compact electrodes
+Benjamin Smith,Transferable sensor,"Shirt that has a sensor that can be transferedd to similar belts, shirts and pants that have also been designed to hold sensor in correct area",Clothes
+Benjamin Smith,Pregnancy health bracelet,"Smart watch that moniters mother's health processes that are found to be directly related to fetal health such as blood pressure, heart rate, and sweat and stress",Wearable accessories
+Benjamin Smith,Health band,Acs as a compression belt idea such as before but also monitors mother's health and stress levels that sends info to GUI to also improve mothers health,Belts
+Benjamin Smith,Belt with GUI,Similar to previous belt idea with a sensor but includes a built in GUI that tells information such as the heart rate of the fetus or is able to alert of problems,Belts
+Benjamin Smith,Smart shirt and accessory,Shirt has a sensor in it that relays information to a separate worn watch that can show babys EKG and moniter the mothers health,Clothes
+Benjamin Smith,LED alert,Connects to a separate sensor. Is a small LED light that can attatch to glasses or a watch that will flash and signal when a problem is detected by the sensor,Wearable accessories
+Benjamin Smith,Smart electrodes,Flexible electrode made of material like bandaid and is able to store basic information for future use. Electrodes are connected by the tattoo wires that have been previously talked about by other students,Compact electrodes
+Alven Wang,Destress Device,Prompts meditative guidance and/or soothing music when it detects mother is stressed out,Audible Devices
+Alven Wang,Realtime Ultrasound,Product that can take an ultrasound photo/video of fetus at anytime,External device
+Alven Wang,Life Alert Device,Calls emergency medical authorities when product senses need for emergency attention,External device
+Alven Wang,AR device for diet,AR device that warns mother if she is going to consume any food or substance that is harmful to babies,External device
+Alven Wang,Exercise Companion,"Virtual ""baby"" that acts as exercise companion to encourge exercise and faciliatate emotional connection to mother",Others
+Alven Wang,Comprehensive Health Tracking app,"Comprehensive health tracking and monitoring of mother's exercise, diet, and general vital information",Others
+Alven Wang,Emotional Memory Scrapbook,Allows mothers to record significant milestrones or memories from pregnancy for later viewing and sharing,Others
+Alven Wang,Pregnancy Podcast Transmitter,Compilation of podcasts/recordings of things related to pregnancy played for mother,External device
+Alven Wang,Social Support Network,Connects pregnant mothers with other pregnant mothers and facilitates emotional support between those going through the same experience,Others
+Alven Wang,Music for Embryos,Plays music/audiobooks for growing fetus,External device
+Alven Wang,Baby Kick Music Maker,Takes baby's kicking noises and turns them into music,Others
+Alven Wang,Smart Compression Shirt,Compression shirt that allows for health monitoring,Clothes
+Alven Wang,Smart Sleeve with GUI,Compression sleeve with electrodes/health tracking and easy to reach and use GUI on arm,Clothes
+Alven Wang,Backpack with fluid dispenser,Provides fluids with necessary vitamins/minerals on the go,External device
+Alven Wang,Smartwatch with appropriate GUI,Replaces fitbit form with smartwatch form and uses nice GUI,Wearable accessories
+Alven Wang,Wall mounted sensors,Sensors on wall to track mother's vitals,External device
+Alven Wang,Baby Pedometer,"Tracks baby's ""steps"" and distance ""walked""",External device
+Alven Wang,Head Mounted Sensor,Sensor on head behind ear for mother's vitals,Wearable accessories
+Alven Wang,Instructional Game for Pregnancy Tasks,Game to help mother's with confusing/difficult pregnancy related tasks ,Others
+Alven Wang,Twistable/adjustable Electrode sleeve,Sleeve with ability to adjust and twist placement of electrodes,Compact electrodes
+Cheng-Huan Chia,Handheld device,Some handheld device that can be used to check fetus status,External device
+Cheng-Huan Chia,Electrode heating pad,Eletrodes that track status and act as heating pads,External device
+Cheng-Huan Chia,Socks for mothers,Socks that track fetal status,Clothes
+Cheng-Huan Chia,Massaging socks,Socks that massage swollen feet and also tracks the baby's status,Clothes
+Cheng-Huan Chia,Choker stress monitor,A stress monitor in the form of a choker that measures heart rate,Clothes
+Cheng-Huan Chia,Foldable jacket/belt,Jacket foldable into belt and tracks baby's heart rate,Clothes
+Cheng-Huan Chia,Color changing belt,Compression belt that tracks embryo status and also capable of changing colors,Belts
+Cheng-Huan Chia,Glasses for mothers,Glasses with built-in display of data from tracking device,External device
+Cheng-Huan Chia,Morning sickness rings,Rings that suppress morning sickness,External device
+Cheng-Huan Chia,Smart closet,Closet that can notify mothers using the smart clothes hung in it,External device
+Cheng-Huan Chia,Non-alcoholic cocktail mixer for mothers,A cocktail mixer that produces non-alcoholic but alcohol-like drinks for pregnant mothers,Others
+Cheng-Huan Chia,Windproof lighter,Lighter that is wingproof so that it doesn't accidentally burn the baby,Others
+Cheng-Huan Chia,Motorcycle helmet for dads,Motorcycle helmet  with built-in display for dads who may want to know about the baby's status as well,Wearable accessories
+Cheng-Huan Chia,Smart bracelet,Fitbit-like device that monitors embryo status,Wearable accessories
+Cheng-Huan Chia,Smart blanket,Blanket that has temperature control and adjusts according to embryo status,External device
+Cheng-Huan Chia,Audio splitter,Audio splitter to share what mom is listening with the baby,Audible Devices
+Cheng-Huan Chia,Auto door knob,Door knob that is controllable by phone to keep room locked for baby,Others
+Cheng-Huan Chia,Portable milk maker,Milk powder container and auto milk shaker/maker on portable water bottles,Others
+Cheng-Huan Chia,Color detection pen,Color detection pen to draw whatever color you see and share with baby,Others
+Cheng-Huan Chia,Temperature control belt,Temperature control belt that adjusts temperature accordingly,Belts
+Deborah Chung,waistband for embryos,waistband with velcro strap that wraps around the belly. tracks fetal activity,Belts
+Deborah Chung,patches for embryos,patch that contains electrodes that sticks onto belly. tracks fetal activity,Compact electrodes
+Deborah Chung,bracelet for embryos,fashionable bracelet that tracks fetal activity ,Wearable accessories
+Deborah Chung,watch for embryos,watch that tracks fetal activity,Wearable accessories
+Deborah Chung,semi-permanent tattoos for embryos,semi-permanent tattoo that contains electrodes on belly that tracks fetal activity,Wearable accessories
+Deborah Chung,small bar for embryos,a small thin bar that is injected just below the skin in arm of mother. tracks fetal activity. can be removed at any time,Others
+Deborah Chung,ingestable robot for embryos,small robot in pill capsule that is swallowed. tracks fetal activity ,Others
+Deborah Chung,belt for embryos,non-constricting belt that tracks fetal activity,Belts
+Deborah Chung,tanktop for embryos,tanktop that can be worn under clothes or by itself. tracks fetal activity,Clothes
+Deborah Chung,blanket for embryos,blanket that is laid across belly/while mother is sitting or laying down that tracks fetal activity,Blanket/pillow
+Deborah Chung,compression sleeve for embryos,compression sleeve that tracks fetal activity,Clothes
+Deborah Chung,compression socks for embryos,compression socks that tracks fetal activity,Clothes
+Deborah Chung,compression shirt for embryos,compression shirt that contains electrodes. detachable sleeves which can be worn separately as compression sleeves that track fetal activity,Clothes
+Deborah Chung,earrings for embryos,earrings that track fetal activity. for if the mother doesn't want electrodes too close to the fetus,Wearable accessories
+Deborah Chung,temperature pack for embryos,temperature adjusting pack to create comfortable environment/ temperature for fetus,External device
+Deborah Chung,disco ball for embryos,disco ball that is installed in a room that can detect fetal activity if the mother doesn't want electrodes too close to the fetus,External device
+Deborah Chung,smartphone ultrasound,an ultrasound device that attaches to smartphone so that the mother can check the fetus at any time,External device
+Deborah Chung,ringtone for embryos,device that turns the kicking of the embryo into a ringtone,Audible Devices
+Deborah Chung,fetus position picture,device that uses the movements of fetus to predict fetal position and turns into a picture for the mother,Others
+Deborah Chung,electrode position assistant,safe laser lights that projects where to place electrodes on belly,Others

@@ -202,9 +202,9 @@ class SWSCTester(object):
 		cm = CM(filename=filename)
 		swsc = SWSC(cm)
 
-		# m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
 
-		# exportHM2(cm.conceptList, concept_labels, "ME110_HM_Team" + str(number) )
+		exportHM2(cm.conceptList, concept_labels, "ME110_HM_Team" + str(number) )
 
 
 
@@ -213,6 +213,10 @@ if __name__ == '__main__':
 
 	#ME110
 	# SWSCTester().export_me110(2)
+	# SWSCTester().export_me110(6)
+	# SWSCTester().export_me110(8)
+	# SWSCTester().export_me110(12)
+	SWSCTester().export_me110(5)
 
 
 
@@ -221,7 +225,7 @@ if __name__ == '__main__':
 
 	#ME310
 
-	SWSCTester().export(1)
+	# SWSCTester().export(1)
 	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
 	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)

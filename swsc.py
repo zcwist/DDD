@@ -37,7 +37,12 @@ class SWSC(object):
 					for nv_x in nvs_x:
 						simi_list.append(emb.similarity(nv_x,nv_y))
 				k = int(math.ceil(len(nvs_y) * len(nvs_x) * self.k_percent))
-				simi_mat[x][y] = np.mean(heapq.nlargest(k,simi_list))
+				try:
+					simi_mat[x][y] = np.mean(heapq.nlargest(k,simi_list))
+				except Exception as e:
+					print(simi_list)
+					raise e
+				
 
 		return simi_mat
 

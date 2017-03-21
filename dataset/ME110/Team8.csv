@@ -1,0 +1,123 @@
+Team Member,Concept Name,Short Description,Clustering
+Adam,Custom Added Features,"Users will have the option to choose how they want the fridge to be lit, and what sounds they want it to make.",Apps/Tech
+Adam,Recipe Promoter,A screen displays recipes with videos based off of items you commonly have to promote cooking.,Apps/Tech
+Adam,Beer Points,Participants get points for beer when they eat all the food in their fridge.,Apps/Tech
+Adam,Spoil Vapors & Unspoil Vapors,System detects gases that are being released in order to determine if items are going bad. Counter gases are released. ,Chemistry Tech
+Adam,Eatsa Fridge,"The fridge door has a computerized screen that is dark while in use, but goes clear so user can see inside.",Door Tech
+Adam,Multi-Door Fridge,Multiple access doors on the fridge prevent the fridge from having a back.,Door Tech
+Adam,Dog Food Maker,Built in system turns leftover food into dog food to eliminate waster. ,Door Tech
+Adam,Fake Food,Hologram like screen projects images of food in fridge to make it look more full.,Door Tech
+Adam,Waste Tracker,Scales in fridge and compost bin tell you what percent of food you wasted,Drawer Tech
+Adam,Fridge Legos,"Removable bins slide nicely into shelves of fridge. Looks tidy, and QR scanners record what the item is and when it was put in.",Drawer Tech
+Adam,Amazon Fridge,Amazon delivers cold food directly to your fridge when you aren't home.,Non-Fridge Concept
+Adam,Weekly Delivery Box,User buys a standard weekly box that fits their needs - eliminates need for over buying food,Non-Fridge Concept
+Adam,Milk Box,Seperate milk jug saves space and has dispenser. Can be washed between uses and knows experation date.,Organization
+Adam,Moving Shelves,"Shelve space is put into door, but overall volume is conserved. When the door opens, the shelves move to the front of the fridge.",Shelf Tech
+Adam,Liquid filled shelves for extra cooling and cleaning,Shelves work like a bath of cold water,Shelf Tech
+Adam,Cold Blast,Items that haven't moved in a while will be given extra cold air to lower its temp.,Temp Control
+Adam,Freeze-Dried,Built in systems turns leftover food into freeze dried meals that can last for years.,Temp Control
+Adam,Freezer to Fridge,"Basically, each night a user selects items they want to be defrosted the next day",Temp Control
+Adam,Multi-Part Fridge,Between the fridge and freezer is a counter space for non-refrigerated items.,Whole New Fridge
+Adam,Food Energy,Leftover food is converted into energy to power the fridge.,Whole New Fridge
+Adam,Living Fridge,Fridge grows herbs on top which can filter air and remove contaminants.,Whole New Fridge
+Chloe,Voice Command Fridge,Voice command box that allows users to record contents/expiration dates/etc. Can give reminders and/or have fun sounds for different purposes.,Apps/Tech
+Chloe,MyFridge App,App on phone that allows users to record/keep tracjk of fridge contents. Scanning feature for logging what you buy at the grocery store.  Can be integrated with voice command/screen.,Apps/Tech
+Chloe,Interactive Screen,"Interactice Screen most likely on outer fridge door where users can log fridge content info. Can display reminders, make sounds, can be integrated with voice command/phone app.",Apps/Tech
+Chloe,Food Freshness App,App on phone that lets users find out about a specific food and its freshness (health benefits when it goes bad/how to store them),Apps/Tech
+Chloe,Mold Alarm,Device that sounds an alarm when spores are detected so user can know to remove that food item from the fridge to prevent contamination,Chemistry Tech
+Chloe,See-through Fridge,Fridge that is completely see-through. Has customizable pull-down screens or manual tinting option when user wants to hide contents.,Door Tech
+Chloe,Shelve Lable Clip-ons,Clip on labels so you can attach to shelves,Non-Fridge Concept
+Chloe,Saran wrap/Paper towel dispenser in fridge,built-in saran wrap/ paper towel dispenser to wrap food and easily clean messes,Non-Fridge Concept
+Chloe,Vacuum Pipe,"Integrated ""vacuum pipe"" that sucks all the air out of the ziplock bags that holds users foods",Non-Fridge Concept
+Chloe,Food Label Organizer,Integrated label maker outside of fridge so users can print and stick labels about important info about their food before putting it in the fridge,Non-Fridge Concept
+Chloe,Customizable/Foldable Shelves,Integrate various shelve attachments in fridge and attach customizable shelves that come in different shapes and sizes and/or can be folded.,Shelf Tech
+Chloe,Bleacher Door Shelves,Integrating or designing attachable bleacher style shelves to go on the fridge door.,Shelf Tech
+Chloe,Smart Shelve Lighting,"Lights lining the shelves with different colors for different purposes (ex: green-food is good, red-food is almost bad). Can be integrated with voice command/screen.",Shelf Tech
+Chloe,Rotating Shelves,"""Lazy Susan"" style shelves, where one or more shelves that can be spun manually are integrated into the fridge.",Shelf Tech
+Chloe,Ferris-Wheel Shelves,Shelves that are all linked together and can be spun around in a circle,Shelf Tech
+Chloe,Tray Shelves,Trays with borders that can slide in and out of fridge,Shelf Tech
+Chloe,Extended Door Shelves,Door shelves that extend further into the fridge. Shelves inside fridge can be made smaller to compensate.,Shelf Tech
+Chloe,Removable Laminate-layered Shelves,A laminate sheet placed on top of any shelves and can be removed for cleaning to prevent spore residues from spreading to fresh food,Shelf Tech
+Chloe,Temperature Controlled Compartments ,"Fridge/freezer is divided into several sealed compartments, where each compartment can be regulated by its own temperature knob.",Temp Control
+Chloe,Fridge Inception,Removable mini fridge or cooler that can be removed from fridge,Whole New Fridge
+Kristal,Preservative - Spraying,Releases preservatives into the refrigerator chamber to keep food fresher longer,Chemistry Tech
+Kristal,Deep set door storage,makes less depth in the fridge for less opportunity for loss,Door Tech
+Kristal,Spoilage Detector,alerts user at early signs of spoilage and reminds to take out or use soon etc.,Freshness Indication
+Kristal,Detects Food Spoilage Vapors,"Sensors that are sensitive to productionof ""spoil"" vapors - located in different compartments to indicate to user where food that is going bad soon is. ",Freshness Indication
+Kristal,Consequences,Some kind of legal or other consequence for food waste to deter families ,Non-Fridge Concept
+Kristal,Colored interior fridge,Change the user's experience with the fridge completely - why so white and bright?,Non-Fridge Concept
+Kristal,Education,Raise awareness of causes of food waste and ways to lessen it,Non-Fridge Concept
+Kristal,Integrated Pantry Segment,"pantry items are visible so user can see all foods they have when going to the refrigerator, not just some. see you have more and buy less",Non-Fridge Concept
+Kristal,Food Storage Reference Guide,"help educate user on how to store foods properly (separate ripe and unripe, separate vegetables and fruits, keep at correct temperature, take out of plastic bags) so foods stay fresher longer",Non-Fridge Concept
+Kristal,Pre-organized,Make a place for every type of food so everything has its place and things don't get lost,Organization
+Kristal,"""Eat me first"" section",reminds users to eat foods that are going bad first,Organization
+Kristal,"""FIFO"" programmed fridge","""First In First Out"" mechanically integrated through a rotating mechanism that puts newer items in the back and older items towards the front",Organization
+Kristal,Hanging Shoe Holder,"similar to hanging shoe holder in a closet, stacks produce vertically. good visibility, takes up less space than rigid shelves",Organization
+Kristal,Food Tracker,Tells user which foods have been in the fridge for how long and when they go bad,Shelf Tech
+Kristal,Self Cleaning Fridge,"Uses ultrasonic oscillation to collect particles, hydrophobic surfaces",Shelf Tech
+Kristal,More freezer,Freezer keeps food better longer. How about a medium between frozen and refrigerated?,Temp Control
+Kristal,Compartments of different temperatures,perhaps several drawers in the fridge that are each at a different temperature zaccording to different food needs,Temp Control
+Kristal,Temperature control specifics,alert user when fridge is too warm. ,Temp Control
+Kristal,Sneaky Smaller,"Make the fridge smaller without the consumer realizing so that they buy and store less food, waste less",Whole New Fridge
+Kristal,circle low fridge,low fridge in a cirle shape. easy to spin and see all items. everything accessible.,Whole New Fridge
+Shaun,Item Tracking with Voice and App,"Put item in, say what it is, it appears on a list on a phone app",Apps/Tech
+Shaun,Food Spoilage Notifcation System,Detechs food spoilage which notifies you via a mobile application,Apps/Tech
+Shaun,Window Fridge,Transparent insulating panels on doors of fridge,Door Tech
+Shaun,Turn-table refrigerator,shuffle around platforms so left-front is always empty,Drawer Tech
+Shaun,Sticky wall refrigerator,You can stick items to walls of refrigerator,Drawer Tech
+Shaun,3-day Reminder System,Panels are made of tiles that glow. Tiles glow when there's pressure for 3 days,Freshness Indication
+Shaun,Mini-fridge Roomba,Goes around empty spaces of fridge cleaning it,Non-Fridge Concept
+Shaun,Modular fridge for roommates,A fridge split by a divider for two people,Organization
+Shaun,Modular Organizers ,"Fridge comes with no panels nore shelves nor racks. You choose what racks, panels shelves you want. ",Organization
+Shaun,Delivery Box Fridge Compartment,Place to put the box in the fridge,Organization
+Shaun,Semi-vending fridge,"Right side is regular fridge, left side is vending machine",Organization
+Shaun,Vertical Panel Sliding Action,The panels holding up food items in fridge can slide up or down,Shelf Tech
+Shaun,Slider Panel Attachment,Add-on to most refrigerators that includes panels that can slide up or down,Shelf Tech
+Shaun,Pull-down shelves,Pull down different shapes of shelves from top to allow stacking with ease of access,Shelf Tech
+Shaun,Vending Machine Fridge,"Place item in receiver, say what it is, tap on item on fridge display, item is dispensed",Whole New Fridge
+Shaun,Carousel Fridge,Carousel-like shelves,Whole New Fridge
+Shaun,Modular Fridge for sizes,You build you fidge with separate blocks like you would a Nike shoe,Whole New Fridge
+Shaun,Pull-down refrigerator,Fridge on ceiling. You pull it down like a shoe rack,Whole New Fridge
+Shaun,1-item depth refrigerator,The depth only allows 1-item but it is long and wide made of glass panels,Whole New Fridge
+Shaun,Expandable refrigerator,You can increase the depth of fridge and retract for aesthetic,Whole New Fridge
+Steven,Delivery System,Integrated food order system on the refridgerator,Apps/Tech
+Steven,Bulk Share,A app that allows people to share bulk purchases from wholesale stores.,Apps/Tech
+Steven,Particle Sensor,Sensors in each compartment that detects common particles that are released by spoiled food,Chemistry Tech
+Steven,Fresh Food Compartment,Pull out door for perishable goods,Door Tech
+Steven,Pull out doors,"Doors that pull out, rather than open.",Door Tech
+Steven,Pull-out and rotating doors,Doors that pull out then rotate but are individually smaller that conventional spaces.,Door Tech
+Steven,Pull out produce door with temperature and climate control,Has an individual compartment for climate control,Door Tech
+Steven,Vaccum enabled compartments,Compartments that can be vaccum sealed by control to preserve food.,Drawer Tech
+Steven,Food Freshness Indicator,A sensor system that tracks freshness,Freshness Indication
+Steven,Wellness Indication System,A produce compartment which has face indication of freshness based on bio-indicators,Freshness Indication
+Steven,Wellness Indication On devliered Food Containers,Each container that is delivered has a wellness indication system that changes with time.,Non-Fridge Concept
+Steven,Compartmentalized space organized by day,Allows user to known when they bought or last used an item,Organization
+Steven,Individual Leftover compartment,A compartment dedicated to leftovers with individual pressure sensors for each space.,Organization
+Steven,Individually Controlled Shelves,Shelf space that can be made larger or smaller,Shelf Tech
+Steven,Slope and textured shelving,"Shelves that are slanted to improve visibilty, textures to avoid slipping.",Shelf Tech
+Steven,Temperature and humidity alarm,An indication system which notifies users when and where climates are sufficient.,Shelf Tech
+Steven,Pressure sensing shelves,"Shelves that a pressure sensored to detect items that haven't moved, or moved little.",Shelf Tech
+Steven,Slide out panels,Compartments and shelves can be manually or electronically moved out or up,Shelf Tech
+Steven,Compartmentalized produce space with temperature control,Compartmentalize produce area to keep fresher and organized.,Temp Control
+Steven,Dark colored interior design with lighting,Dark color intersior to eliminate appearance of emptiness,Whole New Fridge
+Steven,Accelerated thawing compartment,A seperate compartment which allows users to thaw their foods quickly and efficiently,Whole New Fridge
+Zelia,Amazon Locker style fridge,Place an order and fridge pops open correct drawer to get out just that item ,Apps/Tech
+Zelia,Fridge contents display on door,"outside display of fridge contents with their expiration dates, voice entry or manually ",Apps/Tech
+Zelia,Thermo-light,hot and cool lights inside fridge that respond to temperature differences,Apps/Tech
+Zelia,Mold spores absorber,removes air borne mold spores to prevent bad food from spreading ,Chemistry Tech
+Zelia,Extra large door shelves,make interior shelves shallower and door shelves larger to increase visibility and accessibility,Door Tech
+Zelia,Clear fridge door,"Dark glass door so that can see inside without opening, but still aesthetically pleasing ",Door Tech
+Zelia,Clear door that can install on exisiting fridge,"Same as the glass door idea before, but made so that can replace the existing door on any fridge that the customer might already own ",Door Tech
+Zelia,Slide out trays,"Less empty white space, easier access, cleanable",Drawer Tech
+Zelia,Freeze/defrost container,"Optimized for moving between fridge and freezer, prevents freezer burn, and ensuring good defrosting process",Drawer Tech
+Zelia,Immersed produce,Store fresh produce and herbs immersed in a tank of alcohol,Drawer Tech
+Zelia,Condiment lid expiration alert,attachement for cap/bottle lids that change color as item gets close to expiring ,Freshness Indication
+Zelia,Information card,"educational material about food waste, preservation methods, when to toss",Non-Fridge Concept
+Zelia,Fridge improvement kit,package best ideas for improving an existing frige into an easy to use kit,Non-Fridge Concept
+Zelia,Customizable modular organization system,"Website/ in-store experience where can choose own shelves, bins and drawer arrangement and easily swap them out as needs change over time",Organization
+Zelia,Cooked beans container,"often wasted item, container to better preserve them",Organization
+Zelia,Temperature and humidity monitoring system,"most effective actuon for preserving food longer is keep at consistent, correct temperature and correct humidity",Temp Control
+Zelia,Multiple Mini-fridges,use small refrigerators and freezers specialized for different items and distributed throughout kitchen,Whole New Fridge
+Zelia,Inflatable refrigerator,"Make larger and smaller as needed,: accomodate your bulk shopping, shrink to prevent over purchasing",Whole New Fridge
+Zelia,Built in composting,"Refridgerator automatically tosses any spoiled food, removes human error in premature tossing",Whole New Fridge
+Zelia,Shelf/Interior Coatings,"hydrophobic coatings to prevent frost and condensation, self cleaning",Whole New Fridge
