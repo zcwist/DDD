@@ -88,8 +88,8 @@ class SWSCTester(object):
 
 		plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
 		plt.savefig("Graph/HMPlot/HMPlotTeam"+str(number))
-		swsc.dendro_heat()
-		plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
+		# swsc.dendro_heat()
+		# plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
 		plt.show()
 
 	def exportOC(self, number):
@@ -216,7 +216,8 @@ if __name__ == '__main__':
 	# SWSCTester().export_me110(6)
 	# SWSCTester().export_me110(8)
 	# SWSCTester().export_me110(12)
-	SWSCTester().export_me110(5)
+	# SWSCTester().export_me110(14)
+	# SWSCTester().export_me110(5)
 
 
 
@@ -225,7 +226,7 @@ if __name__ == '__main__':
 
 	#ME310
 
-	# SWSCTester().export(1)
+	SWSCTester().export(1)
 	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
 	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
@@ -241,12 +242,12 @@ if __name__ == '__main__':
 	# SWSCTester().simplified_plot(2,xFilteredStr="Controller",showLabel=False)
 
 	#Team4
-	# SWSCTester().simplified_plot(4,yFilteredStr="glasses;display",showLabel=False)
+	# SWSCTester().simplified_plot(4,yFilteredStr="app;challenge",showLabel=False)
 	# SWSCTester().simplified_plot(4,xFilteredStr="service",showLabel=False)
 
 	#Team6
 	# SWSCTester().simplified_plot(6,yFilteredStr="sculpture;tail",showLabel=False)
-	# SWSCTester().simplified_plot(6,xFilteredStr="Modern Wind Farms",showLabel=False)
+	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=False)
 
 	#Team7
 	# SWSCTester().simplified_plot(7,yFilteredStr="caps;water",showLabel=False)

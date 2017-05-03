@@ -74,6 +74,21 @@ class ConceptManager(object):
 			# print emb
 			self.conceptList[i].setLowEmb(emb)
 
+	def description_statistics(self):
+		desc_len_sum = 0.0
+		noun_num_sum = 0.0
+		verb_num_sum = 0.0
+		for concept in self.conceptList:
+			desc_len, noun_num, verb_num = concept.description_stat()
+			desc_len_sum += desc_len
+			noun_num_sum += noun_num
+			verb_num_sum += verb_num
+		concept_num = len(self.conceptList)
+		return desc_len_sum/concept_num, noun_num_sum/concept_num, verb_num_sum/concept_num
+
+
+
+
 class OCConceptManager(ConceptManager):
 	"""Concept Manager for overlapping clustered concepts"""
 	def __init__(self, size=None, filename="dataset/ConceptTeamOC12.csv"):
@@ -115,8 +130,11 @@ if __name__ == '__main__':
 	# print (cm.conceptList[1].fullConcept())
 
 	# cm = ConceptManager(10,filename="simplified_data_set.csv")
-	cm = OCConceptManager()
+	# cm = OCConceptManager()
 	# print (cm.concept_category_list)
-	print (cm.category_index_list)
+	# print (cm.description_statistics())
+
+	cm = OCConceptManager(filename="dataset/ConceptTeamOC14.csv")
+	print (cm.description_statistics())
 
 
