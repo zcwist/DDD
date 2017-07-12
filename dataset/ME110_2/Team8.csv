@@ -1,0 +1,101 @@
+Your Name,Concept Title,Description,Cluster Title
+Arnav Chaturvedi,Threat notifier,senses different person and turns on relevant lights and notifies user of intruder,Sensor-Based Products
+Arnav Chaturvedi,Personal weraeble light controller ,wearable light that gives lights and communicates with other lights with dimmers and touch tracks and a personal light,Wearable and On Demand
+Arnav Chaturvedi,Touch voice system ,voice control option but added integrated touch light system,Sensor-Based Products
+Arnav Chaturvedi,Jitterbug Remote,Simple remote with big buttons that can access and deal with many room controls similar to hospitals,Simplicity-Focused Products
+Arnav Chaturvedi,Personal Light,wearable self controllable portable light that is sleek and easy to keep like a sleeve for specific use where need be,Wearable and On Demand
+Arnav Chaturvedi,Personal Switch Board,a small portable palette of switches that can control different things and is wireless,Simplicity-Focused Products
+Arnav Chaturvedi,Timer Box,a small wireless controller with sets of spinning time tickers that correspond to different controls that work like kitchen timers to turn things on,Simplicity-Focused Products
+Arnav Chaturvedi,Hardware switch,A simple servo motor attached to an arm that throws all the switches in the house that can be simply put over them by a user,Hardware and Logistics
+Arnav Chaturvedi,Control Hub,A centralized panel within the house that sense the user and turns on lights and area appliances accordingly,Sensor-Based Products
+Arnav Chaturvedi,Voice Controlled Home,A smart house device that responds by turning things on when the user says exactly what he wants into a small microphone,Sensor-Based Products
+Arnav Chaturvedi,Master App,A large scale app that can control every light light the Q app already does extended into appliances,Application-Based Products
+Arnav Chaturvedi,Tracking threat detector,feature that turns on relevant lights when someone without clearance is within proximity of home ie:burgular,Sensor-Based Products
+Arnav Chaturvedi,Vision Detecting Lights,Every light switch has sensors that can track your eyes and see what part of the room you are focusing on in order to optimally light the room,Sensor-Based Products
+Arnav Chaturvedi,Delay dimmer,Hook up a variable speed motor to any dimmer or a capacitor that can slowly discharge in order to dim the lights over time as you go to sleep ,Hardware and Logistics
+Arnav Chaturvedi,Rumba Switch,Panel of light switches that follows you around the room ,Wearable and On Demand
+Arnav Chaturvedi,Room touch light,Make every room's walls have a sensor that allows you to touch a wall to light up the room and touch it to turn it off again,Sensor-Based Products
+Arnav Chaturvedi,Phone Tracker,Tracks cell signall in house to bring light to wherever phones are in the house with users ideally being there as well,Sensor-Based Products
+Arnav Chaturvedi,String Path light,Looks at user behavior and runs lights along house like security lights and light up certain paths that you commonly take at certain times,Simplicity-Focused Products
+Arnav Chaturvedi,Door RFID,Put an RFID scanner on your door that automatically turns off everything when you leave and turns everything back on when you come back and tap your card again,Simplicity-Focused Products
+Arnav Chaturvedi,Live energy tracker,In-house moniter of energy usage and suggestions given to user for better and proper plans of use,Energy Efficient
+Aldo Suseno,Gun the Light Down,A nerf gun bullet that has magnet on it. And attach a piece of an opposite magnet to the switch. Literally kills the switch before you go to bed,Wearable and On Demand
+Aldo Suseno,String to switch,It's one of the simplest mechanism to extend the switch to where you want it. Pull down on the strings to turn off/on the switch.,Simplicity-Focused Products
+Aldo Suseno,Universal light remote,One remote that controls all switches in the house. There is an add-on to the switch which will be controlled by the remote,Energy Efficient
+Aldo Suseno,Screen Switch,There would be no physical light switch except a screen which tells you if the light is on/off. You can tap on the screen to turn on/off or use application,Application-Based Products
+Aldo Suseno,Theme Switch,Each button corresponds to a set of light being turned on/off. So we don't have to walk around the house to switch each one on/off.,Energy Efficient
+Aldo Suseno,Add-On Switch Timer,An add on timer that goes on top of your switch. The lever moves down to turn the light off when the timer is done,Energy Efficient
+Aldo Suseno,Walk me to bed switch,A switch that reduces current to no current slowly instead of killing the light when we hit the switch. This allows people to walk safely back to bed.,Hardware and Logistics
+Aldo Suseno,Close to you switch,A motion sensor that cut and connect power to the light when something close to it moves (~8 inches),Sensor-Based Products
+Aldo Suseno,Guided string switch,The string will be guided on the wall to wherever you desire it to be so it doesn't block your way.,Simplicity-Focused Products
+Aldo Suseno,Automatic outdoor light,This sensor detects light. Enough current will flow to turn on light when there is no UV light detected by the light sensor and vice versa.,Sensor-Based Products
+Aldo Suseno,Bed Sensor,"At a certain time range, the light will go off when someone sleeps/lays on the bed",Sensor-Based Products
+Aldo Suseno,Screen Switch with Dimmer,The application and screen can also dim lights instead of just turning it on/off.,Application-Based Products
+Aldo Suseno,Universal light magnet controller,A remote that controls switches in the house. The remote is labeled and the add-on controls the switch with magnet.,Energy Efficient
+Aldo Suseno,One click switch,Controls light/other switches by doing one click on the remote/button. Can be wired/wireless,Simplicity-Focused Products
+Aldo Suseno,Step Switch,Step on the pad on the floor to turn light on/off,Simplicity-Focused Products
+Aldo Suseno,Make it Wireless,Replace your light switch with this device to transmit signal so you can control it from a distance,Application-Based Products
+Aldo Suseno,Moving Switch,A rail that allows the switch to be slided to a different part of your room,Hardware and Logistics
+Aldo Suseno,Sunrise and Sunset,Connect the switch to an application that has data of sunrise/sunset everyday. Lights will be seton/off according to that automatically,Application-Based Products
+Aldo Suseno,Quality sleep watch,"Light goes off when you click on ""sleep"". Then it detects your sleep. Within 10 minutes before your alarm, light will turn on when it's best to wake you up.",Sensor-Based Products
+Aldo Suseno,Call me Switch,Dial a certain number from any phone to turn switch on/off. A similar application exists in door buzzers in apartments.,Application-Based Products
+James Napoli,Universally Customizable Magnetic Switch Control,Product comes with a magnet that gets placed on switch. Button is pressed and the internal magnets are wirelessly activated and flip so the magnets flip switch and charge.,Hardware and Logistics
+James Napoli,Remote and Rolling Dimmer,Switch control same as above--actual control is a ball in a holder that rotates about one axis and dims the light up and down with just your palm.,Simplicity-Focused Products
+James Napoli,Ring Around the Switch,Product is a chain with a ring that goes around the switch. Button is pressed and servo motor is activated and flips causing ring to move switch up/down.,Hardware and Logistics
+James Napoli,"Mat On, Mat Off","Switch control same as above, the device is operated like a pressure plate. The mat is placed beside and triggers the switch on/off when stepped on.",Simplicity-Focused Products
+James Napoli,Switch Tapper,Touchscreen activated and made of spring loaded arms that push the switch either from the top or bottom once activated. Arms in different location depending on switch type.,Simplicity-Focused Products
+James Napoli,Big Red Button,Control uses the wireless mechanism but is triggered by a big red button. Red is a vibrant color and easy to locate for those with poor sight or mental disabilities.,Simplicity-Focused Products
+James Napoli,The Light App,"Control uses a smartphone app to connect to the apparatus placed on top of switch. Works on all smartphone platforms, and can control brightness if switch is for a light.",Application-Based Products
+James Napoli,Pull String,Control uses a string connected from the switch to hooks overhead to a handle over the bed--users can pull the string once in bed and turn off the light.,Simplicity-Focused Products
+James Napoli,Motion Sensor,"Control senses motion by the light switch, and senses the direction telling it whether to turn it on/off. When someone enters, it will turn the light on, and vice-versa.",Sensor-Based Products
+James Napoli,Vocal Recognition,This device is captures a sound recording (that can be rerecorded whenever) that will activate the flip of a switch each time that recorded statement is said again out loud.,Sensor-Based Products
+James Napoli,Remote and Rolling Dimmer for Multiple Switches,This base has an added extension to the roller where you can press which switch you'd like to dim before using the dimmer itself,Application Based Products
+James Napoli,Magnet Slide,"Instead of having two magnets with opposite polarization that flip, one magnet would be inside that slides up or down to dim or turn on/off",Simplicity-Focused Products
+James Napoli,Multi-colored Buttons,Wall switches will be color coated with one big strip of colored buttons that can be placed on the wall or on an end table that remotely control the switch corresponding to the color,Simplicity-Focused Products
+James Napoli,Ring Slide around the switch,"Instead of a button on the contraption that switches it on or off, there is a dimmer slider that can slowly move the chain to dim the light",Simplicity-Focused Products
+James Napoli,Walk around mat,"Several Mats on the floor of a bedroom control the intensity of the lights. As someone walks to bed, the lights get increasingly darker.",Sensor-Based Products
+James Napoli,Switch Tapper Stickers,"Not only can you control the contraction on the switch itself with a tap, we can have tap stickers that you can place anywhere that you can tap to flip the switch",Sensor-Based Products
+James Napoli,The Home App,"The app can not only control the light switches, but be able to control different parts of the house.",Application Based Products
+James Napoli,Motion Activated Rope Lights,"One strip of lights that goes along one wall and plugs in.  As you walk by, the section where you're walking lights up.",Sensor-Based Products
+James Napoli,Fabric Button,"A waterproof button sewed into two pieces of fabric.  One piece of fabric has a sticky side that can attach to a bed sheet, and one has to press it to activate the switch.",Sensor-Based Products
+James Napoli,Vocal/Finger recognition,"To control both a switch and an alarm system, the control can recognize vocals, but also recognize a fingerprint when it's time to lock up.",Sensor-Based Products
+Roger Isied,Personalized Wristband Light,A wearable wristband light with a built in LED light that can be extended from the wristband and adjusted for specific application.,Wearable and On Demand
+Roger Isied,Room Control Description App,An IOS or Android application that would give users access to all controls in their living space with detailed descriptions of what each switch controls.,Application Based Products
+Roger Isied,The Switch Drone,A GPS enabled drone that can find its way to different switches in a room and switch them on and off; it can also provide external light to its user.,Application Based Products
+Roger Isied,Room Control Watch,A smartwatch with the sole purpose of controlling switches and appliances in a living space,Application Based Products
+Roger Isied,Room Switch Control Box,A personalized control box that can control all switches in a living space and includes information about all utilities in the home to provide the user information about his/her living space.,Application Based Products
+Roger Isied,Universal Room Control Remote,An infrared sensor remote with a single button that can control any switch in a living space by pointing the remote at the switch.,Wearable and On Demand
+Roger Isied,Voice Controlled Switch Remote,A remote than can recognize user speech to control switches in a living space.,Energy Efficient
+Roger Isied,Light Switching Pen,A pen with pressable buttons on the side that control all switches within a living space.,Wearable and On Demand
+Roger Isied,A Light Switch Scanner,A sort of bar code scanner that can scan wall switches and provide information about that switch and what it controls.,Simplicity-Based Products
+Roger Isied,Clip-on Remote Switch,A clip-on switch that can be placed directly over a wall switch that can be controlled by either a smartphone app or remote control,Hardware and Logistics
+Roger Isied,Following Switch Drone,A drone that follows around the user wearing a GPS enabled wristband that can toggle switches to rooms that the user walks into and provides external light for the user via a build in LED,Application Based Products
+Roger Isied,Room Control Apparel,Any apparel of clothing that includes labeled room controls for user to function controls within their living space,Wearable and On Demand
+Roger Isied,Light-up Remote Switch Control,A one-button remote that had an attachable LED that can be pointed at light switches and can toggle them on and off. Includes a laser and attachable light to tell user where it is pointing.,Energy Efficient
+Roger Isied,Electromagnetic Wireless Switch,A one button portable switch that can shut off all of the power within a living space using electromagentic signals.,Energy Efficient
+Roger Isied,Service Dog Light Switcher,A training program designed for service dogs that will teach them how to turn switches on and off for those who cannot reach switches in the moment.,Energy Efficient
+Roger Isied,Timer Home Control System,"An integrated system in the home that can have timers set to turn off lights, lock doors, and set alarms at a time set by the user when the system is installed.",Hardware and Logistics
+Roger Isied,Hand Gesture Switch System,A camera set up in each room with shape recognition to received hand gesture signals from the user to control switches within that room.,Sensor-Based Products
+Roger Isied,Brail Based Switch System,A brail control board that allows users that have trouble seeing at some point during the day to feel the control box to know which switch they want to press to control switches without having to physically see the label.,Hardware and Logistics
+Roger Isied,Morse Code Switch System,A one button control system that controls all switches within a living space using a morse code toggled command.,Simplicity-Based Products
+Roger Isied,Pressure Based Control Switch,A pressure plate in the entrance of each room that turns the room lights on when a user enters and turns them off when the user leaves the room ,Sensor-Based Products
+Dominic Chiavacci,Actuated Switch -Standard,"A device mounted over a switch, possibliy replacing a face plate, that allows for automation of the switch",Hardware and Logistics
+Dominic Chiavacci,Actuated Switch -Flat Switch,A small magnetic attatchment to the face plate of a flat switch that has an actuated slider that allows for control of the switch,Hardware and Logistics
+Dominic Chiavacci,Remote Plug Hub,A hub that you can insert into the outlet that can remotely control the output of the outlet.,Hardware and Logistics
+Dominic Chiavacci,Personal Light Bracelet,A wrist/arm strap that contains a light that can shine forward or downward to aid work in poor lighting.,Wearable and On Demand
+Dominic Chiavacci,Remote Lightbulb,A light bulb adaptor that attatches in between the bulb and socket that can remotely control the light.,Hardware and Logistics
+Dominic Chiavacci,OneMote,"A simple remote that is easily programmable to control all the remote switch, plug, and bulb adapters.",Sensor-Based Products
+Dominic Chiavacci,Bracelet Remote,"A bracelet version of the remote that is more portable and personal, that could allow for motion control of appliances and lighting.",Sensor-Based Products
+Dominic Chiavacci,SmartBolt,A deadbolt lock for your door that can be remotely controlled and allows users to make sure their doors are locked while away.,Hardware and Logistics
+Dominic Chiavacci,Room Switch,"A signle switch that easily allows someone to turn off all unnecessary electronics in their room from one spot when they leave, in order to save power.",Hardware and Logistics
+Dominic Chiavacci,Surround Lighting,A lighting system that surrounds the room and can be selectively lit to accommodate where you need light at a specific instance.,Hardware and Logistics
+Dominic Chiavacci,Rail Lighting,A light on a rail that goes arround the room and follows a user.,Hardware and Logistics
+Dominic Chiavacci,Extended Light Bulb Adaptor,Light Bulb Adapter that has a flexible extended sensor for obstructed lights,Hardware and Logistics
+Dominic Chiavacci,Extended Socket Adaptor,Socket Adaptor that has a flexible extended sensor that can be remotely controlled,Hardware and Logistics
+Dominic Chiavacci,Smart Key,"A key with a small mechanism that toggles when you lock your door, so you can look at the key later and see if your door is locked",Hardware and Logistics
+Dominic Chiavacci,Remote control Blinds,Blinds that can be remotely controlled via a servo motor or actuator,Hardware and Logistics
+Dominic Chiavacci,Motion Controller Bracelet,A bracelet that can be worn and can recognize hand gestures that can be programmed to control different appliances and room controls,Wearable and On Demand
+Dominic Chiavacci,Biosensing LightSwitch,"A room control device that uses heat sensing or something other than motion to sense if someone is in the room.  Motion sensing may not work because if someone is just sitting there, it may detect that everyone has left and the room is empty.",Hardware and Logistics
+Dominic Chiavacci,Room Power Usage App,An app that lets users know how much power each room in their house is drawing in order to track energy usage,Application-Based Products
+Dominic Chiavacci,Removable Light Switch,A light switch that can be physically removed from the wall and used as a remote for that specific switch.,Hardware and Logistics
+Dominic Chiavacci,Shared Room Control,An app that lets users in shared living spaces control room they are staying in together,Application-Based Products

@@ -1,0 +1,101 @@
+Your Name,Concept Title,Description,Cluster Title
+Jaewon Yoo,Places with picture.,People can see the picture of the study places before they are getting there.,Service
+Jaewon Yoo,Avoiding loud places.,Some people donÍt want to study in a loud place.,Environment Type
+Jaewon Yoo,Already know,"Berkeley students can know the library is empty or not, to which they want to go",Service
+Jaewon Yoo,Full people in library,"When people arrived at the library, people are angry if the library is full",Environment Type
+Jaewon Yoo,Whiteboard necessity,"If people meet as a group, they need a whiteboard in order to share their thoughts easily and together",Study Convenience
+Jaewon Yoo,Making separate room,Some group wants to be separated from other people in order to really focus on their working,Study Convenience
+Jaewon Yoo,Existing on couch or sofa,"Many students woke up early for class, so they need sometimes sleeping area",Environment Type
+Jaewon Yoo,Hot day,"The weather is sometimes really hot, so people want to go to a study place being really cool",Environment Type
+Jaewon Yoo,Time safe,"If people can know what the place is empty now, people can save their time for searching study room",Service
+Jaewon Yoo,Many sockets,"Most people need the sockets for their laptop, cellphone, and other electrical devices",Environment Type
+Jaewon Yoo,Tired walking,People can avoid walking if they know available for the library.,Service
+Jaewon Yoo,Where friends,People can know their friends where they are.,Service
+Jaewon Yoo,How distance,The App can find the distance from our position.,Service
+Jaewon Yoo,Clean up,People want to study in clean places.,Environment Type
+Jaewon Yoo,No smell,People want to study no weird smell place.,Environment Type
+Jaewon Yoo,Easy access,The App can be easily accessed by Berkeley students.,Service
+Jaewon Yoo,Easy to use,The App should be easy to use for people with simple design.,Service
+Jaewon Yoo,Water important,"The people want to get water purifier lots of time, so the water purifier locations are also important.",Environment Type
+Jaewon Yoo,Food available,People can know the food is available in the library.,Service
+Jaewon Yoo,How to there,People can know how to get there with transportation.,Service
+Jaewon Yoo,Know to time,"In the App, people can know how long time to reach library if App is connected with Google map.",Service
+Jaewon Yoo,Login fast,"If the App connected with Facebook, people can login easily.",Service
+Jaewon Yoo,Simple access,The GUI of App can be simple enough to use quickly access.,Service
+Jaewon Yoo,Rewarding,"If the App has the reward coupon of near CAFÄ, people can study that places.",Service
+Jaewon Yoo,Good food,"The App has a favorite food of the CAFÄ restaurant, so people can know the information of the best food.",Service
+Bryant Phan,Independent Study Rooms,"Study cubicles that students can rent out at certain rates - similar to internet cafes, but for studying",Service
+Bryant Phan,Study Spot Recommendations,"Website that tells students where to study based on their preferences (e.g. quiet areas, loud areas, open areas)",Study Convenience
+Bryant Phan,Study Partner Finder,Allows users to find study partners studying the same subject on campus,Organization
+Bryant Phan,Sound Canceler,Portable panels that can be set up to reduce background noises via active noises,Environment Type
+Bryant Phan,Color Up,Repainting the libraries' walls to make it feel much more lively and comfortable,Environment Type
+Bryant Phan,Hour Extension,Change the hours of operation of the libraries/study spaces,Study Convenience
+Bryant Phan,Open Classrooms,Tells students of open classrooms so that they can use it as alternatives to study spaces - either for independent studying or group studying,Study Convenience
+Bryant Phan,Group Study Rooms,Study rooms that students can rent out at certain rates,Service
+Bryant Phan,Class Reserve,Application that reserves classrooms/conferences for studying,Study Convenience
+Bryant Phan,Study Anywhere,"App that lets students know of popular establishments to study at (e.g. Peet's, Starbucks)",Study Convenience
+Bryant Phan,Snack Supplier,Supply snacks to students studying so that they do not starve and also do not have to worry about leaving their seats,Service
+Bryant Phan,Seat Monitor,Monitors amount of open seats in a library/study space,Study Convenience
+Bryant Phan,Sound Monitor,Monitors the sound of study spaces and displays this information to students so they can use it to decide where they wanna go to study,Study Convenience
+Bryant Phan,Resource Renovations,Supply more furniture to study spaces to increase their appeal,Service
+Bryant Phan,Whiteboard Finder,Displays classrooms/study rooms with whiteboard for use,Study Convenience
+Bryant Phan,Powerstrip Supplier,"Users can rent power strips to use when studying, if they are too far from outlets or there are too many people",Service
+Bryant Phan,Earbud Supplier,Supplies users with ear buds and noise canceling headphones if they are studying in loud areas,Service
+Bryant Phan,Weekender Studies,Recommends locations to study during the weekend (when most classrooms and libraries are closed),Study Convenience
+Bryant Phan,Natural Light Info,Lets users know which study rooms have the best natural lights,Study Convenience
+Bryant Phan,Coffee Delivery,Supplies the essential fluid of studying to users who can't be bothered to leave their seat,Service
+Bryant Phan,Printing Delivery,"Students can send files they need to print, and it gets delivered to them so they can study without leaving",Service
+Bryant Phan,Phone Disabler,App that disables social media on phones to prevent students from getting distracted,Service
+Bryant Phan,Study Material Supplier,"Supplies students with the necessary study materials, so students can pick it up and use it for studying, don't have to go out of their way to buy it, similar to Amazon@ASUC pickups",Service
+Bryant Phan,Quickest Classroom Open,App that tells students the closest open study areas near them,Study Convenience
+Bryant Phan,Medicinal Supplements,"Supplies supplements to students who are studying and not getting enough nutrients (e.g. Fish Oil, Vitamin B12)",Service
+Sijun Noh,Basic list of empty rooms,Users can see the list of buildings and empty rooms they can use.,Service
+Sijun Noh,Map based GUI,People prefer easy looking GUI. Map based GUI might help users to access to information easily,Service
+Sijun Noh,Floor Plan GUI Spots,"If user clicks a building, user can see the floor plans of that building. Empty rooms can be displayed.",Service
+Sijun Noh,where is the restroom,Restroom locations can be included in floor plan.,Study Convenience
+Sijun Noh,Search classroom by time,A user can search empty classrooms by time and date,Service
+Sijun Noh,Search classroom by building,A user can search empty classrooms by building name so that he/she can choose the building they prefer,Service
+Sijun Noh,How many people allowed,The maximum number for classrooms can be shown in GUI,Organization
+Sijun Noh,Food allowed area,People want to eat with their friends which is not allowed in libraries. We can show if food is allowed in a classroom.,Environment Type
+Sijun Noh,Projector,Many groups or clubs want to use a projector. It might be better to show if its available.,Environment Type
+Sijun Noh,Fans on the ceiling,Some students feel constrained in non-circulated small libraries.,Environment Type
+Sijun Noh,Icon for better looking,Users have different emotional connections with different study spots. Icons will help users to choose right place to study,Service
+Sijun Noh,What is your purpose,A user can put the purpose of that study spots. They can invite others to join.,Organization
+Sijun Noh,Where is my classroom,"Using the floor plan and study spot information, Users can find their classroom easily.",Organization
+Sijun Noh,Recommend the best spots,The great places like Hesse hall can be introduced using campus map,Service
+Sijun Noh,Classify your preference,"Users can choose their needs, preferences, or amenities to find right place easily.",Environment Type
+Sijun Noh,Mobile GUI is better,"If possible, mobile version is required. PC version might have too broad information which cannot be visible in smartphones.",Service
+Sijun Noh,Report the issue,Some of the class information might be wrong. Getting report from users might help to improve the project,Service
+Sijun Noh,Classroom alarm system,"if there is a group meeting for some specific cousrse study meetings, users can be notification",Organization
+Sijun Noh,Water fountain location,Water fountain location can be shown in GUI,Study Convenience
+Sijun Noh,Building operation hours,Show the operation hours in GUI,Environment Type
+Sijun Noh,Order food easier,users can delivers to check the exact location for delivery,Service
+Sijun Noh,Whiteboard type,Show the size or type of whiteboard in each class,Environment Type
+Sijun Noh,Printer and scanner location,Printer and scanner locations can be shown in GUI,Environment Type
+Sijun Noh,Room cleaning schedule,People can avoid cleaning time,Study Convenience
+Sijun Noh,Bus stop location,Location of bus stops help students to choose closer building,Study Convenience
+Nicholas Corral,Nearest to Group,The app will show the study spot nearest to all members in the group.,Study Convenience
+Nicholas Corral,When are you studying?,The app will filter room availability based on the hours you study.,Environment Type
+Nicholas Corral,Want a Study buddy?,The app can link you with other students studying the same material.,Study Convenience
+Nicholas Corral,Anywhere in mind?,You can check the availability of a specific location.,Service
+Nicholas Corral,Save me a spot!,You can reserve a room for the hours you need to study.,Service
+Nicholas Corral,What do you need?,The app can filter available rooms depending on resources needed.,Study Convenience
+Nicholas Corral,Loud or Quiet?,The application will allow the user to select the type of study environment,Environment Type
+Nicholas Corral,Need a pro?,The application will share GSI and professor availability and location.,Organization
+Nicholas Corral,Create an Event,This feature will allow the creation of study events - study networking.,Organization
+Nicholas Corral,Rate the room,This feature allows the room experience to be rated and shared with others,Service
+Nicholas Corral,Room capacity,This feature will allow the user to see the room capacity.,Service
+Nicholas Corral,Study Rewards,This feature will reward the user for responsible use of school resources.,Service
+Nicholas Corral,"Check-In, Check out",Document the time spent at each study session to manage study habits.,Organization
+Nicholas Corral,Resource Locations,"Shows the location of resources such as printers, computers, restrooms, and water fountains.",Service
+Nicholas Corral,Food Service,Have campus food delivered to your room.,Service
+Nicholas Corral,Ranking,"Get ""credit"" for how often you study. The more credit, the better opportunities for research and GSI positions.",Service
+Nicholas Corral,Study Icon,An icon that shows the type of environment you would be studying at.,Study Convenience
+Nicholas Corral,Disable mode,Disable social media on your phone to gain reward points.,Service
+Nicholas Corral,Study Alerts,Set Alarms to warn you when you should be studying.,Organization
+Nicholas Corral,Schedule Planner,Create a planner that shows upcoming events.,Organization
+Nicholas Corral,Room share,People who study in quiet environments can share rooms.,Environment Type
+Nicholas Corral,Club Networking,Meet with people in clubs to gain an insight on what they do and how much time commitment is needed.,Organization
+Nicholas Corral,Find project members,Form groups or search for group members in different classes.,Study Convenience
+Nicholas Corral,Petition for changes,Create a forum to gain student signatures to petition for library and class improvements / renovations.,Environment Type
+Nicholas Corral,Rate Study Members,Rate your study partners to create a system of credibility and comfort.,Study Convenience

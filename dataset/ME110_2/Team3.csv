@@ -1,0 +1,77 @@
+Your Name,Concept Title,Description,Cluster Title
+Colin Holdsworth,Fire color,Add color LEDs to product,Visual
+Colin Holdsworth,Fish Tank,Have a fish tank underneath,Function
+Colin Holdsworth,Speed Dial,Setting on side panel to change speed,Control
+Colin Holdsworth,Flicker Dial,Change intensity of strops,Control
+Colin Holdsworth,Presets,A number of preset looks for different appearances,Function
+Colin Holdsworth,Remote control,Settings can be changed from a distance,Control
+Colin Holdsworth,Visual Player,Settings to match with music/ engage light shows,Control
+Colin Holdsworth,Heater,Built-in heating units to emulate a fireplace,Function
+Colin Holdsworth,Built in fire sounds,Emulate sound along with look as a fireplace,Visual
+Colin Holdsworth,Adjustable Bevels,Allows for product to fit into a variety of fireplace sizes,Physical
+Colin Holdsworth,Noise dampening,Materials around pump to dampen sound and vibrations,Physical
+Colin Holdsworth,Clock,Give the fireplace a function when not in full use,Function
+Colin Holdsworth,Back Panel,Interchangeable back panel. Color or patterned backs,Physical
+Colin Holdsworth,Easy refillablity,Easy access and simple methods to refill water levels,Physical
+Colin Holdsworth,Anti fog,Ability to not fog the inside tank,Physical
+Colin Holdsworth,Chimney Access,"Does not seal off chimney access, allows airflow",Function
+Colin Holdsworth,Installation,Easy installation into fireplace,Physical
+Colin Holdsworth,LED Customization,Custom light interface setup,Control
+Colin Holdsworth,Real time motion,Controls that allow for play with speed changing drops,Control
+Colin Holdsworth,Wifi Connection,Phone application control,Control
+Colin Holdsworth,Side Drawers,Extra storage space,Function
+Colin Holdsworth,Easy removal,For fireplace cleaning or occasional use,Physical
+Colin Holdsworth,Sturdiness,There are many moving parts with water so sturdiness and lifetime,Physical
+Colin Holdsworth,Easy Clean,Easy method and reach to clean apparatus,Physical
+Colin Holdsworth,Bowed Front Glass,Front glass bowed like a lens to give interesting look.,Visual
+Kasey Boekholt,Oscillating electric water pump,this is how the water will be dispensed at a steady rate,Function
+Kasey Boekholt,Noise Dampening,"If we end up using and electric pump, we will want to dampen the noise",Physical
+Kasey Boekholt,Battery Operation,"If we end up using a n electric pump, we may want to consider running it off of a battery.",Physical
+Kasey Boekholt,Ambient Drone,A possible method of noise dampening would be to drown out the pump noise with a relaxing drone tone,Physical
+Kasey Boekholt,Built in on/off timer,Maybe it should be powered of and on on some type of timer switch as a feature,Control
+Kasey Boekholt,Bright and low LEDS,"Bright for daytime when there is ambient light, low for at night",Control
+Kasey Boekholt,tunable Drop direction ,"A switch that let;s the user decide if the drops fall, rise, or levitate",Control
+Kasey Boekholt,fish tank,this could be the main water container,Function
+Kasey Boekholt,irrigation dispensers,we need even water distribution from the pressurized hose,Function
+Kasey Boekholt,LED circuit,this will let us strobe the LED's at a desirable rate,Control
+Kasey Boekholt,arduino,this might be needed as a voltage control for the strobe,Control
+Kasey Boekholt,LED's,between 1W-3W (really bright) for max effect,Function
+Kasey Boekholt,distance sensors,if an object is within a set range than a parameter changes (color or direction,Control
+Kasey Boekholt,Backdrop options,different back drops for different effects,Physical
+Kasey Boekholt,mirrored walls,"to create a larger feel, open up space, could help with the water effect",Physical
+Kasey Boekholt,Shoe rack,a custom shoe rack that fit inside a fireplace,Function
+Kasey Boekholt,annex book shelf,"a small bookshelf, maybe for ""on-deck"" books to read",Function
+Kasey Boekholt,fish tank 2,this one has actual fish in it,Function
+Kasey Boekholt,litter box,"they have to go somewhere, create a customized version that's pleaseant to look at",Function
+Kasey Boekholt,record player,"maybe annoying to change records, but a fun idea",Function
+Kasey Boekholt,records,most fireplaces would fit around 100 records,Function
+Kasey Boekholt,framed picture of a fire place,this is for the ironic art lover,Visual
+Kasey Boekholt,fish tank 2,"this one has actual fish in it, ironic art lover",Physical
+Kasey Boekholt,customized drawers,"design a modular, one size fits all, set of small drawres",Physical
+Kasey Boekholt,projection screen,mini projector that projects onto the back wall (white screen),Function
+Nicole Panditi,Charging station,"Place for all phones, computers, etc. to charge up, perfect for the central living room location",Function
+Nicole Panditi,Telescope,Set of mirrors that line up to let you look up the flue at the stars,Visual
+Nicole Panditi,Terrarium,"Mini-ecosystem with plants, water and insects for cool conversation piece",Control
+Nicole Panditi,Jellyfish tank,"Lower maintenance than fish, more beautiful",Visual
+Nicole Panditi,Stocked Emergency Kit,"Stores nonperishables and disaster gear, reminds family to be prepared",Function
+Nicole Panditi,Herb garden ,"Sunlamp aids in growing kitchen herbs, saves money",Function
+Nicole Panditi,Wine rack,"Conversational and functional, encourages drinking them!",Physical
+Nicole Panditi,Mini stage,For families with small children to encourage creativity,Visual
+Nicole Panditi,Folding party furniture,Useful space to store micro folding furniture for hosting,Function
+Nicole Panditi,Steam punk radio with remote,"Gets people in tune with audio more than visual entertainment, old-fashioned but hip",Control
+Nicole Panditi,Home security system video display,Keep tabs on all security cameras at once from central location,Control
+Nicole Panditi,Mini speakeasy,Secret panel folds out to reveal liquor cabinet/mini-bar,Physical
+Nicole Panditi,Scrolling updates,"Weather, news updates on LED leader board",Visual
+Nicole Panditi,Camping gear storage,Compact storage that hearkens back to the concept of fire in a creative way,Function
+Nicole Panditi,Lava lamp,Fireplace-shaped lava lamp: a classic with a twist!,Visual
+Nicole Panditi,Household battery,Wind and solar power charge during the day and need to be stored for the night. This is that battery. Allows household to monitor energy collection and usage,Control
+Nicole Panditi,Culinary Desiccator,Desiccators can be large and not fit in the kitchen. This one is custom-sized for the fireplace. Promotes healthy diet,Function
+Nicole Panditi,Recycling center,"Containers for e-waste, batteries, light bulbs, sharps, etc",Function
+Nicole Panditi,Medical center,"Easy location for neutralizers, pill regimens, defibrillators...",Function
+Nicole Panditi,Sand Pantry,"Dark, dry storage for potatoes and carrots that keep better packed in sand",Function
+Nicole Panditi,Novelty Clock,a rube-goldberg style analog clock with whimsical internal mechanisms visible,Visual
+Nicole Panditi,Earth model,"Globe that slowly turns in the light of a sunlamp to show earth's position in real-time, LEDs show the cities light up after dark as in real life",Visual
+Nicole Panditi,One-year calendar,Help people reflect and keep big-picture perspective,Control
+Nicole Panditi,Model volcano,"LEDs create realistic eruptions every half-hour. Absurdist conversation piece, helps people reconnect with natural world",Visual
+Nicole Panditi,Beehive,"Beehive set up at mouth of flue, honey drips down into collection container in fireplace",Function
+Nicole Panditi,Visualizer,Displays digital visuals that respond to the volume of conversation in the living room,Control

@@ -1,0 +1,99 @@
+Your Name,Concept Title,Description,Cluster Title
+Max,Valet,Person parks bike and provides surveillance,Service
+Max,Tracker,Put a tracker inside every bike,Surveillance
+Max,Raised Bike Rack,Raises bikes in air making more difficult for ciminals to reach,Infrastructure
+Max,Question Asker,Asks questions and gives candy when correct answer is given,Entertainment
+Max,Finger Scanner,Unlock after fingerprint is given,Locking process
+Max,Rotating Bar,Rotating bar enables biker to carry lock on frame,Locking process
+Max,The Caf_,Caf_ where bikes are checked in,Entertainment
+Max,Cages Park,Bike cages make a fun maze where children come to play,Entertainment
+Max,The Arms,Adjustable bike arms allow locking an irregular bike,Locking process
+Max,The Camera,Attach a camera that texts when obscured or removed,Surveillance
+Lace Co Ting Keh ,Bike parking lot ,Parking lot for bikes that is completely automated. A bike will be stored at a parking space corresponding to the specific 4 digit passcode entered by the user when the bike is dropped off. The user with the unique code is able to take/ access the bike in this space alone. Passcode resets when the bike is returned. ,Infrastructure
+Lace Co Ting Keh ,molded lock ,"Chain lock that is in the market, retractable to a certain set position then it arrives to whenever the lock is being used. It can be complressed and unlocked from this molded shape. ",Locking process
+Lace Co Ting Keh ,lock bluetooth ,Detects the unlocking or breaking of the lock. This is a chain bike lock that ties up/ locks up the entire bike. ,Locking process
+Lace Co Ting Keh ,all around bike tracker,Tracker attached to every detachable part of the bike and connected to the user's phone. Allows user to track all parts of the bike at all times. ,tracking/surveillance
+Lace Co Ting Keh ,bike lock alarm ,A bike lock that produces sound if a person tries to break the lock. Any disturbance on the lock will set an alarm off. ,Locking process
+Lace Co Ting Keh ,bike storage ,Enter a unique code when you drop off your bike. The code is reset when the bike is retrieved. ,Infrastructure
+Lace Co Ting Keh ,bluetooth U-lock ,Bike lock that unlocks only when the phone unlocks it. Only allows the user to unlock it. ,Locking process
+Lace Co Ting Keh ,bike lock with wheel locks ,Bike lock with locks for wheels. It automatically locks the wheels with the chain lock. ,Locking process
+Lace Co Ting Keh ,finger print bike lock ,Bike lock that can only unlock with the activation from a finger print scanner. ,Locking process
+Lace Co Ting Keh ,bike rack alarm ,Bike rack that will set an alarm off if broken into. Allows for storage with finger scanners. ,Infrastructure
+Svenja Wotzka,Bike Racks who includes locks,"These bike racks include three locks, so that you can lock the front wheel, the rear and the frame. You can lock and unlock the system with a self-created combination.",Service
+Svenja Wotzka,Bike Lock App,"This Lock doesnÕt need keys anymore. You lock and unlock it with an App, downloaded on your phone.",Locking process
+Svenja Wotzka,Bike lock & Chip,"With this Lock you will never waste time for locking anymore. It exists a unique Chip, who locks and unlocks your bike lock.",Locking process
+Svenja Wotzka,Park Service for Bikes,"Supermarkets will offer employees at bike racks, who parks and locks your bike. In Addition to that there is always a security person watching your bike.",Service
+Svenja Wotzka,Super Safety Bike Box,"Just wheel your Bike into the Bike Box, lean it against the bike rack, create locking a combination and secure the box.",Service
+Svenja Wotzka,Track your bike,Assemble a GPS Chip into your bike frame and track it if it gets stolen or if you canÕt remember where you have parked it.,tracking/surveillance
+Svenja Wotzka,Registration Certificate for bikes,Every bike must show a serial number. These serial number shows that you are the owner of this bike and is written in a registration certificate. The ID can be resides to phones.,tracking/surveillance
+Svenja Wotzka,Alarm by moving the bike,An integrated sensor in the front wheel and rear will sound an alarm if someone moves the bike after locking it. The owner is holding a remote control for the alarm.,tracking/surveillance
+Svenja Wotzka,Parking Garage for Bikes,"You park and lock your bike in a parking garage, which is watched by security personal and video cameras.",Service
+Svenja Wotzka,Air Bike Parking,"For this construction you have to fix your bike on the rope and raise it up in the air. After, you have to fix the rope on the rack with your own lock.",Service
+Max,Music Lock,Lock plays music while you are unlocking,Entertainment
+Peter,Basement ,Put bike into basement with trapdoor,Infrastructure
+Max,Cut Resistant Fabric,Fabric that can't be cut makes lock lighter,Locking process
+Max,Hard Polymer locks,Polymer is lighter than metal chain lock,Locking process
+Max,Rotating bike rack,Rotates constantly so thieves can't cut lock,Infrastructure
+Svenja ,exploding lock,"If someone moves your bike, who isn't allowed to use it, after you parked it,  your lock explodes and a firework starts. The potential thief is very scared and runs away...",Entertainment
+Lace,Pellet shooter,Shoots pellets at thieves when they try to cut your lock,Locking process
+Max,Foot sensitive pad,"Marks position of biker's feet when they lock bike; if someone else puts their feet somewhere else, an alarm sound is made",Infrastructure
+Max,Alarm lock,Circuit senses whether lock is being cut; makes alarm sound,Locking process
+Lace,max security ,"bike rack/storage area that takes in an approximation of how long you will leave your bike parked and enables maximum security at this time. however, still needs two passcodes to unlock ",Infrastructure
+Max,Biker ID injection,Circuit pairs you to bike,Surveillance
+Svenja ,Shared Bikes in Berkeley,In the whole city are bikes spread out and everybody is allowed to use them. Therefore nobody will need anymore their own bike and don't have to secure it. ,Service
+Lace,iphone lock ,bike lock that needs your iphone to reset the lock if the wrong passcode was entered more than 3 times ,Locking process
+Svenja ,Clean all Bikes in town,"If someone steals a bike, this person has to clean all bikes in his town. This Punishment shall scare potential thieves, so that they not thinking of stealing bikes. ",law
+Lace,motion sensor,bike lock that notifies you if your bike lock moves for more than 5 seconds(ignores accidental movement of the bike lock),Locking process
+Svenja ,bike racks including sitting accommodations,"These new Cafèes offer bike racks including sitting accommodations, so that you are very close to your bike every time. The service personal will bring all your orders to you.",Service
+Max,Shade roofs,"Provide a roof for shade over all bike racks; this will cause more people to congregate around bike racks, making it more difficult for thieves",Infrastructure
+Lace ,ID scanner ,need your cal ID to access a specific space in a bike rack and unlock your bike ,Infrastructure
+Svenja ,No Parking anymore,"Every office, supermarket... allows to bring your bike into the building. You never have to park your bike again. In offices are tags on walls, where you can fix your bike.",Service
+Max,Custom bikes,High quality bikes are created for user with seat fused on; makes it impossible to steal,Bike construction 
+Lace,sand box lock ,trace your signature or a specific combination in the sand on the lock ,Entertainment
+Lace,wheel lock ,use the wheel as a lock so that transportation of the lock is not a problem ,bike construction 
+Max,Policy change,Require every supermarket to have indoor bike storage,law
+Lace,seat lock ,use the seat of the bike as a lock so that transportation of the lock is not a problem ,bike construction 
+Lace ,camera lock ,lock that comes that has a camera in it so that it allows the user to see their bikes at all times ,Locking process
+Max,Recyclable bike,Tires do not come off; seat does not come off; hard to steal,bike construction
+Svenja,electronic watching dogs,"After you've parked your bike, your electronic dogs make sure that nobody will steal your bike. If there are some strange persons comming they will bell and bite if they touch your bike. ",Entertainment
+Max,robot locker,Give bike to robot; locks for your bike for you,service/infrastructure 
+Max,Riddle lock,Solve 3 riddles to unlock your bike. depends on you being more clever than bike thief,Locking process
+Svenja,underground electronic parking,"A garage is placed under the ground. You just have to move your bike into the elevator, create an combination and the eleveator parks your bike in the underground. It's a place-saving and secure possibility to park bikes. ",service/infrastructure
+Zeshengliu,wheel-seat,Bend the seat and lock it with the wheel,bike construction
+Lace ,molded bike rack ,"bike rack molded to lock all of the parts of your bike for your, thinner bike rack and takes up less space than a larger infrastructure ",Infrastructure
+Svenja,assault bike,Take your bike/ Carry your bike into your office and use it insight like an assault bike. Therefore you just have to put your own bike on a rack. ,Entertainment
+Lace ,blinking bike locks,bike lock that has blinking lights when locking and unlocking so that you get the attention of people ,Locking process
+Zeshengliu,public house,"build a box to storage a bike,and the box won't occupy much space.it will be a bit lager than the bike.you can lock the door of the box.The thieves won't be so bold to break the box.",Infrastructure
+Zeshengliu,seat bringer,take the seat down trough a joint and bring it with you ,bike construction
+Lace ,all around lock ,bike lock that require a pass code for each part of the bike to be released ,Locking process
+Lace ,bracelet,bike lock that requires having the owner's bike bracelet close by in order to lock the bike ,Locking process
+Svenja,remote-controlled bike,"You don't have to lock your bike anymore, because if someone is trying to steal or touch your bike, you get a signal and only have to use your remote for moving your bike.",tracking/surveillance
+Lace ,engagement bike ,"bike lock that requires the scanning of an engagement ring in order to unlock, can be used by a couple(also has a bike lock passcode requirement)",Locking process
+Lace ,wheel lock ,"locks both your wheels and when disturbance is sensed, you get notified (no need for bike lock)",Surveillance
+Max,Electric fence,put electric fences around bike racks; acts as an additional deterrent,Infrastructure
+Svenja,colourful explosion ,"If someone steals your bike, you can push a button and your saddle will explode and spread a lot of colors in the air. The thief might get scared and runs away. You can track the thief because he is full of colours. ",tracking/surveillance
+Lace ,timer lock ,"allow the user 1 minute to unlock the bike lock. if not done in this time frame, a loud alarm will sound ",Locking process
+Zeshengliu,transformers,"use te memory metal to create the bike,the bike will remember the character of the user.Nobody else can use it",Entertainment
+Svenja,steel leash for bikes,Protect your bike with a steel leash while you are sitting in a restaurant. ,Locking process
+Svenja,electric shock safed bike,"After you have locked your bike, you are able to secure you bike with electric, so if someone touches your bike this person will get an electric shock!",Locking process
+Lace ,wheel sensor,"senses the movement of the wheels, if it starts rolling, the user will be notified of the location of the bike ",tracking/surveillance
+Zeshengliu,light sensor,"there will be a sensor to sense the light of the hand lebar ,so if you want to bike,you need to put the button just under handlebar .And there will be a device to light the handlebar.Then you can use it.",bike construction
+Zeshengliu,phone-key,"when you get close to your bike with your phone ,the lock will open automatically,and when you're far away from your bike,it will be locked automatically.",Locking process
+Zeshengliu,Force sensor ,"when the lock was stressed,it will send you an message.",tracking/surveillance
+Zeshengliu,slide-lock,you can use a slide steel pole to lock the main part of your bike.There are two parts of this slide device.Both of these two parts can slide along the track installed on the ground.And after you position you bike at the middle of these two parts and then lock this two part .The bike won't be stolen ,Infrastructure
+Zeshengliu,face-recognition,"set your head at an appropriate place and then after  the sensor recognize your identity ,it will unlock",Locking process
+Zeshengliu,GPS-speed sensor,"There's a GPS on your bike to measure the speed of you bike.If the bike have a speed but it haven't been unlocked,the bike will stop.It can also provide you the position of your bike",tracking/surveillance
+Zeshengliu,lock to unmovable things,"lean your bike to an unmovable infrastructure and lock it with U-lock Only if thieves use liquid nitrogen,your bike will be stolen. ",Locking process
+Zeshengliu,iridology,set your eyes toward the iridology device to unlock bike ,Locking process
+Zeshengliu,sharing bicycle,"There are lots of bikes put on the market.In most place,you can get access to them.And it can be used by a specific app after you provide some bond in the app.So you don't need to worry about lose your own bike.",Infrastructure
+Peter,magnet lock,Uses magnet attached on the ground to lock the wheel of the bike,Locking process
+Peter,Phone App Wheel Lock,Lock located between the bike frame and the bike's front and back wheel. Lock works through phone application,Locking process
+Peter,Unusable Bike lock,"The bicycle becomes unusable if the three locks: frame, front and back wheel are ""unlocked"" ",Locking process
+Peter,Pressure Sensor,"When the bike pedals are given pressure, your phone will ring",tracking/surveillance
+Peter,Registration barcode,"The user of the bike must scan the barcode to use the bike. If the phone cannot scan the barcode, the bike becomes unusable",Locking process
+Peter,automatic bike park,"bike is put on one automated parking machine; then, the machine will place it into a bike parking spot.",Infrastructure
+Peter,Phone app deflated tire,Auto deflated bike tires using phone app to prevent bike theft,tracking/surveillance
+Peter,Voice command bike,used voice command to lock and unlock bike lock,Locking process
+Peter,High ground parking,Park a bike then the ground can be elevated so it may prevent bike theft,Locking process
+Peter,cable lock,"instead of the regular bike rack, cable is available attached to the rack to be used by owner to lock the bike",Locking process
+Peter,Triple camera and GPS,GPS and camera attached to the bike frame and the two wheels to track if its get stolen,tracking/surveillance

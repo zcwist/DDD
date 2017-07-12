@@ -21,7 +21,7 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 			yticklabels = yticklabels_
 
 	sns.set()
-	sns.set_style("darkgrid")
+	sns.set_style("whitegrid")
 	plt.figure(figsize=(9, 9))  # in inches
 
 	# count first for better visualization
@@ -37,22 +37,22 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 			angles = np.linspace(-np.pi/2, np.pi/2, num=len(labels2draw)+1)
 
 			if cnt[x,y] != 0:
-				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["denim blue"],alpha=0.5)
+				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["dark grey"],alpha=0.9)
 
-			if len(labels2draw)<2: r = 0
-			else:                  r = offset
+			# if len(labels2draw)<2: r = 0
+			# else:                  r = offset
 
-			for l, a in zip(labels2draw, angles):
-				# import pdb; pdb.set_trace()
-				x_ = x + np.cos(a)*r
-				y_ = y + np.sin(a)*r
-				plt.scatter(x_, y_,c=sns.xkcd_rgb["pale red"])
-				plt.annotate(l,
-					 xy=(x_, y_),
-					 xytext=(5, 2),
-					 textcoords='offset points',
-					 ha='right',
-					 va='bottom')
+			# for l, a in zip(labels2draw, angles):
+			# 	# import pdb; pdb.set_trace()
+			# 	x_ = x + np.cos(a)*r
+			# 	y_ = y + np.sin(a)*r
+			# 	plt.scatter(x_, y_,c=sns.xkcd_rgb["pale red"])
+			# 	plt.annotate(l,
+			# 		 xy=(x_, y_),
+			# 		 xytext=(5, 2),
+			# 		 textcoords='offset points',
+			# 		 ha='right',
+			# 		 va='bottom')
 
 	ax = plt.gca()
 	ax.set_xticks(range(nx))
@@ -63,8 +63,13 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 
 	if xticklabels is not None:
 		ax.set_xticklabels(xticklabels, rotation=20, ha='right')
+	else:
+		ax.set_xticklabels([""]*nx)
+		
 	if yticklabels is not None:
 		ax.set_yticklabels(yticklabels)
+	else:
+		ax.set_yticklabels([""]*ny)
 
 	# plt.grid()
 	plt.axes().set_aspect('equal')
@@ -92,7 +97,7 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 			yticklabels = yticklabels_
 
 	sns.set()
-	sns.set_style("darkgrid")
+	sns.set_style("whitegrid")
 	plt.figure(figsize=(9, 9))  # in inches
 
 	nx = max(xindices)+1
@@ -135,23 +140,27 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 
 	for x in range(nx):
 		for y in range(ny):
-			if cnt[x,y] != 0:
+			# print cnt[x,y]
+			if cnt[x,y] != 0.0:
 				idx = [i for i,pos in enumerate(zip(xindices, yindices)) if pos[0]==x and pos[1]==y]
 				labels2draw = [labels[i] for i in idx]
 				angles = np.linspace(-np.pi/2, np.pi/2, num=len(labels2draw)+1)
-
-				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["denim blue"],alpha=0.5)
+				dis = range(len(labels2draw))
+				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["grey"],alpha=0.8)
 
 				if showLabel:
 
 					if len(labels2draw)<2: r = 0
 					else:                  r = offset
 
-					for l, a in zip(labels2draw, angles):
+					for l, a in zip(labels2draw, dis):
 						# import pdb; pdb.set_trace()
-						x_ = x + np.cos(a)*r
-						y_ = y + np.sin(a)*r
-						plt.scatter(x_, y_,c=sns.xkcd_rgb["pale red"])
+						# x_ = x + np.cos(a)*r
+						# y_ = y + np.sin(a)*r
+						x_ = x + 0.5 + a 
+						y_ = y
+
+						# plt.scatter(x_, y_,c=sns.xkcd_rgb["pale red"])
 						plt.annotate(l,
 							 xy=(x_, y_),
 							 xytext=(5, 2),
@@ -159,13 +168,18 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 							 ha='right',
 							 va='bottom')
 	ax = plt.gca()
-	ax.set_xticks(range(nx))
-	ax.set_yticks(range(ny))
+	ax.set_xticks(range(0,nx))
+	ax.set_yticks(range(0,ny))
+	plt.ylim(-1,ny)
+	plt.xlim(-1,nx)
+
+	# sns.despine(left=True);
+	# sns.despine(offset=50, trim=True);
 
 	fig = plt.gcf()
 	fig.subplots_adjust(left=0.2)
-	if team_number != None:
-		fig.suptitle('Team ' + str(team_number),fontsize=20)
+	# if team_number != None:
+	# 	fig.suptitle('Team ' + str(team_number),fontsize=20)
 
 	if showLabel:
 		if xticklabels is not None:
@@ -178,8 +192,8 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 		ax.set_yticklabels([""]*len(yticklabels))
 
 	# plt.grid()
-	plt.xlabel("Human Clustering")
-	plt.ylabel("Machine Clustering")
+	# plt.xlabel("Human Clustering")
+	# plt.ylabel("Machine Clustering")
 	plt.axes().set_aspect('equal')
 
 def plotSimpifiedBubbleOC(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False, xFilteredStr = None, yFilteredStr = None, showLabel = True, team_number = None):
@@ -194,8 +208,11 @@ def unfoldOC(xindices, yindices, labels):
 	x_list = list()
 	y_list = list()
 	label_list = list()
+	# print xindices
+	# print yindices
 
 	for i in range(length):
+		# print xindices[i]
 		for x_index in xindices[i]:
 			x_list.append(x_index)
 			y_list.append(yindices[i])

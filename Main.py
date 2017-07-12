@@ -92,6 +92,62 @@ class SWSCTester(object):
 		# plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
 		plt.show()
 
+	def exportWithK(self,number,k):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+		# from PlotHM import plotHM
+		from PlotBubble import plotBubble
+		from HMcsv import exportHM,exportHM2
+
+		filename = "dataset/ConceptTeam" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters(cluster_size=k)
+		m_labels = [x-1 for x in m_labels]
+		# print (m_labels)
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		# exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
+		exportHM2(cm.conceptList,concept_labels,"Human_manchine_details_des_k_"+str(k)+"Team"+str(number))
+
+		plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
+		plt.savefig("Graph/HMPlot/HMPlotTeam"+str(number)+"k_"+str(k))
+		# swsc.dendro_heat()
+		# plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
+		plt.show()
+
+	def exportWithME110_2K(self,number,k):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+		# from PlotHM import plotHM
+		from PlotBubble import plotBubble
+		from HMcsv import exportHM,exportHM2
+
+		filename = "dataset/ME110_2/Team" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters(cluster_size=k)
+		m_labels = [x-1 for x in m_labels]
+		# print (m_labels)
+		h_labels = cm.category_index_list
+		concept_list = cm.concept_name_list
+
+		concept_index = range(1,len (concept_list)+1)
+
+		# exportHM(concept_index,cm.concept_category_list, concept_labels, concept_list, "Human_machine_details_Team"+str(number))
+		exportHM2(cm.conceptList,concept_labels,"Human_manchine_details_des_k_"+str(k)+"Team"+str(number))
+
+		plotBubble(h_labels,m_labels,concept_index,xticklabels=cm.categoryList,yticklabels=h_ticklabel,sort=True)
+		plt.savefig("Graph/HMPlot/ME110_2/HMPlotTeam"+str(number)+"k_"+str(k))
+		# swsc.dendro_heat()
+		# plt.savefig("Graph/Dendrogram/DendrogramTeam"+str(number))
+		plt.show()
+
 	def exportOC(self, number):
 		from swsc import SWSC
 		from ConceptManager import OCConceptManager as CM
@@ -107,6 +163,7 @@ class SWSCTester(object):
 		m_labels = [x-1 for x in m_labels]
 		# print (m_labels)
 		h_labels = cm.category_index_list
+		print h_labels
 		concept_list = cm.concept_name_list
 
 		concept_index = range(1,len (concept_list)+1)
@@ -206,10 +263,27 @@ class SWSCTester(object):
 
 		exportHM2(cm.conceptList, concept_labels, "ME110_HM_Team" + str(number) )
 
+	def export_me110_2(self, number):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+
+		from HMcsv import exportHM2
+
+		filename = "dataset/ME110_2/Team" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+
+		exportHM2(cm.conceptList, concept_labels, "ME110_2_HM_Team" + str(number) )
+
 
 
 
 if __name__ == '__main__':
+
+	# SWSCTester().exportWithK(1,7)
+	# SWSCTester().exportWithK(1,20)
 
 	#ME110
 	# SWSCTester().export_me110(2)
@@ -219,6 +293,10 @@ if __name__ == '__main__':
 	# SWSCTester().export_me110(14)
 	# SWSCTester().export_me110(5)
 
+	#ME110_2
+	SWSCTester().export_me110_2(10)
+	# SWSCTester().exportWithME110_2K(8,8)
+
 
 
 
@@ -226,7 +304,7 @@ if __name__ == '__main__':
 
 	#ME310
 
-	SWSCTester().export(1)
+	# SWSCTester().export(1)
 	# SWSCTester().simplified_plot(1,yFilteredStr="car;people",showLabel=True)
 	# SWSCTester().simplified_plot(7,xFilteredStr="Met-eared",showLabel=True)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
@@ -243,11 +321,13 @@ if __name__ == '__main__':
 
 	#Team4
 	# SWSCTester().simplified_plot(4,yFilteredStr="app;challenge",showLabel=False)
+	# SWSCTester().simplified_plot(4,yFilteredStr="app;challenge",showLabel=True)
 	# SWSCTester().simplified_plot(4,xFilteredStr="service",showLabel=False)
 
 	#Team6
 	# SWSCTester().simplified_plot(6,yFilteredStr="sculpture;tail",showLabel=False)
 	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=False)
+	# SWSCTester().simplified_plot(6,xFilteredStr="Children Friendly Designs",showLabel=True)
 
 	#Team7
 	# SWSCTester().simplified_plot(7,yFilteredStr="caps;water",showLabel=False)
