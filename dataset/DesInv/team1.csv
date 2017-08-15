@@ -1,0 +1,61 @@
+Member Name,Concept Title,Description,Cluster
+Crystal,Robot Bagger,Robot bagger that can efficiently bag grocery items,Robot
+Crystal ,Durable Grocery Bag,Made out of very strong material ,Grocery Bags
+Crystal,Temp Control Bag,Grocery bag with adjustable temperature control to keep food at certain temp,Grocery Bags
+Crystal ,EZ Shopping Cart,Smaller and easy to maneuver shopping cart,Shopping Cart Device
+Crystal,Advanced Shopping Cart ,show where employees are and allow you to talk to them directly,Shopping Cart Device
+Crystal,Zero Wait Time Register,Display wait time at each register on screen,Shopping Cart Device
+Crystal,BLink H2O,Water bottle that connects to app to track progress,Staying hydrated
+Crystal,Automatic Water Boiler ,Water boiler that automatically refills from tap ,Home appliance
+Crystal,Budget Shopping Cart,Screen attached to cart that tracks the prices of items put into cart,Shopping Cart Device
+Crystal,Advanced Shopping Cart ,Shows location of store items,Shopping Cart Device
+Kaiyang,Title scanner,"People can scan the title of packed food to know how much energy in it, and help them to calculate the calorie.",Wearable device
+Kaiyang,Food camera,"Can analyze the contain of a meal, and calculate the calorie.",Wearable device
+Kaiyang,Exercise monitor,people can see how much fat they have burnt through exercie.,Wearable device
+Kaiyang,Exercise advisor,People can get help through the device when they doing exercise.,Wearable device
+Kaiyang,taser reminder,For people who make up their mind to improve their health condition but are weak in self control. Force them to get fit(exercise or diet) .,Wearable device
+Kaiyang,Online after- sale service,This function is connected to taser reminder. It can let people stop the force program. ,Wearable device
+Kaiyang,Water drinking monitor,Help people drink enough water during a day.,Staying hydrated
+Kaiyang,Heart rate monitor,"Scan the heart rate, to help people over-exercised.",Wearable device
+Kaiyang,Eating/ Shopping advisor,"Give suggestions base on the data collected from peoples' daily lives, to help them keep fit.",Apps (shopping)
+Kaiyang,Well designed,"The product should have not only the powerful functions, but also the fashionable appearance.",Wearable device
+Martin,Cookie Keeper,A device that guards sweets and junk food and does not allow user to access it unless they have been keeping up with their nutrition goals. Would link to a phone app.,Home appliance
+Martin,Quick Meals ,app that keep inventory of the user's food and suggests meals based on time and inventory.,Apps (shopping)
+Martin,Freezer Buddy,Robot that keeps inventory of food in the freezer and defrosts food accordingly,Robot
+Martin,scanner,wearable that scans food and estimates nutritional value by comparing to food in database,wearable device
+Martin,wearable camera,Item would record your actions throughout the day and automatically logs your food intake and calculated nutrition for you.,wearable device
+Martin,Robo Prepcook,Robot that prepares food for user to cook. (i.e. cuts vegetables and measures ingredients),Robot
+Martin,personal shopper,User inputs the dishes they want to cook and the robot shops for necessary ingredients and delivers them to user,Robot
+Martin,Deli Pro,robot that makes sandwiches for users that don't have time to cook. ,Robot
+Martin,Food Checker,"Robot that checks food in fridge (i.e. vegetables, left overs, dairy, etc) and determines whether to keep or throw out",Robot
+Martin,Caffeine pal,"Device that makes a warm beverage for you based on the time of day and how much you got. For example if its late at night, the device would make you a soothing tea, if its first thing in the morning after a rough night, it may make you a double shot latte. learns user's likes and dislikes",Home appliance
+Tina,Automatic shopping cart,A screen on shopping cart that can connect with app and help the efficiency of picking up what to buy,Shopping Cart Device
+Tina,Electronic shopping cart,A shopping cart where we can place and plug our phones,Shopping Cart Device
+Tina,Health Sensor,A sensor that can put in mouth and monitor our vitamin and calcium intake,Home appliance
+Tina,Disease predictor,A watch that can detect our disease and symptom by monitoring our physiology,Wearable device
+Tina,Dining out app,An app that connect with GPS and can record what we eat  and give us healthier suggestion based on what we have eaten,Apps(Dining)
+Tina,Recipe app,An app that teach people how to cook and buy food ingredients in the nearest stores efficiently,Apps(Dining)
+Tina,Restaurant app,An app that compares price and quality of different restaurants and gives users profitable recommendation,Apps(Dining)
+Tina,Blood Sugar monitor,Wearable blood sugar monitor for diabetic people,Wearable device
+Tina,Sleep quality monitoring clock,An alarm clock that can monitor sleep quality and wake up users when they are not in deep sleep,Home appliance
+Tina,Electronic cabinet,A cabinet that can record expiration date of every food and record users to eat them before the food spoils,Home appliance
+Crystal,Fever Cap,Cap that measures body temp and acts as a cooling/heat pad,Wearable Device
+Crystal,Item Grabber,Robot that helps you retrieve items from high places,Robot
+Crystal ,Cookie Keeper Vers 2.0,Voice activation is implemented ,Home appliance
+Crystal,Shopping Bot,A shopping cart in the form of a bot that follows you around in store and holds your items,Shopping Cart Device
+Crystal,ExpireNo Cutting Board,A cutting board that detects spoiled food that is placed on top of it,Home appliance
+Kaiyang,Cooking advisor,"Give suggestions on what type of food to choose in order to keep fit, and how to cook them.",Apps(Dining)
+Kaiyang,Intelligent bottle sleeve,"Can scan the water quality (what's the composition of the water), temperature, etc.).",Apps(Dining)
+Kaiyang,Weighable cutting board,A cutting board that can weigh the substance on it.,Home appliance
+Kaiyang,Wake up bed,A bed which will be rough in the morning that can wake up people.,Home appliance
+Kaiyang,Menstruation recording app,An app that can help women to record their period and remind them two days before next period comes so they can stock up on supplies,App (Health)
+Martin,electric cart,electric grocery cart that activates when the cart gets too heavy,Shopping Cart Device
+Martin,RoboCart,Cart that unloads groceries into the car for user.,Shopping Cart Device
+Martin,Fridge Sensor,"Scans items put into refrigerator and keeps track of how much is left. Example, alerts user if pickles are low",Home appliance
+Martin,Dehydration Bracelet,Monitors user's hydration level and beeps or vibrates to let user know to drink,Wearable Device
+Martin,Nutrition Patch,Wearable patch that connects to an app to notify user which aspects of their diet are lacking ,Wearable Device
+Tina,Fatigue monitor,A watch that can remind users to go to sleep when they are over fatigue to decrease the rate of sudden death,Wearable Device
+Tina,Hot compress device,A electric sticker that can stick on skin to make hot compress easier and prevent scald,Wearable Device
+Tina,Massage robot,A robot that can find our acupoint and give us more comfortable massage,Robot
+Tina,Body fat monitor,A necklace that can monitor and record our body fat and muscle content,Wearable Device
+Tina,Shopping List app,An app that we can create our shopping list and record the price. It can also connect with the monitor on shopping cart that can remind us when we pass by the items we need in grocery stores.,App (Shopping)

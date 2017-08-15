@@ -1,0 +1,51 @@
+Your Name,Concept Title,Description,Cluster Title
+Svenja,Bike Sharing without App,lock/unlock the shared bike faster by using an chip/fingerprint instead of an phone,Service
+Svenja,Bike Sharing without Stations,"no stations where needed anymore, leave your bike wherever you want, there is a lock included in the bike with a smal steel rope",Service
+Svenja,Fast/Cheap Lock,"simple U-Lock connected with a ship/fingerprint, without Phone or App, no worries about battery",Service
+Svenja,Bike Sharing with different Bikes,"same concept like FordGoBikes, but they offer different types of bikes, like mountain bikes, racer..",Service
+Svenja,Electric Bike sharing,"same concept like FordGoBikes, but with electric bikes ",Service
+Svenja,Bike racks who includes locks,"Bike racks are including bike locks, you can lock and unlock with your clipper card, your clipper card is having their own code/number so that the lock can verify",Infrastructure
+Svenja,Electric Bike Parking Garage,"Bikes include an chip, you have to connect with your phone, after you returned and wants to pick up your bike; this system will exclude that wrong bikes are given to wrong persons",Infrastructure
+Svenja,Small Bike Parking Garages ,"a lot of small bike parking garages are spreaded ofer the city, that will enhance that there is not just one parking garage ",Infrastructure
+Svenja,App connected with the Police,"An App which is connected with your bike, if it gets stolen, the police will get an alarm and they can track the bike or thief",Surveillance
+Zesheng Liu,Alarm lock,"Not only the lock will send a message to the owner,the  buzzer will ring to catch people's attention.",Surveillance
+Zesheng Liu,lighter and smaller sharing bike,"There's no  need to use to much steel in the bike,Some parts of the bike can be constructed by plastic as substitution.Not only will this design provide people a better experience of biking,but also reduce the possibility of being stolen. ",Service
+Zesheng Liu,GPS-police,"Even if your bike is stolen  under the circumstance of  GPS is shieled;When they use the bike,the chip inside your bike will contact the nearest police office ,because it is impossible to shield the GPS by a certain device.",Surveillance/Service
+Zesheng Liu,store  network combine with lock station.,"We can build some small lock station just in front of the door,So people buy things there or the store owner will pay some attention to that.Thieves will prefer to steal other bikes ",Service
+Zesheng Liu,underground enclosed parking lot--in community.,People will prefer to park their bikes at place which they can get access to easily.Also it need to be safe in the parking lot.,Infrastructure
+Zesheng Liu,lock with destroy function.,Some people don't want to waste so much time or money to find their bikes back.But they also don't want the thieves to get profit from their bike.So lock can destroy the supporting part of the bike .,Service
+Zesheng Liu,brake control with lock,We can control the crake with the app when your bike is stolen.,Service
+Zesheng Liu,Brake close with lock,"Without unlock the bike with printer,the brake will always at the locking condition.",Service
+Zesheng Liu,car-bike lock,This lock target at people who want have a expensive bike and enjoy them wonderful performance.When they go outside with car and plan to bike they can open this function.Thieves won't prefer to steal the bike on ceiling of car with lock.,Service
+Zesheng Liu,double lock :printer and brake control ,"This lock need us to use our finger print and  phone together to open the lock ,It is troublesome but safer.",Service
+Lace ,Car/Bike Parking structure,This will allow the bikes and the cars to be parked in the same parking structure. It will eliminate the need to build a completely new infrastructure but simply add to what is already out there. ,Infrastructure
+Lace ,Bike parking structure with name ,"This is a parking structure that allows you to fully lock the bike. Before leaving with the bike, you must put in a unique code and your name so that you do noto accidentally grab a different bike ",Infrastructure
+Lace ,Bike app emergency ,"This app not only has the functionality of the apps out in the market in terms of  sharing the lock on the bike with a friend and unlocking the bike using bluetooth, but also has an emergency section that directly contacts the police for a bike theft. ",Surveillance
+Lace,Bike app tracker,"This lock has a chip also attached to the bike. This will allow the users to also know where their bike is at all times. Instead of being attached to the lock, like the previous design, it will be attached to the bike so that the user will also know where he had parked the bike in a bigger parking structure with more bikes present. ",Surveillance
+Lace,Bike lock that attaches to bike racks already present ,This lock attaches to a bike rack. It will hopefully be pretty cheap so that the government can fund its attachment o the bike rack already in public today. It will lessen the infrastructure needed for the bike sharing idea we have. ,Infrastructure
+Lace,customizable bike sharing,this is a bike sharing program that will have several different kinds of bikes for all purposes to allow the public to have several choices for bike loaning. ,Infrastructure
+Lace,bike parking structure ,It is still a bike parking structure but has several slots for people to pick up their bikes instead of just one location that will allow the users to do this. This will lessen the congestion that may occur. ,Infrastructure
+Lace,bike sharing inside parking structure ,This is the same bike sharing idea but has its stations inside parking structures. This is a combination of a previous idea that incorporates the automated bike parking structure and the bike sharing idea,Infrastructure
+Lace,automated bike ,this is a bike lock that automatically locks the bike and brings the bike to you once you are outside the parking lot. It will involve several sensors ,Service
+Lace,shoe chip ,this chip will be attached to your biking shoes that only allow the wheels of the bike to move if it recognizes the biker ,bike construction
+Max,Parking structure with multiple access ports,Parking structure has multiple input/output ports so that rush hour is not as difficult,Infrastructure
+Max,Multiple bike options,Bike sharing with several models. Distribution of models will depend on the area in which the bikes are deployed. Lighter bikes for tourists/commuters. bikes with racks for grocery shoppers.,Service
+Max,Hanging bike rack hooks,Hooks that descend from ceiling raise and lower bike. Allows many casual establishments to allow consumers to bring bikes inside without affecting walking space.,Infrastructure
+Max,Mountable front rack,"A rack that be easily attached to a standard shared bike that allows addition of user's custom attachments. like x-clip for phone, additional lights, etc.",bike construction
+Max,Mobile parking garage,Tall vehicle stores bikes and takes several stops. Prevents need for land.,Service
+Max,Bike Sharing based off bitlocker,"Bitlocker is an advanced, app-interfaced, electronic lock. location and access are shared through the app. Allows locking at existing infrastructure and is cheaper than building a tower.",Service
+Max,Bike sharing based off of linka,LINKA lock immobilizes bike preventing it from being ridden. Counts on the uniqueness of the bike and GPS tracking to prevent it from being stolen and ridden,Service
+Max,Flash bang grenade bike lock,When cut releases a bright flash that temporarily blinds thief. It also texts you. This gives you time to make it to thief and prevent theft.,slow thief
+Max,Light-weight linka,"This is a cheap $20 version of LINKA made of rubber. It moves into place when U-lock is improperly removed, preventing bike mobilization long enough for you to reach your bike and prevent thief.",slow thief
+Max,Shocking lock,"When lock is cut, it shocks and burns thief. This makes it less desirable for thief to cut.",slow thief
+Max,Electronic brakes,"Brakes engage at the press of a button on a phone-app. This forces the thief to either dismantle the brakes, giving you time to intervene. Or they have to carry bike rather than ride it which slows their theft down.",slow thief
+Peter,Sharing Alarm Locks,Sharing alarmed lock so that the owner of the lock (a company) will be notified when a bike is being stolen. More shareholders involved,Theft prevention
+Peter,Alarm Bitlock,The same concept of bitlock. Using cheaper material. Loud alarm to tell people that something is being stolen to make the thief afraid,Theft prevention
+Peter,Car key combined bike lock,"Using car key to unlock the bike lock. Give the same alarm as car when thief is trying to steal the bike, or even the wheels.",Locking process
+Peter,Glue trap,When thief is trying to forcefully unlock the lock. A glue will come out and stick with the thief's hand and the owner will be notified.,Theft prevention
+Peter,Magnet locker,"Using magnet to unlock the wheel to the frame, so that it is unbreakable. Magnet is not easily breakable.",Locking process
+Peter,Handle locker,"When the bike is stolen, a lock can be activated so that the bike cant be turned to right or left.",slow thief
+Peter,Tire deflater,"When the bike is stolen and the wheel is rolling, owner will be notified and the tire will be deflated. This will make the thief fall down from the bike and owner will have more time to get the bike back",slow thief
+Peter,Pedal stopper,"When the bike is stolen and the wheel is rolling, owner will be notified and the pedal will be stopped. This will make the thief fall down from the bike and owner will have more time to get the bike back",slow thief
+Peter,Pedal spinner,"When the bike is stolen, the pedal will spin continuously making it disturbing for the thief to take the bike away",Theft prevention
+Peter,Bike lock app ultiple notification,This will notify all bike app owners in the nearby area when a bike is stolen. So more people is notified and they can help each other,Theft prevention

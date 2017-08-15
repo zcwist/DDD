@@ -1,0 +1,62 @@
+Member Name,Concept Title,Description,Cluster
+Sissi Xiu,Special for Disabilities,A special model for people with disabilities,Disabilities
+Ty Feng,Avatar for disabled people,"allows disabled people to have functional legs, senses, etc. in case of fire",Disabilities
+Thiago Tagliari,Automatic Evacuation,The device automatically evacuates people who need help ,Disabilities
+Team,Fire Suit,A fireproof suit to wear in extreme situations when fire cannot be controlled,Disabilities
+Team,Fireproof room,"If evacuation is not possible, this room allows for people to wait out the fire, like a safe",Disabilities
+Team,Fire bubble,"Expanding bubble for wheelchair bound people if evacuation is not possible, provides clean air until services arrive",Disabilities
+Team,Fire proof wheelchair,A fireproof wheelchair so that it will not catch/spreadfire during evacuation,Disabilities
+Ty Feng,A fire alarm app on Apple Watch/smartwatches,Alerts users in the best ways for the individual user. Deaf people: flash light. Blind people: sound. Both deaf and blind: vibration.,Communication/ report
+Ty Feng,Vibration wrist band,alerts users if there is a fire by using vibration. People who don't have or cannot afford smartwatches can use this.,Communication/ report
+Ty Feng,Fire alarm with user control,Turns off alarm if it is only a small fire and/or already put out by user,Communication/ report
+Team,smartphone compatibility,"can customize features for different people, including alerts such as sound, light, vibration",Communication/ report
+Thiago Tagliari,Automatic emergency call,automatically calls the fire department when fire becomes really dangerous,Communication/ report
+Team,User controlled fire alarm/prevention system,"allows users to control the alarms, like home security system",Communication/ report
+Team,Fire report button on necklace,button on a necklace for disabled people to instantly alert emergency services in extreme situation,Communication/ report
+Anand Sagar,Flashing light built in,Flashes bright lights in case of a fire for deaf people,Communication/ report
+Team,smartphone connectivity,"connects to smartphone for alerts and real time monitoring, especially when the user is away from home.",Communication/ report
+Team,Internet connectivity,Warns of nearby fires to alert people inside to evacuate in advance,Communication/ report
+Team,Autonomous,move a portable robot extinguish fires/ assist people,Design
+Sissi Xiu,Fire proof,our robot is used for fire detection and prevention,Design
+Team,Single Use,"can use itself to put out fire,so it is gonna be cheaper",Design
+Team,Machine learning,device learns user habit and develops warnings / smoke alarm sensitivity,Design
+Anand Sagar,Add-on features,users can buy more expensive attachments and add on to base model,Design
+Anand Sagar,Size of smoke detector,looks like smoke detector (small and circular) from outside,Design
+Anand Sagar,Corner mount,reduce material by being mounted in the corner of a room,Design
+Anand Sagar,Modular camera,able to attach camera to most existing smoke detectors,Design
+Sissi Xiu,Wheels,be able to run,Design
+Team,Escape route,lighted/auditory escape route,Design
+Team,Minimalism,Simplistic user interface across design,Design
+Sissi Xiu,Affordable,Device is affordable to anyone who needs it,Design
+Team,Varying plans,different plans for people living in higher risk areas,Design
+Team,Modular camera,Can install a device for every room that needs one,Design
+Sissi Xiu,Durable,metal or other fireproof material outside,Design
+Anand Sagar,Sensitivity adjustment,Sensitivity for heat detection can be modified by user in case of gas stove or use of lighters,Design
+Sissi Xiu,Easy to install,can be added on or off,Design
+Sissi Xiu,Size,not occupy too much space in home,Design
+Team,Wheels,enables quick ground transport if needed,Design
+Ty Feng,Flying Wings,Allows people to quickly and safety evacuate,Design
+Anand Sagar,Security Camera,thermal camera can double as a security camera,Detection
+Anand Sagar,Thermal Camera,use a thermal camera to detect abnormal heat levels,Detection
+Team,Recyclable monitor,monitor trash areas for high fire hazard,Detection
+Thiago Tagliari,Detector for deaf people,Alerts deaf people that can't hear the sounds of normal smoke detectors,Detection
+Ty Feng,Kitchen Safety Stove,Stops cooking if unsafe,Detection
+Ty Feng,Flammable item sweeper,Sweeps flammable items into a landfill,Detection
+Team,Camera,"Detects heat, possible fire sources",Detection
+Thiago Tagliari,Fire Scanner,Scans the entire place searching for fire or possible sources of fire,Detection
+Team,Oxygen monitor,"Used to determine if windows/doors can be open, warns of backdraft",Detection
+Team,Anemometer,Can alert users on which windows are safe to open,Detection
+Sissi,Alarm,to wake up users,Night Fire
+Thiago Tagliari,Night fire wake up,Makes sure people can wake up when there is some night fire,Night Fire
+Ty Feng,Night watch goggle,Mimics owls and makes it easier to see at night,Night Fire
+Team,Water alarm,sprays water at sleeping people to wake up for evacuation,Night Fire
+Team,Gas mask,Provides clean air and prevent smoke inhalation and increase survivability,Extinguish
+Team,Air lock,Seal a room without anyone inside and suck out the air to extinguish fire faster,Extinguish
+Team,Powder Hose,Shoots extinguishing powder at fire (like salt gun),Extinguish
+Thiago Tagliari,Fire Fighter Robot,This robot can detect and extinguish fire when detected. You don't need more sprinklers,Extinguish
+Team,Flight,Flying capabilities for extinguishing robot,Extinguish
+Ty Feng,AC system that keeps house cold,"Overheating causes fire. To prevent that, keep the house cold",Extinguish
+Ty Feng,Rainfall Sprinkler,Evenly sprinkles the room,Extinguish
+Team,Sound Extinguishing,Uses sound waves to extinguish fires at certain distances,Extinguish
+Team,Gas vents,"Uses non-flammable gases to extinguish fires at distance (like vortex rings), more like an air vent, not an extinguisher",Extinguish
+Team,Targeting extinguisher,Focuses extinguisher on source of fire,Extinguish

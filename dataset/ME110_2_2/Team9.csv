@@ -1,0 +1,44 @@
+Your Name,Concept Title,Description,Cluster Title
+Bryant Phan,Stress Release,In app feature that helps users de-stress/take a breather when they feel that they are getting overwhelmed,Emotional Impact
+Bryant Phan,Online Reservation,"To prevent misuse/abuse of physical reservation systems. Students would log in and place their reservation online; thus, it can't be changed by others and can be seen by all students",Study Convenience
+Bryant Phan,Classroom Details,Includes the number of tables/chairs in addition to the capacity,Study Convenience
+Bryant Phan,Lockdown Hours,"Informs students of when buildings lock down (e.g. Hesse locks down at 6pm, but students who are already inside can stay)",Study Convenience
+Bryant Phan,Mood Music,Creates a studying playlists for students of multiple genres. Could involve some themes,Emotional Impact
+Bryant Phan,aesthetic,"Make the mobile dividers aesthetic, so students do not feel as depressed when studying. Use of warm/uplifting colors.",Emotional Impact
+Bryant Phan,Centralized Info,"Display all class schedules on a TV screen at the entrance of a building, so it is centralized for students and easier to find",Service
+Bryant Phan,Study Buddies,Find other students studying the similar subject in the hopes of making a study buddy.,Service
+Bryant Phan,Confidence Booster,Feature that provides uplifting/encouraging words to boost the confidence of students while they study,Emotional Impact
+Bryant Phan,Study Tracker,"Reminds students to stay on track with their schedule, would also suspend websites that are a distraction",Study Convenience
+Jaewon Yoo,Specific picture,App has pictures of the study space for helping users understand.,Service
+Jaewon Yoo,User feedback,App has feedback system from the users such as rating and comment.,Service
+Jaewon Yoo,Find coffee place,App shows the nearest café or restaurant from the study space.,Service
+Jaewon Yoo,Easily login,The login id can be used by Berkeley CalCentral ID.,Service
+Jaewon Yoo,Don’t memorize,All names of libraries and buildings are shown in the App so it doesn’t need to know the names.,Service
+Jaewon Yoo,Give rewards,Facilitating the users to check in system giving some rewards.,Organization
+Jaewon Yoo,Own map,App has own simple mapping systems rather than Google map.,Service
+Jaewon Yoo,Need clean restroom,"App shows the restroom information such as number of the restroom, modern and clean.",Service
+Jaewon Yoo,Eating food,App can have availability for food and drink in that study place.,Study Convenience
+Jaewon Yoo,When close,App shows open hour of the study space.,Service
+Nicholas Corral,Room Reviews,Find reviews on top rated rooms to see if it will fit your needs.,Study Convenience
+Nicholas Corral,Hold My Stuff,Reach out to other users near by to watch your belongings as you go to the restroom / small break,Study Convenience
+Nicholas Corral,Group Chat,Create study groups and chat online to schedule the next meeting appointment,Service
+Nicholas Corral,Put it in the books,Create a calendar with reminders that will alert you of any scheduled event,Service
+Nicholas Corral,Room Picture ,Provide a picture of the room so that it may seem more familiar to the user,Service
+Nicholas Corral,Friends,"Establish friends on the application who can study with you, open a door, or watch your stuff",Emotional Impact
+Nicholas Corral,Nearby recommendations,The application will offer 'hit selections' nearby the user,Study Convenience
+Nicholas Corral,Detailed Notes,Create a database that harbors notes for ongoing lectures / discussion,Service
+Nicholas Corral,Copy Cat,Students can offer up their study habits and trends to provide a guideline for necessary work load,Service
+Nicholas Corral,Q & A Forum,"Create a forum where students can ask questions about workload, prereqs, and Professor / GSI preferences",Service
+Sijun Noh,Electrical version of classroom schedule,"During design review presentation, many people recommend to use screen rather than laminated paper.
+Place screen on each door or each building",Service
+Sijun Noh,Print Schedule of a Room,Students can print or see the schedule of a room on the app. It is combined version of prototype 1 and 2.,Service
+Sijun Noh,Cafes and Restaurants information,Show the hour and menu of cafes and restaurants since food and drinks are the factors students care in studying,Service
+Sijun Noh,Cafes and Restaurants reserving system,"The second interviewee, a cafe manager, told me he wants to open longer if there are more students.
+So, if someone reserves a store/cafe, the owner will be notified and open longer so it helps community near campus",Service
+Sijun Noh,Take a rest,"Let users post for their board game or pc game play locations, so students can relieve stress by gathering together to play",Emotional Impact
+Sijun Noh,Recommend Class based on location,"If user chooses all the courses he/she is interested in, it recommends schedule based on distance of each class",Organization
+Sijun Noh,Recommend Study Spots based on classroom locations,"Students have time between classes. If nearby empty study spots are recommended for them, they might not need to walk to libraries and get disappointed when its too crowded",Organization
+Sijun Noh,Find Study Friends,There is a forum where users can find other friends to study together.,Study Convenience
+Sijun Noh,Course Board,"In course forum, there course names in UC Berkeley. Students can go to the specific course section to find information including study friends
+They can post or comment to communicate one another",Study Convenience
+Sijun Noh,Alarm if it is available,"If a user has a preferred place and if it becomes available, user can get notification",Service

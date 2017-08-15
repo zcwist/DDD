@@ -5,6 +5,7 @@ import seaborn as sns
 
 
 def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = None, offset = 0.25, sort = False):
+	coff = 20/9
 	assert len(xindices) == len(yindices)
 	if sort:
 		convx, convy = get_sorted_idx(xindices, yindices)
@@ -21,8 +22,8 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 			yticklabels = yticklabels_
 
 	sns.set()
-	sns.set_style("whitegrid")
-	plt.figure(figsize=(9, 9))  # in inches
+	sns.set_style("ticks")
+	plt.figure(figsize=(9*coff, 9*coff))  # in inches
 
 	# count first for better visualization
 	nx = max(xindices)+1
@@ -37,7 +38,7 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 			angles = np.linspace(-np.pi/2, np.pi/2, num=len(labels2draw)+1)
 
 			if cnt[x,y] != 0:
-				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["dark grey"],alpha=0.9)
+				plt.scatter(x,y,s=cnt[x,y]*400*coff*coff,c=sns.xkcd_rgb["dark grey"])
 
 			# if len(labels2draw)<2: r = 0
 			# else:                  r = offset
@@ -59,15 +60,17 @@ def plotBubble(xindices, yindices, labels, xticklabels = None, yticklabels = Non
 	ax.set_yticks(range(ny))
 
 	fig = plt.gcf()
-	fig.subplots_adjust(left=0.2)
+	fig.subplots_adjust(left=0.25,bottom=0.25)
+
 
 	if xticklabels is not None:
-		ax.set_xticklabels(xticklabels, rotation=20, ha='right')
+		xticklabels = [x.lower() for x in xticklabels]
+		ax.set_xticklabels(xticklabels, rotation=90, ha='right',size=10*coff)
 	else:
 		ax.set_xticklabels([""]*nx)
 		
 	if yticklabels is not None:
-		ax.set_yticklabels(yticklabels)
+		ax.set_yticklabels(yticklabels,size=10*coff)
 	else:
 		ax.set_yticklabels([""]*ny)
 
@@ -97,7 +100,7 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 			yticklabels = yticklabels_
 
 	sns.set()
-	sns.set_style("whitegrid")
+	sns.set_style("ticks")
 	plt.figure(figsize=(9, 9))  # in inches
 
 	nx = max(xindices)+1
@@ -146,7 +149,7 @@ def plotSimpifiedBubble(xindices, yindices, labels, xticklabels = None, yticklab
 				labels2draw = [labels[i] for i in idx]
 				angles = np.linspace(-np.pi/2, np.pi/2, num=len(labels2draw)+1)
 				dis = range(len(labels2draw))
-				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["grey"],alpha=0.8)
+				plt.scatter(x,y,s=cnt[x,y]*400,c=sns.xkcd_rgb["dark grey"])
 
 				if showLabel:
 

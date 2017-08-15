@@ -76,6 +76,7 @@ class NewSWSCTester(object):
 		plotBubble(h_labels,m_labels,concept_index,xticklabels=None,yticklabels=None,sort=True)
 		plt.savefig("Graph/Thumbnail/HMPlotTeam"+str(self.teamNumber))
 		# plt.show()
+		plt.close()
 
 	def exportOCFull(self):
 		number = self.teamNumber
@@ -106,6 +107,7 @@ class NewSWSCTester(object):
 			labeled = "Labeled"
 		plt.savefig("Graph/Thumbnail/SimplifiedHMPlotTeam"+con+div+labeled+str(number))
 		# plt.show()
+		plt.close()
 
 	def simplified_plot_oc(self,xFilteredStr=None, yFilteredStr=None, showLabel=True):
 		number = self.teamNumber
@@ -183,6 +185,7 @@ class SWSCTesterVariableK(NewSWSCTester):
 if __name__ == '__main__':
 	# Team1
 	# team1 = NewSWSCTester(1)
+	# team1.exportFull()
 	# team1.exportThumbnail()
 	# team1.simplified_plot(yFilteredStr="car;people",showLabel=False)
 	# team1.simplified_plot(xFilteredStr="SAFETY",showLabel=False)
@@ -197,7 +200,7 @@ if __name__ == '__main__':
 	# team4 = NewSWSCTester(4)
 	# team4.exportThumbnail()
 	# team4.simplified_plot(yFilteredStr="app;challenge",showLabel=False)
-	# # team4.simplified_plot(yFilteredStr="app;challenge",showLabel=True)
+	# team4.simplified_plot(yFilteredStr="app;challenge",showLabel=True)
 	# team4.simplified_plot(xFilteredStr="service",showLabel=False)
 
 
@@ -206,17 +209,17 @@ if __name__ == '__main__':
 	# team6.exportThumbnail()
 	# team6.simplified_plot(yFilteredStr="sculpture;tail",showLabel=False)
 	# team6.simplified_plot(xFilteredStr="Children Friendly Designs",showLabel=False)
-	# # team6.simplified_plot(xFilteredStr="Children Friendly Designs",showLabel=True)
+	# team6.simplified_plot(xFilteredStr="Children Friendly Designs",showLabel=True)
 
 	# #Team7
-	team7 = NewSWSCTester(7)
-	team7.exportThumbnail()
-	team7.simplified_plot(yFilteredStr="caps;water",showLabel=False)
-	team7.simplified_plot(xFilteredStr="Met-eared",showLabel=False)
+	# team7 = NewSWSCTester(7)
+	# team7.exportThumbnail()
+	# team7.simplified_plot(yFilteredStr="caps;water",showLabel=False)
+	# team7.simplified_plot(xFilteredStr="Met-eared",showLabel=False)
 
-	#Team8
+	# # Team8
 	# team8 = NewSWSCTester(8)
-	# # team8.exportThumbnail()
+	# team8.exportThumbnail()
 	# team8.simplified_plot(yFilteredStr="arrays;patch",showLabel=False)
 	# team8.simplified_plot(xFilteredStr="Improve the effectiveness of drug delivery",showLabel=False)
 
@@ -227,9 +230,9 @@ if __name__ == '__main__':
 	# team9.simplified_plot(yFilteredStr="structure;structures",showLabel=False)
 	# team9.simplified_plot(xFilteredStr="Tensportation",showLabel=False)
 
-	# Team11 Balloon Modifications
+	# # Team11 Balloon Modifications
 	# team11 = NewSWSCTester(11)
-	# # team11.exportThumbnail()
+	# team11.exportThumbnail()
 	# team11.simplified_plot(yFilteredStr="vertebra;compression",showLabel=False)
 	# team11.simplified_plot(xFilteredStr="Balloon Modifications",showLabel=False)
 
@@ -250,11 +253,3 @@ if __name__ == '__main__':
 	# team14.exportOCFullThumbnail()
 	# team14.simplified_plot_oc(yFilteredStr="voice;speaker",showLabel=False)
 	# team14.simplified_plot_oc(xFilteredStr="Facial expressions",showLabel=False)
-
-
-
-
-
-
-
-

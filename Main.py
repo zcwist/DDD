@@ -277,6 +277,33 @@ class SWSCTester(object):
 
 		exportHM2(cm.conceptList, concept_labels, "ME110_2_HM_Team" + str(number) )
 
+	def export_me110_2_2(self, number):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+
+		from HMcsv import exportHM2
+
+		filename = "dataset/ME110_2_2/Team" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+
+		exportHM2(cm.conceptList, concept_labels, "ME110_2_2_HM_Team" + str(number) )
+
+	def export_DesInv(self, number):
+		from swsc import SWSC
+		from ConceptManager import ConceptManager as CM
+
+		from HMcsv import exportHM2
+
+		filename = "dataset/DesInv/team" + str(number) + ".csv"
+		cm = CM(filename=filename)
+		swsc = SWSC(cm)
+
+		m_labels,concept_labels,h_ticklabel = swsc.label_clusters()
+
+		exportHM2(cm.conceptList, concept_labels, "DesInv_HM_Team" + str(number) )
 
 
 
@@ -284,6 +311,10 @@ if __name__ == '__main__':
 
 	# SWSCTester().exportWithK(1,7)
 	# SWSCTester().exportWithK(1,20)
+
+	#DesInv
+
+	# SWSCTester().export_DesInv(1)
 
 	#ME110
 	# SWSCTester().export_me110(2)
@@ -294,8 +325,17 @@ if __name__ == '__main__':
 	# SWSCTester().export_me110(5)
 
 	#ME110_2
-	SWSCTester().export_me110_2(10)
+	# SWSCTester().export_me110_2(10)
 	# SWSCTester().exportWithME110_2K(8,8)
+
+	SWSCTester().exportWithME110_2K(9,8)
+
+	#ME110_2_2
+	# SWSCTester().export_me110_2_2(6)
+	# SWSCTester().export_me110_2_2(7)
+	# SWSCTester().export_me110_2_2(8)
+	# SWSCTester().export_me110_2_2(9)
+	# SWSCTester().export_me110_2_2(10)
 
 
 

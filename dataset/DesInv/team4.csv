@@ -1,0 +1,76 @@
+Member Name,Concept Title,Description,Cluster
+TeamWork,Bike Sharing,Bike Sharing,Faster Transportation 
+TeamWork,Better Time Management,Some kind of service that helps to layout time and optimize amount of work that can be done before it gets dark,Personal Improvements
+TeamWork,Panic Button,Students can hit a button which will alert all authorities in the area of their location and other biometrics in case of emergency,Personal Security
+TeamWork,That was easy button,a less violent emergency button which focuses on getting someone to help you in case of emergency but not necessarily rush event,Personal Security
+TeamWork,Environment awareness,Generally find a way to help with increasing personal awareness of environments such as maps/locations,Personal Awareness
+TeamWork,Activity Awareness,"Generally find a way to help with increasing personal awareness of time, for example, understanding that at 1am the most crimes happen so its not a good idea to leave the library as opposed to leaving at 4am when most people may be asleep",Personal Awareness
+TeamWork,Augmented Awareness,A wearable that may have sensing capability to provide user with relevant/useful information even with low visibility during night,Personal Awareness
+TeamWork,Ninja Mode,"If a robber can't see someone, they can't rob someone",Personal Improvements
+TeamWork,Personal Lighting,Personal Lighting,Personal Security
+TeamWork,Rent a dog,Give more communal security by having a friendly dog to walk to your apartment/location. Not only are they cute but they can sense when other people are around/unsafe situations,Communal Security
+TeamWork,Drone dog guide,A drone could pre-analyze a route that you input and potentially detect any suspicious activity around the area,Communal Security
+TeamWork,Way points,Special posts around campus that may help to guide a student around as well as have sensors  and update the path real time with suspicious circumstances,Personal Awareness
+TeamWork,Global Lighting,General issue of figuring out how to bring more light into night time situations. General theme of darkness is equivalent to insecurity/uneasiness during transportation,Communal Security
+TeamWork,Promote stronger community,general idea to create a more interconnected community that is more willing to help each other,Communal Security
+TeamWork,trend analysis on streets,trend analysis on streets,Communal Security
+TeamWork,support personnel on demand,support personnel on demand,Communal Security
+TeamWork,route sharing,Students taking similar routes home could match and walk together to help improve safety and confidence,Communal Security
+TeamWork,geo-fence authorized users,"Much like how some buildings require keycard access, campus could have a virtual fence that when crossed without authorization triggers some silent alarm",Communal Security
+TeamWork,safe zones,safe zones,Communal Security
+TeamWork,personal shuttles,"Shuttles that are less based on specific routes, but by detecting student activity hotspots, focus on where students actually are",Communal Security
+TeamWork,Underground walkways that are safer,A series of tubes underground that allow for only authorized users to access which would go between common waypoints,Communal Security
+TeamWork,Infra-red goggles,Improves personal awareness and visibility at night while not drawing extra attention to the user at night,Personal Awareness
+TeamWork,Global Agent-awareness,Having a way to track passively where people are and generate heatmaps for police/municipal services to know physically how many/where people are,Communal Security
+TeamWork,Municipal Sensor Network,Giving municipalities a wide range of telemetry options to track occurances/issues in the area,Communal Security
+TeamWork,Pepper spray turrets,"Pepper spray may not be easily usable in the middle of an encounter, so automatic deployment may be useful",Communal Security
+Mitchell,Bikes available for students to rent,Give bikes to students to rent. Rent period would be around 18 hours so that they can come back during the day to return the bike,Faster Transportation 
+Mitchell,Public Location Sharing,Have a signpost that publicly shares all information about where anyone is.,Communal Security
+Mitchell,Active street post light the way,Users could put in a location they want to get to and the light posts along the way would light up and show them where to go,Communal Security
+Mitchell,Personal Telemetry device,A very active telemetry package which would track your location using a multitude of sensors and automatically post all of that information onto a website where trusted family and authorities could view,Personal Security
+Mitchell,Dead Man Switch,"When transitioning from a safe location to an unsafe location, user holds down dead man switch signifying they are safe, if they find themselves in an unsafe or uncomfortable situation, they will let go of the switch and it will send a notification out to authorities or people of interest",Personal Security
+Mitchell,Futurama Vacuum,Tube transportation ala vacuum lines. Maybe this was a problem of safe transportation and leads to thinking the speed of transportation is an issue,Faster Transportation 
+Mitchell,Pufferfish Cape,Wear a cape which would expand tendrils when approached by unsettling/uncomfortable situation,Personal Security
+Mitchell,bio luminescent umbrella,Shine light around a person giving more safety by bringing more light into an unknown area,Personal Security
+Mitchell,bio luminescent bangle,Lightup jewelry that can shine brighter/vibrate more when around other students are around creating a safety net for people to surround themselves with,Communal Security
+Mitchell,Personal slides to campus,Make transportation more fun and fast by making slides go all over campus to interest points. Reduce stress by adding fun,Faster Transportation 
+Daniel,Scheduling,"Since most robberies happen in a certain time frame at  night (not too early or late), a scheduling service could help students avoid risky times.",Personal Improvements
+Daniel,Ease of use and accessibility,"Starting with a box design, I determined that the product should be easy to operate under stress and also accessible to most of the student population.",Personal Security
+Daniel,Surroundings alert,Lack of awareness can often increase risk of robbery and so a wearable that could augment awareness could help combat visibility issues at night.,Personal Awareness
+Daniel,Increasing movement speed,"With increased movement speed, students spend less time in transit and also are a more difficult target.",Personal Security
+Daniel,Street guide,Map areas where more criminal activity tends to happen then find trends and characteristics of such areas to attempt to avoid or fix.,Personal Security
+Daniel,camouflage,Tries to mask sound and visibility of students moving through campus to not draw unwanted attention.,Personal Security
+Daniel,activity map,Anonymously track student locations to create a heat map to help users avoid more barren areas.,Communal Awareness
+Daniel,Safe points,"Have certain points on and off campus that provide an accessible, safe location to get out of uncomfortable situations.",Communal Security
+Daniel,Smart street lighting,"Many parts of Berkeley both on an off campus can be  poorly lit. Furthermore, sensors can be integrated with street lights to provide real time info about safety conditions.",Communal Security
+Daniel,Community cohesion,"Stronger community bonds generally lead to decreased criminal activity, but this is often difficult with the quick turn around times of student housing",Communal Security
+Tiago,Students Parties Shuttle,"On the weekends, provide an extra optional service to students, allowing them to rent a Shuttle and go safely to SF nighlife.",Communal Security
+Tiago,UC Shared Route,A feature/app which shows where students going - and allows them to join it.,Communal Security
+Tiago,UC Sharing Rides Meetpoint,Create some official UC Meetpoints to students share their rides - safely.,Communal Security
+Tiago,Express Campus,"In rush time, provide non-stop AC Transit buses from UC Berkeley <> SF.",Communal Security
+Tiago,Fast Stairs,"As in airports, provide huge stairs between main buildings in UC Campus.",Communal Security
+Tiago,UC Hub,"A ""Hub"" in campus to Split students to their destinations in the best modal (metro, bus, bike, skate, etc)..",Communal Security
+Tiago,Skate Sharing,"As a Bike Sharing system, provide Skates sharing to students.",Communal Security
+Tiago,Networking Sensor,"A sensor plugged in Cal ID, which can provide all details (LinkedIn, Facebook, Instagram, Email) about people that you across in the Campus (geolocalization).",Communal Awareness
+Tiago,UC Drones Guard,A open-channel to students watch the images around the campus before go to somewhere - goal = safety.,Communal awareness
+Tiago,Car Sharing,"A ""Zap Cars"" model, but thinking just on Berkley demand / perimeter.",Communal Security
+Rachel ,Noising Street Lamp ,"When users feel unsafe, they can press a button in some kind of APP which associates campus lamps together into a network to make the nearby street lamp raise the alarm. ",Communal Security
+Rachel,Campus Cable Car,"Build certain cable car lines between two buildings and make them into a network to commute people in a certain route. Besides, it can also become a good way to sightsee.",Communal Security
+Rachel ,Identification ,"When people enter the campus scope, there are some virtual access control system to identify visitors.",Communal Security
+Rachel ,Mobile Guard Station ,"When users feel unsafe, they can use this APP to call the nearby Guard Station who will work 24 hours to come to help them. And the app will record users' real-time address.",Communal Security
+Rachel ,Invisible Man,"Gaining inspiration from chameleon, users can wear a kind of cover to hide in the dark.",Personal Security
+Rachel ,Route Condition Forecast,It's an APP that can show the following immediate image of the way based on the users' setting routes to avoid danger.,Personal Security
+Rachel ,Odour Protection ,"Learning from skunks, users can bring a sort of portable container that store scent. Once opened, other people will flee away.",Personal Security
+Rachel ,Mobility Scooter,"The mode of operation seems like bike sharing,  whereas it can include some extra services like recording routes and safe route recommendations which is based on the date it gathers in each ride.",Faster Transportation 
+Rachel ,Signal Detonator Providing ,"Users carry some kind of thing that the function is just like the signal detonator. And these products are provided in every building, that is, all user can take and return if not using it in the same place.",Communal Security
+Rachel,In-Time Service ,"By including the attribute of showing up immediately, users will get help once they trigger the service when they are in danger or potential danger",Communal Security
+Sophia,alternative methods,Provide various methods for our customers to keep safe:1.bicycle sharing 2. night car service,Personal Safety
+Sophia,services listing,make a list of all the services that we want to provide for our customers and choose 5 which are the most important,Personal Awareness
+Sophia,bicycle umbrella,Provides shelter for rainy days,Personal Safety
+Sophia,bicycle sharing,"on-campus bicycle sharing system, free",Personal Safety
+Sophia,special clothes,wear special clothes to make yourself hard to be noticed,Personal Safety
+Sophia,poster for bicycle sharing,main selling points:1. cheap 2.convenient 3.not much to commit 4.safe,Personal Awareness
+Sophia,route recording,the bicycle can also record the route that the user usually use and provide safety advises,Personal Awareness
+Sophia,alarm for crime,watch that shows the potential crime possibility at that time,Personal Awareness
+Sophia,Porters Lodge,"safety stations that scatter around the campus area, provides 24 hours safety protection and life guidance",Communal Security
+Sophia,time recording on the bicycle,"keeping record of users location and time they used to get home, make sure all users reach their destination in a right timing",Personal Security
