@@ -1,0 +1,41 @@
+Member,Concept Name,Description,Clustering
+,Two out-of-plane micro needle arrays,Applying two out-of-plane micro needles to control the depth of penetration.,Prevent the micro needles from breaking
+,Adjustable penetration depth,Offer adjustable penetration depth according to the specific part of the body on which micro needles are applied.,Adjust the penetration depth
+,Slanted Injection,Inject at a certain angle (<90) instead of perpendicularly to reduce skin resistance.,Improve the effectiveness of drug delivery
+,Truncated head,Truncated head of micro needles instead of sharp head to reduce skin resistance.,Improve the effectiveness of drug delivery
+,Biodegradable micro needles,Use biodegradable materials to manufacture micro needles so that it won't be harmful to human even the micro needles break.,No harm to human
+,Dissolvable micro needles,Use sugar as the material to make micro needles so that it will dissolve into the skin together with drug.,No harm to human
+,Separate drug and micro needles,Store durg in a reservoir seperately so that the micro needles don't have to be replaced every time after use.,Added feature
+,Combine drug and micro needles,Store drug directly in the micro needles so that the materials of making micro needles can be adjustable to the drug.,Added feature
+,Valve+Reservoir flow rate control,Using a valve to control the flow rate of drug from reservoir (refer to infusion).,Deliver the drug
+,Rechargeable electric flow rate control,Using an electric device whose battery can be recharged to set the flow rate.,Added feature
+,Scalable syringe to control the dose,Add scale on the body of a syringe to control the dose of drug being delivered (refer to insulin pen).,Adjust the amount of drug delivered
+,Cuttable transdermal patch to control the dose,The transdermal patch that incorporates micro needle arrays can be cut into different sizes in order to control the dose.,Adjust the amount of drug delivered
+,Elastic bandage transdermal patch,Using elastic bandage to wear the transdermal patch that incorporates micro needle arrays on the arm/waist/leg.,Wear the patch
+,Wearable Electronics transdermal patch,Using wearble electronics to carry the transdermal patch that incorporates micro needle arrays.,Wear the patch
+,Elastic / Flexible Material of carrier,The carrier of micro needle arrays is made of elastic or flexible material so that it can be rolled to save storage space.,Wear the patch
+,Multiple stacks,"Multiple stacks of micro needle arrays on the same carrier, either transdermal patch or wearable electronics, to realize sustained injection. ",Added feature
+,Couple with monitoring device,micro needle arrays with whichever carrier being coupled with monitoring device (such as blood glucose level measurement device for diabetic patients),Added feature
+,Sterillization from the package,The package of the micro needles could be used to sterilize the skin being injected (refer to the stickers to be peeled off when using band-aid),No harm to human
+,Rounded head micro needles to reduce pain.,"Instead of all having the traditional sharp heads, micro needles could be made to have rounded heads to increase the contact area, thus reducing the pain. ",Added feature
+,Natural-looking transdermal patch,Transdermal patch that incorporates micro needle arrays can be made to have a natural-looking (e.g. a smile face on the back of it).,Aesthetics
+,Highlighted peel off point,The area that the micro needles can be peeled off from transdermal patch is highlighted in order to make it easier for users to find the area.,Added feature
+,Metal micro needles coated with drug,The micro needles would be made out of metal. They will then be covered by a thin layer of medicine that would dissolve itself in the epidermis.,Realize painless
+,Drugs micro needles,The micro needles would be made directly out of drug so that the needles themselves would be dissolved in the epidermis.,No harm to human
+,Perforating micro needles,In this case micro needles would be used to perforate the skin. The drug would be provided via a patch stuck on the perforated skin.,Added feature
+,micro needles roller,The micro needles array has a cylinder shape so that the patient can just make the needles roll on his skin. Good surface.,Added feature
+,The micro needles syringe,It is just a syringe with the needle replace by a micro needles array.,Deliver the drug
+,Piezo electric micro needles,micro needles coupled with piezo electric material that acts as a pump that pushes the medicine through the micro needles,Deliver the drug
+,micro needles coupled with healing product,It is not clear whether micro needles will leave marks or scars. But we could put some healing substance on the needles so that it doesn't leave any scars. ,No harm to human
+,Changing the name of micro needles,"I think that micro needles is not an attractive name. Indeed the public still hear the word needle which is associated with painful. Why for example don't we rename it ""new trans dermal patch"".",Marketing Concept
+,Sterilizing box,"A box filled with a sterilizing product and absorbent cotton and micro needles allowing to easily carry the micro needles, sterilize both the skin and the needles.",No harm to human
+,Precut micro needles patch,"The micro needles are made out of drugs that will dissolve themselves in the epidermis thus delivering the drug. The patch of micro needles will be precut so that depending on the amount of drug you need , you cut the right amount of micro needles you need.",Adjust the amount of drug delivered
+,Air compressed application of micro needles,Some compressed air is applied via a kind of syringe. It sticks the micro needles to the skin and so solving the problem,Improve the effectiveness of drug delivery
+,Multiple micro needles array,"An object with at the end of each ""arms""  micro needles. The advantage is that the contact surface would be smaller allowing a better perforation of of the micro needles.",Improve the effectiveness of drug delivery
+,Inflatable cuff applicator,An inflatable cuff coupled with a pump would apply a pressure on the micro needles to be sure all of them perforate the skin,Improve the effectiveness of drug delivery
+,Autonomous wireless micro needles,"A micro needles coupled with a pump and a processor and a battery in the sea box, so that the patient can receive his medicine throughout the day.",Added feature
+,Bracelet for continuous drug delivery,Bracelet that allows micro needles to stay in a place on the arm for example,Wear the patch
+,Long micro needles covered by local anesthetic,In that case micro needles would be longer their normal length to be sure that every needles perforate the skin. Too avoid pain the needles could be covered by anesthetic.,Realize painless
+,Micron eedles controlled by an Mobile App,"The micro needles coupled with the piezo material would be controlled, so that the patient can control the amount of drug released.",Adjust the amount of drug delivered
+,micro needles for skin sensor,Use micro needle to penetrate skin and extract samples from epidermis/dermis to detect skin condition or health condition.,Added feature
+,Target parents with young kids and chronic diseases patients,These two groups of people are identified as our biggest potential customers based on their strong desire for painless injections,Marketing Concept
