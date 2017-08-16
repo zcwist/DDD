@@ -1,6 +1,5 @@
-from ConceptItem import ConceptItem, OCConceptItem
+from ConceptItem import ConceptItem
 from CSVFile import CSVFile
-from sklearn.manifold import TSNE,MDS,SpectralEmbedding,LocallyLinearEmbedding
 import numpy as np
 
 class ConceptManager(object):
@@ -13,7 +12,7 @@ class ConceptManager(object):
 	category_index_list = list() # concept category index of a concept
 	concept_name_list= list()
 	# vecList = 
-	def __init__(self, size=None, filename="dataset/ConceptTeam1.csv"):
+	def __init__(self, size=None, filename="../dataset/ConceptTeam1.csv"):
 		super(ConceptManager, self).__init__()
 		
 		file = CSVFile(filename)

@@ -11,9 +11,5 @@ class Cluster(object):
 if __name__ == '__main__':
 	from os import sys, path
 	sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
-	from concept.ConceptManager import ConceptManager
-	
-	# CM(10)
-
-		
-		
+	from concept.ConceptManager import ConceptManager as CM
+	CM(10)
