@@ -11,8 +11,8 @@ class ConceptManager(object):
 	concept_category_list = list() # concept category name of a concept
 	category_index_list = list() # concept category index of a concept
 	concept_name_list= list()
-	# vecList = 
-	def __init__(self, size=None, filename="../dataset/ConceptTeam1.csv"):
+
+	def __init__(self, filename, size=None):
 		super(ConceptManager, self).__init__()
 		
 		file = CSVFile(filename)
@@ -133,7 +133,8 @@ if __name__ == '__main__':
 	# print (cm.concept_category_list)
 	# print (cm.description_statistics())
 
-	cm = OCConceptManager(filename="dataset/ConceptTeamOC14.csv")
-	print (cm.description_statistics())
+	# cm = OCConceptManager(filename="dataset/ConceptTeamOC14.csv")
+	# print (cm.description_statistics())
 
-
+	# print datapath("abc",1)
+	pass

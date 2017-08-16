@@ -5,3 +5,4 @@ GensimModel/model
 tutorial/smalltext
 output_csv
 __pycache__/
+*.pyc
