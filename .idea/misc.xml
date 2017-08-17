@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EmacsSettings">
+    <option name="emacsPath" value="/usr/bin/emacs" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7)" project-jdk-type="Python SDK" />
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <envs>
+          <env key="PYTHONPATH" value="/usr/local/Cellar/opencv/2.4.13.2/lib/python2.7/site-packages/" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myEnvs">
+          <map>
+            <entry key="PYTHONPATH" value="/usr/local/Cellar/opencv/2.4.13.2/lib/python2.7/site-packages/" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+</project>

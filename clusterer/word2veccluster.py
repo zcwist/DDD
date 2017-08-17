@@ -26,7 +26,7 @@ class Word2VecCluster(Cluster):
 			if label not in cluster_dict.keys():
 				cluster_dict[label] = list()
 			cluster_dict[label].append(cm.conceptList[i])
-		return cluster_dict
+		self.cluster = cluster_dict
 
 	
 	def simi_mat(self):
