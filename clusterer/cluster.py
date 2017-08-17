@@ -3,7 +3,9 @@ class Cluster(object):
 	def __init__(self, conceptManager):
 		super(Cluster, self).__init__()
 		self.conceptManager = conceptManager
-		self.cluster = self.doCluster()
+		self.cluster = {}
+		self.mapping = {}
+		# self.doCluster()
 
 	def doCluster(self):
 		pass
@@ -11,7 +13,9 @@ class Cluster(object):
 
 	def getCluster(self):
 		return self.cluster
-		
+
+	def getMapping(self):
+		return self.mapping
 
 if __name__ == '__main__':
 	from os import sys, path
