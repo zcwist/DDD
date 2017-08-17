@@ -4,6 +4,7 @@ class RandomCluster(Cluster):
 
     def __init__(self, conceptManager, k):
         super(RandomCluster, self).__init__(conceptManager)
+        self.type = "Random Cluster"
         if k is None:
             self.k = len(conceptManager.concept_category_list)
         else:

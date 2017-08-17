@@ -8,38 +8,33 @@ class compareableNode():
         self.val = value
 
     def __cmp__(self, other):
-        return cmp(other.val, self.val)
+        return cmp(len(other.val), len(self.val))
 
 class ClusterCompare:
 
     def __init__(self, cluster1, cluster2):
+        #cluster 1 is the row(y axis) and cluster 2 is the column (x axis)
         self.cluster1 = cluster1
         self.cluster2 = cluster2
+        self.ClusterPair = {}
+        self.matrix =[[]]
+        self.cluster1Mapping = {}
+        self.cluster2Mapping = {}
+
 
     def compare(self):
         len1 = len(self.cluster1.getCluster())
         len2 = len(self.cluster2.getCluster())
+        rowCluster = self.cluster1.getCluster()
+        colCluster = self.cluster2.getCluster()
 
-        if len1 <= len2:
-            smallerCluster = self.cluster1.getCluster()
-            lagerCluster = self.cluster2.getCluster()
-            smallerMapping = self.cluster1.getMapping()
-            largerMapping = self.cluster2.getMapping()
-        else:
-            smallerCluster = self.cluster2.getCluster()
-            lagerCluster = self.cluster1.getCluster()
-            smallerMapping = self.cluster2.getMapping()
-            largerMapping = self.cluster1.getMapping()
-
-        smallLen = len(smallerCluster)
-        largerLen = len(lagerCluster)
-        matrix = [[0 for x in range(smallLen)] for y in range(largerLen)]
+        matrix = [[[] for x in range(len2)] for y in range(len1)]
         pq = []
 
         # Build the matrix mappings
-        for i in range(largerLen):
-            for j in range(smallLen):
-                matrix[i][j] = self.countSame(lagerCluster[i], smallerCluster[j])
+        for i in range(len1):
+            for j in range(len2):
+                matrix[i][j] = self.countSame(rowCluster[i], colCluster[j])
                 heapq.heappush(pq, compareableNode(i, j, matrix[i][j]))
 
         RownewPos = {}
@@ -60,58 +55,96 @@ class ClusterCompare:
 
         while len(pqCopy) != 0:
             curNode = heapq.heappop(pqCopy)
-            if curNode.y not in RownewPos:
-                RownewPos[curNode.y] = defaultY
-                defaultY += 1
-        result= [[0 for x in range(smallLen)] for y in range(largerLen)]
+            if len1 > len2:
+                if curNode.y not in RownewPos:
+                    RownewPos[curNode.y] = defaultY
+                    defaultY += 1
+            elif len1 < len2:
+                if curNode.x not in ColnewPos:
+                    ColnewPos[curNode.x] = defaultX
+                    defaultX += 1
+            else:
+                break
+
+
+        result= [[[] for x in range(len2)] for y in range(len1)]
 
         # Map the transfered matrix into result
-        for i in range(largerLen):
-            for j in range(smallLen):
+        for i in range(len1):
+            for j in range(len2):
                 result[RownewPos[i]][ColnewPos[j]] = matrix[i][j]
+                if (len(matrix[i][j]) != 0):
+                    self.ClusterPair[(RownewPos[i], ColnewPos[j])] = matrix[i][j]
 
-        self.createCSV(result, smallerMapping, ColnewPos, largerMapping, RownewPos)
+
+        self.matrix = result
+        self.updateMapping(self.cluster2.getMapping(), ColnewPos, self.cluster1.getMapping(), RownewPos)
 
 
 
 
     def countSame(self, conceptList1, conceptList2):
-        count = 0
+        sameConcept = []
         for i in conceptList1:
             for j in conceptList2:
                 if i is j: #possible bug here. I want to test whether these two pointers are pointing to same object
-                    count += 1
+                    sameConcept.append(i)
                     break
-        return count
+        return sameConcept
 
-    def createCSV(self, matrix, colOldeIDtoName, colReverseMapping, rowOldIDtoName, rowReverseMapping):
-        colNewIDtoName = {}
-        rowNewIDtoName = {}
+    def updateMapping(self, colOldIDtoName, colReverseMapping, rowOldIDtoName, rowReverseMapping):
         for key, value in colReverseMapping.iteritems():
-            if key in colOldeIDtoName:
-                colNewIDtoName[value] = colOldeIDtoName[key]
+            if key in colOldIDtoName:
+                self.cluster2Mapping[value] = colOldIDtoName[key]
             else:
-                colNewIDtoName[value] = value
+                self.cluster2Mapping[value] = value
         for key, value in rowReverseMapping.iteritems():
             if key in rowOldIDtoName:
-                rowNewIDtoName[value] = rowOldIDtoName[key]
+                self.cluster1Mapping[value] = rowOldIDtoName[key]
             else:
-                rowNewIDtoName[value] = value
+                self.cluster1Mapping[value] = value
 
-        with open('clusterMapping.csv', 'wb') as csvfile:
+
+    def createCSV(self):
+
+        # for key, value in colReverseMapping.iteritems():
+        #     if key in colOldeIDtoName:
+        #         self.cluster2Mapping[value] = colOldeIDtoName[key]
+        #     else:
+        #         self.cluster2Mapping[value] = value
+        # for key, value in rowReverseMapping.iteritems():
+        #     if key in rowOldIDtoName:
+        #         self.cluster1Mapping[value] = rowOldIDtoName[key]
+        #     else:
+        #         self.cluster1Mapping[value] = value
+
+        with open('HMPlot.csv', 'wb') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
             colHeading = [" "]
-            for col in range(len(matrix[0])):
-                colHeading.append(colNewIDtoName[col])
+            for col in range(len(self.matrix[0])):
+                colHeading.append(self.cluster2Mapping[col])
             filewriter.writerow(colHeading)
-            for row in range(len(matrix)):
-                curRow = matrix[row]
-                y_name = rowNewIDtoName[row]
+            for row in range(len(self.matrix)):
+                curRow = [len(i) for i in self.matrix[row]]
+                y_name = self.cluster1Mapping[row]
                 curRow.insert(0, y_name)
                 filewriter.writerow(curRow)
 
-
+        with open('OverView.csv', 'wb') as csvfile:
+            filewriter = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            colHeading = [self.cluster1.getType(), self.cluster2.getType(), "Concept Name", "Concpet Description"]
+            filewriter.writerow(colHeading)
+            for key, value in self.ClusterPair.iteritems():
+                row = []
+                row.append(self.cluster1Mapping[key[0]])
+                row.append(self.cluster2Mapping[key[1]])
+                for concept in value:
+                    newRow = list(row)
+                    newRow.append(concept.conceptName())
+                    newRow.append(concept.getDescription())
+                    filewriter.writerow(newRow)
 
 if __name__ == '__main__':
 
@@ -124,4 +157,6 @@ if __name__ == '__main__':
     rand = RandomCluster(cm, 7)
     hum = HumanCluster(cm)
 
-    print(ClusterCompare(rand, hum).compare())
+    a = ClusterCompare(rand, hum)
+    a.compare()
+    a.createCSV()

@@ -3,6 +3,7 @@ class HumanCluster(Cluster):
 	"""docstring for HumanClaster"""
 	def __init__(self, conceptManager):
 		super(HumanCluster, self).__init__(conceptManager)
+		self.type = "Human Cluster"
 		self.doCluster()
 	
 	def doCluster(self):

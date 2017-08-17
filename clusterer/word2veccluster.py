@@ -17,6 +17,7 @@ class Word2VecCluster(Cluster):
 		if k is None:
 			k = len(conceptManager.categoryList)
 		self.k = k
+		self.type = "Word2Vec Cluster"
 		super(Word2VecCluster, self).__init__(conceptManager)
 		self.doCluster()
 		Word2VecLabel(self)

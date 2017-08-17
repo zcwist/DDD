@@ -88,8 +88,8 @@ class ConceptItem(object):
 		nvdict = self.noun_and_verb()
 		return desc_len, len(nvdict["Noun"]),len(nvdict["Verb"])
 		
-
-
+	def getDescription(self):
+		return self.description
 if __name__ == '__main__':
 	# file = CSVFile()
 	file = CSVFile("../dataset/ConceptTeamOC12.csv")
