@@ -1,12 +1,12 @@
 from cluster import Cluster
-class HumanClaster(Cluster):
+class HumanCluster(Cluster):
 	"""docstring for HumanClaster"""
 	def __init__(self, conceptManager):
-		super(HumanClaster, self).__init__(conceptManager)
+		super(HumanCluster, self).__init__(conceptManager)
 		self.doCluster()
 	
 	def doCluster(self):
-		iter = 1
+		iter = 0
 		conceptList = self.conceptManager.conceptL()
 		reverseMapping = {}
 		for i in conceptList:
@@ -32,5 +32,5 @@ if __name__ == '__main__':
 	from dataset.datautils import datapath
 	cm = CM(filename=datapath("DesInv",1))
 
-	print HumanClaster(cm).getCluster()
-	print HumanClaster(cm).getMapping()
+	print HumanCluster(cm).getCluster()
+	print HumanCluster(cm).getMapping()

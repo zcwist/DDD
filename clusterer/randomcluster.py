@@ -13,7 +13,7 @@ class RandomCluster(Cluster):
     def doCluster(self):
         list = self.conceptManager.conceptList
         for i in list:
-            randIndex = randint(1, self.k)
+            randIndex = randint(0, self.k - 1)
             if randIndex in self.cluster:
                 self.cluster[randIndex].append(i)
             else:

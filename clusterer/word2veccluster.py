@@ -74,4 +74,5 @@ if __name__ == '__main__':
 	from dataset.datautils import datapath
 	cm = CM(filename=datapath("DesInv",1))
 
-	print Word2VecCluster(cm).mapping
+	print Word2VecCluster(cm).getCluster()
+	print Word2VecCluster(cm).getMapping()
