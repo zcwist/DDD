@@ -1,0 +1,13 @@
+ ,0,1,2,3,4,5,6
+Robot,3,1,0,2,1,1,0
+Shopping Cart Device,0,3,2,0,0,3,2
+Wearable device,2,0,3,2,1,0,2
+Home appliance,3,2,0,3,0,1,2
+Wearable Device,0,0,1,1,3,1,0
+Apps(Dining),0,0,0,1,2,1,1
+wearable device,0,0,0,1,0,0,1
+Grocery Bags,0,0,1,0,0,0,1
+Staying hydrated,0,0,0,0,0,1,1
+Apps (shopping),0,0,0,1,0,1,0
+App (Health),0,0,0,1,0,0,0
+App (Shopping),0,0,0,0,0,1,0

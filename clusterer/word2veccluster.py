@@ -74,3 +74,4 @@ if __name__ == '__main__':
 	cm = CM(filename=datapath("DesInv",1))
 
 	print Word2VecCluster(cm).getCluster()
+	print Word2VecCluster(cm).getMapping()
