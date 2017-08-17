@@ -4,6 +4,7 @@ import numpy as np
 import heapq
 from scipy.cluster.hierarchy import linkage, fcluster
 import math
+from word2vecLabel import Word2VecLabel
 
 
 class Word2VecCluster(Cluster):
@@ -18,17 +19,17 @@ class Word2VecCluster(Cluster):
 		self.k = k
 		super(Word2VecCluster, self).__init__(conceptManager)
 		self.doCluster()
+		Word2VecLabel(self)
 
 	def doCluster(self):
 		cm = self.conceptManager
 		cluster_labels = self.hierachical_clustering()
 		cluster_dict = dict()
 		for i,label in enumerate(cluster_labels):
-			if label not in cluster_dict.keys():
-				cluster_dict[label] = list()
-			cluster_dict[label].append(cm.conceptList[i])
+			if (label-1) not in cluster_dict.keys():
+				cluster_dict[label-1] = list()
+			cluster_dict[label-1].append(cm.conceptList[i])
 		self.cluster = cluster_dict
-
 	
 	def simi_mat(self):
 		"""similarity matrix, calculated by cosine distance, 1 for exactly the same"""
@@ -73,4 +74,4 @@ if __name__ == '__main__':
 	from dataset.datautils import datapath
 	cm = CM(filename=datapath("DesInv",1))
 
-	print Word2VecCluster(cm).getCluster()
+	print Word2VecCluster(cm).mapping
