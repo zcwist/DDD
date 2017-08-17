@@ -1,5 +1,5 @@
 text8
-.DS_Store
+*.DS_Store
 text8.zip
 GensimModel/model
 tutorial/smalltext
