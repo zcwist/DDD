@@ -5,7 +5,7 @@ class Cluster(object):
 		self.conceptManager = conceptManager
 		self.cluster = {}
 		self.mapping = {}
-		self.doCluster()
+		# self.doCluster()
 
 	def doCluster(self):
 		pass

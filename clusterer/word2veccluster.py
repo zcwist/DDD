@@ -16,7 +16,8 @@ class Word2VecCluster(Cluster):
 		if k is None:
 			k = len(conceptManager.categoryList)
 		self.k = k
-		super(Word2VecCluster, self).__init__(conceptManager)	
+		super(Word2VecCluster, self).__init__(conceptManager)
+		self.doCluster()
 
 	def doCluster(self):
 		cm = self.conceptManager
