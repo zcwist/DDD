@@ -5,15 +5,15 @@ import numpy as np
 class ConceptManager(object):
 	"""docstring for ConceptManager"""
 
-	conceptList = list()
-	notfoundList = list()
-	categoryList = list() #concept categories in all concepts
-	concept_category_list = list() # concept category name of a concept
-	category_index_list = list() # concept category index of a concept
-	concept_name_list= list()
-
 	def __init__(self, filename, size=None):
 		super(ConceptManager, self).__init__()
+
+		self.conceptList = list()
+		self.notfoundList = list()
+		self.categoryList = list() #concept categories in all concepts
+		self.concept_category_list = list() # concept category name of a concept
+		self.category_index_list = list() # concept category index of a concept
+		self.concept_name_list= list()
 		
 		file = CSVFile(filename)
 		if size==None:
@@ -85,6 +85,8 @@ class ConceptManager(object):
 		concept_num = len(self.conceptList)
 		return desc_len_sum/concept_num, noun_num_sum/concept_num, verb_num_sum/concept_num
 
+	def printHumanCluster(self):
+		return self.categoryList
 
 
 
@@ -137,4 +139,20 @@ if __name__ == '__main__':
 	# print (cm.description_statistics())
 
 	# print datapath("abc",1)
-	pass
+	from os import sys, path
+	sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+	from dataset.datautils import datapath
+
+	className = "DesInv"
+	for teamNo in range(15):
+		try:
+			cm = ConceptManager(filename=datapath(className,teamNo))
+			print "%s;%d;%s" % (className,teamNo,cm.printHumanCluster())
+		except Exception as e:
+			pass
+		
+		
+		# print "%s;%d;%s" % (className,teamNo,cm.printHumanCluster())
+		# print datastr
+
+		

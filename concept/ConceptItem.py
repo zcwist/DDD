@@ -1,6 +1,6 @@
 from CSVFile import CSVFile
 import nltk
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('averaged_perceptron_tagger')
 
 import numpy as np
 from random import shuffle
