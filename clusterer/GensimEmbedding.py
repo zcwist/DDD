@@ -2,7 +2,7 @@ import gensim
 import numpy as np
 
 
-model = gensim.models.Word2Vec.load('GensimModel/model') #size 47133
+model = gensim.models.Word2Vec.load('./clusterer/GensimModel/model') #size 47133
 vocab_size = len(model.wv.index2word)
 embed_size = 200
 

@@ -146,6 +146,8 @@ class ClusterCompare:
                     newRow.append(concept.getDescription())
                     filewriter.writerow(newRow)
 
+    def getMatrix(self):
+        return self.matrix
 if __name__ == '__main__':
 
     from concept.ConceptManager import ConceptManager as CM
