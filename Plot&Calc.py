@@ -62,6 +62,30 @@ def plotBubble(clusterCompareObject, offset=0.25):
     plt.axes().set_aspect('equal')
     plt.show()
 
+def IndicesCalculation(clusterCompareObject):
+    curMatrix = clusterCompareObject.getMatrix()
+    row = len(curMatrix)
+    col = len(curMatrix[0])
+    total = 0.0
+    congruency = 0.0
+    rowIndices = [0.0 for i in range(row)]
+    colIndices = [0.0 for i in range(col)]
+    for i in range(row):
+        for j in range(col):
+            total += len(curMatrix[i][j])
+            if (i == j): congruency += len(curMatrix[i][j])
+            if (len(curMatrix[i][j]) != 0):
+                rowIndices[i] += 1
+                colIndices[j] += 1
+
+
+    congruency /= total
+    rowIndices = [i / col for i in rowIndices]
+    colIndices = [i / row for i in rowIndices]
+    print(total)
+    print(congruency)
+    print(rowIndices)
+    print(colIndices)
 if __name__ == '__main__':
 
     from concept.ConceptManager import ConceptManager as CM
@@ -77,3 +101,4 @@ if __name__ == '__main__':
     a = ClusterCompare(rand, hum)
     a.compare()
     plotBubble(a)
+    IndicesCalculation(clusterCompareObject=a)
