@@ -21,9 +21,7 @@ Member,Concept Title,Description,Cluster
 ,Arm extension sleeve - Flex Sensor,Arm extension movement could be used for a variety of commands,movement
 ,Fake throwable grenade,Grenade attached to tether with accelerometer inside. Tossing it commands player in game to throw grenade,movement
 ,Arm/Leg Shock Bands,When getting shot in a game small shocks would alert you.,touch - shock
-,Location Indicating Shock Array,"Array of small shock bands or patches that alert you of location of enemy. If getting shot from behind on your left, the patch over 
-
-your back left holders would signal you.",touch - shock
+,Location Indicating Shock Array,"Array of small shock bands or patches that alert you of location of enemy. If getting shot from behind on your left, the patch over your back left holders would signal you.",touch - shock
 ,Glasses with LEDs,Glasses with LEDs that would shine and slightly blind you when a flash bang goes off. Or if driving into headlights.,sight
 ,Full room synced Lighting System,Lighting system that syncs up to the current scene in the game,sight
 ,Synced Fans ,Fans that blow wind on you if it is windy in the game,Temp
@@ -57,7 +55,7 @@ your back left holders would signal you.",touch - shock
 ,Proximity Wearable for Pets,A wearable for pets that detects their proximity and location relative to the owner in case they get lost during walks.,Outside Exercise
 ,RFID-Based Checkpoint Run,Have a system of RFIDs set up on a running course and you must complete the track. Can have challenges for different sections of the run.,Running
 ,Biking Challenge App,Similar to hiking challenge app but focused on cyclists.,Cycling
-,"Meetup App for Parents with Strollers",Connects fellow parents that are going on walks with their kids in strollers.,Walking
+,Meetup App for Parents with Strollers,Connects fellow parents that are going on walks with their kids in strollers.,Walking
 ,Running Speaker,A device for canceling panting noise while runner talking on phone ,Running
 ,Ask jog,Earn money while jogging by answering survey questions,Outdoor
 ,Music tap,Using finger senses to change music,Outdoor

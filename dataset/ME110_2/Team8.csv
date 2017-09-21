@@ -49,27 +49,27 @@ James Napoli,The Light App,"Control uses a smartphone app to connect to the appa
 James Napoli,Pull String,Control uses a string connected from the switch to hooks overhead to a handle over the bed--users can pull the string once in bed and turn off the light.,Simplicity-Focused Products
 James Napoli,Motion Sensor,"Control senses motion by the light switch, and senses the direction telling it whether to turn it on/off. When someone enters, it will turn the light on, and vice-versa.",Sensor-Based Products
 James Napoli,Vocal Recognition,This device is captures a sound recording (that can be rerecorded whenever) that will activate the flip of a switch each time that recorded statement is said again out loud.,Sensor-Based Products
-James Napoli,Remote and Rolling Dimmer for Multiple Switches,This base has an added extension to the roller where you can press which switch you'd like to dim before using the dimmer itself,Application Based Products
+James Napoli,Remote and Rolling Dimmer for Multiple Switches,This base has an added extension to the roller where you can press which switch you'd like to dim before using the dimmer itself,Application-Based Products
 James Napoli,Magnet Slide,"Instead of having two magnets with opposite polarization that flip, one magnet would be inside that slides up or down to dim or turn on/off",Simplicity-Focused Products
 James Napoli,Multi-colored Buttons,Wall switches will be color coated with one big strip of colored buttons that can be placed on the wall or on an end table that remotely control the switch corresponding to the color,Simplicity-Focused Products
 James Napoli,Ring Slide around the switch,"Instead of a button on the contraption that switches it on or off, there is a dimmer slider that can slowly move the chain to dim the light",Simplicity-Focused Products
 James Napoli,Walk around mat,"Several Mats on the floor of a bedroom control the intensity of the lights. As someone walks to bed, the lights get increasingly darker.",Sensor-Based Products
 James Napoli,Switch Tapper Stickers,"Not only can you control the contraction on the switch itself with a tap, we can have tap stickers that you can place anywhere that you can tap to flip the switch",Sensor-Based Products
-James Napoli,The Home App,"The app can not only control the light switches, but be able to control different parts of the house.",Application Based Products
+James Napoli,The Home App,"The app can not only control the light switches, but be able to control different parts of the house.",Application-Based Products
 James Napoli,Motion Activated Rope Lights,"One strip of lights that goes along one wall and plugs in.  As you walk by, the section where you're walking lights up.",Sensor-Based Products
 James Napoli,Fabric Button,"A waterproof button sewed into two pieces of fabric.  One piece of fabric has a sticky side that can attach to a bed sheet, and one has to press it to activate the switch.",Sensor-Based Products
 James Napoli,Vocal/Finger recognition,"To control both a switch and an alarm system, the control can recognize vocals, but also recognize a fingerprint when it's time to lock up.",Sensor-Based Products
 Roger Isied,Personalized Wristband Light,A wearable wristband light with a built in LED light that can be extended from the wristband and adjusted for specific application.,Wearable and On Demand
-Roger Isied,Room Control Description App,An IOS or Android application that would give users access to all controls in their living space with detailed descriptions of what each switch controls.,Application Based Products
-Roger Isied,The Switch Drone,A GPS enabled drone that can find its way to different switches in a room and switch them on and off; it can also provide external light to its user.,Application Based Products
-Roger Isied,Room Control Watch,A smartwatch with the sole purpose of controlling switches and appliances in a living space,Application Based Products
-Roger Isied,Room Switch Control Box,A personalized control box that can control all switches in a living space and includes information about all utilities in the home to provide the user information about his/her living space.,Application Based Products
+Roger Isied,Room Control Description App,An IOS or Android application that would give users access to all controls in their living space with detailed descriptions of what each switch controls.,Application-Based Products
+Roger Isied,The Switch Drone,A GPS enabled drone that can find its way to different switches in a room and switch them on and off; it can also provide external light to its user.,Application-Based Products
+Roger Isied,Room Control Watch,A smartwatch with the sole purpose of controlling switches and appliances in a living space,Application-Based Products
+Roger Isied,Room Switch Control Box,A personalized control box that can control all switches in a living space and includes information about all utilities in the home to provide the user information about his/her living space.,Application-Based Products
 Roger Isied,Universal Room Control Remote,An infrared sensor remote with a single button that can control any switch in a living space by pointing the remote at the switch.,Wearable and On Demand
 Roger Isied,Voice Controlled Switch Remote,A remote than can recognize user speech to control switches in a living space.,Energy Efficient
 Roger Isied,Light Switching Pen,A pen with pressable buttons on the side that control all switches within a living space.,Wearable and On Demand
-Roger Isied,A Light Switch Scanner,A sort of bar code scanner that can scan wall switches and provide information about that switch and what it controls.,Simplicity-Based Products
+Roger Isied,A Light Switch Scanner,A sort of bar code scanner that can scan wall switches and provide information about that switch and what it controls.,Simplicity-Focused Products
 Roger Isied,Clip-on Remote Switch,A clip-on switch that can be placed directly over a wall switch that can be controlled by either a smartphone app or remote control,Hardware and Logistics
-Roger Isied,Following Switch Drone,A drone that follows around the user wearing a GPS enabled wristband that can toggle switches to rooms that the user walks into and provides external light for the user via a build in LED,Application Based Products
+Roger Isied,Following Switch Drone,A drone that follows around the user wearing a GPS enabled wristband that can toggle switches to rooms that the user walks into and provides external light for the user via a build in LED,Application-Based Products
 Roger Isied,Room Control Apparel,Any apparel of clothing that includes labeled room controls for user to function controls within their living space,Wearable and On Demand
 Roger Isied,Light-up Remote Switch Control,A one-button remote that had an attachable LED that can be pointed at light switches and can toggle them on and off. Includes a laser and attachable light to tell user where it is pointing.,Energy Efficient
 Roger Isied,Electromagnetic Wireless Switch,A one button portable switch that can shut off all of the power within a living space using electromagentic signals.,Energy Efficient
@@ -77,7 +77,7 @@ Roger Isied,Service Dog Light Switcher,A training program designed for service d
 Roger Isied,Timer Home Control System,"An integrated system in the home that can have timers set to turn off lights, lock doors, and set alarms at a time set by the user when the system is installed.",Hardware and Logistics
 Roger Isied,Hand Gesture Switch System,A camera set up in each room with shape recognition to received hand gesture signals from the user to control switches within that room.,Sensor-Based Products
 Roger Isied,Brail Based Switch System,A brail control board that allows users that have trouble seeing at some point during the day to feel the control box to know which switch they want to press to control switches without having to physically see the label.,Hardware and Logistics
-Roger Isied,Morse Code Switch System,A one button control system that controls all switches within a living space using a morse code toggled command.,Simplicity-Based Products
+Roger Isied,Morse Code Switch System,A one button control system that controls all switches within a living space using a morse code toggled command.,Simplicity-Focused Products
 Roger Isied,Pressure Based Control Switch,A pressure plate in the entrance of each room that turns the room lights on when a user enters and turns them off when the user leaves the room ,Sensor-Based Products
 Dominic Chiavacci,Actuated Switch -Standard,"A device mounted over a switch, possibliy replacing a face plate, that allows for automation of the switch",Hardware and Logistics
 Dominic Chiavacci,Actuated Switch -Flat Switch,A small magnetic attatchment to the face plate of a flat switch that has an actuated slider that allows for control of the switch,Hardware and Logistics

@@ -1,5 +1,5 @@
 Member Name,Concept Title(Name of concept you created),Description,Cluster
-Hu YuXin,3D Flyby,Rebuild models after scanning the patientsÍ bodies. This can help students to see how it works.,Receiving
+Hu YuXin,3D Flyby,Rebuild models after scanning the patientsê bodies. This can help students to see how it works.,Receiving
 Hu YuXin,Instruction projector,Directly project treatment instructions on injuries. This can help doctors follow instructions and ensure operation quality.,Better Treatment
 Hu YuXin,AI Doctors,Use Artificial Intelligence to search database for case studies. Then analyses them for the best solutions.,Better Treatment
 Hu YuXin,Robot Assistants,Doctors can ask robots to do simple jobs for them during the operation. Robots can do their jobs more accurately than human assistants.,Better Treatment
@@ -14,36 +14,36 @@ Hu YuXin,Self-check First Aid,"When patients are not feeling well, they can use 
 Hu YuXin,Body simulators,Students can use this game-like Software to discover what will happen when some parts of the body are going wrong. This can help students memorize medical knowledge. ,Remembering
 Hu YuXin,AR enhancing instruction,Students can use an Advanced Reality Glass to get instructions without touching anything (Voice Control) and get directly get information.,Practice/Remembering/Better Treatment
 Hu YuXin,3D printing models,Doctors can use 3D printing models to better explain their ideas. ,Better Treatment
-Liu Zelan,Memory master,Personal medical knowledge management is difficult æbecause the quantity is too large ,Remembering
+Liu Zelan,Memory master,Personal medical knowledge management is difficult ¾because the quantity is too large ,Remembering
 Liu Zelan,Take medicine on time,"I discovered a example that a fruit with a spiked burdock can tightly stick to the dog, we can also use this method to hang the medicine on the wall on the head of the bed and remind patients to take medicine on time.",Remembering
 Liu Zelan,Gather knowledge,Use a machine that can quickly search the information that had been learned.,Remembering
 Liu Zelan,Improve clarity,"Once we thought ahead and figured out the prototype of our product. But we discovered this product can not strictly control the clarity of the product. In this case, we use high-definition camera to guarantee its clarity.",Better treatment
 Liu Zelan,Alert & Notification,"We need to add some voice to our product. This can be achieved by using biomimicry method, for example, imitate the voice of birds and other animals.",Better treatment
 Liu Zelan,Get help,Every inexperienced doctors post unsolved question online and get help from experienced doctors. ,Better treatment
-Liu Zelan,Sound processing,"Watch the online video and use a sound processing machine to imitation the professorÍs voice, let students have a feeling that their teachers are by their side and coach them",Better treatment
-Liu Zelan,Resource sharing,"We all know hospital have electronic medical record to record patient situation but not share to other hospitals. If we connect these hospitals together, doctors can view patientÍs situation more comprehensive.",Better treatment
+Liu Zelan,Sound processing,"Watch the online video and use a sound processing machine to imitation the professorês voice, let students have a feeling that their teachers are by their side and coach them",Better treatment
+Liu Zelan,Resource sharing,"We all know hospital have electronic medical record to record patient situation but not share to other hospitals. If we connect these hospitals together, doctors can view patientês situation more comprehensive.",Better treatment
 Liu Zelan,Real- time feedback from doctor to patient,"As I mentioned above, not only should we establish a information shared system between hospitals, but also inform information to patients. In this case, we can use a mobile sensing machine to send real-time feedback about his physical condition.",Receiving 
 Liu Zelan,Real- time feedback from experienced doctor to inexperienced patient,Inexperienced doctors can sent real-time video to experienced doctors to get guidance.,Receiving 
-Liu Zelan,Coach more students at the same time,"Usually, when doing experiment, teachers canÍt viewing all studentsÍ operation at the same time and give feedback. Using some mobile sensing machine, doctors can remote viewing all students at the same time and tell TA which one should be guided.",Practicing 
+Liu Zelan,Coach more students at the same time,"Usually, when doing experiment, teachers canêt viewing all studentsê operation at the same time and give feedback. Using some mobile sensing machine, doctors can remote viewing all students at the same time and tell TA which one should be guided.",Practicing 
 Liu Zelan,Communicate,"Using mobile sensing product, medical students can watching teaching videos and discuss with partner about the problems in long distance.",Practicing 
 Liu Zelan,Master knowledge,"More communication about the problems, inexperienced doctors will more understand the medical knowledge.",Learn better
 Liu Zelan,Frontier knowledge,"Once students get the information about the latest news and technologies, upload the information to the communicated system to share the frontier knowledge to others.",Learn better
 Liu Zelan,Practice better,"Get more guidance from the experienced doctors, inexperienced doctor will be more skilled.",Learn better
-Chen Jingling,Seeing Through,"Many peopleÍs home are far away from hospital,and it may take much time to get to it.Through this methods, you can always get first-aid from doctors.",Better treatment
-Chen Jingling,Scanner,"When you are having some pain but donÍt know whatÍs going on ,it can scan you and give you feedback of your body.",Better treatment
-Chen Jingling,Learning Far,Too many people around one table that you canÍt see the professor or whatÍs going on clearly.This can help you learn alone whenever and wherever.,Receiving---Case Study
-Chen Jingling,Monitor,Professor can see whatÍs going on through a glasses on your eyes on his own computer.No need to gather together.,Practicing---Hands-on
-Chen Jingling,Glass Remembers,Sometime itÍs hard for students to remember something. We create this to help you reference easily.,Remembering
+Chen Jingling,Seeing Through,"Many peopleês home are far away from hospital,and it may take much time to get to it.Through this methods, you can always get first-aid from doctors.",Better treatment
+Chen Jingling,Scanner,"When you are having some pain but donêt know whatês going on ,it can scan you and give you feedback of your body.",Better treatment
+Chen Jingling,Learning Far,Too many people around one table that you canêt see the professor or whatês going on clearly.This can help you learn alone whenever and wherever.,Receiving---Case Study
+Chen Jingling,Monitor,Professor can see whatês going on through a glasses on your eyes on his own computer.No need to gather together.,Practicing---Hands-on
+Chen Jingling,Glass Remembers,Sometime itês hard for students to remember something. We create this to help you reference easily.,Remembering
 Chen Jingling,Invisible Exercise,It's like doing an experiment or exercise via visual screen provided by the sensing,Practicing
 Chen Jingling,Seeing Through 2,Doctors can record their treatment as a case study for students by sending the things on the icloud.,Receiving
-Chen Jingling,Real-time Feedback,"By using this kind of book or some ipads, while youÍre studying or marking on your book, teachers can point out whatÍs going wrong.",Receiving
+Chen Jingling,Real-time Feedback,"By using this kind of book or some ipads, while youêre studying or marking on your book, teachers can point out whatês going wrong.",Receiving
 Chen Jingling,Fly Eyes,"Professor wear a kind of glasses that has several aspects like the eye of a fly that he can see many screen showing on the same time, which helps reducing time waste.",Practicing---Perceiving
 Chen Jingling,Google It!,"There's a google searching picture on the front, we create a database like google that contains all the cases that medical students may want to search for information.",Receiving
-Chen Jingling,Glass Remembers 2,"When wearing this glasses, itÍs like a camera that can capture everything that your eyes see and store it.",Remembering
+Chen Jingling,Glass Remembers 2,"When wearing this glasses, itês like a camera that can capture everything that your eyes see and store it.",Remembering
 Chen Jingling,Another You,It's like another visual you that shows all your physical health scanning by a sensing product that helps you find out the potential problems in your body.,Better Treatment
 Chen Jingling,Connect Us!,Patients just need to write down their symptoms on the computer and many similar cases and treatments will come out from the computer so that you can pre-judge yourself.,Better Treatment and Receiving
 Chen Jingling,Learning from Seeing,Here's a computer-like product that whatever you see or learn will have a picture shown to you so that you can understand and remember it quickly and clearly.,Remembering and Receiving
-Chen Jingling,Real Body,Medical students may find it hard to try some real exercise on their own and they might not know whatÍs the name or proper names of every parts. This body can reflect every parts when you touch it and it will speak out to show you the meaning or descriptions of it.,Receiving
+Chen Jingling,Real Body,Medical students may find it hard to try some real exercise on their own and they might not know whatês the name or proper names of every parts. This body can reflect every parts when you touch it and it will speak out to show you the meaning or descriptions of it.,Receiving
 Kaifei Guo,Community-based content creation,"Through a very easy to use capturing device, users can make available online what they see and experience. This would be especially helpful for educational purposes where students can learn from different practitioners.",Better educational content 
 Kaifei Guo,Live video streaming ,"Through a similar capturing device, content creators can broadcast their experience online so that users can tune in and experience what the users are experiencing. ",Better educational content 
 Kaifei Guo,Real-time instruction,Users who use a capturing device can share the video footage with another users. And the viewers can instruct or provide feedback to the device users real-time that is especially important for remote coaching. . ,Better educational instruction
