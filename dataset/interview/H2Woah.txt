@@ -1,0 +1,90 @@
+EK: Could you tell us about your team project? How did you guys come up with the main idea? How many?  And how did you guys decide the final concept?
+S: Yeah, so. Our project now is focused on the “Doodle-Bottle,” which is this chalkboard-ish reusable water bottle that kids can doodle on. Our initial mission was to try to find a better way to carry like make a reusable water bottle portable because as students we all kind of struggled with finding ways to carry our own water bottles. While we were doing user research and coming up with ideas, one of two of the insights were about children and how they are usually the ones that were using plastic water bottles, so we kind of expanded what we were looking for at first. We saw that in a lot of the designs we were generating for our portability were focused on kids, and those were the ideas that a lot of our group members were enjoying looking at. so we shifted our initial project proposal into trying to figure out how to get kids use a reusable water bottle more so they wouldn't be going through as many plastic bottles, which is how our project shifted to where we are now. When we decided to start looking at how kids use reusable water bottles we came up with a lot of different ideas. I think we had generated about 100 total for that part, and we came to 3 different prototypes. In our prototypes, in our ideas, we were looking at things that would be… something that was new, different than what a lot of people had thought of, unconventional, something that was fun that we could see the kids kind of liking, and something that we would enjoy working on too because we knew that the more excited the group was the better the project would be. So we came up with 3 different ideas, and right off the bat, we had prototypes that would be easy to show the kids and get their opinions on. When we did our interviews, we focused on asking kids and asking parents because they were gonna be the people that would have the most impact on buying the water bottle and have the most interaction with it. We kind of iterated from that and saw what aspects of each prototype the kids liked, if they just didn't like them in general where were our strengths and from there we kind of consolidated into the “Doodle-Bottle,” because that was the one every single time the kids loved.
+EK: I can see you guys are on the right track. That's a really good update. Can you go back to the first one? It's a very interesting pattern we found out of your concept clusters, so we just gathered the excel spreadsheet that you guys created and  posted on bcourses and tried to understand the pattern from each team and we intend to find out whether there's anything we can [inaudible] more. Actually, this is the pattern we figured out from your team. The size of bubble means the number of concepts that fit into one kind of cluster. For example, we can see here on the x-axis, we have five clusters...
+CY: Attachment.
+EK: Attachment.
+CY: And what else? “Water Bottle”? “Personalize”… 
+EK So it is very interesting because in each bubble there are too many concepts. 
+CY: Yes
+S: Yeah
+EK: Right? So we'd like to learn more about what was your concept clustering procedure. How did you think of this kind of pattern? I'm not sure whether if you guys are already aware of this pattern as of yet, but this is what we got from your excel sheet. Actually, many concepts goes under attachment.
+CY: the bottle one.
+EK: yes, the bottle one. How did it help your team collaboration?
+S: To have those ideas there?
+EK Yes, ideas there, and the concept clustering process
+S: Well, you mean why we chose those ones as our main clusters?
+EK: Right, right. Yes that's the first question.
+S: The first cluster, we were focused on making the water portable. The attachment is really big because we realized that a lot people like their water bottle how it is. They have a lot of brand loyalty, so finding a way to attach the current water bottle seemed like the best place to focus our energy on. It's hard to find a water bottle that a lot of people like, and the ones that are are pretty basic. Everyone has a strong attachment, and we realized that if we created a whole new water bottle, unless it's a really really beneficial design, it's gonna be a) difficult to get people to switch and b) if we get people to switch, it's not really [using?] our environmental impact because their going to be throwing out their new water bottle, so that's why we focused on that one. We noticed that in our interviews, a lot of the people like, students liked that they had a personal touch on their water bottle, so we knew that was something that we wanted to kind of figure out new ways that we could tap into that identity they've put into their water bottle.
+CY: The second one is “Collapsable.”
+S: That one is just… That one isn't as insightful why we chose that. I think we were just trying to figure out a way to make it portable. A lot of us were just thinking how can we make something small when you carry it and large when you need it.
+CY: And “Personalize?”
+S: Yeah, and that one, I talked about the perfect fit…? I don't know.
+EK: Can you click so we can see more? Ok, so there are about 20.
+S: Hmm yeah, so these ones were playing with different types of materials and ways that we can make water bottles fit into weird spaces. So there are two ideas we had to make it portable. You can either attach it to something, you can make it so it gets small, so you don't have to worry about where it fits, it just fits or make it a perfect fit it can kind of fit into a big backpack or wherever you want it because our main focus group here is students.
+EK: Have you guys ever thought that the number of clusters here are too small or too many?
+S: Here?
+EK: Yeah.
+S: I can see how that's possible. I think it's because we had so many… I think that we were more focused than…
+EK: Before you guys actually did clustering, you guys were focused right?
+S: We were pretty focused because we knew wanted it to be portable. Because we kind of knew that right off the bat from the first interviews, we knew it had to be that area. I think  we were trying to figure out the best ways to implement instead of design ideas.
+EK: Great, that makes sense. (To Chengwei) Can you go to the second iteration? So this the pattern out of your second iteration.
+S: Yeah
+EK: Can you just see this right now, and just give us some first impressions? Like what do you think about those patterns?
+S: Well, I think that.. I'm going to bring my human notion into it. This one was a lot more fun to brainstorm for because we didn't have a preconceived idea of where we saw the project going exactly, so it was fun because we got to come up with a lot of random ideas. I can see here it looks like it's similar, or we have a lot of similar… like a big range of where we see our projects, so that improvement is really big and our sets are different, so I'm wondering if that doesn't make sense.because I think this right after we switched right?
+EK: So actually, just tell me a little more about this graph. So on the x-axis are the names of the clusters coming from your team. Whereas the y-axis, the labels are coming from machine learning, from the algorithm we developed. For example, the bubble under design improvement on the very left edge, actually divides into more than five clusters based on our algorithm, which includes: “bottle,” “sock and bottle”, “kids, backpack”, “doodle, scrubbie,” so this was supposed to be a much larger bubble, but we split them into different bubbles.
+S: Oh, I see.
+EK: This is the name from your team, and all the concepts under “design improvement,” was supposed to be much larger than this, but the machine actually put them into a much larger bucket.
+S: Oh, I see.
+EK: So just as a first impression, we've come up with different labels than yours, which is “Socks.” I don't know. Maybe some concepts are related to socks, maybe? And “Kids, backpack,” and “doodle, scrubbie.”
+S: Ok for those ones.. Ok for the first one, we had most of our clusters… we weren't thinking about the technical aspects, like how it was actually going to work. And this is kind of [inaudible] we knew was going to be possible. And this is more like we were thinking of the actually components out of all of them, right? Like it's separating the human clusters into the components.. I guess?
+EK: Possibly… We don't know. We don't know how the machine does it. That's a possibility. The machine probably put them into different buckets with different aspects of components…
+S: Cool. I like how it makes the “Design Improvement,” group smaller because that's kind of a big category we described, while the rest of them are a little more specified.
+CY: That's one of our goals. "Design Improvements" is so general and abstract and try to give more specific details.
+EK: Can you go back to the first one? So this is… for example, a lot of concepts don't come from the first concept you got at the beginning, but you go through a process to combine and refine the concepts and putting different… like 3 or 4 together and create a totally new one. In that sense, having clusters is so important, we believe. This is our research motivation. It was too general for our perspective to have four buckets for 100 concepts, so we knew there has to be some other way to improve the process.
+S: It's good
+EK. (To Chengwei) Do we have the one to double the number from 5 to 10 to 15? To increase the number of machine clusters.
+CY: Oh yes.
+EK: So this is from the previous one, the big bubbles. We increased the number of clusters by machine learning from 5 to 10 on the y-axis. And this is how the pattern looks like differently from yours. I don't know, what do you think about this? Just.. there is no right or wrong answer. We just want your first impression.
+S: Where...Which one is this? The first one or the second one?
+EK, CY: The first one.
+S: Yeah, this looks really good. 
+EK: In terms of…?
+S: I think that it separates it better than the first plot, the five plot. What's the different between “bottle, water,” and “bottle, bag?” 
+EK: Maybe the concept under “bottle, water” is talking more about water, whereas the other cluster is talking about the form factor like a backpack something like that. This is why the machine separated that out into two different buckets, “water,” and “bag.”
+S; Ok, so bag is maybe in “attachments” it means like backpack bag and in “perfect fit”, it could be talking about the bag's shape, or how it would fit better in my bag. So “bottle, bag” would be more how it fits?
+EK: Or the concept you guys created may be talking more about the form factor of the bag.
+S: Does this [inaudible[ one mean that those two are the main criteria? 
+EK: Yes
+S: Does order matter?
+EK: Yes, order matters a little bit. Maybe you are pretty much talking about bottles first and then maybe water or bag.
+S: Oh, I see. Yeah, I think this makes it a lot easier to see all the different ideas. I think it would also be interesting to see if one person wrote all of the ideas versus having 10 people write it because people use different language, so that might be interesting to see. If it can be rephrased by one person, just to see if the clusters are capping at the right things, you know?  But it separates it a lot easier. Like seeing how which ones in here have those ideas, you know? Which ideas correlate with what aspect we are trying to convey if that makes sense. It might be easier to mix and match ideas.
+EK: Can you go to the one with 15? Ok, so even harder, we created 15 different clusers.
+S: Really? Oh my god.
+EK: So how about this one? Is it better?
+S: I like looking at it better, but then I think it's  harder when you get to that many, especially when you get to the three bottles to know what exactly the x-axis is talking about, but I think that could be solved, if the vocabulary somebody is using in all the ideas is the same. Because every time I say “water bottle,” I might say “reusable water bottle.”
+EK: Oh okay, so it depends on the members.
+S: Exactly.  Or I know in some of mine, I would even just put “WB,” because I was trying to type in “water bottle,” which could have messed up the results.
+CY: Maybe algorithm can't recognize “WB.”
+EK: But that might be really good future research. Maybe get the nuance from each member and modify it a little bit to make the common terminology. That's a really good insight. Great! So your final concept, do you think your final concept belonged to one of these bubbles or is totally new.
+S: What do you mean.
+EK The concept you guys have right now, do you think it may fit one of those bubbles.
+S: the first ones?
+EK: Or any of  the ones you saw today.
+S: I think a good thing about our concept is that it takes in a lot parts of these. Like ours is focused on temperature would be one. [Inaudible]. We also would want..for it to be fun, but that's not a good answer. That's where I see it fitting most out of all of these, but that's not the main focus of our product. Can I see the second sheet?
+EK: The second? Oh you mean the first one. (Switches the graph)
+S: Oh wait go back to the second. [Inaudible] “Design Improvements.” We want it to trend, but we want it to personalize. That's where it would fit the best here.
+EK: So can you point out where... so between trend and then?
+S: Probably like… we want to focus on temperature and we want to focus on trends.
+EK: Both ok, so like here.
+S: Cleaning too… and losing is pretty essential too because we want to make sure that it's personalized
+EK Wow, so this basically all of these concepts.
+S: We tried to find one that's like in between them all, so it helps the kid the most.
+EK: Can you go back to the first one? So it might be hard to find a concept that fits one of these bubbles because it's so general.
+S: Well, it would definitely be in personalized.
+EK: So you selected one big chunk, and then moved onto the next iteration of concept clustering, right?
+S: Yeah, and in the next one, we needed to worry more about what we need in finishing it being personalized. We need it to be safe for kids. Cold water helps them drink more... things like that. We wanted like a stop.. Oh nevermind, I read that wrong. We wanted like a stop-top.
+EK: Right, I think this is it. Any other questions?
+CY: This was very meaningful.
+EK: Any other comment. I know this is very preliminary research. We are trying to find out where the opportunity for this is. For example, we want to know how to approach how to narrow the number of clusters from many too small. Other teams came up with 20 clusters, which is too scattered. What if machine learning can help them to put them in less than 10 clusters not 20. This is our effort. It is an ongoing research project. Do you have any comment or how would you improve this tool? Where would there be more opportunity, based on your experience with concept clustering, your team members and people in your class?
+S: The best constructive thing I could say is what I was saying earlier. Other than that, I think this is a really cool tool. I kind of remember seeing really big bubbles when you guys presented to our group the first time, and I wasn't sure if that was bad or something, but talking it over with you, it's really helpful to see how in the first iteration they were really big and then how they got smaller and different as it when on. It was just really cool to understand the research part.
+EK: Thank you.
