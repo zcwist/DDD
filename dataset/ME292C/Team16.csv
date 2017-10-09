@@ -1,0 +1,59 @@
+Member Name,Concept Title,Description,Cluster
+Shican Zheng,shared bike machine,Bike machine rooms located at convenient places allow users to use it and pay per use. All machine will be connected and upload users' data to the cloud server so that users are able to be access to their own data easily. ,business spinoff
+Shican Zheng,smart exercise service ,A series of exercise machines including both cardio and weight training machines are connected together. The system will create the workout plan based on users' goal It allows users to use different machines to optimize the workout and collects data from all machines; and finally it will provide a conprehensive analysis to the users. ,business spinoff
+Rex Chen,personal reminder,A user might forget what he was going to do after the workout because he's tired. User can set a reminder before the workout and the machine will remind the user after the workout,hey siri 
+Shican Zheng,voice control ,The machine can connect to Amazon echo; Siri or any similar product and allow the users to use their voice to control the machine.,hey siri 
+Shican Zheng,entertainment list,The machine provide a list of entertainment like music; movie; TV show and game. It can also allow users to install app like Netflix; Hulu to get access to their own subscription. ,check out my ride
+Meredith Meyer,tv mode,Let's user catch up on their favorite TV show while working out and picks a workout with the right length,check out my ride
+Meredith Meyer,alert system,Works with a user's smartphone and home system to notify about important happenings,check out my ride
+Rex Chen,butler in a bike ,Allow the user to answer the door or phone during the workout on the bike without interuptting the workout. ,check out my ride
+Rex Chen,connect me ,Using the user's phone to identify user through wireless or bluetooth.,check out my ride
+Meredith Meyer,smartphone connection ,Unique users are identified by connecting with the user's smartphone,check out my ride
+Meredith Meyer,workout statistics,Shows the user their status mid-workout,how fit am I 
+,workout feedback,,how fit am I 
+Meredith Meyer,progress monitor,Shows the user how their performance has changed over time based on their workout history,how fit am I 
+Rex Chen,show me food!,At the end of the workout; show the calories equivalent of the current workout in terms of food. e.g. a pint of icecream. ,how fit am I 
+Shican Zheng,P.O.D bike,BIke machine combined with panoramic optical display to give users a immersive experience in exercising while playing.,arcade mode
+Meredith Meyer,competition mode,Shows user the past workout stats for a friend and encourages them to try to beat their friend,arcade mode
+Meredith Meyer,game mode,Allows the user to play an interactive game which requires them to exercise,arcade mode
+Rex Chen,encourgement eve,An encourgement from the inbuilt personal trainer; Eve; once a user reaches a mini milestone or completes a workout. ,hey siri 
+Shican Zheng,personalized plan,Provide users their personalized plan everytime when they start to exercise. ,personal trainer
+Rex Chen,move with the beat,Include music of the similiar speed in the optimal workout. Change music from user's folder in different stages of the workout,personal trainer
+Meredith Meyer,music selector ,Based on the user's pace; music is automatically selected and played to match that speed,personal trainer
+Rex Chen,goal selection ,Different users have different goals in mind. Through a set of selections; users can pick the one that matches his or her goal. ,personal trainer
+Meredith Meyer,workout selection,Allows user to choose a personalized workout based off of goals,personal trainer
+Shican Zheng,handlebar sensor,Detect users' real-time physical condition accurately using a handle sensor.,check out my ride
+Shican Zheng,modular machine,Allow customers to install the feature they want. And it will be easy to repair the machines by simply replace the broken part hot swappingly. ,check out my ride
+Rex Chen,smartphone dock,Almost everyone has a smart phone nowadays; it would be nice if there is a dock that can transfer user music/videos and charge it at the same time during workout. ,but wait there's more 
+Meredith Meyer,fingerprint reader,Unique users are identified by their unique fingerprint,check out my ride
+Shican Zheng,auto seat adjustment ,Whenever the users start to use the machine; the physical and digital setting will be adjusted automatically.,check out my ride
+Rex Chen,all users matter,Have easy to adjust handles; seats; and display screen so users of different sizes can enjoy the machine to the full potential.,check out my ride
+Rex Chen,weigh for me,The machine finds out directly how heavy is ther user so he or she doesn't have to do it while keying in the personal information,check out my ride
+Rex Chen,make me fast,Change the handles of the bike to race bike handles to make the user feel powerful ,check out my ride
+Rex Chen,water is life,Have a water dispence built into the machine so the user doesn't need to go far away for water,but wait there's more 
+Rex Chen,tilted,Tilt the whole machine for different experiences ,check out my ride
+Rex Chen,workout more ,Have small workout for different parts of the machine. For example; the bike brakes on the handle could be used as a grip trainer or the bike can be coupled with another trainning machine. ,but wait there's more 
+Rex Chen,snack bar,Have an energy bar dispenser ,but wait there's more 
+Rex Chen,towel hanger,Have a desinated place to hold towels ,but wait there's more 
+Rex Chen,the whole experience ,Allows the bike to lean foward and back and tilt left and right.,check out my ride
+Rex Chen,drop the beat,Surround sound speaker to imitate biking noise in the real world,check out my ride
+Rex Chen,bike park,Have the exercise machine go around the gym on a set race track depending on speed of the user. (Race with other users),business spinoff
+Rex Chen,bring your bike to workout day ,Instead of a exercise machine; attach a real bike to the exercise machine and bike on a real bike. (a bike treadmill) ,business spinoff
+Meredith Meyer,moving hands,Lets user keep their arms moving for maximum cardio output during a workout,check out my ride
+Meredith Meyer,heart rate arm band,Paired with machine; reads user's heart rate more accurately,check out my ride
+Meredith Meyer,sounds,Mimics real life noise rather than music,but wait there's more 
+Meredith Meyer,Strength measurement,Measures and records the maximum strength of the user's various muscle groups; for example; grip strength,check out my ride
+Meredith Meyer,Real feel,The whole bike moves to mimic cycling over uneven surfaces in real life,but wait there's more 
+Meredith Meyer,Internet connectivity,Would use either wfi or the user's phone connection to allow them the same connectivity as a smartphone to browse the web; read the news; email; etc.,check out my ride
+Meredith Meyer,Cupholder,Lets user put their water bottle within reach,but wait there's more 
+Meredith Meyer,Class anytime,Can play cycling class videos on demand to mimic actually participating in a class,check out my ride
+Shican Zheng,Arcade bike,Users can ride the bike like playing a arcade machine and compete with each other,arcade mode
+Shican Zheng,Punishment system ,Users can manually turn on the punishment and force themselve to keep cycling when they are tired and want to quit.,personal trainer
+Shican Zheng,Ride for rewards,Users get simple rewards for sticking to the optimal workout plan. ,business spinoff
+Shican Zheng,Workout consultant,Communicate and share the data with a personal trainer through the system to get more advices on their workout.,business spinoff
+Shican Zheng,Video chat,Users that are using different machines in the gym can have video chat when exercising. ,but wait there's more 
+Shican Zheng,Wheelie,Allow the user to perform a wheelie. ,but wait there's more 
+Shican Zheng,Bike generator,Attach a generator to the bike machine and generate electircity when the user is cycling; and the user can get paid for it. ,but wait there's more 
+Shican Zheng,Challenging mode,The bike machine works like bikes in real life. And in this mode; the machine will simulate a real life cycling experience including cornering and straight line racing and let the users set their own records and challenge others'. ,arcade mode
+Shican Zheng,Mountain biking,The bike machine simulate real condition when mountain biking.,but wait there's more 
+Shican Zheng,Biking tour with friends,Using VR or AR technique to simulate a biking tour; and put friends in the same virtual world; allowing them to ride together and chat. ,arcade mode

@@ -1,41 +1,81 @@
-Member,Concept Name,Description,Clustering
-,Two out-of-plane micro needle arrays,Applying two out-of-plane micro needles to control the depth of penetration.,Prevent the micro needles from breaking
-,Adjustable penetration depth,Offer adjustable penetration depth according to the specific part of the body on which micro needles are applied.,Adjust the penetration depth
-,Slanted Injection,Inject at a certain angle (<90) instead of perpendicularly to reduce skin resistance.,Improve the effectiveness of drug delivery
-,Truncated head,Truncated head of micro needles instead of sharp head to reduce skin resistance.,Improve the effectiveness of drug delivery
-,Biodegradable micro needles,Use biodegradable materials to manufacture micro needles so that it won't be harmful to human even the micro needles break.,No harm to human
-,Dissolvable micro needles,Use sugar as the material to make micro needles so that it will dissolve into the skin together with drug.,No harm to human
-,Separate drug and micro needles,Store durg in a reservoir seperately so that the micro needles don't have to be replaced every time after use.,Added feature
-,Combine drug and micro needles,Store drug directly in the micro needles so that the materials of making micro needles can be adjustable to the drug.,Added feature
-,Valve+Reservoir flow rate control,Using a valve to control the flow rate of drug from reservoir (refer to infusion).,Deliver the drug
-,Rechargeable electric flow rate control,Using an electric device whose battery can be recharged to set the flow rate.,Added feature
-,Scalable syringe to control the dose,Add scale on the body of a syringe to control the dose of drug being delivered (refer to insulin pen).,Adjust the amount of drug delivered
-,Cuttable transdermal patch to control the dose,The transdermal patch that incorporates micro needle arrays can be cut into different sizes in order to control the dose.,Adjust the amount of drug delivered
-,Elastic bandage transdermal patch,Using elastic bandage to wear the transdermal patch that incorporates micro needle arrays on the arm/waist/leg.,Wear the patch
-,Wearable Electronics transdermal patch,Using wearble electronics to carry the transdermal patch that incorporates micro needle arrays.,Wear the patch
-,Elastic / Flexible Material of carrier,The carrier of micro needle arrays is made of elastic or flexible material so that it can be rolled to save storage space.,Wear the patch
-,Multiple stacks,"Multiple stacks of micro needle arrays on the same carrier, either transdermal patch or wearable electronics, to realize sustained injection. ",Added feature
-,Couple with monitoring device,micro needle arrays with whichever carrier being coupled with monitoring device (such as blood glucose level measurement device for diabetic patients),Added feature
-,Sterillization from the package,The package of the micro needles could be used to sterilize the skin being injected (refer to the stickers to be peeled off when using band-aid),No harm to human
-,Rounded head micro needles to reduce pain.,"Instead of all having the traditional sharp heads, micro needles could be made to have rounded heads to increase the contact area, thus reducing the pain. ",Added feature
-,Natural-looking transdermal patch,Transdermal patch that incorporates micro needle arrays can be made to have a natural-looking (e.g. a smile face on the back of it).,Aesthetics
-,Highlighted peel off point,The area that the micro needles can be peeled off from transdermal patch is highlighted in order to make it easier for users to find the area.,Added feature
-,Metal micro needles coated with drug,The micro needles would be made out of metal. They will then be covered by a thin layer of medicine that would dissolve itself in the epidermis.,Realize painless
-,Drugs micro needles,The micro needles would be made directly out of drug so that the needles themselves would be dissolved in the epidermis.,No harm to human
-,Perforating micro needles,In this case micro needles would be used to perforate the skin. The drug would be provided via a patch stuck on the perforated skin.,Added feature
-,micro needles roller,The micro needles array has a cylinder shape so that the patient can just make the needles roll on his skin. Good surface.,Added feature
-,The micro needles syringe,It is just a syringe with the needle replace by a micro needles array.,Deliver the drug
-,Piezo electric micro needles,micro needles coupled with piezo electric material that acts as a pump that pushes the medicine through the micro needles,Deliver the drug
-,micro needles coupled with healing product,It is not clear whether micro needles will leave marks or scars. But we could put some healing substance on the needles so that it doesn't leave any scars. ,No harm to human
-,Changing the name of micro needles,"I think that micro needles is not an attractive name. Indeed the public still hear the word needle which is associated with painful. Why for example don't we rename it ""new trans dermal patch"".",Marketing Concept
-,Sterilizing box,"A box filled with a sterilizing product and absorbent cotton and micro needles allowing to easily carry the micro needles, sterilize both the skin and the needles.",No harm to human
-,Precut micro needles patch,"The micro needles are made out of drugs that will dissolve themselves in the epidermis thus delivering the drug. The patch of micro needles will be precut so that depending on the amount of drug you need , you cut the right amount of micro needles you need.",Adjust the amount of drug delivered
-,Air compressed application of micro needles,Some compressed air is applied via a kind of syringe. It sticks the micro needles to the skin and so solving the problem,Improve the effectiveness of drug delivery
-,Multiple micro needles array,"An object with at the end of each ""arms""  micro needles. The advantage is that the contact surface would be smaller allowing a better perforation of of the micro needles.",Improve the effectiveness of drug delivery
-,Inflatable cuff applicator,An inflatable cuff coupled with a pump would apply a pressure on the micro needles to be sure all of them perforate the skin,Improve the effectiveness of drug delivery
-,Autonomous wireless micro needles,"A micro needles coupled with a pump and a processor and a battery in the sea box, so that the patient can receive his medicine throughout the day.",Added feature
-,Bracelet for continuous drug delivery,Bracelet that allows micro needles to stay in a place on the arm for example,Wear the patch
-,Long micro needles covered by local anesthetic,In that case micro needles would be longer their normal length to be sure that every needles perforate the skin. Too avoid pain the needles could be covered by anesthetic.,Realize painless
-,Micron eedles controlled by an Mobile App,"The micro needles coupled with the piezo material would be controlled, so that the patient can control the amount of drug released.",Adjust the amount of drug delivered
-,micro needles for skin sensor,Use micro needle to penetrate skin and extract samples from epidermis/dermis to detect skin condition or health condition.,Added feature
-,Target parents with young kids and chronic diseases patients,These two groups of people are identified as our biggest potential customers based on their strong desire for painless injections,Marketing Concept
+Member Name,Concept Title,Description,Cluster
+Yuting Zhan,Good Tactile Sensation in Gloves,Keep the good tactile sensation of the hand; can feel outside environment temperature; pressure and other factors; making astronaut good at scienticfic research in Mars.,Better than the iphone
+Yuting Zhan,Sepcial watch in Gloves,Design for space and Mars entertainment. It has three dials; can read the Earth time and Flight time; also can used for record the Mars' time. Keep astranaut in a regular time.,There's an app for that
+Yuting Zhan,Anti-Skid Gloves,Gloves should be anti-skid. Astronaut would conduct scientic research in Mars; which is required gloves can be a part of toolkit used for project. Handling slippery things well.,Got it?
+Yuting Zhan,Force Sensors Gloves,Crew members interact with computer system using gesture and voice control. The user wear a glove with sensor; which allows them to control an application; running on a linked computer.,Can you Feel it?
+Yuting Zhan,High Temperature Resistance of Gloves,Gloves work in Mars; hence; it may withsatnd different temperature. Our gloves should work well in high temperature even exposed directly to the Sun.,material
+Yuting Zhan,Good Breathability of Gloves,When hands put in gloves in a long time; inaccurate humidity might make hand in some diseases due of bad breathability of hand. So keep hand in a good comfortability is important.,material
+Yuting Zhan,Radiation Protecting Gloves,Mars contains lots of uncertain radiations; our gloves can protect astranauts' hand from radiation when they conduct scientic research.,material
+Yuting Zhan,Temperature Controlled Gloves,Gloves in Mars Suit should protect astronauts' hand in entertainment with an accurate temperature. Temperature can be controlled by special materials or special temperature regulations.,Hot Stuff
+Yuting Zhan,Good Dexterity Gloves with Wrist Bearings,Wrist Bearing in the gloves provide a high confidence level in the successful implementaion of the designs. The bearing meet the required high limets with margin to spare while presenting a smooth profile on their inner surface,Lock N Load
+Yuting Zhan,Pressure Controlled Gloves,Gloves in Mars Suit should protect astronauts' hand in entertainment with an accurate pressure. Gloves would contact with torso and keep same pressure as torso.,Would You look at that
+Thomas Chengattu,Ruberized Tensor Hands,These gloves are meant to go underneath the protective gloves. The rubber and the flexible electronics are protected being in the middle layer and helps with movement.,Got it?
+Thomas Chengattu,Lobster Gloves,Claw like extension for the hand that has auto rotate feature on it. This way user doesn't have to touch anything. Claw feature is good for grip. ,Got it?
+Thomas Chengattu,EVA 2.0,These gloves follows the designs of current EVA gloves. However the bottom side mechanical components are added. These metal inserts also serve as metal inserts. ,Got it?
+Thomas Chengattu,Talon Gloves,Bird-like talon inspired gloves. These help for picking up smaller items. Ruberized tensor modules with beads that help constrict and enable assistance. ,Better than the iphone
+Thomas Chengattu,Rogue Hands,Reinforced composite layers. Use of fiber materials to help with use cases. Integrated battery for longer use. ,Iron Man Glove
+Thomas Chengattu,Fish Bowl Hands,These hands are fully fully exempt from the outside environmnet. Sensors on the hand copy the signal over to a ste of robotic actuatorsoutside of the hands. ,Would You look at that
+Thomas Chengattu,3 Finger Design,This glove looks into using a three finger approach to usability. Basically just using metal layers to constrict and grip,Would You look at that
+Thomas Chengattu,Flexible Boxing gloves,This design follows a mitten - like feature. This is to allow the hands easier access into the mits. Furthermore the user can choose how many fingers they want to put in. ,Would You look at that
+Thomas Chengattu,Gecko Hands,These hands follows the patterns of an anphibian. Above all these hands have a focus to grip and holding items.,material
+Thomas Chengattu,Frog Hands,Borows many concepts from frog hands. The stretchability of the flaps between the fingers enable more use for the hands. Also the user should be more easily able to put on gloves and take them off. ,material
+Evan Klansek,wrist lock,air tight lock between glove and sleeve of suit,Lock N Load
+Evan Klansek,sticky grip,Palms and fingers of gloved are lined with a grippy surface to make grabbing things easier,Got it?
+Evan Klansek,Pulse detection,glove can sense users pulse and can be used to check another person's pulse,Can you Feel it?
+Evan Klansek,flashlight,flashlight on glove lets you see waht you're working on,There's an app for that
+Evan Klansek,heater,the outside of the glove has a heater to warm up other things astronaut could melt ice buildup or warm a sample,There's an app for that
+Evan Klansek,wiring,this concept is to connect glove wires to the rest of the suit seemlessly,Would You look at that
+Evan Klansek,grip assist,mechatronic fingers go around your fingers to aid in gripping,Iron Man Glove
+Evan Klansek,thermal control,the inside of the glove is thermally controlled. maybe with a thin film of water? ,Hot Stuff
+Evan Klansek,touch screen fingers,The fingers of the gloves can use touch screens,Better than the iphone
+Evan Klansek,Charger,glove is capable of charging things wirelessly,There's an app for that
+Patrick Savidge,thermal sensing glove,basic glove (race car drivers) with thermal sensors on palm and fingers,Sensor
+Patrick Savidge,clean wrao gloves,glove has a pocket to store plastic glove wrap to use for sterile purposes,There's an app for that
+Patrick Savidge,layered glove,glove is layered with a thin bladder; protective layer; pressurized layer. each layer is removable,Got it?
+Patrick Savidge,pressuried glove,"glove has two layers; removable pressure layer; basic hlove ""bladder""; valve for pressure control",material
+Patrick Savidge,mechatronic glove,mechatronic device can snap on to a  users glove when needed,There's an app for that
+Patrick Savidge,capped fingers,padded cap that can removed from finger tips to allow for typing.,Touch
+Patrick Savidge,glove variety,each glove should be custom made to fit a users specific need. for instance and analytic would have thinner gloves than a geologist,Grip
+Patrick Savidge,feeler gloves,gloves have sensors on finger tips to enhance user feel of objects,Sensor
+Patrick Savidge,picture glove,glove has a compartment on back of palm to store notes or a picture,Touch
+Patrick Savidge,padded glove,padding is distributed on gloves palms and fingers to allow for best protection,Grip
+Evan; Patrick; Yuting,Clip Gloves,Gloves has caribeerer clips to let you grab things without risk of dropping them,casin things
+Evan; Patrick; Yuting,Net mach 2,Net grenade; ball shoots out of glove for better range then explode into a net,casin things
+Evan; Patrick; Yuting,Soud paper gloves,End paper is attached to side of gloves to clean things,casin things
+Evan; Patrick; Yuting,Gripping gloves,glove had hookes that can grab into walls to help rock climbing,casin things
+Evan; Patrick; Yuting,Net disperse,Gloves has a net that can be shot out of it to a specific items,casin things
+Evan; Patrick; Yuting,Hook Gloves,Gloves has attreactable hook to dig into hooks a drey items,casin things
+Evan; Patrick; Yuting,Muynetic gloves,gloves has muyncliss. Built into help every large objectives,casin things
+Evan; Patrick; Yuting,Button on Gloves,Buttons and grab items; like rows; ,internet with controls
+Evan; Patrick; Yuting,Button Gloves,Magnetic suspension control get your personal item in a short distance,internet with controls
+Evan; Patrick; Yuting,Writing Gloves,Write and draw with your gloves; sensor embeded and connect information into computer,internet with controls
+Evan; Patrick; Yuting,Wii Gloves,Special motions activate things,internet with controls
+Evan; Patrick; Yuting,Arm Screen,flexible display on arm for spave TV,intersurfaces With/Into
+Evan; Patrick; Yuting,Screen Gloves,Have a screen can show cabin or external entertainments,intersurfaces
+Evan; Patrick; Yuting,Projecter Glove,Gloves project images or information,intersurfaces
+Evan; Patrick; Yuting,Plant slot Glove,Glove has a slot to insert a touch screen phone or flexible screen; screen is removable,intersurfaces
+Evan; Patrick; Yuting,Waste Heat energy,waste heat from snit assd to generate a turbine,Energy Basic
+Evan; Patrick; Yuting,Nuclear item Gloves,Gloves has nonescule nuclear reach. Built into it,Energy Basic
+Evan; Patrick; Yuting,Kinegtetic entry,Gloves gains energy through kinegteetic energy like mechanical withers,Energy Basic
+Evan; Patrick; Yuting,Solar Gloves,Gather and transfer the solar energy to electricity;provided for the emergency lighting,Energy Basic
+Evan; Patrick; Yuting,Bullet Gloves,Just like a gun,Safety
+Evan; Patrick; Yuting,Air Bag,Gloves inflates during a fall to prevent wrist spoail.,Safety
+Evan; Patrick; Yuting,Water Gloves,For playing in the beach. control the water outlet,Safety
+Evan; Patrick; Yuting,Massage Gloves,Serves in glove massge pombs in hard to ease emotions,Enhance comfort
+Evan; Patrick; Yuting,Massage Gloves 2.0,Massage with some important acupuncture point in traditional Chinese medicine,Enhance comfort
+Evan; Patrick; Yuting,Massage Gloves 3.0,Glove vibrate. But vibration massages a wave alang the gloves,Enhance comfort
+Evan; Patrick; Yuting,Clean-your-hand Gloves,Clean your hand in the gloves by high frequency vibrating and beauty product.,Clean Things
+Evan; Patrick; Yuting,Water line in Gloves,Gloves has a water spiggot in it,Clean Things
+Evan; Patrick; Yuting,Dust Collector Gloves,Collect the dust just by gloves; easily,Clean Things
+Evan; Patrick; Yuting,Fun Gloves,Gloves wrist this deployable. proellors to emerge a small fun,Clean Things
+Evan; Patrick; Yuting,Air Brush,Pressurised Air can be released to help clean dust off stoff,Clean Things
+Thomas Chengattu,Feedback Gloves,These gloves warn you immedietly when there is an issue with your gloves or with your spacesuit,casin things
+Thomas Chengattu,Drilling gloves,Edge based blove that helps with escavating operations. When you need to dig a lot,intersurfaces
+Thomas Chengattu,Storage for quick food,In space you'll need some quick eenergy. Probably act as a food stroage device,casin things
+Thomas Chengattu,Mother Gloves,These gloves help to detect your stress level. They talk to you for emotional support,Enhance comfort
+Thomas Chengattu,Tool Storage gloves,These gloves hold your tools,casin things
+Thomas Chengattu,Caffeine gloves,These gloves are intended to give you the life of caffeinin during long work hours,Enhance comfort
+Thomas Chengattu,Radio Gloves,The feature of these gloves include a wrist watch that helps control the music you listen to in space,Enhance comfort
+Thomas Chengattu,Rover Gloves,The gloves as remote controller or your rover. That way you never lose your vehicle.Like a tesla Car key,Safety
+Thomas Chengattu,SOS Gloves,In the terrible case you get stranded. The gloves emit radio frequencies for home base,Safety
+Thomas Chengattu,Name engraved gloves,Physical application that lets others know which gloves are yours,casin things

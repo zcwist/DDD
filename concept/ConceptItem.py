@@ -19,7 +19,7 @@ class ConceptItem(object):
 		super(ConceptItem, self).__init__()
 		self.concept = arg[0].lower().replace('/',' ').replace('-',' ')
 		self.description = arg[1].lower().replace('/',' ').replace('-',' ')
-		self.category = arg[2]
+		self.category = arg[2].lower()
 		self.found = True
 		self.lowemb = []
 

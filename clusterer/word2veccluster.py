@@ -14,11 +14,11 @@ class Word2VecCluster(Cluster):
 	"""
 	k_percent = 0.05
 	def __init__(self, conceptManager, k = None):
+		super(Word2VecCluster, self).__init__(conceptManager)
 		if k is None:
 			k = len(conceptManager.categoryList)
 		self.k = k
-		self.type = "Word2Vec Cluster"
-		super(Word2VecCluster, self).__init__(conceptManager)
+		self.type = "Machine Label"
 		self.doCluster()
 		Word2VecLabel(self)
 
@@ -75,5 +75,5 @@ if __name__ == '__main__':
 	from dataset.datautils import datapath
 	cm = CM(filename=datapath("DesInv",1))
 
-	print Word2VecCluster(cm).getCluster()
-	print Word2VecCluster(cm).getMapping()
+	print Word2VecCluster(cm, 3).getCluster()
+	print Word2VecCluster(cm, 3).getMapping()

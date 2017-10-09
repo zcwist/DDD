@@ -1,0 +1,61 @@
+Member Name,Concept Title,Description,Cluster
+James Carter,Solar customer locator firm,Locate potential residential solar customers based on demographics; home shading,B2B service
+Yingjie Lu,Visual measurement with drone,Use drone to get position data; and calculate the real position of each panel.,B2B service
+James Carter,Solar Panel Integration Company,Company that identifies areas where solar panels could be used and how the energy generated could be used,B2B Service
+Yingjie Lu,bi-sensor,Installed on edges of solar panels. It control the angle of panel by controlling the shadow between two sensor,Control Sensor
+Ralph Hakim,Smart panel for shadow calculation,Smart panel can get shadow quantity that can be used to compare tracking.,Control Sensor
+Ralph Hakim,Shadow expectation,Camera shows the shadow and improve tracking performance.,Control Sensor
+Yingjie Lu,Shadow monitor,The camera monitor the shadow on the ground; and keep the interval between shadows small as possible,Control Sensor
+Yingjie Lu,Solar recycling,An one-way glass installed on solar panel; which can reflect light back and trap light to enhance efficiency.,Efficiency Boosting
+Yingjie Lu,Mirror-panel group,Set one solar panel and a few mirrors as a group. Mirrors reflect lights on panel; so one panel can generate more energy.,Efficiency Boosting
+Ralph Hakim,Wavy solar panel,Increase area and generate more power,Efficiency Boosting
+Yingjie Lu,Additional mirror on panel,Mirrors on panel help collecting more solar and decrease cost to produce panel.,Efficiency Boosting
+Ralph Hakim,Double solar installation,It can be feasible when no controls for tracking are available on existing farms.,Efficiency Boosting
+Yingjie Lu,Giant Solar Panel,One giant panel rather than multiple rows,Efficiency Boosting
+Yingjie Lu,Smart Water Heater,Heat water during the day and keep hot using minimal energy for use at night,Energy Saving
+Yingjie Lu,Smart Fridge,Small Doors. More specific classification of food,Energy Saving
+Ralph Hakim,Integrated Panel Water Heating,Heating water from pipes integrated in panels,Energy Saving
+Yingjie Lu,Smart Light,Light that track's activity and turns off when not being used,Energy Saving
+Ralph Hakim,Solar integration for container ships,Container ships spend a lot of time in the sea exposed to sun light. Solar integration can be useful to help powering the ship and reduce costs,Energy Saving
+Yingjie Lu,Solid energy storage,Similar to a water tower; this well allow a solid heavy block go up and down to store and release energy,Energy Storage
+Yingjie Lu,Fuel cell storage,Decompose water into hydrogen and oxygen. Use fuel cell to release the energy in gas when we need it.,Energy Storage
+James Carter,Solar powered panel cleaner,Wipers powered by solar to clean off panels to maximize efficiency.,Maintenance
+Ralph Hakim,Solar power wipers,Wind shield wipers that are on the solar panels that can be powered by the solar power.,Maintenance
+James Carter,Panel cleaning water jets,Spray nozzles on top of panels to clean up debris and can also cool the panels.,Maintenance
+James Carter,Battery and energy management system for existing panels,Battery storage and EMS to retrofit to existing residential solar panels.,Retrofit Market
+Ralph Hakim,Human behavior controls,Controller that adapts to human behavior to manage storage.,Software Integration
+James Carter,Market adaptive energy management system,Utility-scale energy management system to predict when to send to storage and when to grid.,Software Integration
+James Carter,Cost-Saving prediction software,Software to predict potential cost savings based on usage and home setup.,Software Integration
+James Carter,Mapping software for maintenance,Shows current location and location of panels on map of solar farm.,Software Integration
+James Carter,Generation loss due to clouds prediction,Tool to predict generation loss due to how cloudy it will be,Software Integration
+James Carter,Energy Generation/Storage Phone App,Phone app showing real-time and historical solar generation and batter level,Software Integration
+James Carter,Solar fan for BBQ smoker heat regulator,Solar powered fan attached to BBQ pit with app to control fan speed to regulate heat,Solar integration w/ existing product
+James Carter,Solar powered car battery charger,Battery charger to use to jump car that is charged by solar while driving/parked.,Solar integration w/ existing product
+James Carter,Solar powered outdoor grill,Electric grill powered by solar rather than propane or charcoal.,Solar integration w/ existing product
+James Carter,Solar skateboard,Electric skateboard powered by solar deck,Solar integration w/ existing product
+James Carter,Solar powered steam distiller,Solar powered water heater to boil water to distill,Solar integration w/ existing product
+Ralph Hakim,Solar portable fan,Small fan powered on solar power for hot days.,Solar integration w/ existing product
+Ralph Hakim,Solar powered phone charger,Power bank powered on solar power.,Solar integration w/ existing product
+Ralph Hakim,Integrated phone solar charging,Phone with a solar panel on its back,Solar integration w/ existing product
+James Carter,Solar powered fans,Window-unit solar powered fans for rooms with no air conditioning,Solar integration w/ existing product
+Ralph Hakim,solar powered compressor for AC,A compressor for AC works on solar power. Since when the power gen is max; the consumption is max too.,Solar integration w/ existing product
+James Carter,Bag/Backpack w/ Solar Charging,Bag with built in solar panel(s) to be used for electronic charging,Solar integration w/ existing product
+Ralph Hakim,Solar Heated Ski Clothing,Ski clothing with small solar panels to power small heating devices,Solar integration w/ existing product
+Ralph Hakim,Solar powered interactive ads,Solar panels installed on big interactive advertisement boards installed on highways.,Solar integration w/ existing product
+Ralph Hakim,Solar powered wireless headsets.,Integrating small solar cells on a wireless headset's band to charge the battery while wearing them outside ,Solar integration w/ existing product
+Ralph Hakim,Solar panels with storage systems on highway's lightning lamps,Install solar panels on road lamps with storage since the batteries can charge during the day and light up the road at night.,Solar integration w/ existing product
+James Carter,Solar Powered Pumpjack,Electric motor powered by solar energy to be used for oil and gas pumpjacks,Solar integration w/ existing product
+Ralph Hakim,Solar powered kettle/coffee maker,Solar powered kettles can be useful for people who like backpacking and camping.,Solar integration w/ existing product
+Ralph Hakim,Solar powered portable storage system,People who go camping for weeks can take with them an energy storage system that charges on solar ,Solar integration w/ existing product
+James Carter,Solar powered speakers,Solar powered speakers for outdoor concerts,Solar integration w/ existing product
+James Carter,Train Car Solar Panels,Solar panels to be used on the top of train cars. Can store energy in batteries or be used for passenger amenities if passenger car,Solar integration w/ existing product
+James Carter,Semi-Trailer Solar Panels,Solar panels installed on the top of semi-trailers that can power refrigeration or truck lighting; etc.,Transportation 
+James Carter,Car Roof Solar Panels,Solar panels installed on the top of passenger cars to power entertainment electronics; etc.,Transportation 
+James Carter,Aircraft Wing Solar Panels,Panels installed on aircraft wings to power passenger cabin lights/electronics; etc.,Transportation 
+James Carter,Solar Panel Roads,Roads with solar panels integrated in the pavement,Transportation 
+Yingjie Lu,Transport electricity across time zone,Transport electricity generated during daytime to somewhere in evening; so that we don't need to consider storing them.,Unconventional Usage
+Ralph Hakim,Internal solar generation,In home solar panel that can generate power from home lighting,Unconventional Usage
+Yingjie Lu,Lunar power,Use lunar light to generate power in night.,Unconventional Usage
+Ralph Hakim,Solar panels in sports stadiums,Solar panels that can generate power from the projectors that light a sport field.,Unconventional Usage
+James Carter,Artificial light solar panels.,Solar panels powered by already used artificial light.,Unconventional Usage
+James Carter ,Solar Generating Paint,Paint capable of generating power through solar energy,Unconventional Usage

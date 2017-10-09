@@ -1,0 +1,31 @@
+index,Concept Name,Concpet Description,Human Label,Machine Label
+1,streamdream,arm wearbale to make gaming streams more interactive read out streamer messages and use gestures as hotkeys for emotes ,consuming content,
+2,stretchable display on glasses,head mounted ar headsets are big expensive and mostly wired a stretchable display can stick to a users glass lens to convert them into ar glasses,assistant,display;helmet
+3,huh that's interesting' assistant,detects when user is relacxed  not busy to prompt w intersting  relevant articles to read,assistant,
+4,automatic home temperature system using body temp sensors,a body temperature sensor attached to the user will communicate with the thermostat to maintain temperature that is just right for the user,communication,sensors;sensor
+5,|hand gesture recognition & control for phone, laptop & ar|,small sensors emg which can stretch and cover finger tips to allow the user to control their ar device laptop and phone by waving their hand or using other gestures,communication,sensors;sensor
+6,stretchable display for clothing,a display which can stretch over clothing shirts pants jackets socks,stretchable application,display;helmet
+7,ar weight lifting coach for proper form,ar headsetglasses which will project the proper form for weight lifting and will allow the user to follow along and replicate the form the coach will be a stick figure superimposed on the user,health,ar;user
+8,on wrist battery charging for wearables,a stretchable battery which will stick to your wrist and can charge a wearable such as an apple watch or a fitbit its like an additional battery pack,stretchable application,sensor;patch
+9,earflix,the ultimate audio  sensory expereience with favorite show audio profile personalized  vibrations depending on scene,consuming content,
+10,always be pitching,virtual whiteboard in ar where you can gesture to swap between visuals and use haptic feedback to draw,communication,ar;user
+11,conference helper,when meeting people it remembers who they are the context what was discussed and contact info,assistant,
+12,heart smart: elderly tracking for falls and emergencies,flexible patch for elderly living alone to know if they felll and then take heart rate blood pressure readings to know if they are having an emergency it so the police are informed ,health,
+13,textanator,stretchable wearable on hand for discrete textentry onthego for ar,communication,
+14,airtravel passenger comfort monitoring,a smart patch that users can attach anywhere on their body which will monitor for comfort such as tracking for dehydration data will go to a screen that flight attendants can track and provide service accordingly for long haul flights ,monitoring,sensor;patch
+15,quick bac: bac patch to know if you can drive,flexiblewearable sensor to display bac via smartphone to user if over limit provides easy way to hail taxi instead of driving ,monitoring,sensor;patch
+16,augmented jersey,when seen through ar it displays custom elements set by the user eg fantasy sports trophies,ar overlays,ar;eg
+17,pharm count: ar headset counters for pharmacies,ar used in pharmacies to prevent countring and incorrect identification errors using computer vision headset displays the pill being counted and current count ,ar overlays,ar;eg
+18,remote health monitoring & ar doctor's appointments,using 2way ar glasses and heart rate sensors to allow doctors to remotely monitor a patient and to save time on inperson appointments through ar appointments which the patient can do at home,health,sensors;sensor
+19,prosthetic limb control using emg sensors,stretchable emg sensor to wirelessly control prosthetic limbs,health,sensors;sensor
+20,road to recovery: tracking of joint movement with ar,using flexible sensors paired with ar recovering surgery patients can tell the exact range of motion of their joint which then can be relayed to the doctor,health,sensors;sensor
+21,real view: real estate ar,real estate and ar combined to give real estate agents the ability to show clients a fully furnished building could fit with heart rate sensor to tell how much a person likes the property,ar applications,
+22,emotigram,capture emotions through social media platform autogenerate custom ar filters based on emotional state,ar overlays,
+23,holographic projection using ar for long distance communication,ar glasses which can project a person to make it seem like theyre right in front of the user feel like theyre physically talking to the person ,communication,communication;ar
+24,ez communicate: ar headset communication,ar glasses paired with phone to received also can take video calls on the go so you dont have to look down or hold your phone up ,communication,communication;ar
+25,personal energy guru,an interactive arm display that shows current energy level and what to do about it ,monitoring,display;helmet
+26,car map: ar directions on windshield,use ar principles to display mapsdirections onto windshield of cars people wont have to look down for directions anymore ,ar overlays,
+27,firefighar: ar helmet for vitals on firefighters,ar helpemt with sensing to display hot spots personal vitals and o2 levels info also networked to captain outside ,ar overlays,display;helmet
+28,nuink,music fesitval arm sleeve tattoo that changes color wiith music and helps keep track of friends while monitoring your health,monitoring,
+29,skin id: ar and stretchable sensors into a display,use a combo of ar and flexible sensors to use your arm as a display for the sensor readings heart rate blood pressure etc,consuming content,sensor;patch
+30,sugar sense: sensor based blood sugar monitor,wearableflexible electronic patch that senses blood sugar and blood pressure levels for diabetic patients without finger pricks,health,sensor;patch

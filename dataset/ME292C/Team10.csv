@@ -1,0 +1,81 @@
+Member Name,Concept Title,Description,Cluster
+Annie Lee,3 Jonts Fingers,3 joints finger that built with flexible material,Finger Designs
+Annie Lee,Open-Handed Harness,A Customizable harness that does not cover the entire hand and tied around the wrist,Harness
+Annie Lee,Watch Mount,A combination of prostheses and watch,Harness
+Annie Lee,Robotic Fingers,Robotic-like fingers that has a sensor in the middle to control the gripping,Grippers
+Annie Lee,Ball Joint,Ball shape joint that allows the finger to rotate in 360 degrees,Joints
+Annie Lee,Servo Box,A hand-shape box that sits on top of hand for both servo mounting and finger attachment,Harness
+Annie Lee,Octopus Finger,Sucking discs on finger tips for holding objects,Finger Designs
+Annie Lee,2 Positions Finger,2 servos to control a finger moving in 2 directions,Control
+Annie Lee,Tapping Finger,A stopping system on each join of finger to prevent fingers from bending in the opposite direction,Finger Designs
+Annie Lee,Auto-Hold Hand,A proximity Sensor is implanted in palm to automatically control the gripping motion,Control
+Annie Lee,Finger of Fingers,A finger that can split into two finger at tip of the finger,Finger Designs
+Annie Lee,Elastic Finger,Finger harness that covers around a flexible soild 3D printed finger so that the finger can return to its original position when the string is released without an external componect,Finger Designs
+Annie Lee,Radial Finger,3 webbed fingers that can expand into wider surface area,Finger Designs
+Annie Lee,Finger Lock,A rotational lock for finger attachment,Joints
+Annie Lee,Bending Linkage,A linkage design that allows finger to bend by pulling the string,Control
+Annie Lee,Bar Gripper,A monkey bar gripper that automatically closed due to springs and is safety button on side where is thumb is for releasing the grips,iMonkeyBar
+Annie Lee,Extendable Finger,An extra section of finger placed inside the 3rd finger section that can be extended when needing for finer and sharper tips,Finger Designs
+Annie Lee,Screw Joint,Joint of finger that can be removed and attach by screwing in and out,Joints
+Annie Lee,Twist Joint,Joint that locks the finger by twisting,Joints
+Annie Lee,Cooling Harness,A mini fan implanted in harness to dissipate heat,Harness
+Jacqueline Nguyen,Snake Finger,Joint system allowing multiple axes of actuation,Finger Designs
+Jacqueline Nguyen,Webbed Finger,Webbed fingers actuate when triggered by thumb. Prevents slipping through fingers,Finger Designs
+Jacqueline Nguyen,2 Piece Clamp,"2 ""fingers"" are mounted where the missing index to pinky finger are. These close when the thumb squeezes to create a ""claw""",The Claw
+Jacqueline Nguyen,1 Piece Clamp,One solid piece connects where typical fingers would be. This allows for strong pinching between thumb and piece,The Claw
+Jacqueline Nguyen,Handle Bar Holding,A ring with a seat for the bike handle bar that would allow for control over steering when moving wrist to actuate brake,Gone Ridin'
+Jacqueline Nguyen,Heat Molded Harness,Use heat set foam to mold harness for hand,Niche
+Jacqueline Nguyen,Gravity Actuated Finger,Gravity pulls weight down that closes grip,Finger Designs
+Jacqueline Nguyen,Adjustable Angle Mount Blocks,Blocks can be used to change mounting angle of finger,Mount
+Jacqueline Nguyen,Ball Joint Angle Mount,Finger can rotate based on what you need to pick up,Mount
+Jacqueline Nguyen,Cosmetic  Attachment,Realistic hand attachment that closes when actuated by thumb movmenet,Niche
+Jacqueline Nguyen,Paddle Shaped Finger Tip,Spring loaded wide finger tip helps grip particular shapes,Finger Designs
+Jacqueline Nguyen,Spring loaded clamp,Mechanism to actuate a normally closed spring with other hand,The Claw
+Jacqueline Nguyen,Single Joint Hand,Hook hand with single joint; possibly for monkey bars,iMonkeyBar
+Jacqueline Nguyen,Brake extension,Small attachment that extends bike brake to thumb for easier actuation,Gone Ridin'
+Jacqueline Nguyen,Brake hooker,Very simple design to hook over brake on bike and allow for pulling brake while also steering,Gone Ridin'
+Jacqueline Nguyen,Dual Spring Clamp,Strong gripper for holding things for long periods of time,The Claw
+Jacqueline Nguyen,Wiggle Finger,Locks open or close when sharply moved,Finger Designs
+Jacqueline Nguyen,Gripper,Actuates like regular grippers,The Claw
+Jacqueline Nguyen,Wrist assist,Allows you to hold handlebars when steering; leaving wrist free to break,Gone Ridin'
+Jacqueline Nguyen,Page Turner,Finger with small textured area to help with friction at tip of finger,Finger Designs
+Sina Dabiri,iBike,A myoelectric prosthetic hand designed for biking,Gone Ridin'
+Sina Dabiri,iBike Myo Signal Processing,Using Myo armband's myoelectric sensors and using the frequency range for Brach. Radi muscle on the forarm; one can use the median power frequency of the power spectrum to classify light break vs. tight break,Gone Ridin'
+Sina Dabiri,Atomic Lab's hand Thumb re-design,The current design of the thumb has its edge in contact when holding a cylindrical object. Rotate 45 degree to a 90 degree edge connection to have the whole side of thumb in contact. Also make it 100 mm taller with pointier tip.,Finger Designs
+Sina Dabiri,iGrip,Stretchable silicon to gover finger tips with mini spherical texture (to increase surface area) will provide better grip.,Finger Designs
+Sina Dabiri,iMonkey Bar,"""C"" shabe composite metal that is attached at the wrist to ""L"" shaped velcro wrist srap. The short end of ""L"" will flip over and lock the strap in place. ",iMonkeyBar
+Sina Dabiri,iMonkey Bar cushion love,Have gel cushion at the wrist such that it would dampen the force on the wrist. ,iMonkeyBar
+Sina Dabiri,iMonkey Bar C-Metal part,We want the composite matterial to be light and hold 100 lb before breaking.,iMonkeyBar
+Sina Dabiri,iHero,Have Marvel Hero designs available for each child to chose and apply the design to the hands.,Other
+Sina Dabiri,Favorite color,Let the user have the option to choose any PLA color available for the various parts of their hand.,Other
+Sina Dabiri,iTouch,Pressure sensors at tip of fingers as input and vibrator as output placed on wrist in order of the fingers.,Finger Designs
+Sina Dabiri,Brain-Computer Interface,Open and close hand using hand motor imagery. ,Other
+Sina Dabiri,iTouch BCI program,Write a program on Arduino to translate input signal from pressure sensors into currents from 0-2 mA.,Other
+Sina Dabiri,iTouch BCI,Get the Arduino output from the pressure sensors and send it as input to tDAC device to stimulate the brain's somatosensory region for hand.,Other
+Sina Dabiri,transcranial Direct Current Stimulator,Design a tDAC device with fuse to deliver 0-2mA current to stimulate the brain.,Other
+Sina Dabiri,Bike Fingers,Fuse the last joint of the fingers such that there are two joins instead of three on the hand.,Finger Designs
+Sina Dabiri,Monkey Bar hand joint,"Have the hand have only one joint where the hand is in ""L"" shape and the tip of it has a digit made with flexible PLA. Also make the corner fater to take more tension. ",Finger Designs
+Sina Dabiri,Monkey Bar thumb design,Have the thumb actuated based on myoelectric signal from forarm muscle flexsion.,Control
+Sina Dabiri,Octahand Luck,have a lever on the back of hand to pressuring in the octapus suction cups on the palm side to lock in an object.,
+Sina Dabiri,Internal wiring,Have the fishing lines or electric wires run in the fingers. Design space and hooks inside the digits and palm of the hand for lines and wirings. ,Finger Designs
+Sina Dabiri,Hand Stickers,Design popular stickers for the hand and let the children choose their favorite stickers to put on.,Other
+Tomas Georgiou,Robo Wrist,Robotic arm to help with daily tasks,
+Tomas Georgiou,The Gripper,Passive gripper hand for holding high weights and cylindrical objects,
+Tomas Georgiou,Zoidburg Clamp,Strong  three pronged gripper actuated with other hand,
+Tomas Georgiou,The Mit,Hand specifically designed to hold a baseball sized ball,Niche
+Tomas Georgiou,The Clamper,For fine pinching needs. This gear actuated prosthetic is your best friend for small pinches and tieing shoelaces,
+Tomas Georgiou,The Strapper,Straps shut against object with a buckle similar to snow board bindings,
+Tomas Georgiou,Viper,Wrist actuated gripper,
+Tomas Georgiou,Drum Roll,specific prosthetic for holding drumstick,
+Tomas Georgiou,Sing Fing,single finger replacement for patients with most of a hand,
+Tomas Georgiou,Tri Fing,modular attachment for short or non existant fingers,
+Tomas Georgiou,Thumb Gripper,Additional thumb for holding bike,
+Tomas Georgiou,thumb break,rotational brake to be actuated by thumb,
+Tomas Georgiou,Octohand ,fingers with octopus like suction cups,
+Tomas Georgiou,Finger of finger fingers,fingers within fingers within fingers,
+Tomas Georgiou,arm Gripper,arm grip with suction cups for holding books or things with flat surfaces,
+Tomas Georgiou,Alex's claw hand,have pins to lock the claw hand in open position. The pins can be located at the hand's forarm where the joint is.,The Claw
+Tomas Georgiou,Light grip for claw hand,Use adjustable springs to limit the force on soft objects,The Claw
+Tomas Georgiou,The Reaper,Single thin hook with a scycle shape,
+Tomas Georgiou,Double Reaper,Like the Reaper; but with a second scythe on the other side,
+Tomas Georgiou,The Pincer,Three rounded horns with spikes for grip; like horns of a beatle,

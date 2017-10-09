@@ -1,101 +1,62 @@
-Group Member,Concept Title,Description,Cluster
-Jing,Upright Handle Bottle,"Ear drop dispensing contraption with a vertical, squishy handle so you don't have to tilt your head to get the drops in. ",Cool Bottles
-Jing,Eardropper Bottle,"Looks like an eyedropper, but for ears. It has ticks on the side of the pipette, so you can measure how much you are applying, and is simple to use and understand.",Cool Bottles
-Ricky,Ear Conforming Drop Bottle,A ear drop bottle in a shape that conforming to ear to assist in application process.,Cool Bottles
-Mike,Level Bottle,Bottle that will only dispense fluid when perfectly level. Button or other actuation method could be used.,Cool Bottles
-Erwin,Retractable Ear Drop,"Similar to a retractable knife (used in props), the stem would be able to retract if hit even a soft hurdle (ear drum).",Cool Bottles
-Erwin,Stemmed Ear Drop,"The stem will go into the ear canal, where it will dispense the medication to reduce waste.",Cool Bottles
-Erwin,Foam Bottle,"The stem will go into the ear canal. When close to infected area, it will dispense the medication in foam to ensure medication is applied to the infected area.",Cool Bottles
-Vyshaali,Ball Valve Bottle Spout,"Place ball in medication, compress medication bottle and dispense medication until ball obstructs fluid flow.",Cool Bottles
-Vyshaali,Ear Easy Gun,Ergonomic medication dispenser using a peristaltic pump.,Cool Bottles
-Vyshaali,Pre-ringe,Ear medication with a syringe that has an on/off valve (stopcock).,Cool Bottles
-Vyshaali,Disposable Ear Medication Containers,Ear medication filled into single use disposable plastic tubules.,Cool Bottles
-Vyshaali,Spring-Drop,Ballpoint pen/spring system with piston when the spring is compressed and the solution is drawn out.,Cool Bottles
-Vyshaali,Beeping Bottle,"Weight sensor on bottle that can detect fluid, syncs with phone to notify once the precise volume of medication has been dispersed.",Cool Bottles
-Group,Air Out,Compressed air into the ear to either clear out the ear wax or spray the medication in.,Cool Bottles
-Group,Spray-ear,Spray medication.,Cool Bottles
-Group,Sensory Feedback Bottle,"Bottle that dispenses ear medication, but also gives sensory feedback about the amount of ear wax or audio levels, etc.",Cool Bottles
-Group,Rotating Caps,Different caps for different sprays.,Cool Bottles
-Group,Clip-On Bottle,Something that clips on to your ear.,Cool Bottles
-Group,Double Compartment Bottle,"Bottle with two different fluids that have separate functions, like numbing, cleansing, treatment, etc.",Cool Bottles
-Group,Depth Feedback,"Sensory feedback after use, lets you know that you've gone deep enough and tells you that it's working.",Cool Bottles
-Group,Ear Funnel ,Ergonomic ear funnel to dispense medication. ,Cool Bottles
-Group,Package Transformer,Packaging of ear bottle folds into a funnel or something else for guiding the solution in.,Cool Bottles
-Group,Modular Bottles,Be able to take apart the bottle and caps and separate them for multiple uses and different solutions.,Cool Bottles
-Group,Retractable Bottle Tip,"When you squeeze the bottle, a tip comes out that you can use to apply solution into your ear. It can be disposable for cleanliness and convenience.",Cool Bottles
-Group,Ear Syringe Mixer,"Ear syringe to dispense solution, solution agitator, and solution extractor. ",Cool Bottles
-Jing,Princess Bottle,"We noticed that some people think all ear drops are the same, and can't tell them apart at the store. Thus, we should make the bottle and labeling super beautiful and unique, so it stands out and is immediately recognizable. Kind of like cosmetics - perfume bottles. ",Ear-esistible
-Ricky,B-ear Helmet,A hat that dispenses solution automatically into ear when on.,Ear-esistible
-Ricky,Healthy Ear Muffs,Earmuffs that sprays a mist of solution into ear.,Ear-esistible
-Ricky,Ear Wax Cleaning Headphones,Headphones with vacuum to clear out ear wax when listening to music.,Ear-esistible
-Mike,Ear-gonomic Cap,Adapter that can be placed onto current OTC ear drop bottles that makes them more comfortable and aim more accurately.,Ear-esistible
-Group,Remedy Earrings,Q-tip type of solutions that hang from your ears like earrings (in a pleasing way).,Ear-esistible
-Jing,3D Customizable Ear Canals,Take molds of people's ear canals and 3D print foam models that can be soaked with ear drop solution. These can be left in the ear canal (as a perfect fit) for a prescribed amount of time. ,Ear-ie Canal
-Jing,Solution Retention Ear Plugs,"Part of the problem of ear drops is that they tend to fall out, so you can't tell how much has stayed in and if you should apply more. These ear plugs keep the ear drops inside the canal and have a waterproof surface that prevents absorption. This also eliminates the need to lie on each side for around 15 minutes to get the drops in. It reduces wasted solution and time. It can be provided with a bottle.",Ear-ie Canal
-Ricky,Solution Ear Plugs,Ear plugs soaked in solutions that can be applied into ear without laying on side.,Ear-ie Canal
-Mike,Fillable Ear Plugs,"Earplugs that you fill up with a separate device, pressurize, then insert into ears.",Ear-ie Canal
-Mike,Inflatable Ear Plugs,Earplugs that you inflate while inserted into the ear canal. Nozzle is integrated into plugs.,Ear-ie Canal
-Mike,On-The-Go Treatment Plugs,One time use earplugs that come presoaked with medication. Pressure and/or temperature change in ear canal dispenses medication.,Ear-ie Canal
-Mike,Insertion Nozzle,Inner ear shaped nozzle (similar to earphone shape) that will only allow fluid to be dispensed when it gets inserted to a certain depth.,Ear-ie Canal
-Erwin,Sublimating Gauze,"The gauze will be soaked in medication and inserted to ear, and the gauze will sublimate after some period.",Ear-ie Canal
-Group,Moldable Ear Foam Clay,"Fill ear up with some hardening solution, and then pull it out along with all the gunk in your ears.",Ear-ie Canal
-Group,Expand and Extract,"Ear swelling medication (some object swells in the ear, and then you can pull it out).",Ear-ie Canal
-Group,Ear Mask,Pore cleansing mask for ear wax. ,Ear-ie Canal
-Group,Paste Ear Solution,An additive to make ear medication into a thick paste. ,Ear-ie Canal
-Group,Painless Coating,A coating to put in the ear canal that lubricates and prevents anything going in from hurting. ,Ear-ie Canal
-Jing,All-in-One Earwash,"The water comes out of one tube into the ear to wash out ear wax, and the waste goes into a bigger tube and into a waste container. This way, you don't have to bend over a sink or hold a tub under your ear to catch the waste.",Ear-igation
-Mike,Ear-Pik,Very low pressure water-pik-esque device that you use to irrigate ear canals. Can be used with water or proprietary solution.,Ear-igation
-Erwin,IV Ear Wash,"The suction cup is for the bottle to be stuck on most surface (e.g. wall, glass). The water in the bottle can then flow to the tube in constant pressure, gravity-driven for ear wax removal)",Ear-igation
-Erwin,No Sink Squirt,"The suction cup would be attached around the ear, thus the water dispensed would be collected in the cup, making the whole process able to be done without spilling and standing by the sink.",Ear-igation
-Erwin,Dry Ear-Down,"The water container would be the water supply to the tube for ear wax removal. The suction cup will ensure that water is not spilling, and would transfer the excess water to a waste bag.",Ear-igation
-Erwin,Wax Eater,"The solution in the bottle would dissolve ear wax, and would dispense along with the solution.",Ear-igation
-Group,Multi-Function Nozzle,"Multifunction nozzle, can spray medication, act as ear wash, etc.",Ear-igation
-Group,Waterslide,Water slide to guide water into and out of the ear canal.,Ear-igation
-Jing,Ear Vac,Like a vacuum for ear wax - a gentle version that cleans the loose ear wax hanging around in your ear. ,Mechanical Engin-ears
-Ricky,Ear Drop Glasses,A pair of glasses designed to see into one's own ears during the application process of the ear drop.,Mechanical Engin-ears
-Mike,Heated Bottle,Bottle with embedded heating copper coils that can be used with a docking station to warm fluid inside.,Mechanical Engin-ears
-Erwin,Ear Stent,"Similar to a brain stent, activate the stent close to the area of ear wax. The stent will pierce through the ear wax, and later on drag the wax out with it.",Mechanical Engin-ears
-Erwin,Laser Gun,The laser would be able to ablate ear wax.,Mechanical Engin-ears
-Group,Exfoliater,"Putting abrasive material in your ear, like exfoliating the inside of your ear (use microbeads).",Mechanical Engin-ears
-Group,Frequency Cleaner,Certain frequency vibration in your ear to move the ear wax out.,Mechanical Engin-ears
-Group,UV Cleaner,Using UV light inside the ear to disinfect or harden ear wax enough to get out.,Mechanical Engin-ears
-Group,Vac-Add,Vacuum cleaner adapter.,Mechanical Engin-ears
-Group,Ear Wax Rotating,"Inspired by rotating toilet seat cover - medication gets dispensed in, and turns around and comes back. ",Mechanical Engin-ears
-Group,Burn,Selective combustable powder that only burns ear wax.,Mechanical Engin-ears
-Group,Sticky Hands Extraction,Elastic sticky hands to remove wax.,Mechanical Engin-ears
-Group,Amphibian Solutions,Frog or chameleon tongue (or similar type of adhesive device) that extracts ear wax and retracts.,Mechanical Engin-ears
-Group,Ridged Scooper,Ridges to mechanically pull out ear wax.,Mechanical Engin-ears
-Group,Swiss Army Knife Ear Care,"Swiss army knife for ear tools including a scooper, q-tip and vacuum. ",Mechanical Engin-ears
-Group,Retractable Ear Mop,"Mini-retractable mophead for ears, can clean and retract out of the ear area. ",Mechanical Engin-ears
-Group,Ear Speculum,Ear canal speculum to widen the ear canal. ,Mechanical Engin-ears
-Mike,Twist & Load,Bottle that loads a precise amount of fluid each time you twist it.,Met-eared
-Mike,Ear Cups,Headphone cup shaped device with connected tube that you pump measured fluid into. Cup is tapered to ensure fluid enters ear canal.,Met-eared
-Erwin,Manual Measure,"Similar to how doctors apply medications, manually measuring the amount of medication, and thus can dispense more accurately. Needle used when taking up solution, and removed when dispensing.",Met-eared
-Erwin,Syringe-Ear Drop,"The plunger would dispense the amount of solution in the metered stem, and thus could dispense a relatively accurate amount of medication every time.",Met-eared
-Vyshaali,Portable Graduated Cylinder,"Plastic graduated cylinder that dispenses medication, that you can tilt to dispense into ear.",Met-eared
-Vyshaali,Fixed Volume Dripper,Provide fixed volume pipettes with ear medication.,Met-eared
-Vyshaali,Double Container System,"Double valve drip chamber, and ear drops can be dripped into chamber for precise volume - valve is closed. Second valve opened to dispense medication. ",Met-eared
-Group,Bug-Eared,Natural solution - put some sort of insect or something in the ear that eats everything.,Natural Solutions
-Jing,Ear Drop Tablet,"To combat liquid falling out of the ear, use a solid instead of a liquid. Maybe it can be in the form of a tablet that dissolves slowly in the ear when exposed to the air or something. This way, you can also know how much you are applying. ",Pills
-Ricky,Ear Drop Pills,Pills that are put into ears and solution dissolves.,Pills
-Erwin,BB Medication,"The tube would be filled with identical medication pellets. The button would release a pellet, and the pellet would burst in the ear upon contact.",Pills
-Group,Dry-ear,Desiccant powder.,Pills
-Group,Soluble Q-tiip,Soluble Q-tip with medication. ,Pills
-Jing,2-in-1 Ear Care,"Can be used for prevention and treatment. This product doubles as a ear wax removal scooper and a drop dispenser in one little device. Has a scooper at one end, and can fill with solution in a hollow interior to dispense in the other end. ",Scrap-ears
-Jing,Ear Excavation,"Typical ear wax scooping tool, but with a tiny camera at the end so it can show on the user's smartphone or computer so they can actually see what they're doing. ",Scrap-ears
-Ricky,Mechanical Q-tips,A mechanical Q-tip that moves in patterns that clean ear wax effectively.,Scrap-ears
-Ricky,Q-tip Lint Roller,A mini lint roller for ears where the adhesive can be peel off.,Scrap-ears
-Ricky,Pre-packaged Q-tips with Solution,Q-tips packaged in plastic wrapping that are dipped in solutions.,Scrap-ears
-Erwin,Medication Brush,"The brush can be dipped or covered in ointment, then applied to the infected region. Rubber stopper to avoid the brush going in too deep.",Scrap-ears
-Erwin,Periscope Q-tip,A periscope with a Q-tip end that allows the user to see their ear during usage.,Scrap-ears
-Vyshaali,Medicate Q-tip,Medicated Q-tips with slow release antibiotics.,Scrap-ears
-Group,Vibrat-ear,Vibrating device that eases all of the ear wax out.,Scrap-ears
-Group,Shake It Off,Thin sheath with pebbles inside that vibrate and clear out the ear wax.,Scrap-ears
-Group,Ear Plunger,Mini ear plunger.,Scrap-ears
-Group,Sized Scooper,Telescope multidiameter ear scooper. ,Scrap-ears
-Group,Q-tip Guard,A little guard on the end of the Q-tip to prevent from going all the way into the ear.,Scrap-ears
-Group,Q-tip Dispenser,Q-tip that dispenses medication and allows cleaning.,Scrap-ears
-Group,Pen Ear Scooper,"An ear scooper at the end of a pen, so you can use it casually whenever you see your pen (reminds you to take care of your ears).",Scrap-ears
-Group,Finger Ear Tips,"A ring ear wax scooper or something you can put on the tip of your finger, like an attachment. ",Scrap-ears
-Group,Bristly Q-tips,Q-tip with bristles.,Scrap-ears 
-Group,Wax Picker ,Mini ear wax picker. ,Scrap-ears 
+Member Name,Concept Title,Description,Cluster
+Yu Song,Make-up Robot,Young girls can learn make-up by practicing on a dummy. And learn program by control a robot to remove the make-up,Education
+Yu Song,Cube Robot,Kids can write their own algorithm to solve a cube with our platform; and use our robot to test it.,Education
+Yu Song,Cooking Assistant,Help user stir fry while cooking to avoid hot oil splattering on body,Consumer
+Yu Song,Injection Assistant,Shaking while injection can cause extra pain for patients. The nurses can control our robot to finish the injection,Medical
+Yu Song,Surgery Assistant,A robot arm can help with some simple but important motions during surgery to avoid hand-shaking,Medical
+Yu Song,Medicine Delivery,Deliver pills to pateients under control of nurse to avoid mistakes that deliver wrong medicine to patients,Medical
+Yu Song,Robot Painter,Control a robot to draw a picture or write some words.,Education
+Yu Song,Components/Material Delivery Robot,Deliver required components or material to working station in factory.,Industry
+Yu Song,Third Hand,Hold the screw (or something else) when people are assembling. Wear on the arm; have a little screen to have user program it,Industry/Engineer
+Yu Song,Robot Cutter,Cut cooking ingredients into specific shape and size,Consumer
+Yu Song,Dancer Robot,A robot with a lot of arms can dance under your control,Education
+Yu Song,Crab Opener,A robot can open crab with its arms while you eating to free your hands,Consumer
+Yu Song,Guide,A robot can guide blind people walking to replace service dog,Consumer/medical
+Yu Song,Ladder Player,A robot can play balls with you,Consumer
+Yu Song,Design robot,A robot can generate design ideas once you input all your user research data and information,Consumer
+Yu Song,Homework robot,A robot can solve your homework peoblem with its database,Consumer/education
+Yu Song,Companion Robot,A robot can spend time with the  old; talk with them. And deal with emergency situation; like call hospital or police; and can do first aid,Consumer
+Yu Song,Apple bagging robot,no machine can replace the work of bagging for apple in agriculture. Some easy handled robot arm may help them. ,Agriculture
+Yu Song,robot librarian,A robot can put books back to its shelf,Organization
+Yu Song,Sneak attack robot,A robot can sneak attact bad guys when they have hostage in their hand,Organization
+Yu Song,Robot lover,A robot can change its character according the data you input.,Consumer
+Wei Ren,Robotic Waiter,A robot who can walk; talk; hear and watch. It's used for working as a waiter,Consumer
+Wei Ren,Magic Cube Robot,A robot arm which can operate the magic cube. Cameras are located to get the status of magic cube.,Consumer/education
+Wei Ren,Robotic Police,The robot can walk around the street. The video camera is used to pattern recognize someone who has intention to crime.,Organization
+Wei Ren,Robotic Teacher,The main function of this robot is teaching children. She can talk and answer the questions. ,Consumer/education
+Wei Ren,Hair Cut Robot,Scan your hair; download the style template; cut automatically.,Consumer; Organization
+Wei Ren,Robotic Toy,This robotic toy provide software for children to program. Children can learn the course from Apps. They can use the graphic program tools,Consumer/education
+Wei Ren,House Keeping Robot,The robot is set in your home. She can clean the room; collect objects and put them back according to the original seeting.,Consumer
+Wei Ren,Cooking Robot,The robot can use all tools in kitchen. They can process the meat; vegatables; etc. They can also download different typ of meals.,Consumer
+Wei Ren,User Programmable Robots,Users can upload the software to the robot. They can watch the results of ther algorithm by video on the platform.,Consumer/education
+Wei Ren,Open Source Robot,The robot has open archetecture on hardware and software. Users can develop the software of robots. The hard ware use standard interface.,Consumer/education
+Wei Ren,Robotic Band,Some robots can play instruments as a band.,Industry
+Wei Ren,Robotic Artist,A robot use mathematical visualization method to design magic picture. ,Education
+Wei Ren,Robotic Mail Box,A robot who is also a mail box. The robot can receive mails. She can also open the letter and then scan the letter. Send the letter to customer's email.,Consumer
+Wei Ren,Robotic garbage collector,A robot can walk on street. He can collect the garbage on street.,Industry
+Wei Ren,Robotic Manager,A robot can walk around in a company as a manager. He can monitor the status of the employee.,Organization
+Wei Ren,Robotic firefighter,A robot have detector of life. He can survive and complete the mission.,Industry
+Wei Ren,Robotic gardener,A robot that clean your garden. He can use tools to finish the job,Consumer
+Wei Ren,Robotic salesperson,A robot works as a shop assistant. She can scan the code of product and receive money from customers.,Organization
+Wei Ren,Fridge Robot,The robot lives in fridge. He can monitor the status of the food.,Consumer
+Wei Ren,Grandparents health care robot,Robot can record the voice of the people at home. They can process the voice and alarm if someone need help.,Consumer
+Yu Wu,The Cube,A robotic platform that solves the cube using user-defined algorithm,Education
+Yu Wu,Educational Humanoid Robot,A humanoid robot that has inbuilt platform teaching junior high students programming knowledge,Education
+Yu Wu,The Connoisseur,A cooking pot equipped with robotic arms that could be programmed to do stir frying actions,Consumer
+Yu Wu,Robot Pet,A robot pet that can be programmed to mimic the actions of real dogs or cats; which entaintains people who want to keep a pet but can't,Consumer
+Yu Wu,Robot Lawn-Mower,A lawn mower that can automatically detect where needs to be cleaned or watered,Consumer
+Yu Wu,Make-up Robot,A robot that can be programmed to put different make-ups on users,Consumer/education
+Yu Wu,Medical Injection Robot,A robot that can accurately find the spot and control the dosage of injection,Medical
+Yu Wu,AGV,Automatically guided vehicle that performs logistics duty in the plant,Industry
+Yu Wu,Sorting Robot,A robot that efficiently sorts packages,Industry
+Yu Wu,Industrial Robot Arm,A robot platfrom that controls robotic arms for heavy duty in the industry,Industry
+Yu Wu,The Scribe,A robot that has automatic speech recognition and write down automatically what people said,Consumer
+Yu Wu,Artificial Hand,A robotic hand that can be programmed to do multiple versatile job,Medical/Industry
+Yu Wu,Quadruped Robot,A quadruped robot that can do dangerous job for people,Industry/Consumer
+Yu Wu,The Barber,A robotic arm that can do haircuts for people,Consumer
+Yu Wu,The Grommer,A robotic arm that automatically wash; dry and groom pets,Consumer
+Yu Wu,The Guardian,A robot that stand by the classroom and can be simply controlled by buttons to express feelings and reach things for autistic children ,Consumer/Education/Medical
+Yu Wu,The Acupuncturist,A robotic arm that can do acupuncture ,Medical
+Yu Wu,The Diver,A robot that dive underwater and take deep ocean pictures for searching and rescuing,Consumer
+Yu Wu,The Combing Robot,A robot arm that comb and fondle pets,Consumer
+Yu Wu,Nanny,A robot arm that can sense baby's crying and then play music and swing the cradle softly,Consumer

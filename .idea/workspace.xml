@@ -2,25 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82053ff-d01b-49f2-882b-44b22908149f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team12.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team13.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team14.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team15.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team16.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team17.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team18.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team19.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team20.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team21.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/ME292C/Team5.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/DesInv/team1.csv" afterPath="$PROJECT_DIR$/dataset/DesInv/team1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/DesInv/team2.csv" afterPath="$PROJECT_DIR$/dataset/DesInv/team2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/DesInv/team3.csv" afterPath="$PROJECT_DIR$/dataset/DesInv/team3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110/Team12.csv" afterPath="$PROJECT_DIR$/dataset/ME110/Team12.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110/Team14.csv" afterPath="$PROJECT_DIR$/dataset/ME110/Team14.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110/Team6.csv" afterPath="$PROJECT_DIR$/dataset/ME110/Team6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team10.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team2.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team4.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team5.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team6.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team7.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team8.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2/Team9.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2/Team9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2_2/Team1.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2_2/Team1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME110_2_2/Team2.csv" afterPath="$PROJECT_DIR$/dataset/ME110_2_2/Team2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compute.py" afterPath="$PROJECT_DIR$/Compute.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HMPlot.csv" afterPath="$PROJECT_DIR$/HMPlot.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OverView.csv" afterPath="$PROJECT_DIR$/OverView.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plot&amp;Calc.py" afterPath="$PROJECT_DIR$/Plot&amp;Calc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clusterer/humancluster.py" afterPath="$PROJECT_DIR$/clusterer/humancluster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clusterer/word2veccluster.py" afterPath="$PROJECT_DIR$/clusterer/word2veccluster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concept/ConceptItem.py" afterPath="$PROJECT_DIR$/concept/ConceptItem.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team1.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team11.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team2.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team2.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team4.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team6.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team7.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team8.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/ME292C/Team9.csv" afterPath="$PROJECT_DIR$/dataset/ME292C/Team9.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,28 +42,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="humancluster.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clusterer/humancluster.py">
+      <file leaf-file-name="Plot&amp;Calc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plot&amp;Calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="1365">
+              <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team1.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/DesInv/team1.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team1.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team1.csv">
+      <file leaf-file-name="pyplot_formatstr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/pyplot_formatstr.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -62,18 +62,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team5.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset/ME110_2_2/Team5.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team4.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team4.csv">
+      <file leaf-file-name="Team21_Half.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team21_Half.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -82,8 +72,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team6.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team6.csv">
+      <file leaf-file-name="Team21_Equal.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team21_Equal.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,8 +82,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team7.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team7.csv">
+      <file leaf-file-name="Team21_Double.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team21_Double.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -102,8 +92,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team8.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team8.csv">
+      <file leaf-file-name="Team5_Half.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team5_Half.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -112,8 +102,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team11.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team11.csv">
+      <file leaf-file-name="Team5_Equal.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team5_Equal.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -122,8 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/__init__.py">
+      <file leaf-file-name="Team5_Double.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team5_Double.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sentimentanalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -144,6 +154,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>model</find>
+      <find>creat</find>
+      <find>datapath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,14 +165,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clusterer/cluster.py" />
-        <option value="$PROJECT_DIR$/clusterer/humancluster.py" />
         <option value="$PROJECT_DIR$/clusterer/randomcluster.py" />
+        <option value="$PROJECT_DIR$/Plot.py" />
+        <option value="$PROJECT_DIR$/clusterer/GensimEmbedding.py" />
+        <option value="$PROJECT_DIR$/OverView.csv" />
+        <option value="$USER_HOME$/ME110/pages/render_page.py" />
         <option value="$PROJECT_DIR$/clusterer/word2veccluster.py" />
+        <option value="$USER_HOME$/ME110/static/graph_data/processor.py" />
+        <option value="$PROJECT_DIR$/Team1_Double.csv" />
+        <option value="$PROJECT_DIR$/Plot&amp;Calc.py" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team20.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team18.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team17.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team16.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team15.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team14.csv" />
+        <option value="$PROJECT_DIR$/clusterer/humancluster.py" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team1.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team2.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team3.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team7.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team11.csv" />
+        <option value="$PROJECT_DIR$/Team15_Equal.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team8.csv" />
         <option value="$PROJECT_DIR$/concept/ConceptItem.py" />
         <option value="$PROJECT_DIR$/Compute.py" />
-        <option value="$PROJECT_DIR$/clusterer/GensimEmbedding.py" />
-        <option value="$PROJECT_DIR$/Plot.py" />
-        <option value="$PROJECT_DIR$/dataset/ME292C/Team1.csv" />
+        <option value="$PROJECT_DIR$/dataset/ME292C/Team21.csv" />
       </list>
     </option>
   </component>
@@ -184,6 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,7 +256,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ME110_2_2" />
+              <option name="myItemId" value="ME292C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concept" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,8 +290,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,6 +311,13 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/ME292C" />
+      <recent name="$PROJECT_DIR$/dataset/submissions (1)" />
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -279,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Plot">
+  <component name="RunManager" selected="Python.Compute">
     <configuration default="false" name="word2veccluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,42 +344,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DDD" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clusterer/word2veccluster.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="humancluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clusterer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clusterer/humancluster.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConceptWordDistanceMat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConceptWordDistanceMat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,7 +367,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="processor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/ME110/static/graph_data" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DDD" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/ME110/static/graph_data/processor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Plot&amp;Calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -364,7 +397,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plot&amp;Calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="humancluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clusterer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DDD" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clusterer/humancluster.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,18 +531,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.word2veccluster" />
-      <item index="1" class="java.lang.String" itemvalue="Python.humancluster" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ConceptWordDistanceMat" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Compute" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Plot" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Compute" />
+      <item index="2" class="java.lang.String" itemvalue="Python.processor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Plot&amp;Calc" />
+      <item index="4" class="java.lang.String" itemvalue="Python.humancluster" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Plot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.word2veccluster" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Compute" />
-        <item index="3" class="java.lang.String" itemvalue="Python.humancluster" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ConceptWordDistanceMat" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Compute" />
+        <item index="1" class="java.lang.String" itemvalue="Python.humancluster" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Plot&amp;Calc" />
+        <item index="3" class="java.lang.String" itemvalue="Python.processor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.word2veccluster" />
       </list>
     </recent_temporary>
   </component>
@@ -518,18 +569,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47738287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4716981" sideWeight="0.54038775" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4716981" sideWeight="0.45961228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.48707592" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.4806139" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -553,242 +603,36 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clusterer/humancluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HMPlot.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Compute.py">
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team13.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OverView.csv">
+    <entry file="file://$PROJECT_DIR$/dataset/datautils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/DesInv/team1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/ConceptItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2veccluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2vecLabel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HMPlot.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Compute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OverView.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/DesInv/team1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/ConceptItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2veccluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2vecLabel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/CSVFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/ConceptManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept/ConceptItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2vecLabel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OverView.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HMPlot.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clusterMapping.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConceptWordDistanceMat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Compute.py">
+    <entry file="file://$PROJECT_DIR$/concept/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -796,35 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/smart_open/smart_open_lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gensim/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3945">
-          <caret line="265" column="0" lean-forward="false" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plot.py" />
-    <entry file="file://$PROJECT_DIR$/clusterer/GensimEmbedding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plot&amp;Calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -835,38 +650,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clusterer/word2veccluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clusterer/humancluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/DesInv/team1.csv">
+    <entry file="file://$PROJECT_DIR$/concept/CSVFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team4.csv">
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team3.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team6.csv">
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1019">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team1_Half.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team1_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team2_Double.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team3_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team6_Double.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team6_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team6_Half.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team10_Half.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team11.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team20_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team15_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverView.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team18.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team19_Double.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team15.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team15_Double.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team8_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMPlot.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team8_Double.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -876,13 +835,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team8.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/__init__.py">
+    <entry file="file://$PROJECT_DIR$/clusterer/GensimEmbedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusterer/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept/ConceptItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept/ConceptManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ME110/static/data/Team1_Double.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -890,7 +883,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team11.csv">
+    <entry file="file://$PROJECT_DIR$/dataset/submissions (1)/Team15.csv" />
+    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team21.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="120" column="25" lean-forward="false" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team21_Half.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -898,7 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team7.csv">
+    <entry file="file://$PROJECT_DIR$/Team21_Equal.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -906,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME292C/Team1.csv">
+    <entry file="file://$PROJECT_DIR$/Team21_Double.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -914,10 +926,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ME110_2_2/Team5.csv">
+    <entry file="file://$PROJECT_DIR$/Team5_Half.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team5_Equal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team5_Double.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plot&amp;Calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pyplot_formatstr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

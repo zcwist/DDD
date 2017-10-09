@@ -1,0 +1,61 @@
+Member Name,Concept Title,Description,Cluster
+Austin,Natural Wind Concentrator,WT blends in with environment and natural features (e.g. trees) are used to increase the wind velocity.,Wind Concentrators
+Austin,Shroud,Honeycomb shroud smooths wind and encases low pressure zone. Make shroud out of fabric.,Wind Concentrators
+Chahal,Shrouded diffuser,A large area intake to get more air and a diffuser to increase efficiency.,Wind Concentrators
+Chahal,Vertical Intake,No direct visible moving part and funnel is used to draw in air to the turbine.,Wind Concentrators
+Chahal,Shrouded Vertical,VAWT with a shroud to minimize visible moving parts,Wind Concentrators
+Ali,Vertical axis anti-perching turbine with vibration attenuation,A helix shaped lift based VAWT with a wind-spead-increasing deflector around it and anti-perching measures up-top,Wind Concentrators
+Ali,Drag-based VAWT with concentrator,A covered drag-based VAWT with a concentrator placed ahead for increased efficiency,Wind Concentrators
+Ali + Austin,Cowled HAWT with UV reflective patterns,A medium sized HAWT with an efficiency increasing cowl covered in UV reflective surface finish,Wind Concentrators
+Ali,Collector tower with ground level HAWTs,A large collector tower disguised as a building collects wind to redirect at covered ground level HAWTs; through a stream straghtener,Hiding the WT
+Austin,Suction Turbine,Fast; low pressure wind draws air from the other side of the hill through HAWTs underground,Hiding the WT
+Ali,Hill-side drag-based covered turbines,Turbine system placed inside hill-side chambers that collect wind from directors at the top of the hill,Hiding the WT
+Max,Wind Tunnel Tower,This is a tunnel based wind generator that catches wind near ground level and funnels it; accelerating it,Hiding the WT
+Chahal ,Tree- turbine,Turbine placed on a tree to allow camouflaging,Aesthetics
+Max,Buoyant Airborne Turbine,Helium aerostat with 3 rotating blades ,Aesthetics
+Max,Tree vent,Array of vertical ind turbines that are meant to be efficient,Aesthetics
+Austin,Mirrored WT,Mirrored finish; blends with surroundings,Aesthetics
+Austin,Transparent WT,lack of turbine blade material allows the background to show through,Aesthetics
+Ali,Slow VAWT,larger lift based vertical concept which will spin slower thus making it safer for birds,Aesthetics
+Austin,Variable Height,WT adjusts to harvest rated wind speeds. Can be lowered for certain times of the day,Aesthetics
+Austin ,Light emitting camouflage,light source used to match ambient light conditions to counter illuminate the structure,Aesthetics
+Chahal,Roof top,installing small scale wind turbines on roof tops to be less intrusive,Aesthetics
+Max,Vortex Bladeless,Cone-shaped turbine that uses vortex created by wind moving past objects to harness energy. The vortex causes the cone to deliberatel oscillate,Aesthetics
+Max,Segmented ultralight morphing rotor,Technology that allows substantial decrease in peak stress and fatigue on rotor blades. They can bend without losing stiffness; meaning larger blades and higher power,WT Efficiency
+Ali,Open lift-based VAWT,Exposed vertical axis lift-based turbine; with minimal visual footprint due to thin structural members,WT Efficiency
+Max,EcoROTR,This blade hub deflects incoming wind towards the blade so that more power is generated. It could lead to 3% performance increase,WT Efficiency
+Max,Turbine blade tubercule design,Inspired by the ridges on humpback whale flippers; this blade has edges that are ridged. At low mph winds; the performance levels were 2x,WT Efficiency
+Max,Super Turbine,This is a variation of a VAWT that uses a chain of blades that could change the angle of attack in order to create better power generation,WT Efficiency
+Max,Colored Turbines,Use turbines that are very visible to birds to detract them from flying close,Hiding the WT - Camoflage
+Austin,Building/landscape Camo,Blend buildings into landscape begind them,Hiding the WT - Camoflage
+Ali,Mirror covered turbine,Put many tiny mirrors on turbines so they are invisible,Hiding the WT - Camoflage
+Max,Camoflage turbine,Turbine has a brown trunk and green blades to match the environment,Hiding the WT - Camoflage
+Ausitn + Max,Wind + solar panel,WT covered in solar panels,Merging Renewables
+Ali,Corkscrew Turbine,Corkscrew shaped wind harvester covered in a sheath,Hiding the WT
+Max,Wind + Water,Corkscrew turbine in the air when there is wind; and submerged underwater when there isn't to take advantage of waterflow instead,Merging Renewables
+Ali,Tidal chamber wind turbines,CHange in tides pushes air through tidal chamber as water passes through - take advantage of the airflow,Merging Renewables
+Max + Chahal + Austin,Wind + Thermal,Black box/shaft on top of turbine provides warm water for residents,Merging Renewables
+Austin,Barn Housing,House WTs in uppermost levels of barns at farms. Or place on top of silos.,Hiding the WT
+Ali,Window/door turbines,When window is closed; the WT is tucked away. When the window is open; the WT slides down in front of the window to harvest the breeze.,Hiding the WT
+Ali,Chimney based turbine,Takes advantage of aleady present and constant flow of air up a chimney.,Hiding the WT
+Chahal,Chimney with concentrator,Shape the chimney in a way to concentrate the wind through a chimney mounted concentrator,Hiding the WT
+Ali,Wind funnel art,Art work designed to funnel wind; transparent with air dyes so people can see the streams spin the turbines,Aesthetics
+Austin,Landscape art,"Feature VAWTs as ""landscape sculptures"" and treat them as an attraction.",Aesthetics
+Chahal,Strategic placement,Place the turbines in strategic locations that have good wind resource; like at the top of hills,WT Efficiency
+Austin,Designated Migration Area,Build an alleyway with trees next to windfarms that are designated as migration routes,Wind Concentrators
+Ali,Carbon Emission Screen,Screen next to WT displaying how much coal is emitting to show the importance of the WT,Community
+Austin,Wind Power Meter,Shows customers how much power the WT has generated,Community
+Max,Fan,Turbine can act as fan to breeze an area on a windy day,Community
+Ali,Scare the Birds,Kid play area near the WT where kids can spray water at nearby birds,Community
+Max,Slide,A kids slide that swivels around the spire of the tower to engage kids and community,Community
+Austin,Mist-er,In public areas; WT can release water droplets into air to mist people and keep them cool,Community
+Ali,Sail Based Conveyer Rotor,Foldable omni-directional sails on a conveyor belt that's partially over/underground,Configuration
+Chahal,Retractable Blade and Stock,The stock and blade retract to fold into a small structure during the day,Configuration
+Chahal,Retractable Wind Blades,WT with retracting blades to avoid obstruction in day,Configuration
+Chahal,Soil Based conveyer with hood,The hood helps direct the air away and reduces drag,Configuration
+Austin,Extendable Blades,Lengthn blades at high wind speeds; and shorten when lots of birds,Configuration
+Chahal,Hot Hub,Hub of WT is hot to avoid bird nesting,Configuration
+Austin,VAWT Farm Formation,WT harvest from the vortices of the other WT's; COuld harvest gusts from buildings and trees,Configuration
+Ali,Rooftop Dragbased mini-turbine,Small Verticall Axis drag-based WT for individual use,Bird Safety
+Ali,Anti-Perching HAWT with painted blades,A standard medium scale HAWT with the addition of cone top for anti perching and a single patterned blade for bird detection ease,Bird Safety
+Austin,Auto Stall,WT changes blade pitch to stall when birds are near; sensors monitor if bird is near,Bird Safety

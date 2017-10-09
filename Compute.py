@@ -105,7 +105,7 @@ class ClusterCompare:
                 self.cluster1Mapping[value] = value
 
 
-    def createCSV(self):
+    def createCSV(self, filename):
 
         # for key, value in colReverseMapping.iteritems():
         #     if key in colOldeIDtoName:
@@ -131,20 +131,24 @@ class ClusterCompare:
                 curRow.insert(0, y_name)
                 filewriter.writerow(curRow)
 
-        with open('OverView.csv', 'wb') as csvfile:
+        with open(filename, 'wb') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            colHeading = [self.cluster1.getType(), self.cluster2.getType(), "Concept Name", "Concpet Description"]
+            colHeading = ["index", "Concept Name", "Concpet Description", self.cluster1.getType(), self.cluster2.getType()]
             filewriter.writerow(colHeading)
+            index = 1
             for key, value in self.ClusterPair.iteritems():
                 row = []
-                row.append(self.cluster1Mapping[key[0]])
-                row.append(self.cluster2Mapping[key[1]])
+
                 for concept in value:
-                    newRow = list(row)
+                    newRow = []
+                    newRow.append(index)
                     newRow.append(concept.conceptName())
                     newRow.append(concept.getDescription())
+                    newRow.append(self.cluster1Mapping[key[0]])
+                    newRow.append(self.cluster2Mapping[key[1]])
                     filewriter.writerow(newRow)
+                    index += 1
 
     def getMatrix(self):
         return self.matrix
@@ -154,11 +158,30 @@ if __name__ == '__main__':
     from dataset.datautils import datapath
     from clusterer.randomcluster import RandomCluster
     from clusterer.humancluster import HumanCluster
-    cm = CM(filename=datapath("DesInv",1))
-
-    rand = RandomCluster(cm, 7)
-    hum = HumanCluster(cm)
-
-    a = ClusterCompare(rand, hum)
-    a.compare()
-    a.createCSV()
+    from clusterer.word2veccluster import Word2VecCluster
+    # cm = CM(filename=datapath("DesInv",1))
+    #
+    # rand = Word2VecCluster(cm, 5)
+    # hum = HumanCluster(cm)
+    #
+    # a = ClusterCompare(hum, rand)
+    # a.compare()
+    # a.createCSV("HMPlot")
+    for i in range(21,22):
+        cm = CM(filename=datapath("ME292C", i))
+        print("You are currently accessing {}:".format(i))
+        length = len(cm.categoryList)
+        print(length)
+        hum = HumanCluster(cm)
+        rand = Word2VecCluster(cm, length / 2)
+        a = ClusterCompare(hum, rand)
+        a.compare()
+        a.createCSV("Team{}_Half.csv".format(i))
+        rand = Word2VecCluster(cm, length)
+        a = ClusterCompare(hum, rand)
+        a.compare()
+        a.createCSV("Team{}_Equal.csv".format(i))
+        rand = Word2VecCluster(cm, length * 2)
+        a = ClusterCompare(hum, rand)
+        a.compare()
+        a.createCSV("Team{}_Double.csv".format(i))

@@ -1,0 +1,108 @@
+Member Name,Concept Title,Description,Cluster
+Zareen Cheema,Waterproof Robots,A waterproof sheet wrapped around the robot which protects the payload and all the internal sensitive compeonents,Secondary Function
+Zareen Cheema,Heavy Load Carrying Robots,A wide flat robot with a large back which is able to carry heavy loads from one place to another,Weight
+Zareen Cheema,Size Changing Robots (Transformer) ,Robots with adjustable rods that can change size and shape whenever they need to fit into tight spots,Flexibility
+Zareen Cheema,Resistant Robots,When impacted by an object; the robot is able to regain its elastic state.,Impact Toughness
+Zareen Cheema,Smart Robot,Recognises the face of the victim during a disaster,Secondary Function
+Zareen Cheema,All-in-one Robot,Robots which can traverse in aerial; land and sea,Locomotion
+Zareen Cheema,Robots with VR,Instead of using GPS which provides a 2D coordinate. the robot uses 3D coordinate system wearing a VR to pinpoint the location of the victim,Secondary Function
+Zareen Cheema,Smart Robot: Path Planners,Robots which plan the most suitable path for the first responders,Secondary Function
+Zareen Cheema,Smart and Fire Resistant Robots,Planning an escape route in a building caught on fire.,Secondary Function
+Zareen Cheema,Sesimic robots,Able to scan for earthquakes and can scan the structural integrity of a building before the first responders enter,Secondary Function
+Zareen Cheema,Cover it!,Covering the payload and sensitive instruments of the Tensegrity using a durable cover.,Impact Toughness
+Zareen Cheema,Wear your controller,A hand watch or app with wireless robot control feautures. ,Secondary Function
+Zareen Cheema,Robo Paint,Robot paint enables easy identification of robot during search and rescue operations. For example: A red colour robot can be easily identified by a victim who can then call for help.,Secondary Function
+Zareen Cheema,Protect the Planet,Recyclable tensegrity adopts ideas of using biodegradable materials which can create the next generation of robots.,Secondary Function
+Zareen Cheema,Shape Memory Polymer,The shape memory polymers enable the researchers to fine-tune how quickly each strut expands by adjusting at which temperature the expansion occurs. ,Impact Toughness
+Zareen Cheema,Robo Tether,Robo tethers allow for easy grab and release of an object.,Flexibility
+Zareen Cheema,Thermal Imaging Robo,Thermal imaging allows the robot to view the heat images of the human being allowing for easy identification.,Secondary Function
+Zareen Cheema,Pulsating Lights,Pulsating lights on tensegrity allow for easy identification at the diaster site.,Secondary Function
+Holly Stein ,Legs!,Many legs so that at least one catches on the terrain,Locomotion
+Holly Stein ,Flight!,The robot flies over uneven terrain,Locomotion
+Holly Stein ,Break!,The robot breaks/pushes through terrain that is in the way (grass; rocks),Locomotion; impact toughness
+Holly Stein ,Expand!,The robot is wide so that the unevenness of the terrain is flat relative to size of contact area (like a monster truck),Locomotion; Impact Toughness
+Holly Stein ,Squish!,The robot flattens itself to squeeze through tight areas,flexibility
+Holly Stein ,Jump!,The robot propels itself over obstacles like a cat,locomotion
+Holly Stein ,Shrink!,The robot adjusts length of spine according to need,flexibility
+Holly Stein ,Balance!,The robot can ensure it is balanced over its center of gravity,Locomotion; impact toughness
+Holly Stein ,Steady!,The robot uses walls to improve its stability,Flexibility
+Holly Stein ,Weave!,The robot weaves between objects,Flexibility
+Holly Stein ,Position!,Many robots wait in buildings in order to be immediate responders when disaster occurs,Secondary Function
+Holly Stein ,Helpless,"Robot asks for help; uses local resources ""help me"" and ""carry me""",user experience
+Holly Stein ,Tiny,A small bot so that it can get into small places,Mod save america; locomotion
+Holly Stein ,Spider,Robot swings on something like spider silk; e.g. into a ditch or over a gap,Locomotion
+Holly Stein ,Rope,Many fibers on tensile component - if one breaks ther are others,Integrity
+Holly Stein ,Move! You're in my way,No agenda; moves randomly and relays random info,Secondary Function
+Holly Stein ,Toes,Has toes on end caps to grip,Locomotion
+Holly Stein ,Squeeze,Can squeeze two compression rods together to hold onto things,Locomotion
+Holly Stein ,Pull,Grabs something and use it to pull COG forward; grab next thing and use to pull COG forward,Locomotion
+Holly Stein ,Stick together,Everything covered in sticky material for grip,Locomotion
+Holly Stein ,Mod,Everything condensed to contained within tensile or compression elements,Mod save america
+Holly Stein ,Projectile,Robot is thrown into an area; sticks landing; conveys info,Locomotion
+Holly Stein ,Orientation,All compression rods orient themselves to be parallel so that can fit through small spaces,Flexibility
+Holly Stein ,Consciousness,Robot actively chooses how to navigate,Helmet
+Holly Stein ,Cat eyes,Robot locally locates itself using vision that does not depend on outside light (e.g. sonar),Secondary Function
+Holly Stein ,Hook,Hooks tensile component on rubble and shortens it to pulls self forward and on top of rubble,Locomotion
+Holly Stein ,Loyalty,Protects humans! Provides cover when near humans while disaster is occuring,Secondary Function
+Holly Stein ,Froggy,Projects self off higher rubble or roofs into desired areas,Locomotion; planning
+Nigel Mevana,Retractable wheels,Some(or all) rods have retractable wheels that are used (when appropriate) to improve maneuverability of the robot,Locomotion
+Nigel Mevana,Drone/Tensegrity Hybrid,Robot has ability to lift off and land; then operate as a tensegrity when need,Locomotion
+Nigel Mevana,Deployable Sensors,Robot carries and deploys sensors across disaster area,Secondary Function
+Nigel Mevana,Frog Motion,Springs within robot that compress and help spring the robot forward when required,Locomotion
+Nigel Mevana,Interactive Robot,Robot has mic and speaker that can be used to communicate between victims and responders,Secondary Function
+Nigel Mevana,Shrinking Robot,Rods can retract; robot can shrink into a smaller ball when needed,Flexibility
+Nigel Mevana,Rubber tracks,cables on the robot made to resemble tracks (like on a military vehicles e.g tanks),Locomotion
+Nigel Mevana,Extendable arm,robot has an extendable rod that acts as arm. carries sensors and deployable in hard-to-reach spaces,Flexibility
+Nigel Mevana,Increased rod number,Increase number of rods to improve stability of the robot,Secondary Function
+Nigel Mevana,Intelligent robot,Has sensors; collects data; processes it and decides which route is best to get to victims,Secondary Function
+Nigel Mevana,Multi-functional rods,Integrate some sensors within rods; free up some space,Secondary Function
+Nigel Mevana,Combined-tensegrity shapes,Tensegrities that can be joined together to make different shapes; can be used for various purposes,Modularity
+Nigel Mevana,Simplified Tensegrity,Use the least amount of rods/ materials,Secondary Function
+Nigel Mevana,Wrap around ,Elastic fabric to wrap around device; to help protect the components ,Secondary Function
+Nigel Mevana,Wider rod ends,Increasing the surface area of the contact points (rod ends) to help with the stability,Secondary Function
+Nigel Mevana,Extendable rods,Extandable rods that can help shift/tip the center of mass,Secondary Function
+Nigel Mevana,Increased Friction on the cables,Increased friction on the cables (rubber band eg with spikes) ,Locomotion
+Nigel Mevana,Easy assembly,make it easy to add  or remove rods for use in different applications,Secondary Function
+Nigel Mevana,Kick- Stand,Add a component that behaves as a kick-stand to help with balance,Secondary Function
+Nigel Mevana,Hollow rods,Use hollow rods; cut down on weight,Secondary Function/Locomotion
+Stuart Sonatina,Rubber Spring Feet,Rubber domes attached to end of rods using thick; fat compression springs,Impact Toughness
+Stuart Sonatina,2-shape lattice,Rubber lattice shapes that consist of triangle and diamonds to ease assembly and cut down on rubber waste.,Weight
+Stuart Sonatina,Staged springs,Progressivly stiffer springs that are tied in series,Impact Toughness
+Stuart Sonatina,Spherical Electronics Enclosure,Electronics are enclosed in a sphere to reduce catching on rods/cables during movement.,Locomotion
+Stuart Sonatina,Endcap Enclosure Tethers,Enclosure is mounted to rest of sphere by cables tethered to ends of rods.,Impact Toughness
+Stuart Sonatina,Mid-mounting,Enclosure is mounted to rest of sphere by cables tethered to middle of rods.,Weight
+Stuart Sonatina,Rectangular Enclosure,Enclosure is designed to be as small as possible; surrounding only the two control boards; and that's it.,Weight
+Stuart Sonatina,Plastic Shield,Cover sphere with some stretchy waterproof membrane that keeps dust/water out of entire assembly.,Secondary Function
+Stuart Sonatina,Axial Spring,Decouple motors from stretchiness of sphere by placing springs on axle of motor.,Locomotion
+Stuart Sonatina,Folding clip,Clip that holds sphere in folded position,Secondary Function
+Stuart Sonatina,Removable endcaps,Be able to switch out endcaps so we can test materials and springs,flexibility
+Stuart Sonatina,Plunger endcaps,Use air as a spring/damper for end shock absorbtion,Impact Toughness
+Stuart Sonatina,Halved Enclosure,Design enclosure as two identical halves since we're using two identical control boards,flexibility
+Stuart Sonatina,Cable guides on bearings,If we use bearings; include guides that turn the rods,Locomotion
+Stuart Sonatina,Directional tread on endcaps,Keep feet moving in proper direction by having spikes or something pointed in the opposite direction,locomotion
+Stuart Sonatina,Elastomer Dampening,Use a viscoelastic elastomer inside of a spring to act as a dashpot,impact Toughness
+Stuart Sonatina,Soft Electronics enclosure,Cover electronics enclosure with soft foam to mitigate damage from occasional rod collisions,impact Toughness
+Stuart Sonatina,Rod electronics,move electronics to rods in order to suspend the payload in the middle,locomotion
+Stuart Sonatina,breakaway cables,"have some single-use cable attachments that act as ""mechanical fuses"" in order to break fall from drone.",impact Toughness
+Stuart Sonatina,Sliding motor mounts,make it easy to move/remove motors by sliding them around.,flexibility
+Jeff Ying,Tensegrifly,Introduce collaspable propellers to the ends of the robot to enable flight. Propellets will retract when rolling on the ground.,Locomotion
+Jeff Ying,Tensegrileap,Introduce spring like feet to the endcaps of the tensegrity sphere. Helps the tensegrity jump past obstacles it can't otherwise roll over. Also; helps act as a force dampener during deployment.,Locomotion
+Jeff Ying,MicroTT Swarm,Reduce the size of the tensegrity to a tiny robot capable of working in a swarm. These robots can then move around multiple areas to cover more ground in the same timeframe than 1 large tensegrity.,Flexibility
+Jeff Ying,Modulagrity,Enable modularity of the Tensegrity robots to enable it to change sizes by connecting to several other Tensegrities robots.,Flexibility
+Jeff Ying,Thicker Rods,Simply have thicker rods for the tensegrity sphere to further resist buckling,Impact Toughness
+Jeff Ying,Tensegrity Compogrity,Change the material of the tensegrity rods to one with a higher impact resistance/ higher strength to weight ratio - preferably composites,Weight/ Impact Toughness
+Jeff Ying,Drillcap,Have drills on the end-caps of the 6bar tensegrity to enable it to climb vertically. It will drill onto a rock/soft material to provide a stable grip.,Locomotion
+Jeff Ying,Suspense,One of the purposes of designing a robust tensegrity robot is to protect the payload its carrying. Suspend the payload in the middle with springs and dampeners/ magnetic repulsion.,Impact Toughness
+Jeff Ying,Expansion end-caps,Endcaps that expands (like an inverse tripod) to provide traction on different terrain.,Locomotion
+Jeff Ying,Motors on a dampening system,Attach motors to a dampener to soften direct blows on it/ to the shaft it is attached on.,Impact Toughness
+Jeff Ying,Telegrity,Incease or decrease the size of the tensegrity on demand to help with space constaints or to get over larger obstacles.,Mod Save America
+Jeff Ying,Squish it!,Collaspable rods into a cynlinder shape for ease of transportation/ space constraints,Locomotion
+Jeff Ying,Stensegth,Modular strength - add strengthening mebers to to poles to exisiting poles of the tensegrity poles.,Mod Save America;Impact Toughness
+Jeff Ying,Feedme,Good user control feedback when controlling the tensegrity through an app (move the tensegrity using an app to allow for a more intuitive control of the robot,Secondary Function
+Jeff Ying,Adjustable spring tension,Change spring tension to tighten just before robot experiences high impact loading,Impact Toughness
+Jeff Ying,Tensegribars,Add more bars to the tensegrity to make it more rigid and robust,Impact Toughness
+Jeff Ying,Composite Spools,Replace the current spools with carbonfibre thread to increase resistance to snapping/breaking,Integrity
+Jeff Ying,Coverme,Cover the springs/spools in an elastic; protective sleeve to shield them from the elements/ sharp objects.,Integrity
+Jeff Ying,Bubbleit,Encase the tensegrity in a light; thin; elastic bubble. Protects the tensegrity from any falling debri during an earthquake,Integrity
+Jeff Ying,Connectme,Connect multiple tensegrities through their end-caps to form a huge transformer tensegrity.,Mod Save America
+Jeff Ying,Stopme,Sensors to prevent the Tensegrity Robot from rolling into something that may damage it. (Lidar/ UV sensors?),Secondary Function

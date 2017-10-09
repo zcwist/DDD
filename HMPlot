@@ -1,0 +1,61 @@
+index,Concept Name,Concpet Description,Human Label,Machine Label
+1,zero wait time register,display wait time at each register on screen,Shopping Cart Device,food;bottle
+2,cookie keeper,a device that guards sweets and junk food and does not allow user to access it unless they have been keeping up with their nutrition goals would link to a phone app,Home appliance,food;robot
+3,electronic cabinet,a cabinet that can record expiration date of every food and record users to eat them before the food spoils,Home appliance,food;robot
+4,ez shopping cart,smaller and easy to maneuver shopping cart,Shopping Cart Device,cart;shopping
+5,advanced shopping cart ,show where employees are and allow you to talk to them directly,Shopping Cart Device,cart;shopping
+6,budget shopping cart,screen attached to cart that tracks the prices of items put into cart,Shopping Cart Device,cart;shopping
+7,advanced shopping cart ,shows location of store items,Shopping Cart Device,cart;shopping
+8,automatic shopping cart,a screen on shopping cart that can connect with app and help the efficiency of picking up what to buy,Shopping Cart Device,cart;shopping
+9,electronic shopping cart,a shopping cart where we can place and plug our phones,Shopping Cart Device,cart;shopping
+10,shopping bot,a shopping cart in the form of a bot that follows you around in store and holds your items,Shopping Cart Device,cart;shopping
+11,electric cart,electric grocery cart that activates when the cart gets too heavy,Shopping Cart Device,cart;shopping
+12,robocart,cart that unloads groceries into the car for user,Shopping Cart Device,cart;shopping
+13,shopping list app,an app that we can create our shopping list and record the price it can also connect with the monitor on shopping cart that can remind us when we pass by the items we need in grocery stores,Apps (shopping),cart;shopping
+14,exercise monitor,people can see how much fat they have burnt through exercie,Wearable device,people;monitor
+15,exercise advisor,people can get help through the device when they doing exercise,Wearable device,people;monitor
+16,taser reminder,for people who make up their mind to improve their health condition but are weak in self control force them to get fitexercise or diet ,Wearable device,people;monitor
+17,online after  sale service,this function is connected to taser reminder it can let people stop the force program ,Wearable device,people;monitor
+18,heart rate monitor,scan the heart rate to help people overexercised,Wearable device,people;monitor
+19,blood sugar monitor,wearable blood sugar monitor for diabetic people,Wearable device,people;monitor
+20,scanner,wearable that scans food and estimates nutritional value by comparing to food in database,wearable device,food;bottle
+21,wearable camera,item would record your actions throughout the day and automatically logs your food intake and calculated nutrition for you,wearable device,food;bottle
+22,well designed,the product should have not only the powerful functions but also the fashionable appearance,Wearable device,
+23,title scanner,people can scan the title of packed food to know how much energy in it and help them to calculate the calorie,Wearable device,food;bottle
+24,food camera,can analyze the contain of a meal and calculate the calorie,Wearable device,food;bottle
+25,disease predictor,a watch that can detect our disease and symptom by monitoring our physiology,Wearable device,food;bottle
+26,nutrition patch,wearable patch that connects to an app to notify user which aspects of their diet are lacking ,Wearable Device,food;robot
+27,durable grocery bag,made out of very strong material ,Grocery Bags,cart;shopping
+28,temp control bag,grocery bag with adjustable temperature control to keep food at certain temp,Grocery Bags,cart;shopping
+29,robot bagger,robot bagger that can efficiently bag grocery items,Robot,cart;shopping
+30,intelligent bottle sleeve,can scan the water quality whats the composition of the water temperature etc,Apps(Dining),food;bottle
+31,wake up bed,a bed which will be rough in the morning that can wake up people,Home appliance,people;monitor
+32,blink h2o,water bottle that connects to app to track progress,Staying hydrated,food;bottle
+33,freezer buddy,robot that keeps inventory of food in the freezer and defrosts food accordingly,Robot,food;robot
+34,robo prepcook,robot that prepares food for user to cook ie cuts vegetables and measures ingredients,Robot,food;robot
+35,personal shopper,user inputs the dishes they want to cook and the robot shops for necessary ingredients and delivers them to user,Robot,food;robot
+36,deli pro,robot that makes sandwiches for users that dont have time to cook ,Robot,food;robot
+37,food checker,robot that checks food in fridge ie vegetables left overs dairy etc and determines whether to keep or throw out,Robot,food;robot
+38,item grabber,robot that helps you retrieve items from high places,Robot,food;robot
+39,massage robot,a robot that can find our acupoint and give us more comfortable massage,Robot,food;robot
+40,fever cap,cap that measures body temp and acts as a coolingheat pad,Wearable Device,food;bottle
+41,dehydration bracelet,monitors users hydration level and beeps or vibrates to let user know to drink,Wearable Device,food;bottle
+42,fatigue monitor,a watch that can remind users to go to sleep when they are over fatigue to decrease the rate of sudden death,Wearable Device,food;bottle
+43,hot compress device,a electric sticker that can stick on skin to make hot compress easier and prevent scald,Wearable Device,food;bottle
+44,body fat monitor,a necklace that can monitor and record our body fat and muscle content,Wearable Device,food;bottle
+45,dining out app,an app that connect with gps and can record what we eat  and give us healthier suggestion based on what we have eaten,Apps(Dining),food;robot
+46,recipe app,an app that teach people how to cook and buy food ingredients in the nearest stores efficiently,Apps(Dining),food;robot
+47,restaurant app,an app that compares price and quality of different restaurants and gives users profitable recommendation,Apps(Dining),food;robot
+48,cooking advisor,give suggestions on what type of food to choose in order to keep fit and how to cook them,Apps(Dining),food;robot
+49,water drinking monitor,help people drink enough water during a day,Staying hydrated,people;monitor
+50,automatic water boiler ,water boiler that automatically refills from tap ,Home appliance,food;bottle
+51,caffeine pal,device that makes a warm beverage for you based on the time of day and how much you got for example if its late at night the device would make you a soothing tea if its first thing in the morning after a rough night it may make you a double shot latte learns users likes and dislikes,Home appliance,food;bottle
+52,health sensor,a sensor that can put in mouth and monitor our vitamin and calcium intake,Home appliance,food;bottle
+53,sleep quality monitoring clock,an alarm clock that can monitor sleep quality and wake up users when they are not in deep sleep,Home appliance,food;bottle
+54,cookie keeper vers 2.0,voice activation is implemented ,Home appliance,food;bottle
+55,expireno cutting board,a cutting board that detects spoiled food that is placed on top of it,Home appliance,food;bottle
+56,weighable cutting board,a cutting board that can weigh the substance on it,Home appliance,food;bottle
+57,fridge sensor,scans items put into refrigerator and keeps track of how much is left example alerts user if pickles are low,Home appliance,food;bottle
+58,eating  shopping advisor,give suggestions base on the data collected from peoples daily lives to help them keep fit,Apps (shopping),food;robot
+59,quick meals ,app that keep inventory of the users food and suggests meals based on time and inventory,Apps (shopping),food;robot
+60,menstruation recording app,an app that can help women to record their period and remind them two days before next period comes so they can stock up on supplies,App (Health),food;robot

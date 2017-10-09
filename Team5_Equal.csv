@@ -1,0 +1,84 @@
+index,Concept Name,Concpet Description,Human Label,Machine Label
+1,v2i communication,vehicle to infrastructure communication to get info each othermaintenanceupdating city info,infrastructure planning,ride;vehicle
+2,school self driving bus,provide automated school buses for kids in a neighborhood avoid the congestion for dropoff and pickup time at schools,kids,vans;battery
+3,car seats's snesor,the sensor can  display your weight and  body temp everytime you sit on,interior design ,car;cars
+4,tv re arrangement,ppl can lay down inside the car and watch tv in forint of them,interior design ,car;cars
+5,cav interior design,without a driver in fully autonomous cars the interior of the car can be completely redesigned lots of opportunities,interior design ,car;cars
+6,rotating chairs,car seats that can turn around and face each other to facilitate meetings,interior design ,car;cars
+7,sleepwell: sleep accessories in the car,you can sleep well in the car before or after work this enables you to have the ultimate calm in your car,interior design ,car;cars
+8,workpro: professional working table for business people,autonomous vehicle can drive to the destination itself so we change the interior design of the car to include a professional office space,interior design ,car;cars
+9,handicaped centered design,the car is specifically designed to address the specific needs of handicapes includes sliding doors platform to get on the car same than buses more space inside,safety & health,car;cars
+10,fair business model,transportation costs should not burden those who live further away membership instead of per ride model for remote communities,pricing & cost,ride;vehicle
+11,solar cars,solar powered cars that run during the day,basic concept,cars;vehicles
+12,transit: find the cars near you,an application that can help people detect and find the available connected cars,basic concept,cars;vehicles
+13,board game selections,board games proposed in auomated school vans or regular cav,kids,cav;platforms
+14,completely autonomous driving,to increase the driving efficiencey and greatly reduce or completely eliminate accidents,transition to automated vehicles,car;cars
+15,what do you do during the ride?,now that there is more space for people in the vehicle and no need to focus on traffic what should you do examples sleep eat breakfast meditate read the newspaper,interior design ,ride;vehicle
+16,fully covered 2 wheeler,fully covered 2 wheeler to protect from the rain  pollution,new vehicle shapes/forms,
+17,private cav rentals,private cav owners can lease out their vehicles when they are not in use so that they have a stream of revenue coming in,pricing & cost,cav;platforms
+18,cav insurance write off program,increase incentve to purchase cavs due to the improved safety on the road,pricing & cost,cav;platforms
+19,fat cars,match width of car to the roads to maximize space effi,infrastructure planning,car;cars
+20,traffic lights,car can communicate the traffic lights by itself,infrastructure planning,car;cars
+21,car storage system on the street,people cab park their personal belongings inside the storage cars to eliminate the unnessary things in their house,infrastructure planning,car;cars
+22,car storage system on the street,people can park their personal belongings inside the storage cars to eliminate storage rooms from their house free house space,infrastructure planning,car;cars
+23,traffic jam assist,driving assist feature to drive the car in intense traffic situation to relieve the mental stress of the driver,transition to automated vehicles,car;cars
+24,flat intracity escalators,cross city that moving escalators taking people to places based on choice of activity,infrastructure planning,
+25,commute management,a twohour window for commuting riders will be matched with a commute time within this window agreed upon by the company which recieves benefits from the city cheaper ride,commute / peak management,ride;riders
+26,emergency button for cars,system to shut down all the program can connect you to hospitals,safety & health,cars;vehicles
+27,cavs w  bathrooms,buses have bathrooms why not  add them to cavs proposed for carpool communting,interior design ,buses;roads
+28,g road ,people can exploit the gforce to accelerate the car speed and save your time travelling from a to b point,infrastructure planning,car;cars
+29,g roads,exploit the gforce to accelerate the car coriolis and saving your time travel from a to b,infrastructure planning,car;cars
+30,remote control cars,cars would be remotely delivered from adriver hub located elsewhere like an it park,transition to av,cars;vehicles
+31,innovation tire,the tire itself can detect the temp and lanscape by attathced a sensor on the surface,interior design ,vans;battery
+32,cav fleet,a fleet of cavs that users pay to have ondemand access to,basic concept,cav;platforms
+33,cav   ridesharing fusion,incorporate cav into uber lyft and other similar platforms this will bring cavs online and kickstart mainstream usage,basic concept,cav;platforms
+34,frequent rider benefit program ,airlines have frequent flier programs and benefits we can apply this model to cav ridesharing,basic concept,cav;platforms
+35,landscape detector,sensors on the road condition surface traffic,safety & health,vans;battery
+36,social ride,music matching and exchange between riders,interior design ,ride;riders
+37,bike friendly,selfdriving vehicles with bikes racks  vans balancing the distribution of dockless bikes in cities ,infrastructure planning,cars;vehicles
+38,grab end go cars,urban bikesharing model but for cars,infrastructure planning,cars;vehicles
+39,highway for connected cars,government create a nwely highway system exclusive for connected cars,infrastructure planning,cars;vehicles
+40,overhead bus,buses that travel straight in ew or ns directions in cities and have clearance for the cars below to reduce traffic,new vehicle shapes/forms,cars;vehicles
+41,detachable cars,different number of carscabins can be attached to the engine depending on the number of people travelling,new vehicle shapes/forms,cars;vehicles
+42,tentacle cars,cars with contraptions to lift them above traffic below them and help them move quickly in case of emergencies,new vehicle shapes/forms,cars;vehicles
+43,flexible cars,cars that are fexiblemalleable for taking impact,new vehicle shapes/forms,cars;vehicles
+44,road escalators,have roads moving instead of cars so we can have everyone go at the same speed,infrastructure planning,buses;roads
+45,road escalators,have roads moving instead of cars so we can have everyone go at the same speed  ,infrastructure planning,buses;roads
+46,adaptive capacity and group dropoffs,workers should be distributed throught the city in a timely manner cars will have the same speed and self driving vansbuses will increase the load during peak hours no individually dropoffs because that lowers efficiency,commute / peak management,car;cars
+47,music car,learn and play instruments like guitar hero,use cases,car;cars
+48,the linkedin car,using ride shares to network professionally,use cases,car;cars
+49,the escape car,do an escape game using vr during a ride,use cases,car;cars
+50,karaoke car,have an onboard karaoke system,use cases,car;cars
+51,planetarium,have the roof of the car completely transparent on clear starry nights for a mesmerizing experience,use cases,car;cars
+52,workout car,workout during your ride,use cases,car;cars
+53,rotating chairs,car seats that can rotate to different orientations to let everyone get their cockpit feeling,use cases,car;cars
+54,attachable disco rvs,drive into a disco rv dealership and drive out with a disco rv attached to your car for your own private party experience,use cases,car;cars
+55,driver outsourcing,iutsourc remote driving to cheaper labor countries like india,transition to av,car;cars
+56,high volune cav lane,cas can safely tailgate other cavs dedicate lanes for only cavs to do this,safety & health,cav;platforms
+57,world experience,get immersed into a different culture for a ride can make partnership with different tourism boards,use cases,ride;riders
+58,just for you,completely personalize your riding experience to boost your good energy and vibes,use cases,ride;riders
+59,virtual reality trip,displays different vr experiences on windows to emulate a trip in another terrain or planet,use cases,ride;vehicle
+60,grocery store at home,saving time after work to directly go cook dinner at your home thanks a digital grocery store delivering the ingredients you need at your place during low hours on the road ,use cases,ride;vehicle
+61,modular interior design,the interior allows flexibility of uses to meet the expectations of a variety of users includes trap on the floor to open a table moveable chairs option to open or cover windows coffeetea box kids bo,use cases,ride;vehicle
+62,haircut,get a haircutby a robot or use the services of a barber on your way to work,use cases,ride;vehicle
+63,cav city tours,a service for tourists to see attractive spots personalized tourist service where you select the places you want to see  stop,use cases,ride;vehicle
+64,vr amusement,an amusement car with vr glasses connected to bluetooth can make augmented reality experiences based on street views from the moving car,kids,ride;vehicle
+65,streamlined cr,no need to see out of the front of the car anymore so make it as aero dynamic as possible,new vehicle shapes/forms,car;cars
+66,front and baxk doors,doors can be added to front and back of the car for cavs,new vehicle shapes/forms,car;cars
+67,style changing cars,can have standard interior and fit different exterioir to change the look and style of the car,new vehicle shapes/forms,car;cars
+68,redefine car shape,redifine the car shape by focusing on the function,new vehicle shapes/forms,car;cars
+69,late night cav ride service,fill the need late night for increased driver supply to match the high demand,use cases,cav;car
+70,cav pitches dates,cavs can be used for elevator pitchesspeed dating or as a first round interviewproper first date for longer rides,use cases,cav;car
+71,comfy seats,soft and comforabtle reclining seating with massage chair ,interior design ,seats;seat
+72,storage seats,seats can be made outline materials and small items within them,interior design ,seats;seat
+73,customized seat accesories,tables desks arm rests etc that can be hiddenremoved and taken out when needed for uee,interior design ,seats;seat
+74,pick up & drop off points,pool riders gather in a 5minute perimeter from where they requested the ride they will be dropped within a  5 minutewalk from their final destination,optimizing efficiency,ride;riders
+75,battery help!,emergency battery use in highway,infrastructure planning,vans;battery
+76,activity connection,see the similar activities  hobbies interest other riders around you have decide on the best club or restaurant around,commute / peak management,ride;vehicle
+77,moving silent disco,set up cav vans at music festivals to transport festival goers reconfigure the inside space as a silent disco ,use cases,vans;battery
+78,window car,cav that us akk windows can use it for sightseeing in a scenic area like yosemite park,new vehicle shapes/forms,cav;car
+79,telescoping car expansion,cav vans thatt can expand as eeded to accomaodate larger groups of riders similar to camping trailer with popout extension,new vehicle shapes/forms,cav;car
+80,cav van carpools,high volume cav carpools between popular destinations eg downtown to sfo,commute / peak management,cav;platforms
+81,driving movie theater,for ling road trips set up a cav as a home theater big screens popcorn etc,use cases,cav;platforms
+82,the purpose instead of the address   reducting miles travelled,when a zone is congested the cav asks what the rider wants to do in order to suggest the most relevant places nearby to drive him to,optimizing efficiency,cav;platforms
+83,dedicated cav routes,a schedule of cav routes targeting hightraffic locations,optimizing efficiency,cav;platforms

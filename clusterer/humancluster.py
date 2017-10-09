@@ -3,7 +3,7 @@ class HumanCluster(Cluster):
 	"""docstring for HumanClaster"""
 	def __init__(self, conceptManager):
 		super(HumanCluster, self).__init__(conceptManager)
-		self.type = "Human Cluster"
+		self.type = "Human Label"
 		self.doCluster()
 	
 	def doCluster(self):
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
 	from concept.ConceptManager import ConceptManager as CM
 	from dataset.datautils import datapath
-	cm = CM(filename=datapath("DesInv",1))
+	cm = CM(filename=datapath("ME292C",1))
 
 	print HumanCluster(cm).getCluster()
 	print HumanCluster(cm).getMapping()

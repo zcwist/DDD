@@ -1,108 +1,102 @@
-Member,Concept Name,Description,Category
-,Tensegrity virtual reality immersion,VR goggles and interface to control tensegrity robot,BEST Reality
-,Tensegrity Assistant,Use robot as personal assistant (i.e. reminds you about meetings),Personal Assistant
-,Tensegrity Watchdog,Tensegrity can patrol your house to make sure everything is in order - will send alarm if it detects an intruder,Personal Assistant
-,Tensegrity Cars,Drive around in your tensegrity,Tensportation
-,Tensegri-Gestures,Robot controlled by hand gestures,BEST Interaction
-,Game Controller,"Robot controlled by everyday game controller (i.e. Xbox, Play Station, etc.)",BEST Interaction
-,Voice Controller,Robot controlled by voice commands,BEST Interaction
-,Battle Bots,Tensegrity battle-bots,BEST Competitions
-,Light-segrity,Lights in tensegrity bars light up in the dark and when robot moves,Tensilights
-,Data acquisition from robot,"Bluetooth/wifi allows you to gather information from sensors on robot directly to computer (i.e. camera, speed, voltage, etc.)",Intellisegrity
-,Modular Tensegrity,Robot has supports and adaptors for different sensors and features - you can put whatever you want in your robot and make any shape,Tensishapes
-,Tensegrity Robot Bowling,Control robot as it goes down the lane,Best Competitions
-,Tensegrity Robot Shaker,Shakes thai tea or alcohol drinks,Personal Assistant
-,Tensegrity Robot Clothes Drying Rack,Robot can move to make other clothes get in sun,Tensegri-Home
-,Tensegrity Robot Wheels,Replace wheels of bikes/cars,Tensportation
-,Pathfinder,Multiple robots explore terrain to guide your path while exploring,Personal Assistant
-,Twister Sensor Ball,Throw robot in tornado - will collect data,Research & Science
-,Tensegrity Robot Pet Companion,Play with your dog while you are away,Personal Assistant
-,Tensegrity Robot Luggage Case,Robot (luggage) walks with you,Personal Assistant
-,Tensegrity Robot Ships,Motion in the water is faster using tensegrity robots,Tensportation
-,Aesthetics Are Key,Robot encapsulated in deformable material with customizable color,Tenshishapes
-,Teacher's Guide to Tensegrity,Pre-made lesson plans for teachers,Research & Science
-,Tensegrity Drone,Propellers attached to main bars convert robot into drone,Tensportation
-,Tensegrity Helping Hand,Robot can carry things to you around the house (i.e. coke),Personal Assistant
-,Tensegrity Submarine,"Waterproof robot, can play with underwater - at the pool",Tensportation
-,DesignYourRobot.com,"Design your robot on line (shape, size, color) before buying",Website
-,Self Charging Robot,Robot knows it is running out of battery and rolls onto charging mat,Intellisegrity
-,Tensegrity Dodge Balls,Play dodgeball with tensegrity robots,Best Competitions
-,Tensegrity Bowflex,Use tensegrity as a workout tool,Personal Assistant
-,Tensegrity Chess Kit,Pieces move based on user's commands,Best Competitions
-,Tensegrity Crash Airbags,Replace car airbags with tensegrity robots,Tensishapes
-,Tensegrity Bouncy Balls,Playground ball made out of tensegrity robots,Best Competitions
-,Tensegrity Shopping Bag/Cart,Bag/Cart expands and contracts as necessary and move with you,Personal Assistant
-,Tensegrity X Prize,Design challenge to get tensegrity robots on another planet,BEST Competitions
-,Tensegrity Robot Science Olympiad,Create science olympiad competition with robots,BEST Competitions
-,Houses for the Homeless,Tensegrity robot houses created for homeless people as well as the victims of disasters,Tensegrity housing
-,Radiation Shielded Robots,Used for exploring dangerous areas (i.e. nuclear accidents),Intellisegrity
-,Tensegrity Vacuum,Roomba for Tensegrity,Tensegri-Home
-,Tensegrity Organizer,"Cleans up large objects - legos, clothes, etc.",Tensegri-Home
-,Tensegrity Gardening Bot,"Rolls around garden - lays seeds, waters plants",Personal Assistant
-,Tensegrity Halloween Costume,Animatronic robot costume,Tensishapes
-,Tensegrity Furniture,"Transformable tensegrity robot furniture - bed, couch, etc.",Tensegri-Home
-,Tensegrity Rat Trap,Robot traps rodents - like a mousetrap,Tensegri-Home
-,Tensegrity Impossible Wheel,Tensegrity version of impossible wheel unicycle,Tensportation
-,Tensegrity Playground,Kids can climb all over tensegrity structure,Tensegri-Home
-,Tensegrity Tent,Tent automatically sets itself up for you,Tensegri-Home
-,Secure Tensioners,Use fasteners to prevent robot tensioners from disassembling,BEST Interaction
-,3-point Payload Fixture,Fix payload using 3-points on tensegrity bars,BEST Interaction
-,Tensegrity Satellites,Launch robots into space as satellites,BEST Interaction
-,Tesegrity-O's,Tensegrity shaped cereal,Tensifood
-,Tensegriy train,Train with cars come in tensegrity sturcture,Tensportation
-,Tensegrity artist,Put markers on the end caps and program it to make artwork,Fun-segrity
-,Tensegirty helicopter,Tensegrity shaped helicopter.,Tensportation
-,Tensegrity Chair,The shape of the chair can be customized,Tensishapes
-,Tensegrity wheels,Enable cars to overcome more terrain,Tensportation
-,Tensegrity ferris wheel,More people can be carried,Tensportation
-,Collapsable tensegrity chair,automatically set up in configurations for classroom or auditorium,Tensegri-Home
-,Mini-Tensegrity robot,Can morph a car into a motorcycle into a  bus,Tensportation
-,mini-Tensegrity robot theme park kit,allow kids to build tensegrity based rollercoaster,Fun-segrity
-,Tensegrity machine,Able to lift a car up for mechanics,Personal Assistant
-,Tensegrity aquarium,use glass panels for a unique aquarium shape,Tensishapes
-,Tensegrity birdfeeder,put bird feed in it,Tensegri-Home
-,Tensegrity gears,design the structure s to mesh like gears,Tensishapes
-,Tensegirity bike,"low cost, light weight, can be folded",Tensportation
-,Tensegrity garden,saves space; ensuring all plant get enough sunshine,Tensegri-Home
-,Folding chair made of tensegrity structure,A chair that can be carried everywhere,Tensegri-Home
-,Tensegrity BBQ grill,Tensegrity shock absorbers,Tensegri-Home
-,Tensegrity bed,"Bed in tensegrity shape, people sleep within it and can feel more secure",Tensegri-Home
-,Tensegrity crutch,"Stronger, and more functions and shapes available",Tensegri-Home
-,Edible tensegrity robots,Build robots out structural candy (gummies and hard candy) kids eat afterwards,Tensifood
-,Tensegrity bulletproof vests,Use tons of small/strong tensegrities and fill a vest with them like a sandbay,Tensiwear
-,Tensegrity Animatronics,Big animals or shapes that can be controlled ,Tensishapes
-,Natural Tensegrity,"Use natural materials for construction; e.g., bamboo, twine, etc.",Tensegrity Materials
-,Trashsegrity,Design competition to construct tensegrity from landfill materials,BEST Competitions
-,Alternative fuelsegrity,Use natural gas or plutonium to propel tensegrities,Power Source
-,3rd world tensegrities,Use waste materials to create tensegrity for 3rd world countries,Tensegrity Materials
-,Tensegrity habitats,Use tensegrity structures to simulate habitats for animals who have lost their homes,Tensegrity housing
-,Tensegrity laptop stand,Make a portable laptop stand using tensegrity,Tensegri-Home
-,Tensegrity rollercoaster,Create roller coaster structure with tensegrity,Fun-segrity
-,Recyclesegrity,Create tensegrity out of puely recycled plastic and metal,Tensegrity Materials
-,Solar powered tensegrity,Tensegrity that is powered by solar ,Power Source
-,Tensegrity-themed yoga,Yoga moves inspired by tensegrity structures,Fun-segrity
-,Tensegrity trampolines,Stretch fabric on large tensegrity and use as a trampoline,Fun-segrity
-,Tensegrity shake-weight,Gives the user vigorous exercise without the embarassing motion of a typical shake-weight,Fun-segrity
-,Tensegrity shoes,The shoes with a ttensegrity structure in the bottom as a buffer,Tensiwear
-,Tensegrity wind chimes,jingle in the wind,Tensegri-Home
-,Tensegrity windmills,Cheaper,Power Source
-,Tensegrity drums,Pull tight drum-fabric around tensegruty and make music,Fun-segrity
-,Tensegrity hats,Cute hats in the shape of tensegrity,Tensiwear
-,Tensegrity supports / cases for instruments,Foldng properties,Tensegri-Home
-,Tensegrity garage,available for more cars,Tensegri-Home
-,Tensegrity roof,collect water and remove snow for options,Tensegrity housing
-,Tensegrity bridge,allowo cars to go different roads and exits while rotating,Tensportation
-,Tensegrity elevator,Can move vertivally and ??,Tensportation
-,Tensegrity aero-dynamic monopolators on cars and planes,Improve fuel efficiency,Tensportation
-,DIY Robot Kit,Kit built out of everyday items,Fun-segrity
-,Tensegrity Weather Balloon,Use robot's impact handling capabilities to allow it to enter dangerous weather situations,Research & Science
-,Tensegrinstrument,Tensegrity robot uses varied cable tension to change notes,Tensishapes
-,Tensegrity Teaching Buddy,12-year curriculum where robot grows up with child,Personal Assistant
-,Tensegrity Shield,Robot's impact resistance used as shield,Tensiwear
-,Tensegrity Crane,Large tensegrity structure with some kind of gantry ,Tensegri-Home
-,Tensegrity Supports for Computers,Use to help as a cooling system for computers,Tensegri-Home
-,Tensegrity Robot Directing Traffic,Robot directs traffic,Personal Assistant
-,Tensegrity Roads,Roads dynamically change depending on traffic,Tensportation
-,Tensegrity Sponges,Fill tensegrity with sponge material and make bars out of abrasive material for dish cleaning,Tensegri-Home
-,Tensegrity Sushi Bar,Robot carries sushi to customers,Tensegri-Home
-,Tensegrity Shoe Sole,Mini-robot inserted within shoe soles,Tensiwear
+Member Name,Concept Title,Description,Cluster
+Zihe Bai,Individual Equipment ,A independent powered sensor,Independent Device
+Zihe Bai,External Connection,Connected and powered by cell phone,Smart Device Interactive
+Zihe Bai,Necklace Shape Sensor,Can be holded on neck,Special Features
+Zihe Bai,Solar Energy Powered,The sensor can be powered by solar energy,Special Features
+Zihe Bai,Mini Size,Mini size give chance to be mounted and embedded,Special Features
+Zihe Bai,Friendly UI,The sensor comes with a user-friendly app,Special Features
+Zihe Bai,Social Media Share,The data from sensor can be shared to social media,Special Features
+Zihe Bai,Cell Phone Embedded,Can be embedded in cell phone,Special Features
+Zihe Bai,Wall Clock Sensor,Mounted in wall clock,Clock&Watch
+Zihe Bai,IWatch Embedded,Embedded in IWatch; uses during working out,Clock&Watch
+Xiaoyu Xu,Sensitive Rose Gas Sensor,Apply attracting rose like appearance to increase contact area. App in mobile devices display the result.,Smart Device Interactive
+Xiaoyu Xu,Mobile Gas Sensor With  Srceen,A mobile gas sensor with screen. Compatible to mobile devices,Smart Device Interactive
+Xiaoyu Xu,Mbile Gas Sensir,Plug into the headphone jack ,Smart Device Interactive
+Xiaoyu Xu,Mask With Gas Sensor,The sensor is put into a msak,Smart Device Interactive
+Xiaoyu Xu,110V Bluetooth Home Use Sensor,110V AC charge. Connect to smart devices through bluetooth. App in mobile device dasplay the result.,Smart Device Interactive
+Xiaoyu Xu,Computer Attraching Gas Sensor,Attach the sensor to PC,Smart Device Interactive
+Xiaoyu Xu,Customized Modular Computer Attaching Sensor,Look like a USB. Functions can be customized by adding different gas detecting modulars.,Smart Device Interactive
+Xiaoyu Xu,Medical Use Gas Sensor ,Patients will exhale through the funnel. The sensor will detect the percentage of CO2 and O2. Use standard disposable funnel.,Independent Device
+Xiaoyu Xu,Gas Sensor on Wearable Appliances,The sensor is a module in wearable appliances(Watch).,Clock&Watch
+Xiaoyu Xu,Adjustable Gas Sensor ,Probe bar is adjustable; so that it can reach out a a specific space full of some gases without coming into that space.,Independent Device
+Doreen Yang,Wireless Transmission,Gas sensor can send the data gathered to computer through wireless transmission,Special Features
+Doreen Yang,Viewing Screen,The viewing screen occupies the whole surface of the gas sensor,Independent Device
+Doreen Yang,Sefl-Moving,Move automactically to detect toxic gas,Special Features
+Doreen Yang,Foldable,The sensor's screen can be foldered to smaller or expand to a larger one as needed,Special Features
+Doreen Yang,Miicrophone,It can alarm residents when there toxic gas makes people in danger,Special Features
+Doreen Yang,Filter,Eliminate the interference of humidity,Special Features
+Doreen Yang,All round type gas flow channel,Enable gas sensor to detect gas from all direction,Special Features
+Doreen Yang,Small Size,Make the sensor's size small to be portable,Special Features
+Doreen Yang,Sticker,Make the gas sensor can be attached to wall ,Special Features
+Doreen Yang,Animation Presentation,Make the results to be presented in animation form,Special Features
+Linlin Cai,Clean refrigerator,a device that can sensor the gas from putrefaction to tell whether the food goes bad inside the regrigerator.,Auto-multifunction
+Linlin Cai,smart humidifier,a humidifier that is controlled by the gas sensor to adjust the working level,Auto-multifunction
+Linlin Cai,AC assistant,A system with several das sensor around the room to detect the air quality and adjust the AC,Auto-multifunction
+Linlin Cai,Leaking preventing,A device that utilizes gas sensors to detect leaking from pipes like nature gas in kitcken and shut down the gas if needed,Auto-multifunction
+Linlin Cai,Smart air filter,An air filter that has gas sensors to help evaluatre the indoor air quality and run accordingly,Auto-multifunction
+Linlin Cai,window opener,A decive that detect hte air flow throught the window and open/close the window(open for fresh air; close for polluted air),Auto-multifunction
+Linlin Cai,air monitor,a device that contains gas sensor to detect indoor air quality and communicates with smart device like phones,Smart Device Interactive
+Linlin Cai,air-meter,a device that can use gas sensors to evaluate the concentration of certain type of gas in the air and store the data over time,Independent Device
+Linlin Cai,healthy lung,a device with oxygen and carbon dioxide sensor that as as a lung function checker ,Independent Device
+Linlin Cai,movable VOC checker,a device that can move around the house to detect VOC gas and send alerts,Independent Device
+Boxue Zhang,mini gas sensor,A gas sensor at a size like remoter. The gas inlet is at the top. The device has its own display to show the result.,Independent Device
+Boxue Zhang,In car gas sensor,This gas sensor can be plug into a car. Using car's power. Monitor air quality in the car and send data to smartphone.,Smart Device Interactive
+Boxue Zhang,Built-in sensor,MEMS gas sensor is planted into the smartphone. All function will be connected to the phone,Smart Device Interactive
+Boxue Zhang,Plug-in sensor I,This is like a back up battery for a phone which can plug on the phone and using smartphone's power and send data to app,Smart Device Interactive
+Boxue Zhang,Key chain wireless,A small sensor will be design and pacakged. Using its own build-in battery. Using wireless system to connect with smartphone,Smart Device Interactive
+Boxue Zhang,Air outlet mount sensor,Can be mount on all types of air outlets. Using it's own battery power,Smart Device Interactive
+Boxue Zhang,USB gas sensor,This is a sensor build with a USB connceter. Once it plug into a computer it can sense and tranfer data to computer,Smart Device Interactive
+Boxue Zhang,Plug-in sensor II,Small sensor to plug into smartphone and interact with smartphones,Smart Device Interactive
+Boxue Zhang,Mini sensor station,It is desinged for put at one place and monitor the air quality in the room,Clock&Watch
+Boxue Zhang,Built-in sensor on smart watches,MEMS gas sensor is built into a smart watch and interact with the smart watch itself,Clock&Watch
+Doreen Yang,Monitor brightness varies,A monitor whose brightness varies with light,Special Features
+Doreen Yang,Mobile phone patch,Gas sensor is a slice which can be attached to the backside of the phone,Special Features
+Doreen Yang,Open door control,The gas sensor can control the door to close automatically,Special Features
+Doreen Yang,Image rendering,The data can be presented rhrough pitcure; make it more vivid,Special Features
+Doreen Yang,;Present results in lens,For those who wear glasses; the results can be showed to the lens directly,Special Features
+Doreen Yang,Protection suit,Install gas sensor to protection suit; then it can detect toxic gas and report it to those working in dangerous consitions,Special Features
+Doreen Yang,Air quality data net,Install gas sensor to the whole city and gather data,Special Features
+Doreen Yang,health monitor,Gather and analyze the gas expirated out from human beings to report their health condition,Special Features
+Doreen Yang,Manual power generatot,when you need to use it; press generator to make it work,Special Features
+Doreen Yang,projection,Project the result to the wall,Special Features
+Xiaoyu Xu,Implantable Gas Sensor,This gas sensor can be implanted on the skin of people,Smart Device Interactive
+Xiaoyu Xu,Earring Gsa Sensor,This gas sensor can be use as decoration; earrings. Connect to smart appliances through bluetooth.,Smart Device Interactive
+Xiaoyu Xu,Gas Sensor in Shirt,This sensor is attached to a short to detect gases. It can also be regarded as a decoration.,Smart Device Interactive
+Xiaoyu Xu,Gas Sensor in Pants,The sensor can be attached to pants to detect gases.,Smart Device Interactive
+Xiaoyu Xu,Gas Sensor in Smart Glasses,The gas sensor is attached to a pair of smart glasses. The data can be projected to the glasses. ,Smart Device Interactive
+Xiaoyu Xu,Vase Gas Sensor,This gas has a vase exterior. Every branch is attached to the control board to sense the gas.,Independent Device
+Xiaoyu Xu,Table Lamp Gas Sensor,This sensor is installed in a table lamp. The result will be displayed on the screen of it.,Auto-multifunction
+Xiaoyu Xu,Sheet Gas Sensor,The sensor is a thing sheet and can be attached on whatever you want. Apply Wireless charging.,Smart Device Interactive
+Xiaoyu Xu,Pipe Shape Gas Sensor,Fashionable shape can attract many mid-age people. It can detect the conponents when people inhale and exhale.,Independent Device
+Xiaoyu Xu,Magnetic Gas Sensor,The magnetic gas sensor with charge port can be attached on the door of refrigerator and many other appliances.,Special Features
+Zihe Bai,Nose Gas Sensor,The gas sensor can be placed inside nose ,Special Features
+Zihe Bai,Extractor Hood Sensor,The sensor mounted under extractor monitor gas,Special Features
+Zihe Bai,Ring Sensor,Shaped as a ring,Special Features
+Zihe Bai,Carpet Sensor,Sense the harmful things in carpet,Special Features
+Zihe Bai,Bath Room Sensor,Sense the harmful things in bathroom,Special Features
+Zihe Bai,Furniture Sensor,Sense the harmful things in funiture,Special Features
+Zihe Bai,Teeth Sensor,Mounted in the teeth; sense the gas exhausted,Special Features
+Zihe Bai,Detect Origin ,A sensor can detect what is the origin,Independent Device
+Zihe Bai,Smoke Detection,For people who smoke; detect the harmful level,Independent Device
+Zihe Bai,Night Sensor,Record the gas exhausted during sleeping,Independent Device
+Boxue Zhang,Bottle gas sensor,The sensor was designed on the cap of a water bottle. Since people bring water bottle around. It can monitor the air condition and transfer data to smartphones,Smart Device Interactive
+Boxue Zhang,TV gas sensor,the sensor can be designed into smart TVs. And show data on TV directly.,Smart Device Interactive
+Boxue Zhang,Window shade gas sensor,The sensor was designed onto the window shade. It can detect whether the window is open or not. if it is not opened for a while it can detect the air condition and alarm if it is not good.,Independent Device
+Boxue Zhang,"""Timer"" gas sensor",the sensor is in the shape of timer watch. Can be operated by several bottoms and show the result.,Independent Device/watch and clock
+Boxue Zhang,Lamp in-built gas sensor,The sensor is built into a desk lamp and monitor the air condition. if needed send data onto the smartphone,Smart Device Interactive
+Boxue Zhang,On-door gas sensor,the sensor can monitor the air condition on both side of the door and provide best air quality improve advise,Smart Device Interative/Special features
+Boxue Zhang,Drone gas sensor,The gas sensor is mounted onto a small drone that can fly around and monitor air quality indoor,Special Features
+Boxue Zhang,dog neck band,The gas sensor can be designed into a dog neck bend. and monitor the air quality wherever the dog goes,Special Features
+Boxue Zhang,Built into an air purifier,The sensor is built into an air purifier. Moniter the inlet and outlet air condition and start and stop working automaticly,Independent Device
+Boxue Zhang,Built into fire alarm,The sensor is built into fire alarm. monitor the air quality well not using for fire smokes,Smart Device Interactive
+Boxue Zhang,window screen gas sensor,Mounted on the screen window and monitor the air goes in and out,Smart Device Interactive
+Linlin Cai,air quality in car,a device that can be pluged in to the 12 V power in the car to detect the air quality inside the car,Independent Device
+Linlin Cai,fresh air,an air puifier that is controlled by the gas sensors to maintain a good level of air quaility,Auto-multifunction
+Linlin Cai,laser gun,a laser gun that makes use of the laser to detect gas to check gas leaking,Smart Device Interactive
+Linlin Cai,toliet cleaner,a gas sensor that can help monitor the cleanness of the toliet and then control the toilet to wash it,auto-multifunction
+Linlin Cai,cooking assistant,a device that can detect singed food while cooking by gas sensor,Smart Device Interactive
+Linlin Cai,clean trash can,a gas sensor attaching to the trash can to detect the putrefaction ,Independent Device
+Linlin Cai,perfume storage assistant,a ring-shape gas sensor attaching at the perfume cap to avoid perfume leaking,Smart Device Interactive
+Linlin Cai,fresh meeting room,a device that control the HAVC of the meeting room according to the meeting people and schedule ,Auto-multifunction
+Linlin Cai,workout assistant,a device that analyzes the breathe and monitor the heart lung function with other data ,Smart Device Interactive
+Linlin Cai,clean sink disposal ,a device that control a wash flow to keep the sink disposal clean by gas sensor detecting technology,Auto-multifunction

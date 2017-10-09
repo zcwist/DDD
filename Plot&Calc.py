@@ -95,7 +95,7 @@ if __name__ == '__main__':
     from clusterer.word2veccluster import Word2VecCluster
     cm = CM(filename=datapath("DesInv",1))
 
-    rand = Word2VecCluster(cm)
+    rand = Word2VecCluster(cm, 17)
     hum = HumanCluster(cm)
 
     a = ClusterCompare(rand, hum)

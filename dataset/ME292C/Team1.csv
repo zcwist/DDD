@@ -1,83 +1,81 @@
-Member,Concept Name,Description,Category,SAFETY,NAVIGATION,CAR-TO-CAR CONNECTIVITY,CLOUD TECHNOLOGY,COMFORT,LEISURE & ENTERTAINMENT,EXTERNAL SIGNAL,ENTRY & EXIT,PARKING,ALTERNATIVE CONTROL,VOICE PROGRAM,WARNING SYSTEM,IN-CAR COMMUNICATION,SCREEN & DISPLAYS,PORTABLE DEVICE CONNECTIVITY,ALTERNATIVE CONTROL,IN-CAR WIFI
-1,No steering wheel control,"Instead of using steering wheel , user will use screen to control car ",ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,Mobile phone application for self driving,Control you car on a mobile phone app,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,voice system,Control your car with a voice interface like siri ,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,GPS self driving ,Advanced GPS navigation system,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,self charging ,Car navigate itself to charging station( assume it is a electric car),ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-1,nearby car interaction ,Detect and connect nearby car,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-1,sleeping inside car,User can sleep inside a moving car ,COMFORT,,,,,1,,,,,,,,,,,,
-1,undisturbed sensor ,Sensors can be used in any weather condition,NAVIGATION,,1,,,,,,,,,,,,,,,
-1,machine learning  on car navigation ,Applied machine learning algorithm to train the navigation system of car ,NAVIGATION,,1,,,,,,,,,,,,,,,
-1,self-parking,self-parking,PARKING,,,,,,,,,1,,,,,,,,
-2,Hand Written Commands,"Inputs can be done through hand writing with a stylus, can be used to draw the preferred path",ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-2,Mouse and Keyboard Controls,Mouse/Keyboard like control system for easy uses input and possible system development usage,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-2,Wireless Vehicular Piggybacking,"Wireless signal can piggyback off of other autonomous vehicles in areas where data connectivity is limited, like in tunnels or underground car parks",CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-2,Autonomous Connectivity Display,"Program that can display on the UI which vehicles near you are autonomously or manually operated, provide information on which vehicles are connected to the car you are riding in",CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-2,Automatic Entry/Exit,"Vehicle uses active suspension and doors to allow for ease of entry and exit, such as lowering the car for entry and exit, deploying a ramp or seats that swivel out",ENTRY & EXIT,,,,,,,,1,,,,,,,,,
-2,Automatic Luggage Collection,System that can automatically pick up luggage and place it into the trunk,ENTRY & EXIT,,,,,,,,1,,,,,,,,,
-2,Exterior Lighting Signal,"Lights outside the vehicle that show its status (i.e. occupied, connected, available, manually controlled, etc.)",EXTERNAL SIGNAL,,,,,,,1,,,,,,,,,,
-2,Reclining Seats/Rood Display,Seats that recline paired with a roof mounted display that can display entertainment or system information,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-2,Entrance/Exit Path-finding,Include entrances and exits to buildings in the system's path-finding so it can pick people up at the door,NAVIGATION,,1,,,,,,,,,,,,,,,
-2,Interior Panoramic Display,"Large panoramic display that runs along the interior, they can used to show instructions and warnings",SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-3,Extra Control System,"When emergencies occur, people can use extra control system to control the car and protect themselves from bad accident. People will feel safe if they can control cars. ",ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-3,WIFI System,WIFI system provide people with chance to surf the Internet more flexible and they can use this system to communicate with other cars.,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-3,Sync Information System,"Through this system, vehicles are able to collect road information like traffic accident, parking space and etc., and sync information to computer and cloud to help to optimize route. ",CLOUD TECHNOLOGY,,,,1,,,,,,,,,,,,,
-3,Sofa Chair,Sofa chair is able to become a bed when people want to sleep in the car and the angle of seats can be controlled well,COMFORT,,,,,1,,,,,,,,,,,,
-3,Communication System,People can chat with their family members while they are on the road via the vehicle's communication system. And thus they will feel safe and relaxed.,IN-CAR COMMUNICATION,,,,,,,,,,,,,1,,,,
-3,Entertainment Device,"Allow people to kill their time in the car like play games, watching videos and etc. while people needn't pay all  of their attention to driving",LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-3,Windows Curtain,Be able to help people sleep better in the car,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-3,Swivel Seats,Seats of our autonomous vehicles are able to rotate any angle and people can chat or even play cards with their friends in the car face to face.,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-3,Windows Display System,"Windows of autonomous vehicles are able to become display screen when people need and they can use their fingers to control the ""windows screens"".",SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-3,Voice Interaction System,"Considering our potential customers may include disabled people, so our autonomous vehicles will not only be controlled by inputing words through dashboard, but also by voice or some other kinds of information. And it can chat with you like Siri.",VOICE PROGRAM,,,,,,,,,,,1,,,,,,
-4,Gesture Control Over Navigation System,Allow user to inform the vehicle to make a right or left turn by waiving his/her hand to that direction within certain space in the vehicle.,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-4,Remote Control Over the Vehicle,User can assign someone to control the vehicle remotely on a laptop or smartphone.,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-4,Brake Control Over the Vehicle,User can apply brake on the vehicle to slow it down when from the user's perspective there is a danger. The vehicle would optimize the best riding quality when slowing down.,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-4,One-button Parking Request,"When user is getting off the vehicle, he/she is able to press a single button to inform the vehicle to park itself.",PARKING,,,,,,,,,1,,,,,,,,
-4,Autonomous Parking System,"When user gets off the vehicle and there is no one on the vehicle for 15 seconds, the vehicle would park itself without any further instruction from the user.",PARKING,,,,,,,,,1,,,,,,,,
-4,Voice Control Over Navigation System,User can speakÂù to the vehicle to inform the destination of change of route.,VOICE PROGRAM,,,,,,,,,,,1,,,,,,
-4,Video Call Projection for Visualizing Communication,Allow use to make a video call in car and project the video call image on the windshield so that user can see his/her family.,IN-CAR COMMUNICATION,,,,,,,,,,,,,1,,,,
-4,3D Projection for Visualizing Communication,Use 3D projection technique to project such user's calling person under the windshield when such user is on a phone call.,IN-CAR COMMUNICATION,,,,,,,,,,,,,1,,,,
-4,Human-vehicle Communication through Smartphone Apps,"When user is about to get on the car, he/she can simply click on a smartphone app to notify the vehicle to come over.",PORTABLE DEVICE CONNECTIVITY,,,,,,,,,,,,,,,1,,
-4,Human-vehicle Communication through Wearable Devices,"When user is about to get on the car, he/she can simply click on a wearable device to notify the vehicle to come over.",PORTABLE DEVICE CONNECTIVITY,,,,,,,,,,,,,,,1,,
-4,Higher price service,Price the services at a higher price to increase users' sense of safety toward the product.,SAFETY,1,,,,,,,,,,,,,,,,
-4,One person per car policy,Put only one person in each car to reduct the fear of co-riding with strangers,SAFETY,1,,,,,,,,,,,,,,,,
-4,Slow down the vehicle with one button,One single button to slow down the vehicle while still in autonomous driving mode,SAFETY,1,,,,,,,,,,,,,,,,
-4,Vehicle to vehicle communication,Allow people in different cars to communicate with each other,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-4,Comfortable light in car,User comfortable light color in car (soft),COMFORT,,,,,1,,,,,,,,,,,,
-4,Share riding with drivers,Share the ride with someone who can drive to take over the control of the vehicle when necessary,SAFETY,1,,,,,,,,,,,,,,,,
-4,Share riding with people/family,Have someone sit in the autonomous driving vehicle with them in the first couple times,SAFETY,1,,,,,,,,,,,,,,,,
-4,Photo taking with one button,One single button to take a photo in car and outside the car,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-4,Product go first,Have autonomous driving vehicles deliver products first,SAFETY,1,,,,,,,,,,,,,,,,
-4,Real time monitoring system,Have a real-time camera around the vehicle all the time,SAFETY,1,,,,,,,,,,,,,,,,
-4,Improved monitoring system,Attach a drone to the vehicle to capture more on-road situation,SAFETY,1,,,,,,,,,,,,,,,,
-4,Convenience feature,Equip the vehicle with tables for working or eating,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-5,Remote control system,"Users can control the car from any distance by phone. Such as ""call"" the car to pick them up at their location",ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-5,measure sensor,measure distance between own car and other cars_traffic lights or other obstacle,CAR-TO-CAR CONNECTIVITY,,,1,,,,,,,,,,,,,,
-5,Date storage system,"Autonomous driving data can be uploaded into the cloud, so company can detect the safety of autonomous car from these data",CLOUD TECHNOLOGY,,,,1,,,,,,,,,,,,,
-5,Fold chair ,The form of chair can be changed from normal back-rest to deck chair and bed,COMFORT,,,,,1,,,,,,,,,,,,
-5,Sport pedal ,There are two pedals under the steering wheel. Drivers can use these to exercise and the energy can be converted into electrical power ,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-5,Controllable window,The color and transparency of windows can be changed and the image of computer screen can be displayed on windows ,NAVIGATION,,1,,,,,,,,,,,,,,,
-5,Driving map,Show driving routine and real building feature around path. Highlight different function in different color,SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-5,Car computer ,The screen of computer is installed at the steering wheel. Car driver can either use it by voice command or finger,SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-5,Voice control,Users can control the car with their voice,VOICE PROGRAM,,,,,,,,,,,1,,,,,,
-5,Alert system ,"If there is some problem with the car, there will be an alert and the car cannot be started",WARNING SYSTEM,,,,,,,,,,,,1,,,,,
-6,Intelligent assistant system,The robotic embedded in the vehicle system can help driver execute related actions,ALTERNATIVE CONTROL,,,,,,,,,,1,,,,,,,
-6,Automated Emergency calling system,The car will contact police department and other related department when the passenger has  any emergency,CLOUD TECHNOLOGY,,,,1,,,,,,,,,,,,,
-6,Interior roof screen,"When the driver lay on the seat, he or she can still see the screen",COMFORT,,,,,1,,,,,,,,,,,,
-6,Vehicle flexible interior floor,The floor of interior is embedded with chairs,COMFORT,,,,,1,,,,,,,,,,,,
-6,Disable special seat mechanism,Can help disables get on the car easily,ENTRY & EXIT,,,,,,,,1,,,,,,,,,
-6,Self Parking service,The car can self park,PARKING,,,,,,,,,1,,,,,,,,
-6,Touch screen with personal laptop connection,The screen on the car can connect into personal laptop,SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-6,Movable screen mechanism,The screen on the car can change the angle,SCREEN & DISPLAYS,,,,,,,,,,,,,,1,,,
-6,Traffic light warning system,The signal on the dashboard can identify whether the care sensed the traffic light,WARNING SYSTEM,,,,,,,,,,,,1,,,,,
-6,Traffic condition warning,This warning signal can tell the driver the traffic situation ahead,WARNING SYSTEM,,,,,,,,,,,,1,,,,,
-6,Digitalization integration system,"The vehicle can connect to user's phone, laptop and other electronics device",IN-CAR COMMUNICATION,,,,,,,,,,,,,1,,,,
-6,Obstacle warning system,The car will warn the user for the unavoidable obstacles,SAFETY,1,,,,,,,,,,,,,,,,
-6,Emergency Warning,The car will warn the user to be prepared for the unavoidable accident,SAFETY,1,,,,,,,,,,,,,,,,
-6,Low Battery Warning,The car will warn the user for the low battery,SAFETY,1,,,,,,,,,,,,,,,,
-6,Sensor Failure Warning,The car will warn the user for the malfunction of the sensors,SAFETY,1,,,,,,,,,,,,,,,,
-6,Maintenance warning,The car will warn the user for the necessary maintenance ,SAFETY,1,,,,,,,,,,,,,,,,
-6,Flexible seating mechanism,The seats of the car can change the shape to better fit the users,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-6,Projector Screen,The car can project the laptop screen at certain area,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-6,Smart HVAC system,The car will turn on or off the HVAC before the user step into the car,LEISURE & ENTERTAINMENT,,,,,,1,,,,,,,,,,,
-6,Recording system,The car will save all the environment data into center computer,SAFETY,1,,,,,,,,,,,,,,,,
+Member Name,Concept Title,Description,Cluster
+Apoorva Sooranahalli,Structurally Strong Material,PLA that is mixed with carbon nano particles to give it mechanical properties such as more durability,material
+Apoorva Sooranahalli,Magnetic material,PLA that is mixed with iron particles to give it magnetic properties ,material
+Apoorva Sooranahalli,Conductive material,PLA that is mixed with copper particles to give it conductive properties,material
+Apoorva Sooranahalli,3D organ/bioprinting,can build structures with cells or hydrogels,application
+Apoorva Sooranahalli,3D printed circuits,circuits that are printed in any shape and don't need extra material,application
+Apoorva Sooranahalli,3D printed art,can use different media and create much more versatile/creative things,application
+Apoorva Sooranahalli,3D printed commodity products,used in industry to create products uniformly and quickly,application
+Apoorva Sooranahalli,Metal 3D printing,creating structures freeform using metal,application
+Apoorva Sooranahalli,3D printing prototype models,used to quickly prototype of ideate models to present,application
+Apoorva Sooranahalli,3D structures,can build structures in any shape/size and the material would be strong enough to hold it,application
+Liang Fan,3D printed house,Customized printing of concrete blocks and on-site stacking and assembly by a 3D printing like machine,application
+Liang Fan,Chocolate 3D printer,"A 3D printer used to print chocolate, used for creating your own chocolate gift",material
+Liang Fan,3D printing consulting,A consulting service for helping customers select 3D printing technics and materials based on their needs,application
+Liang Fan,Mixture of wax and ABS,"A 3D printing material made from ABS and wax, combing the advantages of the two materials",material
+Liang Fan,Reverse Engineering,"3D printer with camera scanner, a all-in-one machine used for reverse engineering",application
+Liang Fan,3D mending,"3D printing done on existing objects, to fix or change the shape of the objects",application
+Liang Fan,3D colouring,"Create an extra nozzle in addition to the current one, used to coloring the object during printing process",function
+Liang Fan,Adjustable extruding nozzle,A controllable extruding nozzle size can help reduce the risk of material clogging,function
+Liang Fan,Thermal expansion estimating algorithm,An algorithm used to predict the 3D printed object size based on monitored temperature and printing data,function
+Liang Fan,Multiple automatic switching nozzles,"Multiple nozzles enable 3D printing different materials on a single job, thus better meets the customer needs",function
+Jiiayun Shao,Suurgery prototyping,"PLA 3D printing can be used to do prototyping in surgery, so the doctor can see what's the best plan for the patient.",application
+Jiiayun Shao,3D printing furniture,3D printing furniture can deal with complex parts and it is bio-degradable,application
+Jiiayun Shao,embedded optical elements,PLA can have electronic property by combining with other materials(like graphene or metals). This chip can be directly embedded in mechanical structure.,application
+Jiiayun Shao,Airfoil and propeller,PLA combine with other material can enhance its mechanical property. So it can print airfoil and propeller.,application
+Jiiayun Shao,Brushless motor model,PLA can be magnetic by adding other material. This Brushless motor would not hurt your fingers during operation. ,application
+Jiiayun Shao,Fluidic device,PLA can 3D printing fluidic devices because usually they conatins complex parts,application
+Jiiayun Shao,Milk container,PLA can be shinier. It is also bio degradable. It is also safe to contain food,application
+Jiiayun Shao,UAV parts,"PLA is light. So it is good for 3D printing UAV parts. Besides, you can customize your parts.",application
+Jiiayun Shao,Phone case,"PLA is soft , therefore, it is a good material to do phone cases. Also, you can customize your own case.",application
+Jiiayun Shao,Decice holder during shipping,"Device holder during shipping usually comes with complex parts. 3D printing can handle that. Also, PLA is soft but have enough mechanial property to protect the device; it is also bio-degradable",application
+Zichen Xiao,Visualize printed object analysis,Help user visualize the full structure & property analysis after printing,function
+Zichen Xiao,Temperature control,temperature of printing enviroment can be controlled for special purpose,function
+Zichen Xiao,Customized material mixer,user can customize theri material according to theri special need at the moment of printing,function
+Zichen Xiao,Auto polishing,"after printing, can auto polish the surface to have a nicer look",function
+Zichen Xiao,Automated internal support,automate simulation and add internal support to make the part stronger,function
+Zichen Xiao,Insert printing,can print around an existing object to make a fit,function
+Zichen Xiao,Scan for duplication,able to scan an existing object and duplicate,function
+Zichen Xiao,multi-material printing,able to print more than 1 kind of material in one job,application
+Zichen Xiao,faster printer,printer speed is much faster thn current ones,function
+Zichen Xiao,no size limitation,the printer can be easily set up for large printing job,function
+Zichen Xiao,Cable printer,extend existed cable length if needed,application
+Zichen Xiao,Food maker,easy to digest food such as ground meat to make the shape,application
+Zichen Xiao,Hologram display,can be a hologram display to show the 3D geometry before printing,function
+Zichen Xiao,Maintenance part,can print out easy maintenance part for bikes or other simple mechanical parts,application
+Zichen Xiao,sewing machine ,"with multiple heads that can move 3 dimensions, it ccan become a sewing machine",application
+Zichen Xiao,fashion products,create really complicated and customized fashion products,application
+Zichen Xiao,brain wave printing,can read the signal from brain as a person think how things will look like and print,function
+Zichen Xiao,communicating robot,blend in with Amazon echo to become a intelligent robot,function
+Zichen Xiao,post processing ability,"can modify(cut, drill hole etc) the product after it has been printed",function
+Zichen Xiao,3d print shoes,"based on person's foot, really create a comfortable and customized shoe",application
+Apoorva Sooranahalli,Molecule 3D printer,create molecules by ejecting one atom at a time,application
+Apoorva Sooranahalli,3D print food,create complete meals that are 3d printed,application
+Apoorva Sooranahalli,recyclable material,even if the material has particles we can recycle it with some method,material
+Apoorva Sooranahalli,3d printer pen,a pen that heats up filament and extrudes the material into shapes,new form
+Apoorva Sooranahalli,draw on screen to 3D print,just draw on a computer screen and printer prints it (no 3d rendering like cad needed),function
+Apoorva Sooranahalli,sealant or protective coating,can use printer to create a protective coating over odd shapes ,application
+Apoorva Sooranahalli,packaging,can use printer to create packaging for odd shaped objects,application
+Apoorva Sooranahalli,cleans of excess 3d material on object,residue material is cleaned off automatically from object and machine,function
+Apoorva Sooranahalli,create buildings ,3d print concrete/polymer to create buildings/homes,application
+Apoorva Sooranahalli,speed up process of 3d printing,printing takes hours so multiple nozzles should decrease the time ,function
+Liang Fan,Portable 3D printer,A portable 3D printer that can be stored in a suitcase when unused,function
+Liang Fan,3D printed 3D printer,A project that allows user to print out parts and assemble a new 3D printer,application
+Liang Fan,Welding 3D printer,Use stick welding as a printing method ,application
+Liang Fan,Wireless 3D printer,"Receive signals wirelessly from other devices, such as phones and tablets",function
+Liang Fan,"Print First, Sculpture Next",Print out a rough shape first and mill off parts by switching tools,function
+Liang Fan,Multi-function software,A software that is able to open all sorts of 3D model files and convert to slicer,function
+Liang Fan,3D printed cakes,Used in the decoration of cake toppings,application
+Liang Fan,Editing 3D model in VR,Construct 3D model in virtual reality with goggle headsets and controllers,function
+Liang Fan,Handy 3D printer,Print on any surface just by attaching the printer to the surface,function
+Liang Fan,Better User Interface,A more user friendly UI with touch screens and clear functions,function
+Jiiayun Shao,Fast heat nozzle,"For now, 3D printing takes long time to warm-up. This nozzle can warm-up pretty fast",function
+Jiiayun Shao,Laptop case,"Laptop case always wastes a lot of material. But 3D printing don't need to weld. Therefore, it can save more material",application
+Jiiayun Shao,One -step solution,"Our 3D printing machie can do several different functions in one machine. For example, step 1: printing, step 2:polishing; step 3 welding",function
+Jiiayun Shao,Gradation material,Change the ratio of the materials during printing process can control the material property. It's something hard for traditional material,function
+Jiiayun Shao,3D printing hair,"For now, most fake hair are from real people's hair. You can directly print the hair style you wanted",application
+Jiiayun Shao,Education tool,Students can choose the material property they want and try to print out something and do some experiment with that.,application
+Jiiayun Shao,3D printing tissue for animal ,"Some animals lose some part of their body. For example, hunters take the tooth from elephants. 3D printing tissue can help those animals back to their normal lifes. ",application
+Jiiayun Shao,Multi-nozzles machine,There are multi-nozzles in one machine to print different parts with different materials at the same time,function
+Jiiayun Shao,3D printing jewelry,"Jewelry usually comes with complex process, 3d printing can help to minimize this process",application
+Jiiayun Shao,3D printing material recycle code,"For now, there isn't any recycle policy for PLA and other 3D printing material. It is good to build up a rule which everyone can follow, like what we did to recycle trash.",Policy

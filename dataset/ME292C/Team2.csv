@@ -1,71 +1,101 @@
-Member,Concept Name,Description,Category
-1,Game Controller,Provides control of the vehicle using a typical video game controller,Controller
-1,Internal Jet Thrusters,"A spherical vehicle could have tunnels with thrusters hidden inside, so they do not stick out",Movement
-1,Bubble Dome FOV,The front end of the vehicle will have a light bulb like shape to allow more than 180 degree field of view,Camera
-1,BB8 Tail,The main payload bus will be a sphere with an attached tail that helps reduce the drag.  The tail will be attached to the sphere with a BB8 like mechanism that allows it to always be pointing in the direction of water flow,Movement
-1,Rescue Sub,The S2UV can have handles on it that allows a diver to grab on a be pulled to the surface. It can be used for search and rescue,Attachments
-1,Tethered Antenna,A tethered antenna device could be placed at the bottom of an area of interest and then communicate directly to a fleet of S2UVs.  The communication will go from the surface to the tethered antenna to the fleet.,Network
-1,VR Camera Control,The user could wear VR goggles that allow them to control which way the camera is facing based on the way they move their head.,Controller
-1,Carrying Case Chair,The portable carrying case that holds the S2UV could be transformed into a chair that the user could use to sit in as the fly the device underwater.,Package
-1,Drying Rack,The S2UV kit could come with an accessory that holds up the vehicle after a mission to allow it to dry off before transit.,Package
-1,Object avoidance,The vehicle can have sensors that prevent it from running into objects during autonomous mode or when a user is actively controlling it.,Object avoidance
-1,Teamwork,A fleet of S2UVs could work together to transport heavy objects,Swarm
-1,Quiddich Flight practice,"Under water hoops could be used to create a ""racetrack"" for people to perform a course for fun or races",Game
-1,Flying Fish,The vehicle could have detachable wings that allow it to do above water maneuvers or glides like a flying fish. Could get cool footage entering and exiting the water.,Attachments
-1,Drill,The vehicle could have a drill on the front that allows it to drill into the ocean floor and collect small samples.,Attachments
-1,Underwater Laser Tag,A group of people could play a game of underwater laser tag,Game
-1,"""Treasure"" Hunt","A little flag or beacon could be hidden somewhere on the bottom of the water and a group of users can race to try to find it.  While playing, they could be passively mapping the ocean floor.",Game
-1,Floatable/Sinkable Batteries,A fully charged battery replacement could be thrown in the water and it would sink down and be intercepted by the S2UV.  its used up battery could be detached and it would float up to the surface to be retrieved later. ,Recharger
-1,Fish Nets,A team of S2UVs could be used to first sense a lot of fish and then catch them by pulling a net around them. They would then bring it to the surface. ,Swarm
-1,Diver's Oxygen Camel,The S2UV could carrying divers supplies like additional oxygen tanks or lights.,Attachments
-1,Shark Tracker,"The S2UV could not only follow people, but also larger fish.  It could track their movement, record their behavior on video.",Movement
-2,Underwater BB8,"Many of our potential customers need the underwater vehicle to be agile. This vehicle has ball-shape body which can roll in any direction at the bottom of the sea, and it can easily roll over small obstacles. The head however maintains steady, and is the power source that comes with a propeller. The head can also hold other equipment",Movement
-2,Easy Does It,"A very simple but cheap underwater carrier that could fit the customers need for low cost and could carry whatever customers want to carry, such as iphone, camera or other equipment in the waterproof cover",Movement
-2,Pseudo Fish,"The vehicle can move as fast and agile as a fish, because his mobility systems are just like that of a fish. The fins can flip back and forth, and the body and tail can wiggle. The head can hold small devices like light or camera.Fisherman or marine biologist can use this to inspect real fist in a peaceful manner that does not disturb them",Movement
-2,Underwater Network Mini-drones,This drones travel relatively fast and has the ability to maintain in a position. They can talk to each in order to create a communication network. The military could use these drones to discover hostile boats or submarines. Fishermen can use them to trace done fish or farm them,Swarm
-2,Underwater AfterBurner,The power system for this prototype is to use compressed gas instead of a propeller. This design would provide some users the desired speed under the water. Actually the power system could be a real afterburner if we could somehow keep the fuel burning in water,Movement
-2,Underwater Film Wizard,It can follow people underwater and film people as they do other activities. It can automatically adjust the cameras focus to fit the people in the screen. It also has handle bars so that the divers can grab the robot and use it as a camera to film.,Special Usage
-2,Super Durable RoundTai,Its round tail ( which works like sail) that can capture the current and allows it to travel with water without spending its own energy. The solar panel can also produce additional power when the sun is up. The onboard satellite receiver can receive control signal from afar,Movement
-2,Double Eye Follower,A robot that can come in close range with people. It has no exposed propellers. Instead It is powered by gas but not a lot of It. It travels slow and has devices that interact with people. The robot uses two eyes to accurately locate and follow people just a human.Swimmers can use this to help them swim. Kids can use this for fun,Movement
-2,Underwater Spidy,"The robot has multiple holes in his body from which cables can be launched to suck onto external objects such as a rock, and the robot then winches the cable. While doing that, the robot propels himself forward.",Movement
-2,The Gripper,"A worker robot that has two grippers. Potentially, it can hold onto the torch for welding to help welders to work under the water. It can also help scientists to take samples easily.",Special Usage
-2,""" fish farmer""","A robot that attracts large fish body, and captures them with a net and drag them to a nearby fishboat",farming
-2,Underwater  tourist capsule,The robot traps breathable air inside and is only suitable for a single person. It has a transparent glass that allows the tourist to view the beautiful underwater scenery. It is also controllable by the tourist.,Tourism
-2,Underwater mermaid tail,"A robotic tail that attaches onto a diver, so he/she can move as agile as a fish",Movement
-2,Underwater diving machine,a diver can grab onto this machine and this machine can go quickly down the water. Thus diving can be made simple,Tourism
-2,Underwater cleaner,"a robot that can recognize foreign object/ trash, and it will remove it out of the sea",Special Usage
-2,autonomous explorer,"a super long range robot that tries to find gold, sunken ships, oil or any valuables autonomously",Game
-2,underwater rescuer,"a robot that is equipped with drills, torch, blades that cut through anything to rescue trapped fish or human",Special Usage
-2,Underwater builder,"human construction workers would have a hard time working under the water, but robots can do the job., so we can build houses under the water",Special Usage
-2,Underwater energy farmer,A robot that can farm solar energy and current energy at the same time and send this energy to human in the land,Energy farming
-2,Underwater seaweed farmer,an autonomous robot that farms seaweed automatically and harvest it for humans,Farming
-3,Rubber seal ring,The rubber seal ring is used to fully seal the fuselage when the cap is added on (waterproof).,Outlook design
-3,Package,"The package consists of camera lens, light, gripper, and so on for users to build the vehicle as they want (customization).",Package
-3,Bladder,The bladder will open and be blown up automatically to drag the vehicle to the surface of water if it runs out of power.,Attachments
-3,Round edge,No sharp edge of the vehicle's outshape design to keep safe underwater when divers are using it to record videos.,Outlook design
-3,Following function,"The vehicle will follow divers underwater by wirelessly connected to the watch they wear, which is used to take good videos for divers.",Controller
-3,Constant temperature system,The constant temperature system is used to maintain constant temperature for the electronic devices to work well in extreme environment.,Attachments
-3,Automatic recharger,The vehicle will automatically go to recharger under boat to do recharging when running out power.,Recharger
-3,Infrared obstacle avoidance system,The infrared obstacle avoidance system uses infrared sensor to help the vehicle avoid rocks or other obstacles underwater.,Object avoidance
-3,Two thrusters mounted,"Two thrusters are mounted symmetrically on the tail of the torpedo-shape fuselage of the vehicle to perform translational movement, which will induce less turbulence that affects the forward movement.",Outlook design
-3,Vehicle control console,The hand-held vehicle control console is used to wirelessly control the vehicle underwater (bluetooth control).,Controller
-3,Soil sample collector,The gripper of the vehicle can collect the soil sample underwater for marine biologist to study.,Attachments
-3,Micro camera releaser,The releaser installed on the vehicle will release micro cameras that will be swallowed by whales at the right moment for marine biologist to study the  digestion processes of whales.,Attachments
-3,Fish food spreading machine,The fish food spreading machine can attract the fish to the boat on the surface of water by spreading fish food simultaneously,Attachments
-3,Underwater thermal detector,"The underwater thermal detector installed on the vehicle will detect and record the temperature wherever the vehicle goes, and plot the temperature contour automatically.",Attachments
-3,Oxygen generator,The oxygen generator will consistently generate oxygen for divers when the vehicle is following them.,Attachments
-3,Auto-cleaner and dryer accessory,The vehicle can be cleaned and dried automatically in an additional accessory after being taken out of water.,Attachments
-3,Five colors of outlook,"The outlook of the vehicle will be designed into five different colors, such as silver, gold, rose gold, black, and jet black to satisfy different color preferences of users.",Outlook design
-3,Fast charging,The battery of the vehicle is designed to be fast charging to save more time.,Battery
-3,Bionic ultrasonic emitter,The bionic ultrasonic emitter installed on the vehicle will emit ultrasonic of dolphins to help them mate.,Attachments
-3,Floating garbage salvage device,The floating garbage salvage device will collect the floating garbage on the surface of the water for people.,Attachments
-4,Autonomous back,The S2UV can autonomously find its way back even when communication fails.,Movement
-4,Elements bracket,The vehicle can have brackets for various things to be attached,Attachments
-4,PS4 controller,The vehicle can be controlled by a PS4 controller,Controller
-4,S2UV Camera Bracket,The vehicle can have brackets like GoPros for cameras,Attachments
-4,Remote Watch,A smartwatch could be paired with the vehicle that can control it when the user is underwater.,Controller
-4,S2UV storage,A box to carrying the S2UV and equipment,Package
-4,Wireless Charger,The vehicle could have wireless charging like phones. It could have a little stand that holds the vehicle and charges it.,Recharger
-4,S2UV Glasses,VR could be used with the camera,Controller
-4,Big Fish detector,The device could detect and escape big fish that seem like they are going to attach the vehicle. It will avoid danger,Object avoidance
-4,Ballast space,"In order to be stable and change the depth of the vehicle, the S2UV could have ballast tanks like submarines to release air and change the buoyancy",Movement
+Member Name,Concept Title,Description,Cluster
+Ziang Wang,Multiple Satellite Positioning ,The car can combine the location signals from several satelite oistioning systems lile GPS and BeiDou,Localization and Positioning 
+Samuel Rayseldi,Sticker Localization,The can recognizes specific stickers put on the streets. The sticker acts like a QR code which gives the global location. The car then calculate its position relative to the sticker,Localization and Positioning 
+Ziang Wang,Auto Mapping ,The car identify and record some places and combine it to the map. Then it can localize itself later,Localization and Positioning 
+Samuel Rayseldi,Alcohol reading for manual driving,The car will read the alcohol level of the driver if the driver wants to switch to manual mode,Safety
+Samuel Rayseldi,Pedestrians Identification,The car can identify pedestrians using sensors and LIDAR,Safety
+Ziang Wang,Identification system for cars and pedestrians,The car can detect and identify carrs; motor bike and pedestrains,Safety
+Chi Zhang ,Friendly interaction with pedestrains ,When the AV stops at a cross or stop sign; it should brake previously so the pedestrain would not be threatened,Safety
+Di Wu,Pedestrain Indicator,Cars can recieve the cell phone signals from pedestrains who are about to cross the road and slow down accordingly,Safety
+Di Wu,GPS; Lidar and Camera Fusion,Safety is one of the biggest concerns from potential users. GPS; Lidar and Camera fusion enable the AV to jave more accirate localization and positiong which enhances user's safety,Safety
+Ziang Wang,Floating on Water,The car can float on warter instead of sink in to the water,Safety
+Ziang Wang,Traffic Rules Monitor,The car can detect and identify traffic signs and signals to avoid violate traffic rules,Safety
+Ziang Wang,Passenger Monitor ,If a certain passenger has a heart attack or something like this; the car can report and call 911,Safety
+Samuel Rayseldi,User/owner face recognition,The car can identify the user by using face recognition based on stored pictures (NOT limited to 1 person),Safety
+Samuel Rayseldi,Slippery Warning,"The car can calculates how bad and frequent the car has ""mini-slip"" in the rain or snow. Then the car wanrs the driver to slow down or stop for a while.",Safety
+Samuel Rayseldi,Charging Facilities Connection,The car knows the location for every charging facilities. It will warn the user if the destination does not have any charging facilities nearby that reachable with the remaining fuel,Safety
+Samuel Rayseldi,Self-diagnosed,The car diagnosed itself on daily basis. If something wrong is detected; the car warns the user through the phone to check some specific parts of the car,Safety
+Samuel Rayseldi,Speed Limit enforcer,The car collects data of speed limit in every possible road and adjust the autodriving to follow the speed limit,Safety
+Ziang Wang,Intelligence Report,The car can report emergency automatically,Safety
+Di Wu,Anti-theft System,The car will autonomatically send the location to the police department if it got broken into,Safety
+Di Wu,Night Vision,The windshield is able to increase the outside brightness via image processing ,Safety
+Ziang Wang,Outside Airbag,There are airbags on the outside of the car to protect the car from collision,Safety
+Ziang Wang,Road condition identification ,When meeting bad road conditions; the car can avoid it automatically,Safety
+Chi Zhang ,Affordable car,An autonomous vehicle should be affordable for ordinary people,Affordability 
+Di Wu,Auto-Rerouting ,Cars can recive the traffic report from other cars automatically. If a congestion is about to happen; the system will automatically reroute the approaching cars,Avoid Traffic Congestion 
+Mubarak Abdul Kader,Narrow Car,Reducing the width of the car to have just one column of seats,Avoid Traffic Congestion 
+Samuel Rayseldi,Traffic Light data sharing,The car interacts with traffic lights around the city. The traffic lights have sensors to detect heavy traffic or road construction. Then the car recalculate the optimal route.,Avoid Traffic Congestion 
+Chi Zhang ,Avoiding Traffic Jam,The AV must be able to recognize the traffic jam in the route and change route plan autonomously to avoid traffic jam,Avoid Traffic Congestion 
+Mubarak Abdul Kader,Connected Grid,All autonomous cars are connected so the traffic flow is optimized by themselves instead of traffic lights,Avoid Traffic Congestion 
+Mubarak Abdul Kader,Autonomous Vehicle Lane,Having a separate lane for autonomous vehicles like the carpool lane,Avoid Traffic Congestion 
+Mubarak Abdul Kader,Connected Autonomous Vehicles,This is away to physically have two vehicles at random connect together based on a common path they're taking; to improve energy efficiency,Avoid Traffic Congestion 
+Chi Zhang ,Remote Control,User can use cell phone to control AV remotely; including self-parking and call the AV from parking lot,Remote Control
+Samuel Rayseldi,Auto car wash,The car can be set up to go to car wash by itself,Remote Control
+Ziang Wang ,Refuel or charge by iteslf,The car can go and refuel or recharge itself during unoccupied time(or by order),Remote Control
+Di Wu,User Locator App,The user can pin point the pick up location and his AV will revieve the request and drive to the pick up point,Remote Control
+Ziang Wang ,Auto pick up and park,The car can pick up passengers by their order and can park itself,Remote Control
+Mubarak Abdul Kader,RC - Autonomous,The user should have the ability to call the vehicle from miles away using his phone,Remote Control
+Samuel Rayseldi,Travel History,The car records the whole trip including the traffic condition. It will compare it to the estimated duration and choose alternate route if the route is more efficient,User Interface
+Di Wu,Manual Override Function ,In case of auto-driving malfunction; the user is able to manually override the function and engage indriving,User Interface
+Ziang Wang,Manual driving option ,The car can change to manual riving mode according to the driver's command,User Interface
+Chi Zhang ,User Friendly ,The UI should be easy and friendly for ordinary people; especially for children; elder people and disabilities,User Interface
+Mubarak Abdul Kader,AR & Autonomous Vehicles,The augmented reality can show the chosen path of an autonomous vehicle; helping the other interact with it,User Interface
+Samuel Rayseldi,Surrounding screen dome,The car turns the inside surrounding into screen which becomes similar to VR,User Interface
+Samuel Rayseldi,Location shared app,The car has an app that can share its location. Most like uber but more personal. For example; sharing it to family members you want to pick up somewhere,User Interface
+Samuel Rayseldi,Tutorial system,The car provides interactive tutorial system on every possible features,User Interface
+Samuel Rayseldi,Favorite place markings,The car can record the marked favorite places like work; retaurants; uncle's house etc,User Interface
+Chi Zhang ,Voice human machine interaction,Autonomous vehicle driver can use voice to iteract with AV and send command to AV,User Interface
+Ziang Wang ,Voice prompt system ,When meeting pedestrians; it can report the trend of the car by voice prompt,User Interface
+Mubarak Abdul Kader,The Talking Car,A signboard & a speaker system to communicate to pedestrians and other cars,User Interface
+Mubarak Abdul Kader,Smart Navigation System,A smart navigation system for autonomous cars to keep users engaged & Informed,User Interface
+Di Wu,AR windshield,The windshield with AR function enables the passengers to explore a world beyound reality,User Interface
+Di Wu,Lego Car,This car is easy for users to assemble. Also; it is easy to upgrade parts by having standarized parts.,User Interface
+Di Wu,VR,The passengers will wear wear VR sets to experience an immersive riding thrill,User Interface
+Di Wu,EEG Controlled UI,Users are able to communicate with their cars with brainwave. Extremely helpful for disabled passengers.,User Interface
+Di Wu,3D projected Hologram,A personal assistent will be projected with 3D hologram. User will be able to interact with a human look AI,User Interface
+Chi Zhang ,Work mode,AV will reduce light from outside and turn on inside light. The HMI would change from voice to screen message; The users can focys on work,Comfort and Convenience
+Chi Zhang ,Sleep Mode,AV's window would block all the outside light. Vehicle would wake user up when the vehicle arrive destination,Comfort and Convenience
+Ziang Wang,A full view for passenger,The car has a transparent car cabin,Comfort and Convenience
+Samuel Rayseldi,Stargazing roof mode,The roof of the car will open wider for user to stargaze the night. It can also use a transparent glass mode instead of fully open,Comfort and Convenience
+Samuel Rayseldi,Umberlla dispatch,The car can dispatch umberlla from its side when it is raining if the user wants to get out of the car,Comfort and Convenience
+Samuel Rayseldi,Cold Beverage Storage,The car can have a mini storage for cold drinks,Comfort and Convenience
+Samuel Rayseldi,"Preset ""Theme""",The car has different settings saved for each user; and the user can activate it by phone. For example; Nancy likes the temperature in the car to be 75 while Matt likes it at 72.,Comfort and Convenience
+Di Wu,Mobile Sleeping Capsule,Passengers can lay down and take a nap while their AV to their destination,Comfort and Convenience
+Di Wu,Chageable window views ,Instead of lookubg through the window; passengers is able to change their views to other possible location,Comfort and Convenience
+Di Wu,Mobile Dining ,Users can order this service and the restaurant will send this AV loaded with food the users ordered can drive to user's preferable location,Comfort and Convenience
+Di Wu,Mobile Theater,Passengers are able to enjoy their video on this massive screen while the AV driving them to their desination ,Comfort and Convenience
+Chi Zhang ,Top entertainment system ,The AV should have top entertainment system and give user the best travel experience. All the windows can be screen,Comfort and Convenience
+Mubarak Abdul Kader,Sleeping Pod,The sleeping pod will help the user to relax since driving and effort is not required,Comfort and Convenience
+Mubarak Abdul Kader,360 degrees chairs,Given that the vehicle is autonomous; the seats need not face front. Rotating seats allow for meetings; discussions etc.,Comfort and Convenience
+Mubarak Abdul Kader,Wind Shield Projector,The windshield has the option of being used as a screen to see movies or presentations,Comfort and Convenience
+Ziang Wang ,Adjustable seat layout,Passengers can change the seat layout without the consideration of driving,Comfort and Convenience
+Chi Zhang ,Flexible Seats,Since the user do not need to drive; the seats should be able to turn and slide flexibly,Comfort and Convenience
+Di Wu,Rotatable Seats,Passengers can rotate their seats to enjoy the front; side or back views and to use the center table for work,Comfort and Convenience
+Di Wu,3D Projected Car Body,The car can change its exterior look depending on users preference,Comfort and Convenience
+Di Wu,Human Power Mode,User can generate power by pedaling. When the vehicle runs out of energy; this can be a back up generator. ,Comfort and Convenience
+Di Wu,Sphere Wheels ,The car is able to turn without actually turning the wheels. The steering angle is 360 degrees,Comfort and Convenience
+Ziang Wang,Modularity Cars,The owner can replace modules of the cars to fix them or get new features,Comfort and Convenience
+Ziang Wang,Auto Following,For a motorcade; the car can follow the car in front of it automatically,Comfort and Convenience
+Ziang Wang,Self Cleaning,The car can wash and clean itself,Comfort and Convenience
+Ziang Wang,Self Diagnose,The car can find and locate some small problems of  itself,Comfort and Convenience
+Ziang Wang,Flying Cars,The car can fly to avoid traffic jam,Comfort and Convenience
+Chi Zhang ,porpuse light signal,The car should use signal light on the car to indicate its purpose.,Safety
+Chi Zhang ,Outside Airbag,The car has airbag outside of it. When the car crush pedestrians; teh airbag can protect pedestrians,Safety
+Chi Zhang ,Moving gym,AV provides gym facilities inside for users.,Comfort and Convenience
+Mubarak Abdul Kader,Rising Footrest,The floor holding the gas and brake pedals can rise up to be a footrest during autonomous functions,Comfort and Convenience
+Chi Zhang ,Disability accessable,The car has a slope so the disnables in wheelchair can board the car with the slope,Comfort and Convenience
+Mubarak Abdul Kader,Car seat earphones,Each car seat's head rest can have an extension that fits into the user's ears and plays their select music,Comfort and Convenience
+Chi Zhang ,Brain-vehicle link,User can command the vehicle with brain wave and helmet,Comfort and Convenience
+Mubarak Abdul Kader,Hidden Steering Wheel,The steering wheel will come out from from the dashboard only when the autonomous function is disabled,Comfort and Convenience
+Mubarak Abdul Kader,Car Seats with Storage Area,Car seats can be designed to have hidden storage areas under them to protect against theft,Comfort and Convenience
+Chi Zhang ,Transformers,The vehicle can transforms into robotics and get across obstacles,Comfort and Convenience
+Mubarak Abdul Kader,Auto Vaccum,The car can have vaccum cleaners attached above the carpets and under the seats to have autocleaning function,Comfort and Convenience
+Chi Zhang ,DJ instrument in AV,Club decoration inside. Users can sing and dance in it,Comfort and Convenience
+Mubarak Abdul Kader,Hidden Baby Holder,The seat can be made to have extensions to hold a baby. The extensions will come out only with a toggle of a switch,Comfort and Convenience
+Mubarak Abdul Kader,Portable Car,The car parts can be detached and can be put into a suit case to be carried around,Efficiency
+Mubarak Abdul Kader,Detachable Car,The body parts of the car can be made easily detachable so that the user can plug and play with certain components,Efficiency
+Mubarak Abdul Kader,Solar car,The car can use solar panels to power certain components to make the car more energy efficient,Efficiency
+Chi Zhang ,3D printing AV,Manufacture the autonomous vehicle by 3D printing technology,Efficiency
+Chi Zhang ,Massage armchair,Users can have a massage in the car,Comfort and Convenience
+Chi Zhang ,Solar panel on the top,The solar panel on the top can collect solar energy and store it in the battery,Efficiency
+Chi Zhang ,Plane pilot simulation,With AR and plane instrument; users can experience plane pilot simulation.,Comfort and Convenience

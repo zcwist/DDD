@@ -1,0 +1,81 @@
+Member Name,Concept Title,Description,Cluster
+Rachel Fischell,MagnetoBelt,A magnet is implanted at the area of curvature and an external belt with a magnet can be warn to pull spine in correct direction,Implantable/ Surgical Intervention
+Jonathan McKinley,Muscle stimulation,Avoid atrophy. Apply a load to user with their own muscle.,Implantable/ Surgical Intervention 
+Rachel Fischell,Spinal Anchoring,Anchor spine above and below curvature so that when the child grows; the curvature doesn't worsten ,Implantable/ Surgical Intervention
+Rachel Fischell,SpinoScope,An implantable spinal gyroscope is implanted at the point(s) of curvature on the spine to detect when the angle is greater than an acceptable spinal angle.,Implantable/ Surgical Intervention 
+Kexin Xu,Vest-like brace,The vest covers shoulders of patients; making it easier for brace to stay in correct position,Correct Position Guarantee
+Kexin Xu,BodySuit,The brace is designed like a bodysuit.Constraints come from upper and lower part of the body and help guarantee the correct position.,Correct Position Guarantee
+Jonathan McKinley,Bioinspired,Place linear actuators inline with muscles to add natural support,Correct Position Guarantee
+Jonathan McKinley,Expanding and contracting bladders,Similar to bendable robot fingers,Correct Position Guarantee
+Jonathan McKinley,3D Tracking of Spine,Implanted markers in the spine can be tracked by the brace. Fit of brace as well as progresion of treatment can therefore be documented.,Implantable/ Surgical Intervention 
+Kexin Xu,Soft Band,Soft bands are designed with various length and they're adjustable. It allows patients to have the maximum mobility,Modular Brace w/ Multiple Components
+Jonathan McKinley,Tensegrity,Tensile elements outside curve. Stiff elements inside curve. Pivots about a center point.,Modular Brace w/ Multiple Components
+Kexin Xu,Flexible Straps,Straps are flexible to adjust the lengh and therefore; strength. Loose the strap every a few months to leave space for muscle growth.,Modular Brace w/ Multiple Components
+Joe Felipe,Spring suit,two half bands go around upper and lower torso. Spring loaded mechanism with pad at output applies loads at necessary points,Modular Brace w/ Multiple Components
+Kexin Xu,Modular Brace,The brace are made of modular parts; which are designed to match various body size.,Modular Brace w/ Multiple Components
+Kexin Xu,Cotton contact,A layer of cotton on the inersurface of the brace helps keep kids warm in winter. Also cotton is soft and gentle for kids' skin.It could be removed if it needs cleaning or is no longer necessary.,Modular Brace w/ Multiple Components
+Joe Felipe,Brace Invisalign,5-10 rigid braces are generated; each to be worn for 2-3 months. Braces can be slowly printed and slowly provide correction over time; similar to how dental invisalign works. A body scan of the patient would be used as a first step to generating the braces,Rigid Brace Variations 
+Kexin Xu,Roller for tighten,By rotating a bar on the roller; parents/ doctors easily adjust the forces applied.,Rigid Brace Variations
+Kexin Xu,Turnbuckle,A turnbuckle is hooked; with oneside on upper side and another on lower side. It forces the concave curvature to go straight.,Rigid Brace Variations 
+Kexin Xu,Elastic Bands,Elastic bands with different Young's modulus generate forces of various magnitude.,Rigid Brace Variations 
+Kexin Xu,Motor,Motor generates power and then applies corrective force.,Rigid Brace Variations 
+Kexin Xu,Tension cables,Tension cables strengthen the brace; with forces along its direction.,Rigid Brace Variations 
+Joe Felipe,Foam Padded Rigid Brace,A rigid brace is made by either thermoforming or 3d printing; and in the inside there are compressibe foam pads that provide corrective forces at 3-5 locations.,Rigid Brace Variations 
+Kexin Xu,Fixed Pelvic Griddle,Fixed gridle sits on patient's pelvic; combined with other components for derotation force,Rigid Brace Variations 
+Kexin Xu,Shoulder Pad,Shoulder pad has a ring(O)-shape; covering the shoulders; upper part of chest and back. It is used together with elastic bands for force generation.,Rigid Brace Variations 
+Kexin Xu,Traction Rod,Separate the brace into upper/lower part. Link two parts with a rod on the back to generate traction force.,Rigid Brace Variations 
+Rachel Fischell,Hinged Cast,Children in casts are unable to bathe but require the support of a rigid cast. Applying hinges/ latches allow it to be removed,Rigid Brace Variations 
+Jonathan McKinley,Elastic compliant brace,Deformable to allow extreme movements and strength building. Avoid atrophy. Provide resistive force 85% of the time.,Rigid Brace Variations 
+Jonathan McKinley,Porthole for cleaning rigid brace,Brace does not have to be solid in all places. Portholes can allow cleaning access.,Rigid Brace Variations 
+Jonathan McKinley,Exo skeleton back ,Exo skeleton back brace with bolt positions for custom brace sections,Rigid Brace Variations 
+Joe Felipe,Stretch Machine,"The robotic machine provides the same twisting and stretching done during the manipulation of the spine during EDF casting. Much lower forces can be used and the patient can ""stretch"" once a day for an hour",External Treatment Device
+Joe Felipe,Gravity Bed,Child sleeps on a bed tilted at a slight angle. A couple weights are attached to child and hang off the bed providing corrective forces overnight,External Treatment Device
+Joe Felipe,Wheelchair with bands,Child sits in a wheelchair with 3 elastic bands that wrap around them to provide necessary forces,External Treatment Device
+Joe Felipe,Padded wheelchair,Child sits in a wheelchair and 3 pads come in; driven by lead screws; to provide necessary forces,External Treatment Device
+Joe Felipe,Craddle,The chile get puts asleep in a craddle. When the craddle rocks; weights get released to provide corective forces. This can cycle throughout the night,External Treatment Device
+Joe Felipe,Bed with Rollers,This is a bed that applies loads overnight. 3 foam rollers (attached to lead screws to adjust force) get pushed up against the child as they sleep on their back.,External Treatment Device
+Joe Felipe,Bed with Stretch Bands,Patient lies in bed with 3 stretch bands that wrap around them as they sleep. Tension from the bands apply forces. Pads should be placed where contact is made with the body,External Treatment Device
+Kexin Xu,Beds with air pads,Bed equipped with air pads on both sides. Slightly inflated the pads to ensure kid sleep in the suitable position. Gentally increase the inflation degree when kids are asleep for larger corrective force.,External Treatment Device
+Joe Felipe,Stimulation device,"An electrical device that ""zaps"" you to periodically stimulate muscle movement in the right direction to provide active forces",
+Kexin Xu,Air pads,Air pads apply larger force when they're inflated.,External Treatment Device
+Rachel Fischell,Scoliosis Swing,A novel way to put pressure on the spine; the child's harness for the swing is made specifically to put pressure on the spine when swinging motion occurs. Otherwise used the same way as a baby swing,External Treatment Device
+Joe felipe,Backpack,The parent straps on a backpack; and the child goes in it sideways. Small weights are attached to the kid to provide corrective forces. Needs to get worn once a day,
+Kexin Xu,Scoliosis Software,Software developed to help doctors and parents better monitor the force applied,Treatment Communication/ Community Building
+Kexin Xu,Cloud,Data coming from sensors are tranferred to cloud for storage and monitoring.,Treatment Communication/ Community Building
+Rachel Fischell,Pediatric Scoliosis Module,Physician education program to teach pediatricians how best to detect scoliosis and to support families of children with EOS,Treatment Communication/ Community Building
+Rachel Fischell,Scoliosis Play Group,Children with scoliosis are often limited in their mobility due to casting or other treatments. Enabling children to play with other kids like them would help them to not feel left out becaues of their condition.,Treatment Communication/ Community Building
+Jonathan McKinley,Data Tracking Brace,Communicate activity level; brace angle; time spent in brace to the doctor; patient; and parent. Like a smart watch.,Treatment Communication/ Community Building
+Rachel Fischell,Scoliosis Support Group,Part of what makes EOS so difficult to manage is a lack of resources. A support group would enable parents to share experiences ; tips & info,Treatment Communication/ Community Building
+Joe Felipe,Airbag Vest,3 rings go around the chest; and they are integrated on vest that the child wears. Attached to the rings are slots where air bags can inflate and apply loads.,Actuated Dynamic Brace
+Joe Felipe,Spring Vest,3 rings go around the chest; but they are connected by springs. The springs can be in tension or in compression to adjust forces on the body; and can be adjusted using a turnebuckle,Actuated Dynamic Brace
+Joe Felipe,Jack Vest,3 rings go around the chest. The rings have slots where mechanical jacks can be put in where needed to apply the necessary forces. At the output of the shaft for the jack is a large pad. Same forces over larger area = less pressure and more comfort,Actuated Dynamic Brace
+Joe Felipe,Rubberband Vest,3 rings go around the chest; and they are connected by stiff elastomers. The tension in the rubber bands provides the necessary forces and bending moments. A turnebuckle can be used to adjust the tension,Actuated Dynamic Brace
+Joe Felipe,Pneumatico,Half bands go around upper; mid; and lower torso. Pneumatic pistons push on them to apply loads,
+Joe Felipe,Geared Vest,Rings go around upper; mid; and lower torso. A geared mechanism is attached to the rings; as the gear is rotated it pushes or pulls on the bands,
+Joe Felipe,Mechatronic Brace,3 rings go around the chest; and they have slots where motors can be put in at various locations. At the output of the motor shaft is a pad. Feedback from the motor can let the user know exactly what forces are being applied.,Actuated Dynamic Brace
+Kexin Xu,Pressure Sensors,Sensors attached to inner surface of the brace; which could detect pressure; temperature and force.,Actuated Dynamic Brace
+Jonathan McKinley,Pressure Sensor sheet,Use pressure sensor sheets to adjust a brace manually. Keep constant pressure. ,Actuated Dynamic Brace
+Rachel Fischell,SmartBrace,Brace only applies force when necessary. Brace can detect when spinal curvature needs to be improved and applies appropriate pressure.,Actuated Dynamic Brace
+Rachel Fischell,Dynamic Elastic Brace,Intended to prevent young children from casting; this brace would provide pressure on the spine only when necessary by utilizing force sensors ,Actuated Dynamic Brace
+Joe Felipe,Lifevest,A vest that is decomposed into many small inflatable sections. The regions that are inflated provide the necessary forces,Actuated Dynamic Brace
+Jonathan McKinley,Chair with brace,We put on and take off clothes throughout the day. What if you had different braces throughout the day.,Actuated Dynamic Brace
+Jonathan McKinley,Two halves of a cast,How might we actuate an existing brace?,Actuated Dynamic Brace
+Jonathan McKinley,Mars Suit Constricting Tensioning Cables ,Use cables like Mars suit that constrict when a certain position is needed,Actuated Dynamic Brace
+Jonathan McKinley,Mulitple Layer Mars Suit,Each layer serves a different function. One layer for climate control; for example.,Actuated Dynamic Brace
+Kexin Xu,Spring ,When kids are inside the brace; the brace expands; which makes springs elongate and apply traction force,Actuated Dynamic Brace
+Rachel Fischell,Air brace w/ force sensors,When the force sensors detect that there is too much force in once area due to spinal curvature; they inflate the appropriate air pads on the brace,Actuated Dynamic Brace
+Rachel Fischell,Shirt brace,Designed like a fitted t-shirt; the brace looks like any other article of clothing,External Treatment Device
+,Pulleys along muscle direction. Batons. Tensegrity.,Cloth with anchor points. Wind surfing sail anchor points,External Treatment Device
+Rachel Fischell,Tens unit brace,Muscular stimulator; removable by straps; elastic adjustability; gauges frequency of use,External Treatment Device
+Rachel Fischell,Air vest,Provides force with foam pads that inflate and deflate. Monitors force and progress of treatment,Actuated Dynamic Brace
+Rachel Fischell,Breathable cast,Similar to a cast; but made from a breathable material,Rigid Brace Variations
+Rachel Fischell,Magnetic Brace,Magnets on either side of the brace inserted in pockets in vest create force on spine to straighten curvature,Actuated Dynamic Brace
+Rachel Fischell,Ratcheting modular brace,Rigid belt around area of curvature; adjustable/ expandable fabric brace that attaches,Modular Brace w/ Multiple Components
+Rachel Fischell,Modular magnetic brace,Patient only needs to wear part of the brace affecting their spinal curvature,Modular Brace w/ Multiple Components
+Rachel Fischell,Dynamic ratcheting brace,Brace senses when force needs to be applied and tells you when you can take it off; data sent to the cloud and recieved via bluetooth to mobile device,Actuated Dynamic Brace
+Rachel Fischell,Tension brace,Rotational knob adjusts tension on cables running in all directions through vest to put pressure where necessary,Actuated Dynamic Brace
+Jonathan McKinley,Many linear actuators,Spread the actuation between dozens of actuators throughout brace. Rings as anchors.,Actuated Dynamic Brace
+Jonathan McKinley,Cyclic loading,Stretching soft tissue; revocery; stretch again. Small increments of stretch instead of one large displacement,Actuated Dynamic Brace
+Jonathan McKinley,Strain gauge,Measure deformation of brace through strain. Have a tuned spring for a brace.,Actuated Dynamic Brace
+Jonathan McKinley,Pivot point,Most simplified range of motion. One degree of freedom,Actuated Dynamic Brace
+Jonathan McKinley,Spinal column applying torsion and extension,Apply torsion and distraction along a spinal column,Actuated Dynamic Brace
