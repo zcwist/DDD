@@ -47,6 +47,7 @@ class Word2VecLabel(Label):
 				label = label + sorted_word_freq[i][0] + ";"
 			except Exception as e:
 				print ("not enough keywords")
+				return one_cluster[0].conceptName()
 
 		label = label[0:-1]
 		return label
@@ -57,7 +58,7 @@ if __name__ == '__main__':
 	from concept.ConceptManager import ConceptManager as CM
 	from dataset.datautils import datapath
 	from word2veccluster import Word2VecCluster
-	cm = CM(filename=datapath("DesInv",1))
+	cm = CM(filename=datapath("ME292",2))
 
 	cluster = Word2VecCluster(cm)
 

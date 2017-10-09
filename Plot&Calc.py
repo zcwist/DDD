@@ -93,9 +93,9 @@ if __name__ == '__main__':
     from clusterer.randomcluster import RandomCluster
     from clusterer.humancluster import HumanCluster
     from clusterer.word2veccluster import Word2VecCluster
-    cm = CM(filename=datapath("DesInv",1))
+    cm = CM(filename=datapath("ME292C",3))
 
-    rand = Word2VecCluster(cm, 17)
+    rand = Word2VecCluster(cm)
     hum = HumanCluster(cm)
 
     a = ClusterCompare(rand, hum)
